@@ -4,7 +4,7 @@ module tb_b_led();
 
   reg clk = 0;
   reg s_rst_n = 0;
-  wire oclk;
+  wire[3:0] oclk;
 
   initial begin
     #0
@@ -15,10 +15,11 @@ module tb_b_led();
 
   always #10 clk <= ~clk;
 
-  b_led b_led_ins(
-    .clk(clk),
-  	.rst_n(s_rst_n),
-    .led_ctl(oclk)
-    );
+	
+  b_led_selector b_led_selector_ins(
+	.clk(clk),
+	.rst_n(s_rst_n),
+	.led_ctl(oclk)
+  );
 
 endmodule

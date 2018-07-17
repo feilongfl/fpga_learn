@@ -1,10 +1,9 @@
 module b_led(
 	input clk,
 	input rst_n,
-	output led_ctl
+	output led_ctl,
+	output reg b_dir = 1'b0
 );
-
-	reg b_dir = 1'b0;
 	
 	reg[15:0] b_light = 0;
 	
@@ -12,7 +11,7 @@ module b_led(
 	
 	reg duty_clk = 1'b0;
 	
-	localparam duty_max = 'hfff;
+	localparam duty_max = 'hff;
 	
 	
 	always @ (posedge duty_clk or negedge rst_n) begin
