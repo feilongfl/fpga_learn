@@ -14,8 +14,7 @@ module tb_b_led();
   end
 
   always #10 clk <= ~clk;
-
-	
+  
   b_led_selector b_led_selector_ins(
 	.clk(clk),
 	.rst_n(s_rst_n),
