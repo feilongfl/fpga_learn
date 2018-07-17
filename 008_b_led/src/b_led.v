@@ -20,8 +20,8 @@ module b_led(
 			b_light <= 0;
 		end
 		else if (b_light == duty_max || b_light == 0) begin
-			b_dir = ~b_dir;
-			b_light <= (b_dir)? 
+			b_dir <= ~b_dir;
+			b_light <= (!b_dir)? 
 								b_light + 1 : 
 								b_light - 1;
 		end
