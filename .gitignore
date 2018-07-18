@@ -63,6 +63,9 @@ PLLJ_PLLSPE_INFO.txt # The generated PLL specification file
 *.html
 *.bsf
 
+#ignore simulation setting
+# *.mpf
+
 # ignore simulation output of ModelSim
 wlf*
 *.wlf
