@@ -1,17 +1,33 @@
 module button_filter(
-    input clk,
-    input button,
-    output button_flag
-    );
+		     input 	clk,
+		     input 	button_pos,
+		     input 	button_neg,
+		     output reg button_flag
+		     );
 
-    reg[2:0] button_sig_fifo = 3'b0;
-    always @ ( posedge clk ) begin
-        button_sig_fifo[2] <= button_sig_fifo[1];
-        button_sig_fifo[1] <= button_sig_fifo[0];
-        button_sig_fifo[0] <= button;
+	reg [7:0] 		button_cnt = 0;
+
+	reg 			flag = 0;
+	reg 			flag_hl = 1;
+
+    //button release or push
+    always @ (posedge button_pos or posedge button_neg or posedge clk) begin
+	    if (button_neg || button_pos) begin
+		    button_cnt <= 0;
+		    flag <= 1;
+		    flag_hl <= (button_pos) ? 1:0;
+	    end else begin
+		    button_cnt <= (!flag) ? 0 :
+				  ((button_cnt[7]) ? button_cnt : button_cnt + 1) ;
+		    flag <= (button_cnt[7]) ? 0 : flag;
+	    end
     end
 
-    // wire button_fifo_out;
-    assign button_flag = button_sig_fifo[2] & (~button_sig_fifo[1]);
+    always @ (negedge flag) begin
+            button_flag <= flag_hl;
+    end
+
+
+
 
 endmodule
