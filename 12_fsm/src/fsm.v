@@ -38,10 +38,10 @@ module fsm (
 			     S_BYTE_1:
 				     state <= (i_val)? S_BYTE_2 : S_BYTE_1;
 			     S_BYTE_2:
-				     // 不限位数波形检测
+				     // unlimit wave langth
 				     state <= (!i_val)? S_BYTE_3 : S_BYTE_2;
 			     S_BYTE_3:
-				     // 同上
+				     // same as top
 				     state <= (!i_val)? S_BYTE_4 : S_BYTE_2;
 			     S_BYTE_4:
 				     state <= (i_val)? S_BYTE_5 : S_BYTE_1;
