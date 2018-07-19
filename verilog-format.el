@@ -15,5 +15,5 @@
 '(verilog-indent-level 8)
 '(verilog-indent-level-behavioral 8)
 '(verilog-indent-level-declaration 8)
-'(verilog-indent-level-module 4)
+'(verilog-indent-level-module 8)
 '(verilog-tab-to-comment t))
