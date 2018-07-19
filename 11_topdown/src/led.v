@@ -20,7 +20,7 @@ module led (
 	/////////////////////////////////////////////
 	always @ (posedge iclk or negedge rst) begin
 		if (!rst) begin
-			leds <= 4'b0001;
+			leds <= 4'b1110;
 		end else begin
 			leds <= {leds[2:0],leds[3]};
 		end
