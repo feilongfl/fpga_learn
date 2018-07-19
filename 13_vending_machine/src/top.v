@@ -4,41 +4,57 @@
 /////////////////////////////////////////////
 
 module top (
-	    input 	 clk,
-	    input 	 rst,
-	    input [3:0]  money_in,
-	    input 	 buy_sig,
-	    output reg 	 drink_out,
-	    output [3:0] change_out
+	    input 	clk,
+	    input [3:0] money_in,
+	    input 	button_in,
+	    input 	rst,
+	    output 	drink_contral
 	    );
 	/////////////////////////////////////////////
 	// parameter and signals
 	/////////////////////////////////////////////
-	// parameter
-	localparam  drink_value = 8'd25;
-	// regs or wires
-	wire 		 money_value;
-	wire 		 buy_sig_debounced;
-	wire 		 reset_money_count;
+	// state mechine
 
-	reg [7:0] 	 change_value;
+	// parameter
+	// regs or wires
+	wire [7:0] 	money_value;
+	wire 		button_in_debounce;
+	wire [3:0] 	S_state;
+	wire 		state_flag;
+	wire 		money_rst;
 	/////////////////////////////////////////////
 	// main code
 	/////////////////////////////////////////////
-	money money_inst (
+	//button filter
+	button buy_button_filter(
+				 .clk(clk),
+				 .button_in(button_in),
+				 .button_out(button_in_debounce)
+				 );
+
+	//state mechine
+	sm sm_inst(
+		   .flag(state_flag),
+		   .rst(rst),
+		   .money_value(money_value),
+		   .S_state(S_state)
+		   );
+
+	//S_MONEY_EATER
+	money money_eater(
 			  .money_in(money_in),
-			  .rst(reset_money_count),
-			  .value(money_value)
+			  .en(S_state[0]),
+			  .flag(state_flag),
+			  .rst(money_rst),
+			  .button(button_in_debounce),
+			  .in_money_val(money_value)
 			  );
 
-	assign reset_money_count = (rst | buy_sig_debounced);
-
-	button buy_sig_debounce(
-				.clk(clk),
-				.button_in(buy_sig),
-				.button_out(buy_sig_debounced)
-				);
-
+	//S_DRINK_OUTER
+	// drinkouter drink_outer(
+	// 		       .en(S_state[1]),
+	// 		       .drink_contral(drink_contral)
+	// 		       );
 
 
 	/////////////////////////////////////////////
