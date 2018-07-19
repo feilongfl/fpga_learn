@@ -46,13 +46,13 @@ module fsm (
 			     S_BYTE_4:
 				     state <= (i_val)? S_BYTE_5 : S_BYTE_1;
 			     S_BYTE_5:
-				     state <= (i_val)? S_BYTE_6 : S_BYTE_1;
+				     state <= (i_val)? S_BYTE_6 : S_BYTE_3;
 			     S_BYTE_6:
-				     state <= (!i_val)? S_BYTE_7 : S_BYTE_1;
+				     state <= (!i_val)? S_BYTE_7 : S_BYTE_2;
 			     S_BYTE_7:
 				     state <= (i_val)? S_BYTE_MATCH : S_BYTE_1;
 			     S_BYTE_MATCH:
-				     state <= S_BYTE_1;
+				     state <= (i_val)? S_BYTE_2 : S_BYTE_1;
 			     default:
 				     state <= S_BYTE_1;
 		     endcase
