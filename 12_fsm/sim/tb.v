@@ -28,7 +28,7 @@ module tb_top ();
 			srst_n = 1;
 	end
 
-	reg[31:0] wave_gen = 32'b10101010101011001101100110101010;
+	reg[31:0] wave_gen = 32'b1010101011_1011001_1011001_10101010;
 	reg [31:0] cnt = 0;
 	wire 	   wave;
 
