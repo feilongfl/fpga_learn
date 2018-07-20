@@ -6,7 +6,7 @@
 module sm (
 	   input 	    flag,
 	   input 	    rst,
-	   input 	    money_value,
+	   input [7:0] 	    money_value,
 	   output reg [3:0] S_state = 4'b0001
 	   );
 	/////////////////////////////////////////////
