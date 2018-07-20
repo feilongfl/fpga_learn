@@ -21,8 +21,17 @@ module moneyouter (
 	/////////////////////////////////////////////
 	// main code
 	/////////////////////////////////////////////
-	always @ (posedge clk or posedge en) begin
-		if (en) begin
+	reg 			    en_sig = 0;
+	reg 			    en_last = 0;
+
+	// posedge en checker
+	always @ (posedge clk) begin
+		en_sig <= en & (~en_last);
+		en_last <= en;
+	end
+	
+	always @ (posedge clk or posedge en_sig) begin
+		if (en_sig & ~flag) begin
 			money_out = 4'b1111;
 			money_remain = (move25)? money - 25 : money;
 			flag = 1;
