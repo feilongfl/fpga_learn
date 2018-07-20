@@ -7,7 +7,7 @@ module sm (
 	   input 	    flag,
 	   input 	    rst,
 	   input 	    money_value,
-	   output reg [3:0] S_state = S_MONEY_EATER
+	   output reg [3:0] S_state = 4'b0001
 	   );
 	/////////////////////////////////////////////
 	// parameter and signals

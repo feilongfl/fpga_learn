@@ -4,8 +4,10 @@
 /////////////////////////////////////////////
 
 module drinkouter (
-		   input  en,
-		   output drink_contral
+		   input      en,
+		   input      drink_out_fin,
+		   output     drink_contral,
+		   output reg flag = 1
 		   );
 	/////////////////////////////////////////////
 	// parameter and signals
@@ -17,8 +19,13 @@ module drinkouter (
 	/////////////////////////////////////////////
 	// main code
 	/////////////////////////////////////////////
-	assign drink_contral = en;
-
+	// assign drink_contral = en;
+	always @ (posedge en or negedge drink_out_fin) begin
+		if(!drink_out_fin)
+			flag <= 0;
+		else
+			flag <= 1;
+	end
 	/////////////////////////////////////////////
 	// code end
 	/////////////////////////////////////////////
