@@ -19,7 +19,7 @@ module drinkouter (
 	/////////////////////////////////////////////
 	// main code
 	/////////////////////////////////////////////
-	// assign drink_contral = en;
+	assign drink_contral = ~(en & flag);
 	always @ (posedge en or negedge drink_out_fin) begin
 		if(!drink_out_fin)
 			flag <= 0;
