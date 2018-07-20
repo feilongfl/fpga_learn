@@ -21,7 +21,7 @@ module money (
 	/////////////////////////////////////////////
 	// main code
 	/////////////////////////////////////////////
-	assign in_money_sig = (money_in == 4'b1111)? 1 : 0;
+	assign in_money_sig = (money_in == 4'b0000)? 1 : 0;
 
 	//money come and enable
 	always @ (negedge in_money_sig or negedge rst) begin
@@ -37,10 +37,10 @@ module money (
 	end
 
 	always @ (negedge button or posedge en) begin
-		if (en) begin
-			flag <= 1;
-		end else begin
+		if (!button) begin
 			flag <= 0;
+		end else begin
+			flag <= 1;
 		end
 	end
 

@@ -27,6 +27,7 @@ module top (
 	wire [3:0] 	state_flags;
 	wire 		money_rst;
 	wire 		move25;
+	wire 		outMoneyState;
 	/////////////////////////////////////////////
 	// main code
 	/////////////////////////////////////////////
@@ -55,6 +56,10 @@ module top (
 
 
 	//S_MONEY_EATER
+	assign money_rst = ~(
+			     ~(state_flags[2] & state_flags[3])
+			     & (S_state[2] | S_state[3] )
+			     );
 	money money_eater(
 			  .money_in(money_in),
 			  .en(S_state[0]),
@@ -73,7 +78,7 @@ module top (
 			    );
 
 	assign move25 = S_state[2];
-	wire 		outMoneyState = S_state[2] | S_state[3];
+	assign outMoneyState = S_state[2] | S_state[3];
 	//moneyouter
 	moneyouter money_outer_inst (
 				     .money(money_value),
