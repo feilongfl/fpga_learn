@@ -40,6 +40,7 @@ module tb_button ();
 			   $random % 2 :
 			   (button_timer > 70 && button_timer < 500)? 0 : 1;
 	// models
+
 	button button_inst(
 			   .clk(sclk),
 			   .button_in(button_in),

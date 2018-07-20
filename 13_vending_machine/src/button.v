@@ -14,20 +14,21 @@ module button (
 	// parameter
 
 	// regs
-	reg [7:0]     cnt = 0;
+	// reg [7:0]     cnt = 0;
 	/////////////////////////////////////////////
 	// main code
 	/////////////////////////////////////////////
-	always @ (posedge clk) begin
-		if (!button_in) begin
-			cnt <= (cnt[7] == 1)? cnt : cnt +1;
-		end else begin
-			cnt = 0;
-		end
-	end
+	// always @ (posedge clk) begin
+	// 	if (!button_in) begin
+	// 		cnt <= (cnt[7] == 1)? cnt : cnt +1;
+	// 	end else begin
+	// 		cnt = 0;
+	// 	end
+	// end
+	//
+	// assign button_out = (cnt[7] == 1) ? 0 : 1;
 
-	assign button_out = (cnt[7] == 1) ? 0 : 1;
-
+	assign button_out = (button_in);
 
 	/////////////////////////////////////////////
 	// code end

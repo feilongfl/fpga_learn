@@ -4,13 +4,13 @@
 /////////////////////////////////////////////
 
 module top (
-	    input 	clk,
-	    input [3:0] money_in,
-	    input 	button_in,
-	    input 	drink_output_fin,
-	    input 	rst,
-	    output 	drink_contral,
-	    output 	money_out_contral
+	    input 	 clk,
+	    input [3:0]  money_in,
+	    input 	 button_in,
+	    input 	 drink_output_fin,
+	    input 	 rst,
+	    output 	 drink_contral,
+	    output [3:0] money_out_contral
 	    );
 	/////////////////////////////////////////////
 	// parameter and signals
@@ -19,19 +19,21 @@ module top (
 
 	// parameter
 	// regs or wires
-	wire [7:0] 	money_value;
-	wire 		button_in_debounce;
-	wire 		drink_output_fin_debounce;
-	wire [3:0] 	S_state;
-	wire 		state_flag;
-	wire [3:0] 	state_flags;
-	wire 		money_rst;
-	wire 		move25;
-	wire 		outMoneyState;
+	wire [7:0] 	 money_value;
+	wire 		 button_in_debounce;
+	wire 		 drink_output_fin_debounce;
+	wire [3:0] 	 S_state;
+	wire 		 state_flag;
+	wire [3:0] 	 state_flags;
+	wire 		 money_rst;
+	wire 		 move25;
+	wire 		 outMoneyState;
 	/////////////////////////////////////////////
 	// main code
 	/////////////////////////////////////////////
 	//button filter
+	assign button_out = (button_in);
+
 	button buy_button_filter(
 				 .clk(clk),
 				 .button_in(button_in),
@@ -57,7 +59,7 @@ module top (
 
 	//S_MONEY_EATER
 	assign money_rst = ~(
-			     ~(state_flags[2] & state_flags[3])
+			     ~(state_flags[2])
 			     & (S_state[2] | S_state[3] )
 			     );
 	money money_eater(
