@@ -15,7 +15,7 @@ module tb_top ();
 reg sclk = 0;
 reg srst_n = 0;
 
-reg[25:0] txdata = 26'b11111111_0_10111001_1_11111111;
+reg[43:0] txdata = 'b11111111_0_10111001_1_11111111_0_11001011_1_11111111;
 wire test_clk;
 /////////////////////////////////////////////
 // main code
@@ -40,7 +40,7 @@ clock test_clock(
       );
 
 always @ (negedge test_clk) begin
-    txdata <= {txdata[24:0],txdata[25]};
+    txdata <= {txdata[42:0],txdata[43]};
 end
 
 wire [7:0] dataout;
