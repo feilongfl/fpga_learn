@@ -15,7 +15,7 @@ module uart_state (
 localparam  S_IDLE = 4'b0001;
 localparam  S_START = 4'b0010;
 localparam  S_READING = 4'b0100;
-// localparam  S_STOP = 4'b1000;
+localparam  S_STOP = 4'b1000;
 
 parameter DATA_BYTE_LENGTH = 8;
 
@@ -25,7 +25,6 @@ reg[3:0] byte_count = 0;
 // main code
 /////////////////////////////////////////////
 always @ (posedge clk or negedge rx) begin
-    // if(!rx or clk) begin
     case(state)
         S_IDLE:
             if(!rx)
@@ -36,11 +35,14 @@ always @ (posedge clk or negedge rx) begin
         S_READING:
             if(clk)
                 if (byte_count == (DATA_BYTE_LENGTH - 1)) begin
-                    state <= S_IDLE;
+                    state <= S_STOP;
                 end
                 else begin
                     byte_count <= byte_count + 1;
                 end
+        S_STOP:
+            if(clk)
+                state <= S_IDLE;
         default:
             state <= S_IDLE;
     endcase
