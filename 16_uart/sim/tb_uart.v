@@ -44,9 +44,11 @@ always @ (negedge test_clk) begin
 end
 
 wire [7:0] dataout;
+wire tx_recv;
 uart uart_inst(
          .sclk(sclk),
          .rx(txdata[25]),
+         .tx(tx_recv),
          .data(dataout)
      );
 /////////////////////////////////////////////
