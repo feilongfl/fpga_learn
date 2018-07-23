@@ -36,6 +36,7 @@ always @ (posedge clk or negedge rx) begin
             if(clk)
                 if (byte_count == (DATA_BYTE_LENGTH - 1)) begin
                     state <= S_STOP;
+                    byte_count <= 0;
                 end
                 else begin
                     byte_count <= byte_count + 1;

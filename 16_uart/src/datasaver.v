@@ -3,40 +3,25 @@
 // version: 1.0.0
 /////////////////////////////////////////////
 
-module clock (
-           input  clk,
-           input en,
-           output reg oclk = 0
+module datasaver (
+           input  saveflag,
+           input [7:0]data_i,
+           output reg [7:0] data_o = 0
        );
 /////////////////////////////////////////////
 // parameter and signals
 /////////////////////////////////////////////
 // parameter
-parameter clock_max = 5207;
 
 // regs or wires
-reg [15:0] count = 0;
+
 /////////////////////////////////////////////
 // main code
 /////////////////////////////////////////////
-always @ (posedge clk) begin
-    if(!en) begin
-        count <= 0;
-        oclk <= 0;
-    end
-    else if(count == clock_max) begin
-        count <= 0;
-        oclk <= 0;
-    end
-    else if (count == ((clock_max + 1) / 2)) begin
-        count <= count + 1;
-        oclk <= 1;
-    end
-    else begin
-        count <= count + 1;
-    end
-end
 
+always @ (posedge saveflag) begin
+    data_o <= data_i;
+end
 
 /////////////////////////////////////////////
 // code end

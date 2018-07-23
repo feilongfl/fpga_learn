@@ -14,7 +14,7 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition"
-// CREATED		"Mon Jul 23 15:03:10 2018"
+// CREATED		"Mon Jul 23 15:29:08 2018"
 
 module uart(
 	sclk,
@@ -29,7 +29,8 @@ output wire	[7:0] data;
 
 wire	[3:0] state;
 wire	SYNTHESIZED_WIRE_0;
-wire	SYNTHESIZED_WIRE_3;
+wire	SYNTHESIZED_WIRE_4;
+wire	[7:0] SYNTHESIZED_WIRE_2;
 
 
 
@@ -38,24 +39,30 @@ wire	SYNTHESIZED_WIRE_3;
 clock	b2v_inst(
 	.clk(sclk),
 	.en(SYNTHESIZED_WIRE_0),
-	.oclk(SYNTHESIZED_WIRE_3));
+	.oclk(SYNTHESIZED_WIRE_4));
 	defparam	b2v_inst.clock_max = 5207;
 
 
 uart_state	b2v_inst1(
 	.rx(rx),
-	.clk(SYNTHESIZED_WIRE_3),
+	.clk(SYNTHESIZED_WIRE_4),
 	.state(state));
 	defparam	b2v_inst1.DATA_BYTE_LENGTH = 8;
 
 assign	SYNTHESIZED_WIRE_0 = state[2] | state[3] | state[1];
 
 
+datasaver	b2v_inst3(
+	.saveflag(state[3]),
+	.data_i(SYNTHESIZED_WIRE_2),
+	.data_o(data));
+
+
 recode	b2v_inst4(
-	.clk(SYNTHESIZED_WIRE_3),
+	.clk(SYNTHESIZED_WIRE_4),
 	.en(state[2]),
 	.rx(rx),
-	.data(data));
+	.data(SYNTHESIZED_WIRE_2));
 
 
 endmodule
