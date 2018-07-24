@@ -29,11 +29,11 @@ always @ (posedge clk) begin
         oclk <= 0;
     end
     else if (count == ((clock_max + 1) / 2)) begin
-        count <= count + 1;
+        count <= count + 1'b1;
         oclk <= 1;
     end
     else begin
-        count <= count + 1;
+        count <= count + 1'b1;
     end
 end
 

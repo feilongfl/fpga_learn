@@ -47,7 +47,7 @@ always @ (posedge clk or posedge flag) begin
                     cnt <= 0;
                 end
                 else begin
-                    cnt <= cnt + 1;
+                    cnt <= cnt + 1'b1;
                 end
             end
         S_STOP:

@@ -23,7 +23,7 @@ always @ (posedge clk) begin
     if(!en)
         data <= 0;
     else begin
-        data <= {data[6:0],rx};
+        data <= {rx, data[7:1]};
     end
 end
 

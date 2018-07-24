@@ -33,14 +33,15 @@ always @ (posedge clk or negedge rx) begin
             if(clk)
                 state <= S_READING;
         S_READING:
-            if(clk)
+            if(clk) begin
                 if (byte_count == (DATA_BYTE_LENGTH - 1)) begin
                     state <= S_STOP;
                     byte_count <= 0;
                 end
                 else begin
-                    byte_count <= byte_count + 1;
+                    byte_count <= byte_count + 1'b1;
                 end
+            end
         S_STOP:
             if(clk)
                 state <= S_IDLE;
