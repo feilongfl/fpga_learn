@@ -22,6 +22,11 @@ reg en = 0;
 /////////////////////////////////////////////
 // main code
 /////////////////////////////////////////////
+always @ (negedge rx) begin
+    en = 1;
+end
+
+
 always @ (posedge clk) begin
     count <= (count == TIME_MAX)? 0 : count + 1;
 end
