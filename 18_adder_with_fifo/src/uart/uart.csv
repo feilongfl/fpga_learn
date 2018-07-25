@@ -1,0 +1,22 @@
+# system info uart on 2018.07.25.14:08:58
+system_info:
+name,value
+DEVICE,5CSEMA5F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1532498937
+#
+#
+# Files generated for uart on 2018.07.25.14:08:58
+files:
+filepath,kind,attributes,module,is_top
+simulation/uart.v,VERILOG,,uart,true
+simulation/submodules/altera_up_rs232_counters.v,VERILOG,,uart_rs232_0,false
+simulation/submodules/altera_up_rs232_in_deserializer.v,VERILOG,,uart_rs232_0,false
+simulation/submodules/altera_up_rs232_out_serializer.v,VERILOG,,uart_rs232_0,false
+simulation/submodules/altera_up_sync_fifo.v,VERILOG,,uart_rs232_0,false
+simulation/submodules/uart_rs232_0.v,VERILOG,,uart_rs232_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+uart.rs232_0,uart_rs232_0

@@ -1,0 +1,11 @@
+
+
+D:/fpga/02_51core_test/pll.v
+
+Jul 25 02PM:54:28>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/fpga/02_51core_test/pll.v
+
+Jul 25 02PM:54:34>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
