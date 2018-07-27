@@ -446,6 +446,41 @@ applicable agreement for further details.
 	(annotation_block (parameter)(rect 488 -160 704 136))
 )
 (symbol
+	(rect -24 168 112 248)
+	(text "divclk" (rect 5 0 34 12)(font "Arial" ))
+	(text "inst6" (rect 8 64 31 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "rst_n" (rect 0 0 24 12)(font "Arial" ))
+		(text "rst_n" (rect 21 43 45 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "oclk" (rect 0 0 20 12)(font "Arial" ))
+		(text "oclk" (rect 99 27 119 39)(font "Arial" ))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(parameter
+		"div_count"
+		"500000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 120 64))
+	)
+	(annotation_block (parameter)(rect -88 248 99 276))
+)
+(symbol
 	(rect 224 168 376 280)
 	(text "box" (rect 5 0 22 12)(font "Arial" ))
 	(text "inst5" (rect 8 96 31 108)(font "Arial" ))
@@ -500,12 +535,12 @@ applicable agreement for further details.
 	)
 	(parameter
 		"box_w"
-		"50"
+		"100"
 		""
 		(type "PARAMETER_SIGNED_DEC")	)
 	(parameter
 		"box_h"
-		"50"
+		"100"
 		""
 		(type "PARAMETER_SIGNED_DEC")	)
 	(parameter
@@ -531,42 +566,7 @@ applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 136 96))
 	)
-	(annotation_block (parameter)(rect 296 248 496 352))
-)
-(symbol
-	(rect -24 168 112 248)
-	(text "divclk" (rect 5 0 34 12)(font "Arial" ))
-	(text "inst6" (rect 8 64 31 76)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clk" (rect 0 0 14 12)(font "Arial" ))
-		(text "clk" (rect 21 27 35 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "rst_n" (rect 0 0 24 12)(font "Arial" ))
-		(text "rst_n" (rect 21 43 45 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 136 32)
-		(output)
-		(text "oclk" (rect 0 0 20 12)(font "Arial" ))
-		(text "oclk" (rect 99 27 119 39)(font "Arial" ))
-		(line (pt 136 32)(pt 120 32))
-	)
-	(parameter
-		"div_count"
-		"500000"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(drawing
-		(rectangle (rect 16 16 120 64))
-	)
-	(annotation_block (parameter)(rect -88 248 99 276))
+	(annotation_block (parameter)(rect 296 248 493 346))
 )
 (connector
 	(pt 776 200)
