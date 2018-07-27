@@ -560,13 +560,13 @@ applicable agreement for further details.
 	)
 	(parameter
 		"div_count"
-		"50000000"
+		"500000"
 		""
 		(type "PARAMETER_SIGNED_DEC")	)
 	(drawing
 		(rectangle (rect 16 16 120 64))
 	)
-	(annotation_block (parameter)(rect -72 248 127 276))
+	(annotation_block (parameter)(rect -88 248 99 276))
 )
 (connector
 	(pt 776 200)
