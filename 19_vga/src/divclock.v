@@ -1,44 +1,38 @@
 /////////////////////////////////////////////
-//               Test Bench
 // author: feilong
 // version: 1.0.0
 /////////////////////////////////////////////
 
-`timescale 1ns / 1ns
-module tb_temp ();
+module divclk (
+           input  clk,
+           input rst_n,
+           output reg oclk
+       );
 /////////////////////////////////////////////
 // parameter and signals
 /////////////////////////////////////////////
 // parameter
+parameter div_count = 10;
 
 // regs or wires
-reg sclk = 0;
-reg srst_n = 0;
+reg[63:0] counter = 0;
 /////////////////////////////////////////////
 // main code
 /////////////////////////////////////////////
-// System clock
-always #10 sclk = ~sclk;
-
-//inital
-initial begin
-    #0
-     srst_n = 0;
-    #30
-     srst_n = 1;
+always @ (posedge clk or negedge rst_n) begin
+    if(!rst_n)
+        counter = 0;
+    else
+        counter = (counter == div_count - 1)? 0 : counter + 1;
 end
 
-wire hsync,vsync,r,g,b;
-// models
-box_move temp_inst(
-             .srst(srst_n),
-             .sclk(sclk),
-             .hsync(hsync),
-             .vsync(vsync),
-             .r(r),
-             .g(g),
-             .b(b)
-         );
+always @ (posedge clk or negedge rst_n) begin
+    if(!rst_n)
+        oclk = 0;
+    else
+        oclk = (counter < (div_count / 2))? 1 : 0;
+end
+
 
 /////////////////////////////////////////////
 // code end
