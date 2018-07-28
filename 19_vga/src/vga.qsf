@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE6E22C8
-set_global_assignment -name TOP_LEVEL_ENTITY hj_move
+set_global_assignment -name TOP_LEVEL_ENTITY gameplay
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:10:02  JULY 27, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 13.1
@@ -55,9 +55,8 @@ set_location_assignment PIN_86 -to hsync
 set_location_assignment PIN_100 -to r
 set_location_assignment PIN_98 -to b
 set_location_assignment PIN_99 -to g
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE gamebox.v
+set_global_assignment -name BDF_FILE gameplay.bdf
 set_global_assignment -name VERILOG_FILE color_flash.v
 set_global_assignment -name VERILOG_FILE xy2addr.v
 set_global_assignment -name VERILOG_FILE picbox.v
@@ -75,4 +74,9 @@ set_global_assignment -name BDF_FILE temp.bdf
 set_global_assignment -name CDF_FILE output_files/Chain5.cdf
 set_global_assignment -name MIF_FILE hj.mif
 set_global_assignment -name QIP_FILE rom.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_11 -to button_left
+set_location_assignment PIN_23 -to button_right
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

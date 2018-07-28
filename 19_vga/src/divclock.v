@@ -30,7 +30,7 @@ always @ (posedge clk or negedge rst_n) begin
     if(!rst_n)
         oclk = 0;
     else
-        oclk = (counter < (div_count / 2))? 1 : 0;
+        oclk = (counter < (div_count / 2))? 1'b1 : 0;
 end
 
 
