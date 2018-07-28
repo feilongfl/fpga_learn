@@ -84,7 +84,7 @@ always @ (negedge clk) begin
         box_y_inv_flag <= 0;
     end
     else if(
-        (box_x > ((board_x - box_w > 0)? board_x - box_w : 0))
+        (box_x + box_w > board_x)
         && (box_x < board_x + board_width)
         && (box_y + box_h > board_y)
     ) begin
@@ -105,7 +105,7 @@ always @ (posedge clk or negedge rst_n) begin
     end
 end
 
-assign g = r;
+assign g = (box_y + box_h - box_y_speed <= board_y)? r : b;
 assign b = (x >= board_x
             && x < (board_x + board_width)
             && y >= (board_y)
