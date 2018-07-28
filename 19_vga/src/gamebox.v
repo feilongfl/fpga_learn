@@ -84,7 +84,7 @@ always @ (negedge clk) begin
         box_y_inv_flag <= 0;
     end
     else if(
-        (box_x > (board_x - box_w > 0)? board_x - box_w : 0)
+        (box_x > ((board_x - box_w > 0)? board_x - box_w : 0))
         && (box_x < board_x + board_width)
         && (box_y + box_h > board_y)
     ) begin
