@@ -67,33 +67,37 @@ always @ (posedge button_clk or negedge rst_n) begin
     end
 end
 
+always @ (negedge clk) begin
+    if (box_x + box_w == drawable_w) begin
+        box_x_inv_flag <= 1;
+    end
+    else if (box_x == 0) begin
+        box_x_inv_flag <= 0;
+    end
+end
+
+always @ (negedge clk) begin
+    if (box_y + box_h == drawable_h) begin
+        box_y_inv_flag <= 1;
+    end
+    else if (box_y == 0) begin
+        box_y_inv_flag <= 0;
+    end
+    else if(
+        (box_x > (board_x - box_w > 0)? board_x - box_w : 0)
+        && (box_x < board_x + board_width)
+        && (box_y + box_h > board_y)
+    ) begin
+        box_y_inv_flag <= 1;
+    end
+end
+
 always @ (posedge clk or negedge rst_n) begin
     if(!rst_n) begin
         box_x <= 0;
         box_y <= 0;
     end
     else begin
-        if (box_x + box_w == drawable_w) begin
-            box_x_inv_flag = 1;
-        end
-        if (box_x == 0) begin
-            box_x_inv_flag = 0;
-        end
-        if (box_y + box_h == drawable_h) begin
-            box_y_inv_flag = 1;
-        end
-        if (box_y == 0) begin
-            box_y_inv_flag = 0;
-        end
-
-        if(
-            (box_x > board_x - box_w)
-            && (box_x < board_x + board_width)
-            && (box_y > board_y)
-        ) begin
-            box_x_inv_flag = 1;
-        end
-
         box_x <= (box_x_inv_flag == 1)?
               box_x - box_x_speed : box_x + box_x_speed;
         box_y <= (box_y_inv_flag == 1)?
