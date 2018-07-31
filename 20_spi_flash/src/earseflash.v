@@ -18,13 +18,22 @@ module earseflash (
 // parameter
 
 // regs or wires
-wire trig,isbusy;
-reg [7:0] datalength = 8;
-reg [127:0] senddata = 8'hc7;
+wire isbusy;
+wire [7:0] datalength = 8;
+wire [127:0] senddata = 8'hc7;
+
+reg [31:0]cnt = 0;
+reg trig = 0;
 /////////////////////////////////////////////
 // main code
 /////////////////////////////////////////////
-assign trig = (!button) & isbusy;
+always@(posedge sclk) begin
+    cnt <= (cnt == 2000000)? 0 :cnt + 1;
+    trig <= (cnt == 10 || cnt == 11)? 1 : 0;
+    //datalength <= 8;
+    //senddata <= 8'hc7;
+end
+
 
 spictl earseflash_inst(
            .sclk(sclk),

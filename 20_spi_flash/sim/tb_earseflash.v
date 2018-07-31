@@ -26,7 +26,7 @@ initial begin
      srst_n = 1;
     #30
      srst_n = 0;
-    #20
+    #5
      srst_n = 1;
 end
 reg temp = 1;
