@@ -13,6 +13,7 @@ module iic (
            output reg flag,
 
            output reg iclk,
+           output reg failed = 0,
            inout sdata
        );
 /////////////////////////////////////////////
@@ -33,14 +34,15 @@ reg[7:0]status = S_IIC_IDLE;
 reg [2:0] en_buff = 0;
 // reg iclk_delaied = 0;
 // reg data_w_temp;
+reg[7:0] data_r_temp;
 
 reg iodata_temp;
 
 reg[2:0] start_sig_cnt = 0;
-reg[4:0] write_cnt = 0;
+reg[4:0] rw_cnt = 0;
 reg[2:0] end_sig_cnt = 0;
 
-reg needRead = 0;
+// reg needRead = 0;
 /////////////////////////////////////////////
 // main code
 /////////////////////////////////////////////
@@ -51,18 +53,41 @@ assign sdata = (iodata_temp == 1) ? 1'bz : 0;
 always @ (posedge clk) begin
     case (status)
         S_IIC_IDLE:
-            iodata_temp = 1;
+            iodata_temp <= 1;
         S_IIC_START:
             iodata_temp = (start_sig_cnt == 0)? 1 : 0 ;
         S_IIC_WRITE_DEVICE, S_IIC_WRITE_COMMAND: begin
-            // if(write_cnt[0])
-            iodata_temp = (write_cnt >= 16)? 1 : data[7 - write_cnt / 2];
+            // if(rw_cnt[0])
+            iodata_temp <= (rw_cnt >= 16)? 1 : data[7 - rw_cnt / 2];
+        end
+        S_IIC_READ: begin // ack sig
+            iodata_temp <= (
+                ((rw_cnt == 17) && (iodata_temp == 0))
+                || rw_cnt == 16
+            )? 0 : 1;
         end
         S_IIC_STOP:
-            iodata_temp = (end_sig_cnt == 0)? 0 : 1 ;
+            iodata_temp <= (end_sig_cnt == 0)? 0 : 1 ;
         default:
-            iodata_temp = 1;
+            iodata_temp <= 1;
     endcase
+end
+
+// readdata
+always @ ( posedge clk ) begin
+    if(status == S_IIC_READ) begin
+        case (rw_cnt)
+            1,3,5,7,9,11,13,15:
+                data_r_temp <= {data_r_temp[7:1],sdata};
+            default:
+                ;
+        endcase
+    end
+end
+
+always @ (posedge flag) begin
+    if(status == S_IIC_READ)
+        readdata <= data_r_temp;
 end
 
 // gen en eage
@@ -80,17 +105,26 @@ end
 always @ (posedge clk) begin
     start_sig_cnt <= (status == S_IIC_START )? start_sig_cnt + 1 : 0;
 end
+
 // gen stop signals
 always @ (posedge clk) begin
     end_sig_cnt <= (status == S_IIC_STOP )? end_sig_cnt + 1 : 0;
 end
 
-//write
+// read write counter adder and cycle finish signal
 always @ (posedge clk) begin
-    write_cnt <=
-              (status == S_IIC_WRITE_DEVICE || status == S_IIC_WRITE_COMMAND)?
-              ((write_cnt == 17)? 0 : write_cnt + 1) : 0;
-    flag <= (write_cnt == 17)? 1 : 0;
+    rw_cnt <= (
+               status == S_IIC_WRITE_DEVICE
+               || status == S_IIC_WRITE_COMMAND
+               || status == S_IIC_READ
+           )? ((rw_cnt == 17)? 0 : rw_cnt + 1) : 0;
+    flag <= (rw_cnt == 17)? 1 : 0;
+end
+
+// failed check,check ack signal
+always @ (posedge clk) begin
+    if(rw_cnt == 17)
+        failed <= sdata; // if failed this signal will set to 1.
 end
 
 // status mechine
@@ -100,15 +134,15 @@ always @ (negedge clk) begin
             if(en_posedge)
                 status <= S_IIC_START;
         end
-
         S_IIC_START: begin
             status <= (start_sig_cnt == 2)? S_IIC_WRITE_DEVICE : S_IIC_START;
         end
         S_IIC_WRITE_DEVICE: begin
-            needRead <= data[0];
-            status <= (write_cnt == 17)? S_IIC_WRITE_COMMAND : S_IIC_WRITE_DEVICE;
+            status <= (rw_cnt == 17)?
+            ((data[0])? S_IIC_READ : S_IIC_WRITE_COMMAND)
+            : S_IIC_WRITE_DEVICE;
         end
-        S_IIC_WRITE_COMMAND: begin
+        S_IIC_WRITE_COMMAND, S_IIC_READ: begin
             if(en_negedge)
                 status <= S_IIC_STOP;
         end

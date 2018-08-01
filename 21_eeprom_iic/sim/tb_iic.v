@@ -39,7 +39,7 @@ iic iic_test_inst(
         . clk(sclk),
         . en(srst_n),
 
-        . data(8'b1010_1010),
+        . data(8'b1010_1011),
         . readdata(rdata),
 
         . flag,
