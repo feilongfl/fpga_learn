@@ -1,0 +1,11 @@
+
+
+D:/fpga/20_2_spi_flash/src/q18/pll.v
+
+Aug 01 12PM:56:46>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/fpga/20_2_spi_flash/src/q18/pll.v
+
+Aug 01 12PM:59:23>: Megafunction PLL Intel FPGA IP v18.0 is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

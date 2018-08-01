@@ -3,7 +3,7 @@
 // version: 1.0.0
 /////////////////////////////////////////////
 
-module spi_BE (
+module spi_test (
            input  sclk,
            output st_clk,
            output[7:0] datarecv,
