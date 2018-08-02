@@ -185,103 +185,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -384 104 -248 184)
-	(text "divclk" (rect 5 0 34 12)(font "Arial" ))
-	(text "divclk_inst" (rect 8 64 58 81)(font "Intel Clear" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clk" (rect 0 0 14 12)(font "Arial" ))
-		(text "clk" (rect 21 27 35 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "rst_n" (rect 0 0 24 12)(font "Arial" ))
-		(text "rst_n" (rect 21 43 45 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 136 32)
-		(output)
-		(text "oclk" (rect 0 0 20 12)(font "Arial" ))
-		(text "oclk" (rect 99 27 119 39)(font "Arial" ))
-		(line (pt 136 32)(pt 120 32))
-	)
-	(parameter
-		"div_count"
-		"10"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(drawing
-		(rectangle (rect 16 16 120 64))
-	)
-	(annotation_block (parameter)(rect -400 64 -224 104))
-)
-(symbol
-	(rect 64 120 264 200)
-	(text "iic_data_provider" (rect 5 0 88 12)(font "Arial" ))
-	(text "inst" (rect 8 64 25 76)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "trig" (rect 0 0 15 12)(font "Arial" ))
-		(text "trig" (rect 21 27 36 39)(font "Arial" ))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "changeDataFlag" (rect 0 0 80 12)(font "Arial" ))
-		(text "changeDataFlag" (rect 21 43 101 55)(font "Arial" ))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 200 32)
-		(output)
-		(text "en" (rect 0 0 11 12)(font "Arial" ))
-		(text "en" (rect 170 27 181 39)(font "Arial" ))
-		(line (pt 200 32)(pt 184 32))
-	)
-	(port
-		(pt 200 48)
-		(output)
-		(text "data[7..0]" (rect 0 0 47 12)(font "Arial" ))
-		(text "data[7..0]" (rect 140 43 187 55)(font "Arial" ))
-		(line (pt 200 48)(pt 184 48)(line_width 3))
-	)
-	(parameter
-		"communityByteLength"
-		"4"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"DeviceAddress"
-		"1010000"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
-		"isRead"
-		"0"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(parameter
-		"commandLength"
-		"1"
-		""
-		(type "PARAMETER_SIGNED_DEC")	)
-	(parameter
-		"writeDate"
-		"111111110000000011111111"
-		""
-		(type "PARAMETER_UNSIGNED_BIN")	)
-	(drawing
-		(rectangle (rect 16 16 184 64))
-	)
-	(annotation_block (parameter)(rect -40 208 344 328))
-)
-(symbol
 	(rect -432 248 -304 328)
 	(text "pos_neg_dector" (rect 5 0 82 12)(font "Arial" ))
 	(text "inst2" (rect 8 64 30 81)(font "Intel Clear" ))
@@ -343,6 +246,103 @@ refer to the applicable agreement for further details.
 		(line (pt 176 0)(pt 176 104))
 	)
 	(flipy)
+)
+(symbol
+	(rect 64 120 264 200)
+	(text "iic_data_provider" (rect 5 0 88 12)(font "Arial" ))
+	(text "inst" (rect 8 64 25 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "trig" (rect 0 0 15 12)(font "Arial" ))
+		(text "trig" (rect 21 27 36 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "changeDataFlag" (rect 0 0 80 12)(font "Arial" ))
+		(text "changeDataFlag" (rect 21 43 101 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 200 32)
+		(output)
+		(text "en" (rect 0 0 11 12)(font "Arial" ))
+		(text "en" (rect 170 27 181 39)(font "Arial" ))
+		(line (pt 200 32)(pt 184 32))
+	)
+	(port
+		(pt 200 48)
+		(output)
+		(text "data[7..0]" (rect 0 0 47 12)(font "Arial" ))
+		(text "data[7..0]" (rect 140 43 187 55)(font "Arial" ))
+		(line (pt 200 48)(pt 184 48)(line_width 3))
+	)
+	(parameter
+		"communityByteLength"
+		"3"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DeviceAddress"
+		"0010101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"isRead"
+		"1"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"commandLength"
+		"1"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"writeDate"
+		"01"
+		""
+		(type "PARAMETER_UNSIGNED_HEX")	)
+	(drawing
+		(rectangle (rect 16 16 184 64))
+	)
+	(annotation_block (parameter)(rect -40 208 224 322))
+)
+(symbol
+	(rect -384 104 -248 184)
+	(text "divclk" (rect 5 0 34 12)(font "Arial" ))
+	(text "divclk_inst" (rect 8 64 58 81)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "rst_n" (rect 0 0 24 12)(font "Arial" ))
+		(text "rst_n" (rect 21 43 45 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 136 32)
+		(output)
+		(text "oclk" (rect 0 0 20 12)(font "Arial" ))
+		(text "oclk" (rect 99 27 119 39)(font "Arial" ))
+		(line (pt 136 32)(pt 120 32))
+	)
+	(parameter
+		"div_count"
+		"10000"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 120 64))
+	)
+	(annotation_block (parameter)(rect -400 64 -225 102))
 )
 (connector
 	(pt 264 152)

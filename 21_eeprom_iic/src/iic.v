@@ -24,7 +24,8 @@ localparam  S_IIC_START = 8'b0000_0001;
 localparam  S_IIC_WRITE_DEVICE = 8'b0000_0010;
 localparam  S_IIC_WRITE_COMMAND = 8'b0000_0100;
 localparam  S_IIC_READ = 8'b0000_1000;
-localparam  S_IIC_STOP = 8'b0001_0000;
+localparam  S_IIC_READ_START = 8'b0001_0000;
+localparam  S_IIC_STOP = 8'b0010_0000;
 // localparam  S_IIC_ACK = 8'b0010_0000;
 
 localparam  S_IIC_IDLE = 8'b1000_0000;
@@ -54,8 +55,8 @@ always @ (posedge clk) begin
     case (status)
         S_IIC_IDLE:
             iodata_temp <= 1;
-        S_IIC_START:
-            iodata_temp = (start_sig_cnt == 0)? 1 : 0 ;
+        S_IIC_START, S_IIC_READ_START:
+            iodata_temp = (start_sig_cnt == 0 || (start_sig_cnt == 1 && status == S_IIC_READ_START))? 1 : 0 ;
         S_IIC_WRITE_DEVICE, S_IIC_WRITE_COMMAND: begin
             // if(rw_cnt[0])
             iodata_temp <= (rw_cnt >= 16)? 1 : data[7 - rw_cnt / 2];
@@ -103,7 +104,8 @@ end
 
 // gen start signals
 always @ (posedge clk) begin
-    start_sig_cnt <= (status == S_IIC_START )? start_sig_cnt + 1 : 0;
+    start_sig_cnt <= (status == S_IIC_START | status == S_IIC_READ_START)?
+                  start_sig_cnt + 1 : 0;
 end
 
 // gen stop signals
@@ -139,8 +141,11 @@ always @ (negedge clk) begin
         end
         S_IIC_WRITE_DEVICE: begin
             status <= (rw_cnt == 17)?
-            ((data[0])? S_IIC_READ : S_IIC_WRITE_COMMAND)
+            ((data[0])? S_IIC_READ_START : S_IIC_WRITE_COMMAND)
             : S_IIC_WRITE_DEVICE;
+        end
+        S_IIC_READ_START: begin
+            status <= (start_sig_cnt == 3)? S_IIC_READ : S_IIC_READ_START;
         end
         S_IIC_WRITE_COMMAND, S_IIC_READ: begin
             if(en_negedge)

@@ -27,18 +27,36 @@ reg [(((isRead)? commandLength : communityByteLength - 1) * 8 - 1) : 0] writeDat
 /////////////////////////////////////////////
 always @ (posedge changeDataFlag or posedge trig) begin
     if (trig) begin
-        data <= {DeviceAddress,isRead};
+        data <= {DeviceAddress,1'b0};
         en <= 1'b1;
         rwcnt <= 0;
     end
     else if(rwcnt + 1 == communityByteLength) begin
-        data <= {DeviceAddress,isRead};
+        data <= {DeviceAddress,1'b0};
         en <= 0;
     end
     else begin
-        data <= writeDateTemp [(((isRead)? commandLength : communityByteLength - 1) * 8 - 1)
-                               : ((isRead)? commandLength : communityByteLength - 1) * 8 - 8];
-        writeDateTemp <= (writeDateTemp << 8);
+        if(!isRead) begin
+            data <=
+                 writeDateTemp [((communityByteLength - 1) * 8 - 1)
+                                : ((communityByteLength - 1) * 8 - 8)];
+
+            writeDateTemp <= (writeDateTemp << 8);
+        end
+        if(isRead) begin
+            if (rwcnt < commandLength) begin
+                data <=  writeDateTemp [((commandLength - 1) * 8 + 7)
+                                        : ((commandLength - 1) * 8)];
+                writeDateTemp <= (writeDateTemp << 8);
+            end
+            else if (rwcnt == commandLength) begin
+                data <= {DeviceAddress,1'b1};
+            end
+            else begin
+                data = 8'hff;
+            end
+        end
+
         rwcnt <= rwcnt + 1;
     end
 end
