@@ -10,8 +10,8 @@ module uart_send (
            input trig,
            input [7:0] data,
            //out data
-           output reg busy,
-           output reg tx
+           output reg busy = 0,
+           output reg tx = 1
        );
 /////////////////////////////////////////////
 // parameter and signals
@@ -19,7 +19,8 @@ module uart_send (
 // parameter
 
 // regs or wires
-reg [3:0] sendCounter = 0;
+reg [3:0] sendCounter = 10;
+reg enabled = 0;
 /////////////////////////////////////////////
 // main code
 /////////////////////////////////////////////
@@ -27,17 +28,22 @@ always @ (posedge clk or posedge trig) begin
     if(trig) begin
         sendCounter <= 0;
         busy <= 1;
+        enabled <= 1;
     end
     else begin
-        sendCounter <= (sendCounter == 9)? 9 : sendCounter + 1;
+        if(enabled)
+            sendCounter <= (sendCounter == 10)? 10 : sendCounter + 1;
         case (sendCounter)
             0://start byte
                 tx <= 0;
             1,2,3,4,5,6,7,8://data byte
                 tx <= data[sendCounter - 1];
+            9://stop bit
+                tx<=1;
             default: begin
                 tx <= 1;
                 busy <= 0;
+                enabled <= 0;
             end
         endcase
     end

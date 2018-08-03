@@ -8,8 +8,8 @@ module uart (
            input  clk,
 
            //flags
-           tx_trig,
-           rx_flag,
+           input tx_trig,
+           output rx_flag,
 
            //data interface
            input[7:0] data_tx,
@@ -23,25 +23,20 @@ module uart (
 // parameter and signals
 /////////////////////////////////////////////
 // parameter
-parameter BandRate = 115200;
-parameter InclkFreq = 50_000_000;
 
-parameter ClkWidth = InclkFreq / BandRate / 2;
 // regs or wires
-reg serialClk = 0;
-reg [15:0] serialClkCounter = 0;
+wire SerialClk;
 /////////////////////////////////////////////
 // main code
 /////////////////////////////////////////////
 // initial serial port clock
-always @ (posedge clk) begin
-    serialClkCounter <= (serialClkCounter == ClkWidth)? 0 : serialClkCounter + 1;
-    serialClk <= (serialClkCounter == 0)? serialClk : ~serialClk;
-end
-
+uart_clk uart_clk_inst(
+             .clk(clk),
+             .oclk(SerialClk)
+         );
 //recv module
 uart_recv uart_recv_inst(
-              .clk(clk),
+              .clk(SerialClk),
 
               .flag(rx_flag),
 
@@ -53,7 +48,7 @@ uart_recv uart_recv_inst(
 //send module
 uart_send uart_send_inst(
               //clock
-              .clk(clk),
+              .clk(SerialClk),
               //in data
               .trig(tx_trig),
               .data(data_tx),

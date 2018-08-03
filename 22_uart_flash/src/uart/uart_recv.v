@@ -38,6 +38,7 @@ always @ (posedge clk) begin
         StatusREAD: begin
             if(readCounter == 8) begin
                 status <= StatusIDLE;
+                data <= dataTemp;
                 flag <= 1;
             end
             else begin
