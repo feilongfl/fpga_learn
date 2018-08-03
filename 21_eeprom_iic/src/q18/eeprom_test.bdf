@@ -21,43 +21,43 @@ refer to the applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect -552 144 -384 160)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "s_rst_n" (rect 5 0 39 17)(font "Intel Clear" ))
-	(pt 168 8)
+	(rect -552 144 -376 160)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "s_rst_n" (rect 9 0 45 12)(font "Arial" ))
+	(pt 176 8)
 	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect -624 160 -552 184))
 )
 (pin
 	(input)
-	(rect -632 128 -464 144)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "sclk_50m" (rect 5 0 53 12)(font "Arial" ))
-	(pt 168 8)
+	(rect -648 128 -472 144)
+	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
+	(text "sclk_50m" (rect 9 0 56 12)(font "Arial" ))
+	(pt 176 8)
 	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
+		(line (pt 92 12)(pt 117 12))
+		(line (pt 92 4)(pt 117 4))
+		(line (pt 121 8)(pt 176 8))
+		(line (pt 92 12)(pt 92 4))
+		(line (pt 117 4)(pt 121 8))
+		(line (pt 117 12)(pt 121 8))
 	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect -696 144 -632 168))
+	(text "VCC" (rect 136 7 156 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect -712 144 -648 168))
 )
 (pin
 	(output)
 	(rect 544 160 720 176)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "iic_scl" (rect 90 0 118 17)(font "Intel Clear" ))
+	(text "iic_scl" (rect 90 0 120 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -106,7 +106,7 @@ refer to the applicable agreement for further details.
 	(bidir)
 	(rect 544 192 720 208)
 	(text "BIDIR" (rect 1 0 25 10)(font "Arial" (font_size 6)))
-	(text "iic_sda" (rect 90 0 121 17)(font "Intel Clear" ))
+	(text "iic_sda" (rect 90 0 124 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 56 4)(pt 78 4))
@@ -149,28 +149,28 @@ refer to the applicable agreement for further details.
 		(pt 192 32)
 		(output)
 		(text "readdata[7..0]" (rect 0 0 68 12)(font "Arial" ))
-		(text "readdata[7..0]" (rect 114 27 182 39)(font "Arial" ))
+		(text "readdata[7..0]" (rect 114 27 171 39)(font "Arial" ))
 		(line (pt 192 32)(pt 176 32)(line_width 3))
 	)
 	(port
 		(pt 192 48)
 		(output)
 		(text "flag" (rect 0 0 18 12)(font "Arial" ))
-		(text "flag" (rect 156 43 174 55)(font "Arial" ))
+		(text "flag" (rect 156 43 171 55)(font "Arial" ))
 		(line (pt 192 48)(pt 176 48))
 	)
 	(port
 		(pt 192 64)
 		(output)
 		(text "iclk" (rect 0 0 16 12)(font "Arial" ))
-		(text "iclk" (rect 158 59 174 71)(font "Arial" ))
+		(text "iclk" (rect 158 59 171 71)(font "Arial" ))
 		(line (pt 192 64)(pt 176 64))
 	)
 	(port
 		(pt 192 80)
 		(output)
 		(text "failed" (rect 0 0 27 12)(font "Arial" ))
-		(text "failed" (rect 149 75 176 87)(font "Arial" ))
+		(text "failed" (rect 149 75 171 87)(font "Arial" ))
 		(line (pt 192 80)(pt 176 80))
 	)
 	(port
@@ -187,7 +187,7 @@ refer to the applicable agreement for further details.
 (symbol
 	(rect -432 248 -304 328)
 	(text "pos_neg_dector" (rect 5 0 82 12)(font "Arial" ))
-	(text "inst2" (rect 8 64 30 81)(font "Intel Clear" ))
+	(text "inst2" (rect 8 64 31 76)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -206,7 +206,7 @@ refer to the applicable agreement for further details.
 		(pt 128 32)
 		(output)
 		(text "trig" (rect 0 0 15 12)(font "Arial" ))
-		(text "trig" (rect 95 27 110 39)(font "Arial" ))
+		(text "trig" (rect 95 27 107 39)(font "Arial" ))
 		(line (pt 128 32)(pt 112 32))
 	)
 	(parameter
@@ -222,7 +222,7 @@ refer to the applicable agreement for further details.
 (symbol
 	(rect -656 208 -480 312)
 	(text "vio" (rect 78 -1 95 15)(font "Arial" (font_size 10)))
-	(text "inst3" (rect 146 88 168 105)(font "Intel Clear" ))
+	(text "inst3" (rect 145 88 168 100)(font "Arial" ))
 	(port
 		(pt 176 72)
 		(output)
@@ -269,14 +269,14 @@ refer to the applicable agreement for further details.
 		(pt 200 32)
 		(output)
 		(text "en" (rect 0 0 11 12)(font "Arial" ))
-		(text "en" (rect 170 27 181 39)(font "Arial" ))
+		(text "en" (rect 170 27 179 39)(font "Arial" ))
 		(line (pt 200 32)(pt 184 32))
 	)
 	(port
 		(pt 200 48)
 		(output)
 		(text "data[7..0]" (rect 0 0 47 12)(font "Arial" ))
-		(text "data[7..0]" (rect 140 43 187 55)(font "Arial" ))
+		(text "data[7..0]" (rect 140 43 179 55)(font "Arial" ))
 		(line (pt 200 48)(pt 184 48)(line_width 3))
 	)
 	(parameter
@@ -310,9 +310,9 @@ refer to the applicable agreement for further details.
 	(annotation_block (parameter)(rect -40 208 224 322))
 )
 (symbol
-	(rect -384 104 -248 184)
+	(rect -336 88 -200 168)
 	(text "divclk" (rect 5 0 34 12)(font "Arial" ))
-	(text "divclk_inst" (rect 8 64 58 81)(font "Intel Clear" ))
+	(text "divclk_inst" (rect 8 64 61 76)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -331,7 +331,7 @@ refer to the applicable agreement for further details.
 		(pt 136 32)
 		(output)
 		(text "oclk" (rect 0 0 20 12)(font "Arial" ))
-		(text "oclk" (rect 99 27 119 39)(font "Arial" ))
+		(text "oclk" (rect 99 27 115 39)(font "Arial" ))
 		(line (pt 136 32)(pt 120 32))
 	)
 	(parameter
@@ -342,7 +342,7 @@ refer to the applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 120 64))
 	)
-	(annotation_block (parameter)(rect -400 64 -225 102))
+	(annotation_block (parameter)(rect -352 48 -177 86))
 )
 (connector
 	(pt 264 152)
@@ -374,29 +374,12 @@ refer to the applicable agreement for further details.
 	(pt 32 168)
 )
 (connector
-	(text "clk_4k" (rect -238 120 -207 137)(font "Intel Clear" ))
-	(pt -248 136)
-	(pt 352 136)
-)
-(connector
 	(pt -432 280)
 	(pt -480 280)
 )
 (connector
 	(pt -432 296)
 	(pt -440 296)
-)
-(connector
-	(pt -440 296)
-	(pt -440 136)
-)
-(connector
-	(pt -464 136)
-	(pt -440 136)
-)
-(connector
-	(pt -440 136)
-	(pt -384 136)
 )
 (connector
 	(pt -304 280)
@@ -409,5 +392,42 @@ refer to the applicable agreement for further details.
 (connector
 	(pt -144 152)
 	(pt -144 280)
+)
+(connector
+	(pt -472 136)
+	(pt -440 136)
+)
+(connector
+	(pt 352 136)
+	(pt -192 136)
+)
+(connector
+	(pt -192 136)
+	(pt -192 120)
+)
+(connector
+	(text "clk_4k" (rect -190 104 -159 121)(font "Intel Clear" ))
+	(pt -192 120)
+	(pt -200 120)
+)
+(connector
+	(pt -440 120)
+	(pt -336 120)
+)
+(connector
+	(pt -440 120)
+	(pt -440 136)
+)
+(connector
+	(pt -440 136)
+	(pt -440 296)
+)
+(connector
+	(pt -376 152)
+	(pt -336 152)
+)
+(connector
+	(pt -336 152)
+	(pt -336 136)
 )
 (junction (pt -440 136))
