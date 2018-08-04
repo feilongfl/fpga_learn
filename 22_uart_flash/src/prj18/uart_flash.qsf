@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name TOP_LEVEL_ENTITY SerialPortAddressGenerator
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:12:44  AUGUST 03, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Standard Edition"
@@ -51,6 +51,8 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE ../contraller/writeRamAddrGen.v
+set_global_assignment -name VERILOG_FILE ../contraller/readRamAddrGen.v
 set_global_assignment -name VERILOG_FILE ../common/eageDector.v
 set_global_assignment -name VERILOG_FILE ../contraller/SerialPortAddressGenerator.v
 set_global_assignment -name VERILOG_FILE ../contraller/controler.v
@@ -62,4 +64,7 @@ set_global_assignment -name VERILOG_FILE ../uart/uart_recv.v
 set_global_assignment -name VERILOG_FILE ../uart/uart.v
 set_global_assignment -name QIP_FILE ram.qip
 set_global_assignment -name BDF_FILE top.bdf
+set_global_assignment -name TIMING_ANALYZER_MULTICORNER_ANALYSIS ON
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name FLOW_ENABLE_RTL_VIEWER ON

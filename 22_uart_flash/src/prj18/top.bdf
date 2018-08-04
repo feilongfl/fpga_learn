@@ -365,6 +365,60 @@ refer to the applicable agreement for further details.
 		(rectangle (rect 16 16 224 128))
 	)
 )
+(symbol
+	(rect 656 328 848 440)
+	(text "eageDector" (rect 5 0 61 12)(font "Arial" ))
+	(text "inst2" (rect 8 96 30 113)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "signal" (rect 0 0 28 12)(font "Arial" ))
+		(text "signal" (rect 21 43 49 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 192 32)
+		(output)
+		(text "signal_posedge" (rect 0 0 75 12)(font "Arial" ))
+		(text "signal_posedge" (rect 108 27 183 39)(font "Arial" ))
+		(line (pt 192 32)(pt 176 32))
+	)
+	(port
+		(pt 192 48)
+		(output)
+		(text "signal_negedge" (rect 0 0 75 12)(font "Arial" ))
+		(text "signal_negedge" (rect 108 43 183 55)(font "Arial" ))
+		(line (pt 192 48)(pt 176 48))
+	)
+	(port
+		(pt 192 64)
+		(output)
+		(text "signal_dual_eage" (rect 0 0 83 12)(font "Arial" ))
+		(text "signal_dual_eage" (rect 101 59 184 71)(font "Arial" ))
+		(line (pt 192 64)(pt 176 64))
+	)
+	(parameter
+		"BuffLength"
+		"3"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"BuffInital"
+		"0"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 176 96))
+	)
+	(annotation_block (parameter)(rect 848 264 1032 328))
+)
 (connector
 	(pt 272 32)
 	(pt -80 32)
