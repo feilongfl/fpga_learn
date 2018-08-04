@@ -10,6 +10,7 @@ module uart (
            //flags
            input tx_trig,
            output rx_flag,
+           output busy,
 
            //data interface
            input[7:0] data_tx,
