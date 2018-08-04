@@ -8,7 +8,7 @@ module readRamAddrGen (
            input  txBusy,
 
            input[7:0] dataLength,
-           output txTrig = 0,
+           output reg txTrig = 0,
 
            output reg [7:0] ramAddress,
            output reg finishFlag = 0
@@ -30,7 +30,7 @@ always @ (negedge txBusy or posedge enable) begin
     end
     else begin
         ramAddress <= ramAddress + 1;
-        txTrig <= txTrig;
+        txTrig <= ~txTrig;
 
         if(ramAddress + 1 == dataLength)
             finishFlag <= ~finishFlag;
