@@ -31,16 +31,22 @@ assign sdram.DRAM_CLK = ~clock;
 
 SDRAM_COMMAND command = NoOperation;
 
-always_ff @ (posedge clock) begin
+always_ff @ (negedge clock) begin
 //CKEn-1 CKEn CS RAS CAS WE DQM ADDR A10/AP BA
 	case (timecounter)
-		200000 / CLK_Time_ns:
+		200000 / CLK_Time_ns: begin
 			command <= PrechargeAllBanks;
+			$display("At time %t: Command => PrechargeAllBanks",$time);
+		end
 		200000 / CLK_Time_ns + 2,
-		200000 / CLK_Time_ns + 6:
+		200000 / CLK_Time_ns + 10: begin
 			command <= AutoRefresh;
-		200000 / CLK_Time_ns + 10:
-			command = ModeRegisterSet;
+			$display("At time %t: Command => AutoRefresh",$time);
+		end
+		200000 / CLK_Time_ns + 18: begin
+			command <= ModeRegisterSet;
+			$display("At time %t: Command => ModeRegisterSet",$time);
+		end
 		default:
 			command <= NoOperation;
 	endcase
@@ -63,10 +69,10 @@ always_ff @ (posedge clock) begin
 		ModeRegisterSet: begin
 			// sdram.DRAM_ADDR <= 13'b000_0_00_010_0_010;//todo
 			// sdram.DRAM_BA <= 2'b00;
-			{sdram.DRAM_BA,sdram.DRAM_ADDR} = 15'b00000_0_00_010_0_010;
+			{sdram.DRAM_BA,sdram.DRAM_ADDR} <= 15'b00000_0_00_010_0_010;
 		end
 		PrechargeAllBanks:
-			sdram.DRAM_ADDR[10] = 1;
+			sdram.DRAM_ADDR[10] <= 1;
 		default: ;
 	endcase
 end

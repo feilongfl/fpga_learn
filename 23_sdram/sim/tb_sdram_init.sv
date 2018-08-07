@@ -4,7 +4,7 @@
 // version: 1.0.0
 /////////////////////////////////////////////
 // `include "../src/sdram_iface.sv"
-`timescale 10ns / 10ns
+`timescale 1ns / 1ns
 module tb_top ();
 	/////////////////////////////////////////////
 	// parameter and signals
@@ -50,27 +50,32 @@ module tb_top ();
 
 	// models
 	sdram_init sdram_init_inst (
-		sclk,srst_n,
-		sdram.sdram
+		.clock(sclk),
+		.enable(srst_n),
+		.sdram(sdram.sdram)
 	);
 
-	sdram_model_plus sdram_model_plus_inst (
-		.Dq(DRAM_DQ),
-		.Addr(DRAM_ADDR),
-		.Ba(DRAM_BA),
-		.Clk(DRAM_CLK),
-		.Cke(DRAM_CKE),
-		.Cs_n(DRAM_CS_N),
-		.Ras_n(DRAM_RAS_N),
-		.Cas_n(DRAM_CAS_N),
-		.We_n(DRAM_WE_N),
-		// .Dqm(),
-		.Debug(1'b1)
+	sdram_model sdram_model_inst(
+		sdram.tb
 	);
-	defparam sdram_model_plus_inst.addr_bits = 12;
-	defparam sdram_model_plus_inst.data_bits = 16;
-	defparam sdram_model_plus_inst.col_bits = 8;
-	defparam sdram_model_plus_inst.mem_sizes = 64 * 1024 * 1024 - 1;
+
+	// sdram_model_plus sdram_model_plus_inst (
+	// 	.Dq(DRAM_DQ),
+	// 	.Addr(DRAM_ADDR),
+	// 	.Ba(DRAM_BA),
+	// 	.Clk(DRAM_CLK),
+	// 	.Cke(DRAM_CKE),
+	// 	.Cs_n(DRAM_CS_N),
+	// 	.Ras_n(DRAM_RAS_N),
+	// 	.Cas_n(DRAM_CAS_N),
+	// 	.We_n(DRAM_WE_N),
+	// 	// .Dqm(),
+	// 	.Debug(1'b1)
+	// );
+	// defparam sdram_model_plus_inst.addr_bits = 12;
+	// defparam sdram_model_plus_inst.data_bits = 16;
+	// defparam sdram_model_plus_inst.col_bits = 8;
+	// defparam sdram_model_plus_inst.mem_sizes = 64 * 1024 * 1024 - 1;
 	/////////////////////////////////////////////
 	// code end
 	/////////////////////////////////////////////
