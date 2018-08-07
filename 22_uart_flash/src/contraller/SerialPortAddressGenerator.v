@@ -2,12 +2,12 @@
 // author: feilong
 // version: 1.0.0
 /////////////////////////////////////////////
-`define sim
 
-`ifdef sim
-`include "../State.v"
-`else
+
+`ifdef quartus
 `include "../contraller/State.v"
+`else
+`include "../State.v"
 `endif
 
 module SerialPortAddressGenerator (
