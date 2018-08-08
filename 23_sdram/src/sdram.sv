@@ -14,11 +14,11 @@ module sdram(
 	input [1:0] ba,
 	input [15:0]writeData[3:0],
 	input writeDataTrig,
-	output logic writeDataClk,
+	output logic sdram_flag_writeoncefin,
 
 	input readEnable,
 	output outdataClk,
-	output [15:0] readData,
+	output [15:0] readData[3:0],
 
 	SDRAM.sdram sdram
 );
@@ -26,8 +26,11 @@ module sdram(
 StatusSdram_t status_sdram = S_SDRAM_Initial;
 
 // finish flags
+logic writeDataClk;
 logic sdram_flag_initialfin;
-logic sdram_flag_writeoncefin;
+// logic sdram_flag_writeoncefin;
+logic sdram_flag_readoncefin;
+assign outdataClk = sdram_flag_readoncefin;
 // logic sdram_flag_writefin = 0;
 logic sdram_flag_refershfin;
 
@@ -39,24 +42,26 @@ logic sdram_request_refersh;
 logic sdram_enable_initial = 0;
 logic sdram_enable_writeOnce = 0;
 logic sdram_enable_writeOnce_last = 0;
-logic sdram_enable_read = 0;
-logic sdram_enable_read_quit = 0;
+logic sdram_enable_readOnce = 0;
+logic sdram_enable_readOnce_last = 0;
 logic sdram_enable_refersh = 0;
 logic sdram_enable_refersh_last = 0;
+
+logic[15:0] writeDataBuff[3:0];
+
 
 always_comb begin
 	sdram_enable_initial = (status_sdram == S_SDRAM_Initial)? 1 : 0;
 	sdram_enable_writeOnce = (status_sdram == S_SDRAM_Write_once)? 1 : 0;
 	// sdram_enable_write = (status_sdram == S_SDRAM_Write)? 1 : 0;
 	sdram_enable_refersh = (status_sdram == S_SDRAM_AutoRefresh)? 1 : 0;
-	sdram_enable_read = (status_sdram == S_SDRAM_READ)? 1 : 0;
-	sdram_enable_read_quit = (status_sdram == S_SDRAM_READ
-		|| status_sdram == S_SDRAM_READ_Quiting)? 1 : 0;
+	sdram_enable_readOnce = (status_sdram == S_SDRAM_READ)? 1 : 0;
 end
 
 always_ff @ (posedge clock) begin
 	sdram_enable_refersh_last <= sdram_enable_refersh;
 	sdram_enable_writeOnce_last <= sdram_enable_writeOnce;
+	sdram_enable_readOnce_last <= sdram_enable_readOnce;
 end
 
 SDRAM init_sdram();
@@ -85,7 +90,7 @@ sdram_wronce sdram_wronce_inst(
 	.Trig(sdram_enable_writeOnce & (~sdram_enable_writeOnce_last)),
 	.finFlag(sdram_flag_writeoncefin),
 
-	.data(writeData),
+	.data(writeDataBuff),
 	.rowAddr(row),
 	.colAddr(col),
 	.BA(ba),
@@ -93,17 +98,16 @@ sdram_wronce sdram_wronce_inst(
 	.sdram(write_sdram.sdram)
 );
 
-sdram_read sdram_read_inst(
+sdram_rdonce sdram_rdonce_inst(
 	.clock(clock),
 
-	.enable(sdram_enable_read),
+	.Trig(sdram_enable_readOnce & (~sdram_enable_readOnce_last)),
+	.finFlag(sdram_flag_readoncefin),
 
 	.data(readData),
 	.rowAddr(row),
 	.colAddr(col),
 	.BA(ba),
-
-	.readDataClk(outdataClk),
 
 	.sdram(read_sdram.sdram)
 );
@@ -112,7 +116,7 @@ sdramSel sdramsel_inst(
 	.sdram(sdram),
 
 	.sel({
-		sdram_enable_read | sdram_enable_read_quit,
+		sdram_enable_readOnce,
 		sdram_enable_writeOnce,
 		sdram_enable_refersh,
 		sdram_enable_initial
@@ -156,15 +160,9 @@ always_ff @ (posedge clock) begin
 				status_sdram <= S_SDRAM_ARBIT;
 
 		S_SDRAM_READ:
-			if(!readEnable || sdram_request_refersh) begin
-				status_sdram <= S_SDRAM_READ_Quiting;
-				read_quit_delay_counter <= 0;
-			end
+			if(sdram_flag_readoncefin)
+				status_sdram <= S_SDRAM_ARBIT;
 
-		S_SDRAM_READ_Quiting: begin
-			read_quit_delay_counter <= read_quit_delay_counter + 1;
-			status_sdram <= (read_quit_delay_counter == 2)? S_SDRAM_ARBIT : status_sdram;
-		end
 		default:
 			status_sdram <= S_SDRAM_Initial;
 	endcase
@@ -175,7 +173,6 @@ end
 // input writeDataEnable,
 // output writeDataClk,
 logic writeDataTrigLast = 0;
-logic[15:0] writeDataBuff[3:0];
 
 always_ff @ (posedge clock) begin
 	writeDataTrigLast <= writeDataTrig;

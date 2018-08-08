@@ -74,7 +74,10 @@ always_ff @ (negedge clock) begin
 end
 
 always_ff @ (posedge clock) begin
-	DQtemp <= (timecounter >= 3 && timecounter <= 3 + 4)? data[timecounter - 3] : 0;
+	if(timecounter >= 3 && timecounter < 3 + 4)begin
+		DQtemp <= data[timecounter - 3];
+		$display("At time %t: write => %d",$time,data[timecounter - 3]);
+	end
 end
 
 always_ff @ (posedge clock) begin

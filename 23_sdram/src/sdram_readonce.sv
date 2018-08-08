@@ -11,7 +11,7 @@ module sdram_rdonce(
 	input Trig,
 	output logic finFlag = 0,
 
-	output[15:0] data[3:0],
+	output logic[15:0] data[3:0],
 	input [12:0] rowAddr,
 	input [7:0] colAddr,
 	input [1:0] BA,
@@ -74,7 +74,10 @@ always_ff @ (negedge clock) begin
 end
 
 always_ff @ (posedge clock) begin
-	data <= (timecounter >= 3 && timecounter <= 3 + 4)? sdram.DRAM_DQ[timecounter - 3] : 0;
+	if(timecounter >= 3 + 2 && timecounter < 3 + 4 + 2)begin
+		data[timecounter - 3 - 2] <= sdram.DRAM_DQ;
+		$display("At time %t: read => %d",$time,sdram.DRAM_DQ);
+	end
 end
 
 always_ff @ (posedge clock) begin

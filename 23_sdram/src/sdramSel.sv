@@ -15,7 +15,10 @@ module sdramSel(
 assign	sdram.DRAM_DQ = (sel == 4'b0001)? sdram_init.DRAM_DQ :
 						((sel == 4'b0010)? sdram_write.DRAM_DQ :
 						((sel == 4'b0100)? sdram_refersh.DRAM_DQ :
-						sdram_read.DRAM_DQ));
+						16'hzzzz));
+						// sdram_read.DRAM_DQ));
+
+assign sdram_read.DRAM_DQ = sdram.DRAM_DQ;
 
 assign	sdram.DRAM_ADDR = (sel == 4'b0001)? sdram_init.DRAM_ADDR :
 						((sel == 4'b0010)? sdram_write.DRAM_ADDR :
