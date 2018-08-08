@@ -1,14 +1,8 @@
-typedef enum bit[6:0]{
-	NoOperation = 7'b1100000,
-	PrechargeAllBanks = 7'b1001000,
-	AutoRefresh = 7'b1000100,
-	ModeRegisterSet = 7'b1000000,
-
-	BankActive = 7'b1001100,
-	Write = 7'b1010000
-	//Precharge = 7'b1001000
-}
-SDRAM_COMMAND;
+`ifdef Quartus
+// `include "../sdramCommand.sv"
+`else
+`include "../src/sdramCommand.sv"
+`endif
 
 module sdram_refersh (
 	input clock,
@@ -29,6 +23,9 @@ assign sdram.DRAM_CLK = ~clock;
 
 always_ff @ (posedge clock or posedge refershFinishFlag) begin
 	refershClock <= (refershFinishFlag)? 0 : refershClock + 1;
+end
+
+always_ff @ (posedge clock) begin
 	refershRequest <= (refershClock <= 7700)? 0 : 1;
 end
 

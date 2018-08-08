@@ -1,19 +1,24 @@
 
-typedef enum {
-	S_SDRAM_Initial,
-	S_SDRAM_ARBIT,
-	S_SDRAM_AutoRefresh,
-	// S_SDRAM_Write,
-	S_SDRAM_Write_once,
-	S_SDRAM_READ
-} StatusSdram_t;
 
-module sdram_ctl(
+`ifdef Quartus
+// `include "../sdram_status.sv"
+`else
+`include "../src/sdram_status.sv"
+`endif
+
+module sdram(
 	input clock,
 
+	input [12:0] row,
+	input [7:0] col,
+	input [1:0] ba,
 	input [15:0]writeData[3:0],
-	input writeDataEnable,
+	input writeDataTrig,
 	output logic writeDataClk,
+
+	input readEnable,
+	output outdataClk,
+	output [15:0] readData,
 
 	SDRAM.sdram sdram
 );
@@ -76,9 +81,9 @@ sdram_wronce sdram_wronce_inst(
 	.finFlag(sdram_flag_writeoncefin),
 
 	.data(writeData),
-	.rowAddr(0),
-	.colAddr(0),
-	.BA(0),
+	.rowAddr(row),
+	.colAddr(col),
+	.BA(ba),
 
 	.sdram(write_sdram)
 );
@@ -93,6 +98,14 @@ sdramSel sdramsel_inst(
 	.sdram_refersh(write_sdram.tb)
 	);
 
+// int debug_i = 0;
+// always_ff @ (posedge sdram_flag_refershfin) begin
+// 	debug_i <= debug_i + 1;
+// 	if (debug_i == 2) begin
+// 		$finish;
+// 	end
+// end
+
 always_ff @ (posedge clock) begin
 	case (status_sdram)
 		S_SDRAM_Initial:
@@ -100,8 +113,9 @@ always_ff @ (posedge clock) begin
 				status_sdram <= S_SDRAM_ARBIT;
 
 		S_SDRAM_ARBIT: begin
-			if(sdram_request_refersh)
+			if(sdram_request_refersh) begin
 				status_sdram <= S_SDRAM_AutoRefresh;
+			end
 			else if(sdram_request_write)
 				status_sdram <= S_SDRAM_Write_once;
 		end
@@ -122,20 +136,20 @@ end
 // input [3:0]writeData,
 // input writeDataEnable,
 // output writeDataClk,
-logic writeDataEnableLast = 0;
+logic writeDataTrigLast = 0;
 logic[15:0] writeDataBuff[3:0];
 
 always_ff @ (posedge clock) begin
-	writeDataEnableLast <= writeDataEnable;
+	writeDataTrigLast <= writeDataTrig;
 end
 
 // always_ff @ (posedge clock or posedge writeDataEnable or posedge sdram_flag_writefin) begin
 always_ff @ (posedge clock) begin
-	if(writeDataEnable & (~writeDataEnableLast)) begin
+	if(writeDataTrig & (~writeDataTrigLast)) begin
 		writeDataClk <= 1;
 		// sdram_request_write <= 1;
 	end
-	else if(sdram_flag_writeoncefin & writeDataEnable) begin
+	else if(sdram_flag_writeoncefin & writeDataTrig) begin
 		writeDataClk <= 1;
 	end else begin
 		writeDataClk <= 0;

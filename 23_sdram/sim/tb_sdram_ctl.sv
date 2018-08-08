@@ -44,20 +44,37 @@ module tb_sdram_ctl ();
 	logic writeDataEnable = 0;
 	logic writeDataClk;
 
-	initial begin
-		writeData[0] = 1;
-		writeData[1] = 2;
-		writeData[2] = 3;
-		writeData[3] = 4;
-		#300us
-		writeDataEnable = 1;
+	int unsigned i = 0;
+
+	logic [8:0] col;
+	logic [13:0]row;
+	logic [2:0]ba;
+	always_ff @ (posedge writeDataClk) begin
+		i <= i + 1;
+
+		{ba,row,col} <= 4 * i;
+
+		writeData[0] <= 4*i;
+		writeData[1] <= 4*i+1;
+		writeData[2] <= 4*i+2;
+		writeData[3] <= 4*i+3;
 	end
 
-	sdram_ctl sdram_ctl_inst(
+	always_ff @ (posedge sclk) begin
+		writeDataEnable = (writeDataClk || i > 1000)? 0 : 1;
+	end
+
+
+
+	sdram sdram_ctl_inst(
 		.clock(sclk),
 
+		.row(row),
+		.col(col),
+		.ba(ba),
+
 		.writeData(writeData),
-		.writeDataEnable(writeDataEnable),
+		.writeDataTrig(writeDataEnable),
 		.writeDataClk(writeDataClk),
 
 		.sdram(sdram.sdram)

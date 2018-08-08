@@ -4,13 +4,11 @@
 /////////////////////////////////////////////
 // `include "../src/sdram_iface.sv"
 
-typedef enum bit[6:0]{
-	NoOperation = 7'b1100000,
-	PrechargeAllBanks = 7'b1001000,
-	AutoRefresh = 7'b1000100,
-	ModeRegisterSet = 7'b1000000
-}
-SDRAM_COMMAND;
+`ifdef Quartus
+// `include "../sdramCommand.sv"
+`else
+`include "../src/sdramCommand.sv"
+`endif
 
 module sdram_init (
 	input clock,
