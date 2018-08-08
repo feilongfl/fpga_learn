@@ -13,7 +13,7 @@ sdram_model_plus sdram_model_plus_inst (
 	.Ras_n(sdram.DRAM_RAS_N),
 	.Cas_n(sdram.DRAM_CAS_N),
 	.We_n(sdram.DRAM_WE_N),
-	// .Dqm(Dqm),
+	.Dqm(4'b0000),
 	.Debug(1'b1)
 );
 defparam sdram_model_plus_inst.addr_bits = 12;

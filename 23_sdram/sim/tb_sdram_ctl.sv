@@ -3,18 +3,18 @@
 // author: feilong
 // version: 1.0.0
 /////////////////////////////////////////////
-// `include "../src/sdram_iface.sv"
+
 `timescale 1ns / 1ns
-module tb_top ();
+module tb_sdram_ctl ();
 	/////////////////////////////////////////////
 	// parameter and signals
 	/////////////////////////////////////////////
 	// parameter
 
 	// regs or wires
-    bit sclk = 0;
-    bit srst_n = 0;
-    bit trig = 0;
+    reg sclk = 0;
+    reg srst_n = 0;
+    reg trig = 0;
     /////////////////////////////////////////////
     // main code
     /////////////////////////////////////////////
@@ -34,24 +34,32 @@ module tb_top ();
          trig = 0;
     end
 
-	wire [15:0]DRAM_DQ;
-	wire[11:0] DRAM_ADDR;
-	wire[1:0] DRAM_BA;
-	wire DRAM_CLK;
-	wire DRAM_CKE;
-	wire DRAM_LDQM;
-	wire DRAM_UDQM;
-	wire DRAM_WE_N;
-	wire DRAM_CAS_N;
-	wire DRAM_RAS_N;
-	wire DRAM_CS_N;
+	// models
+
 
 	SDRAM sdram();
 
-	// models
-	sdram_init sdram_init_inst (
+
+	logic [15:0]writeData[3:0];
+	logic writeDataEnable = 0;
+	logic writeDataClk;
+
+	initial begin
+		writeData[0] = 1;
+		writeData[1] = 2;
+		writeData[2] = 3;
+		writeData[3] = 4;
+		#300us
+		writeDataEnable = 1;
+	end
+
+	sdram_ctl sdram_ctl_inst(
 		.clock(sclk),
-		.enable(srst_n),
+
+		.writeData(writeData),
+		.writeDataEnable(writeDataEnable),
+		.writeDataClk(writeDataClk),
+
 		.sdram(sdram.sdram)
 	);
 
@@ -59,23 +67,6 @@ module tb_top ();
 		.sdram(sdram.tb)
 	);
 
-	// sdram_model_plus sdram_model_plus_inst (
-	// 	.Dq(DRAM_DQ),
-	// 	.Addr(DRAM_ADDR),
-	// 	.Ba(DRAM_BA),
-	// 	.Clk(DRAM_CLK),
-	// 	.Cke(DRAM_CKE),
-	// 	.Cs_n(DRAM_CS_N),
-	// 	.Ras_n(DRAM_RAS_N),
-	// 	.Cas_n(DRAM_CAS_N),
-	// 	.We_n(DRAM_WE_N),
-	// 	// .Dqm(),
-	// 	.Debug(1'b1)
-	// );
-	// defparam sdram_model_plus_inst.addr_bits = 12;
-	// defparam sdram_model_plus_inst.data_bits = 16;
-	// defparam sdram_model_plus_inst.col_bits = 8;
-	// defparam sdram_model_plus_inst.mem_sizes = 64 * 1024 * 1024 - 1;
 	/////////////////////////////////////////////
 	// code end
 	/////////////////////////////////////////////

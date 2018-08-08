@@ -15,8 +15,9 @@ SDRAM_COMMAND;
 module sdram_init (
 	input clock,
 	input enable,
-		   SDRAM.sdram sdram
-		   );
+	output logic finishFlag,
+	SDRAM.sdram sdram
+);
 
 	//values
 	int unsigned 	 timecounter = 0;
@@ -39,16 +40,22 @@ always_ff @ (negedge clock) begin
 			$display("At time %t: Command => PrechargeAllBanks",$time);
 		end
 		200000 / CLK_Time_ns + 2,
-		200000 / CLK_Time_ns + 10: begin
+		200000 / CLK_Time_ns + 6: begin
 			command <= AutoRefresh;
 			$display("At time %t: Command => AutoRefresh",$time);
 		end
-		200000 / CLK_Time_ns + 18: begin
+		200000 / CLK_Time_ns + 10: begin
 			command <= ModeRegisterSet;
 			$display("At time %t: Command => ModeRegisterSet",$time);
 		end
-		default:
+		200000 / CLK_Time_ns + 12: begin
+			finishFlag <= 1;
+			$display("At time %t: FLAG => INITIAL FINISH",$time);
+		end
+		default: begin
+			finishFlag <= 0;
 			command <= NoOperation;
+		end
 	endcase
 end
 
