@@ -39,7 +39,8 @@ logic sdram_request_refersh;
 logic sdram_enable_initial = 0;
 logic sdram_enable_writeOnce = 0;
 logic sdram_enable_writeOnce_last = 0;
-// logic sdram_enable_write = 0;
+logic sdram_enable_read = 0;
+logic sdram_enable_read_quit = 0;
 logic sdram_enable_refersh = 0;
 logic sdram_enable_refersh_last = 0;
 
@@ -48,6 +49,9 @@ always_comb begin
 	sdram_enable_writeOnce = (status_sdram == S_SDRAM_Write_once)? 1 : 0;
 	// sdram_enable_write = (status_sdram == S_SDRAM_Write)? 1 : 0;
 	sdram_enable_refersh = (status_sdram == S_SDRAM_AutoRefresh)? 1 : 0;
+	sdram_enable_read = (status_sdram == S_SDRAM_READ)? 1 : 0;
+	sdram_enable_read_quit = (status_sdram == S_SDRAM_READ
+		|| status_sdram == S_SDRAM_READ_Quiting)? 1 : 0;
 end
 
 always_ff @ (posedge clock) begin
@@ -58,6 +62,7 @@ end
 SDRAM init_sdram();
 SDRAM refresh_sdram();
 SDRAM write_sdram();
+SDRAM read_sdram();
 
 sdram_init sdram_init_inst (
 	.clock(clock),
@@ -85,17 +90,38 @@ sdram_wronce sdram_wronce_inst(
 	.colAddr(col),
 	.BA(ba),
 
-	.sdram(write_sdram)
+	.sdram(write_sdram.sdram)
+);
+
+sdram_read sdram_read_inst(
+	.clock(clock),
+
+	.enable(sdram_enable_read),
+
+	.data(readData),
+	.rowAddr(row),
+	.colAddr(col),
+	.BA(ba),
+
+	.readDataClk(outdataClk),
+
+	.sdram(read_sdram.sdram)
 );
 
 sdramSel sdramsel_inst(
 	.sdram(sdram),
 
-	.sel({sdram_enable_writeOnce,sdram_enable_refersh,sdram_enable_initial}),
+	.sel({
+		sdram_enable_read | sdram_enable_read_quit,
+		sdram_enable_writeOnce,
+		sdram_enable_refersh,
+		sdram_enable_initial
+	}),
 
 	.sdram_init(init_sdram.tb),
 	.sdram_write(refresh_sdram.tb),
-	.sdram_refersh(write_sdram.tb)
+	.sdram_refersh(write_sdram.tb),
+	.sdram_read(read_sdram.tb)
 	);
 
 // int debug_i = 0;
@@ -105,7 +131,7 @@ sdramSel sdramsel_inst(
 // 		$finish;
 // 	end
 // end
-
+logic[1:0] read_quit_delay_counter = 0;
 always_ff @ (posedge clock) begin
 	case (status_sdram)
 		S_SDRAM_Initial:
@@ -118,6 +144,8 @@ always_ff @ (posedge clock) begin
 			end
 			else if(sdram_request_write)
 				status_sdram <= S_SDRAM_Write_once;
+			else if(readEnable)
+				status_sdram <= S_SDRAM_READ;
 		end
 		// S_SDRAM_Write: ;
 		S_SDRAM_Write_once:
@@ -127,6 +155,16 @@ always_ff @ (posedge clock) begin
 			if(sdram_flag_refershfin)
 				status_sdram <= S_SDRAM_ARBIT;
 
+		S_SDRAM_READ:
+			if(!readEnable || sdram_request_refersh) begin
+				status_sdram <= S_SDRAM_READ_Quiting;
+				read_quit_delay_counter <= 0;
+			end
+
+		S_SDRAM_READ_Quiting: begin
+			read_quit_delay_counter <= read_quit_delay_counter + 1;
+			status_sdram <= (read_quit_delay_counter == 2)? S_SDRAM_ARBIT : status_sdram;
+		end
 		default:
 			status_sdram <= S_SDRAM_Initial;
 	endcase

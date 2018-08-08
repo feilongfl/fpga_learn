@@ -64,7 +64,17 @@ module tb_sdram_ctl ();
 		writeDataEnable = (writeDataClk || i > 1000)? 0 : 1;
 	end
 
+logic[15:0] rData;
+logic outdataclk;
+logic readEnable = 0;
 
+initial begin
+	#300us
+	readEnable = 1;
+	{ba,row,col} = 0;
+	#100us
+	readEnable = 0;
+end
 
 	sdram sdram_ctl_inst(
 		.clock(sclk),
@@ -76,6 +86,10 @@ module tb_sdram_ctl ();
 		.writeData(writeData),
 		.writeDataTrig(writeDataEnable),
 		.writeDataClk(writeDataClk),
+
+		.readEnable(readEnable),
+		.outdataClk(outdataclk),
+		.readData(rData),
 
 		.sdram(sdram.sdram)
 	);
