@@ -1,0 +1,809 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: gameplay.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "gameplay.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "gameplay"
+Output Format                      : NGC
+Target Device                      : xc6slx16-2-csg324
+
+---- Source Options
+Top Module Name                    : gameplay
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\fpga\19_vga_ise\ise\ipcore_dir\blk_mem_gen_v7_3.v" into library work
+Parsing module <blk_mem_gen_v7_3>.
+Analyzing Verilog file "D:\fpga\19_vga_ise\ise\ipcore_dir\clk_wiz_v3_6.v" into library work
+Parsing module <clk_wiz_v3_6>.
+Analyzing Verilog file "D:\fpga\19_vga_ise\src\xy2addr.v" into library work
+Parsing module <xy2addr>.
+Analyzing Verilog file "D:\fpga\19_vga_ise\src\vga.v" into library work
+Parsing module <vga>.
+Analyzing Verilog file "D:\fpga\19_vga_ise\src\gamebox.v" into library work
+Parsing module <gamebox>.
+Analyzing Verilog file "D:\fpga\19_vga_ise\src\cov8_1.v" into library work
+Parsing module <cov8_1>.
+Analyzing Verilog file "D:\fpga\19_vga_ise\src\gameplay.v" into library work
+Parsing module <gameplay>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <gameplay>.
+
+Elaborating module <clk_wiz_v3_6>.
+
+Elaborating module <IBUFG>.
+
+Elaborating module <DCM_SP(CLKDV_DIVIDE=2.0,CLKFX_DIVIDE=1,CLKFX_MULTIPLY=4,CLKIN_DIVIDE_BY_2="FALSE",CLKIN_PERIOD=20.0,CLKOUT_PHASE_SHIFT="NONE",CLK_FEEDBACK="1X",DESKEW_ADJUST="SYSTEM_SYNCHRONOUS",PHASE_SHIFT=0,STARTUP_WAIT="FALSE")>.
+WARNING:HDLCompiler:1127 - "D:\fpga\19_vga_ise\ise\ipcore_dir\clk_wiz_v3_6.v" Line 128: Assignment to locked_int ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\fpga\19_vga_ise\ise\ipcore_dir\clk_wiz_v3_6.v" Line 129: Assignment to status_int ignored, since the identifier is never used
+
+Elaborating module <BUFG>.
+
+Elaborating module <vga(HBackPorch=40,HFrontPorch=8,HLeftBoader=8,HorAddr=640,HorBlankStart=648,HorBlankTime=144,HorSyncStart=656,HorSyncTime=96,HorTotal=800,HRightBorder=8,VBackPorch=25,VBottomBorder=8,VerAddr=480,VerBlankStart=488,VerBlankTime=29,VerSyncStart=490,VerSyncTime=2,VerTotal=525,VFrontPorch=2,VTopBorder=8)>.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\vga.v" Line 93: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\vga.v" Line 105: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\vga.v" Line 117: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\vga.v" Line 133: Result of 17-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <blk_mem_gen_v7_3>.
+WARNING:HDLCompiler:1499 - "D:\fpga\19_vga_ise\ise\ipcore_dir\blk_mem_gen_v7_3.v" Line 39: Empty module <blk_mem_gen_v7_3> remains a black box.
+
+Elaborating module <gamebox(board_height=50,board_width=100,board_x_speed=5,board_y=400,box_h=100,box_w=100,box_x_speed=2,box_y_speed=2,drawable_h=480,drawable_w=640)>.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 55: Result of 64-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 58: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 62: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 101: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 103: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 109: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 114: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 120: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 122: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 126: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\gamebox.v" Line 128: Result of 32-bit expression is truncated to fit in 16-bit target.
+
+Elaborating module <cov8_1>.
+
+Elaborating module <xy2addr(WIDTH=100)>.
+WARNING:HDLCompiler:413 - "D:\fpga\19_vga_ise\src\xy2addr.v" Line 22: Result of 24-bit expression is truncated to fit in 14-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <gameplay>.
+    Related source file is "D:\fpga\19_vga_ise\src\gameplay.v".
+    Summary:
+	no macro.
+Unit <gameplay> synthesized.
+
+Synthesizing Unit <clk_wiz_v3_6>.
+    Related source file is "D:\fpga\19_vga_ise\ise\ipcore_dir\clk_wiz_v3_6.v".
+    Summary:
+	no macro.
+Unit <clk_wiz_v3_6> synthesized.
+
+Synthesizing Unit <vga>.
+    Related source file is "D:\fpga\19_vga_ise\src\vga.v".
+        HorTotal = 800
+        HorAddr = 640
+        HorBlankStart = 648
+        HorBlankTime = 144
+        HorSyncStart = 656
+        HRightBorder = 8
+        HFrontPorch = 8
+        HorSyncTime = 96
+        HBackPorch = 40
+        HLeftBoader = 8
+        VerTotal = 525
+        VerAddr = 480
+        VerBlankStart = 488
+        VerBlankTime = 29
+        VerSyncStart = 490
+        VBottomBorder = 8
+        VFrontPorch = 2
+        VerSyncTime = 2
+        VBackPorch = 25
+        VTopBorder = 8
+    Found 32-bit register for signal <v_counter>.
+    Found 32-bit register for signal <h_counter>.
+    Found 16-bit register for signal <VPixel>.
+    Found 1-bit register for signal <Hsync>.
+    Found 1-bit register for signal <Vsync>.
+    Found 8-bit register for signal <Ro>.
+    Found 8-bit register for signal <Go>.
+    Found 8-bit register for signal <Bo>.
+    Found 16-bit register for signal <HPixel>.
+    Found 32-bit adder for signal <h_counter[31]_GND_6_o_add_1_OUT> created at line 85.
+    Found 32-bit adder for signal <v_counter[31]_GND_6_o_add_7_OUT> created at line 101.
+    Found 16-bit adder for signal <HPixel[15]_GND_6_o_add_18_OUT> created at line 117.
+    Found 16-bit adder for signal <VPixel[15]_GND_6_o_add_29_OUT> created at line 133.
+    Found 32-bit comparator greater for signal <h_counter[31]_GND_6_o_LessThan_5_o> created at line 93
+    Found 32-bit comparator greater for signal <v_counter[31]_GND_6_o_LessThan_12_o> created at line 105
+    Found 32-bit comparator greater for signal <GND_6_o_v_counter[31]_LessThan_15_o> created at line 110
+    Found 32-bit comparator greater for signal <v_counter[31]_GND_6_o_LessThan_16_o> created at line 111
+    Found 32-bit comparator greater for signal <GND_6_o_h_counter[31]_LessThan_17_o> created at line 112
+    Found 32-bit comparator greater for signal <h_counter[31]_GND_6_o_LessThan_18_o> created at line 113
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred 122 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <vga> synthesized.
+
+Synthesizing Unit <gamebox>.
+    Related source file is "D:\fpga\19_vga_ise\src\gamebox.v".
+        box_w = 100
+        box_h = 100
+        drawable_w = 640
+        drawable_h = 480
+        box_x_speed = 2
+        box_y_speed = 2
+        board_y = 400
+        board_height = 50
+        board_width = 100
+        board_x_speed = 5
+    Found 16-bit register for signal <box_x>.
+    Found 16-bit register for signal <box_y>.
+    Found 16-bit register for signal <board_x>.
+    Found 1-bit register for signal <box_x_inv_flag>.
+    Found 1-bit register for signal <box_y_inv_flag>.
+    Found 17-bit subtractor for signal <GND_8_o_GND_8_o_sub_2_OUT> created at line 59.
+    Found 17-bit subtractor for signal <GND_8_o_GND_8_o_sub_25_OUT> created at line 102.
+    Found 17-bit subtractor for signal <GND_8_o_GND_8_o_sub_29_OUT> created at line 104.
+    Found 18-bit subtractor for signal <GND_8_o_GND_8_o_sub_35_OUT> created at line 108.
+    Found 17-bit subtractor for signal <GND_8_o_GND_8_o_sub_54_OUT> created at line 121.
+    Found 17-bit subtractor for signal <GND_8_o_GND_8_o_sub_59_OUT> created at line 123.
+    Found 17-bit subtractor for signal <GND_8_o_GND_8_o_sub_64_OUT> created at line 127.
+    Found 17-bit subtractor for signal <GND_8_o_GND_8_o_sub_68_OUT> created at line 129.
+    Found 32-bit subtractor for signal <GND_8_o_GND_8_o_sub_69_OUT> created at line 129.
+    Found 17-bit adder for signal <n0158[16:0]> created at line 63.
+    Found 17-bit adder for signal <n0160[16:0]> created at line 102.
+    Found 17-bit adder for signal <n0162[16:0]> created at line 104.
+    Found 17-bit adder for signal <n0122> created at line 110.
+    Found 17-bit adder for signal <_n0187> created at line 115.
+    Found 17-bit adder for signal <_n0184> created at line 117.
+    Found 17-bit comparator greater for signal <GND_8_o_BUS_0004_LessThan_19_o> created at line 87
+    Found 17-bit comparator greater for signal <GND_8_o_BUS_0005_LessThan_21_o> created at line 88
+    Found 17-bit comparator greater for signal <GND_8_o_BUS_0006_LessThan_23_o> created at line 89
+    Found 32-bit comparator lessequal for signal <n0039> created at line 108
+    Found 16-bit comparator lessequal for signal <n0042> created at line 109
+    Found 17-bit comparator greater for signal <GND_8_o_BUS_0010_LessThan_40_o> created at line 110
+    Found 16-bit comparator lessequal for signal <n0047> created at line 111
+    Found 16-bit comparator greater for signal <y[15]_GND_8_o_LessThan_42_o> created at line 112
+    Found 16-bit comparator lessequal for signal <n0053> created at line 114
+    Found 17-bit comparator greater for signal <GND_8_o_BUS_0011_LessThan_46_o> created at line 115
+    Found 16-bit comparator lessequal for signal <n0058> created at line 116
+    Found 17-bit comparator greater for signal <GND_8_o_BUS_0012_LessThan_49_o> created at line 117
+    Summary:
+	inferred  15 Adder/Subtractor(s).
+	inferred  50 D-type flip-flop(s).
+	inferred  12 Comparator(s).
+	inferred  12 Multiplexer(s).
+Unit <gamebox> synthesized.
+
+Synthesizing Unit <cov8_1>.
+    Related source file is "D:\fpga\19_vga_ise\src\cov8_1.v".
+    Summary:
+	no macro.
+Unit <cov8_1> synthesized.
+
+Synthesizing Unit <xy2addr>.
+    Related source file is "D:\fpga\19_vga_ise\src\xy2addr.v".
+        WIDTH = 100
+    Found 23-bit adder for signal <n0004> created at line 23.
+    Found 7x16-bit multiplier for signal <n0008> created at line 23.
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <xy2addr> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 2
+ 16x7-bit multiplier                                   : 2
+# Adders/Subtractors                                   : 21
+ 16-bit adder                                          : 2
+ 17-bit adder                                          : 6
+ 17-bit subtractor                                     : 7
+ 18-bit subtractor                                     : 1
+ 23-bit adder                                          : 2
+ 32-bit adder                                          : 2
+ 32-bit subtractor                                     : 1
+# Registers                                            : 14
+ 1-bit register                                        : 4
+ 16-bit register                                       : 5
+ 32-bit register                                       : 2
+ 8-bit register                                        : 3
+# Comparators                                          : 18
+ 16-bit comparator greater                             : 1
+ 16-bit comparator lessequal                           : 4
+ 17-bit comparator greater                             : 6
+ 32-bit comparator greater                             : 6
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 15
+ 16-bit 2-to-1 multiplexer                             : 2
+ 32-bit 2-to-1 multiplexer                             : 12
+ 8-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/blk_mem_gen_v7_3.ngc>.
+Loading core <blk_mem_gen_v7_3> for timing and area information for instance <b2v_inst10>.
+
+Synthesizing (advanced) Unit <vga>.
+The following registers are absorbed into counter <h_counter>: 1 register on signal <h_counter>.
+The following registers are absorbed into counter <HPixel>: 1 register on signal <HPixel>.
+The following registers are absorbed into counter <v_counter>: 1 register on signal <v_counter>.
+The following registers are absorbed into counter <VPixel>: 1 register on signal <VPixel>.
+Unit <vga> synthesized (advanced).
+
+Synthesizing (advanced) Unit <xy2addr>.
+	Multiplier <Mmult_n0008> in block <xy2addr> and adder/subtractor <Madd_n0004_Madd> in block <xy2addr> are combined into a MAC<Maddsub_n0008>.
+Unit <xy2addr> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# MACs                                                 : 2
+ 16x7-to-14-bit Dynamic Mult/MultAdd                   : 2
+# Adders/Subtractors                                   : 15
+ 17-bit adder                                          : 6
+ 17-bit subtractor                                     : 7
+ 18-bit subtractor                                     : 1
+ 32-bit subtractor                                     : 1
+# Counters                                             : 4
+ 16-bit up counter                                     : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 76
+ Flip-Flops                                            : 76
+# Comparators                                          : 18
+ 16-bit comparator greater                             : 1
+ 16-bit comparator lessequal                           : 4
+ 17-bit comparator greater                             : 6
+ 32-bit comparator greater                             : 6
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 10
+ 16-bit 2-to-1 multiplexer                             : 1
+ 32-bit 2-to-1 multiplexer                             : 8
+ 8-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <b2v_inst2/box_y_0> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst2/box_x_0> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <gameplay> ...
+
+Optimizing unit <vga> ...
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_31> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_30> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_29> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_28> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_27> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_26> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_25> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_24> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_23> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_22> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_21> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_20> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_19> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_18> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_17> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_16> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_15> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_14> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_13> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_12> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_11> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/h_counter_10> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_31> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_30> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_29> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_28> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_27> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_26> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_25> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_24> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_23> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_22> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_21> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_20> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_19> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_18> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_17> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_16> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_15> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_14> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_13> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_12> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_11> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <b2v_inst1/v_counter_10> has a constant value of 0 in block <gameplay>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <b2v_inst1/Bo_7> in Unit <gameplay> is equivalent to the following 7 FFs/Latches, which will be removed : <b2v_inst1/Bo_6> <b2v_inst1/Bo_5> <b2v_inst1/Bo_4> <b2v_inst1/Bo_3> <b2v_inst1/Bo_2> <b2v_inst1/Bo_1> <b2v_inst1/Bo_0> 
+INFO:Xst:2261 - The FF/Latch <b2v_inst2/box_x_1> in Unit <gameplay> is equivalent to the following FF/Latch, which will be removed : <b2v_inst2/box_y_1> 
+INFO:Xst:2261 - The FF/Latch <b2v_inst1/Go_7> in Unit <gameplay> is equivalent to the following 7 FFs/Latches, which will be removed : <b2v_inst1/Go_6> <b2v_inst1/Go_5> <b2v_inst1/Go_4> <b2v_inst1/Go_3> <b2v_inst1/Go_2> <b2v_inst1/Go_1> <b2v_inst1/Go_0> 
+INFO:Xst:2261 - The FF/Latch <b2v_inst1/Ro_7> in Unit <gameplay> is equivalent to the following 7 FFs/Latches, which will be removed : <b2v_inst1/Ro_6> <b2v_inst1/Ro_5> <b2v_inst1/Ro_4> <b2v_inst1/Ro_3> <b2v_inst1/Ro_2> <b2v_inst1/Ro_1> <b2v_inst1/Ro_0> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block gameplay, actual ratio is 7.
+FlipFlop b2v_inst1/Vsync has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 105
+ Flip-Flops                                            : 105
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : gameplay.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1196
+#      GND                         : 2
+#      INV                         : 100
+#      LUT1                        : 122
+#      LUT2                        : 83
+#      LUT3                        : 64
+#      LUT4                        : 119
+#      LUT5                        : 39
+#      LUT6                        : 33
+#      MUXCY                       : 359
+#      VCC                         : 2
+#      XORCY                       : 273
+# FlipFlops/Latches                : 105
+#      FDC                         : 66
+#      FDCE                        : 12
+#      FDPE                        : 4
+#      FDR                         : 21
+#      FDR_1                       : 2
+# RAMS                             : 1
+#      RAMB16BWER                  : 1
+# Clock Buffers                    : 4
+#      BUFG                        : 4
+# IO Buffers                       : 9
+#      IBUF                        : 3
+#      IBUFG                       : 1
+#      OBUF                        : 5
+# DCMs                             : 1
+#      DCM_SP                      : 1
+# DSPs                             : 2
+#      DSP48A1                     : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             104  out of  18224     0%  
+ Number of Slice LUTs:                  560  out of   9112     6%  
+    Number used as Logic:               560  out of   9112     6%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    588
+   Number with an unused Flip Flop:     484  out of    588    82%  
+   Number with an unused LUT:            28  out of    588     4%  
+   Number of fully used LUT-FF pairs:    76  out of    588    12%  
+   Number of unique control sets:         8
+
+IO Utilization: 
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    232     3%  
+    IOB Flip Flops/Latches:               1
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of     32     3%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                4  out of     16    25%  
+ Number of DSP48A1s:                      2  out of     32     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+b2v_inst1/Vsync                    | BUFG                   | 47    |
+b2v_inst1/Hsync                    | BUFG                   | 26    |
+sclk                               | DCM_SP:CLKDV           | 32    |
+sclk                               | DCM_SP:CLK0            | 1     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 18.262ns (Maximum Frequency: 54.760MHz)
+   Minimum input arrival time before clock: 4.791ns
+   Maximum output required time after clock: 4.118ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'b2v_inst1/Vsync'
+  Clock period: 14.607ns (frequency: 68.463MHz)
+  Total number of paths / destination ports: 2381 / 49
+-------------------------------------------------------------------------
+Delay:               7.303ns (Levels of Logic = 11)
+  Source:            b2v_inst2/box_x_2 (FF)
+  Destination:       b2v_inst2/box_x_inv_flag (FF)
+  Source Clock:      b2v_inst1/Vsync rising
+  Destination Clock: b2v_inst1/Vsync falling
+
+  Data Path: b2v_inst2/box_x_2 to b2v_inst2/box_x_inv_flag
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.525   0.975  b2v_inst2/box_x_2 (b2v_inst2/box_x_2)
+     INV:I->O              1   0.255   0.000  b2v_inst2/Madd__n0187_lut<2>_INV_0 (b2v_inst2/Madd__n0187_lut<2>)
+     MUXCY:S->O            1   0.215   0.000  b2v_inst2/Madd__n0187_cy<2> (b2v_inst2/Madd__n0187_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Madd__n0187_cy<3> (b2v_inst2/Madd__n0187_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Madd__n0187_cy<4> (b2v_inst2/Madd__n0187_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Madd__n0187_cy<5> (b2v_inst2/Madd__n0187_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Madd__n0187_cy<6> (b2v_inst2/Madd__n0187_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Madd__n0187_cy<7> (b2v_inst2/Madd__n0187_cy<7>)
+     XORCY:CI->O           5   0.206   1.271  b2v_inst2/Madd__n0187_xor<8> (b2v_inst2/_n0187<8>)
+     LUT6:I1->O            1   0.254   1.112  b2v_inst2/_n0263<0>1 (b2v_inst2/_n0263<0>)
+     LUT6:I1->O            2   0.254   0.726  b2v_inst2/_n0263<0>3 (b2v_inst2/_n0263)
+     LUT6:I5->O            1   0.254   0.681  b2v_inst2/_n01973 (b2v_inst2/_n0197)
+     FDR_1:R                   0.459          b2v_inst2/box_x_inv_flag
+    ----------------------------------------
+    Total                      7.303ns (2.538ns logic, 4.765ns route)
+                                       (34.8% logic, 65.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'b2v_inst1/Hsync'
+  Clock period: 5.565ns (frequency: 179.694MHz)
+  Total number of paths / destination ports: 4699 / 26
+-------------------------------------------------------------------------
+Delay:               5.565ns (Levels of Logic = 24)
+  Source:            b2v_inst1/v_counter_6 (FF)
+  Destination:       b2v_inst1/VPixel_15 (FF)
+  Source Clock:      b2v_inst1/Hsync rising
+  Destination Clock: b2v_inst1/Hsync rising
+
+  Data Path: b2v_inst1/v_counter_6 to b2v_inst1/VPixel_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              7   0.525   1.340  b2v_inst1/v_counter_6 (b2v_inst1/v_counter_6)
+     LUT5:I0->O            1   0.254   0.000  b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_lut<1> (b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_lut<1>)
+     MUXCY:S->O            1   0.215   0.000  b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<1> (b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<2> (b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<3> (b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<4> (b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<5> (b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<5>)
+     MUXCY:CI->O          18   0.235   1.343  b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<6> (b2v_inst1/Mcompar_GND_6_o_v_counter[31]_LessThan_15_o_cy<6>)
+     LUT2:I0->O            1   0.250   0.681  b2v_inst1/GND_6_o_v_counter[31]_AND_1_o1 (b2v_inst1/GND_6_o_v_counter[31]_AND_1_o_inv_inv)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<0> (b2v_inst1/Mcount_VPixel_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<1> (b2v_inst1/Mcount_VPixel_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<2> (b2v_inst1/Mcount_VPixel_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<3> (b2v_inst1/Mcount_VPixel_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<4> (b2v_inst1/Mcount_VPixel_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<5> (b2v_inst1/Mcount_VPixel_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<6> (b2v_inst1/Mcount_VPixel_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<7> (b2v_inst1/Mcount_VPixel_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<8> (b2v_inst1/Mcount_VPixel_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<9> (b2v_inst1/Mcount_VPixel_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<10> (b2v_inst1/Mcount_VPixel_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<11> (b2v_inst1/Mcount_VPixel_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<12> (b2v_inst1/Mcount_VPixel_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<13> (b2v_inst1/Mcount_VPixel_cy<13>)
+     MUXCY:CI->O           0   0.023   0.000  b2v_inst1/Mcount_VPixel_cy<14> (b2v_inst1/Mcount_VPixel_cy<14>)
+     XORCY:CI->O           1   0.206   0.000  b2v_inst1/Mcount_VPixel_xor<15> (b2v_inst1/Mcount_VPixel15)
+     FDC:D                     0.074          b2v_inst1/VPixel_15
+    ----------------------------------------
+    Total                      5.565ns (2.201ns logic, 3.364ns route)
+                                       (39.6% logic, 60.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sclk'
+  Clock period: 18.262ns (frequency: 54.760MHz)
+  Total number of paths / destination ports: 10104 / 77
+-------------------------------------------------------------------------
+Delay:               9.131ns (Levels of Logic = 12)
+  Source:            b2v_inst1/HPixel_1 (FF)
+  Destination:       b2v_inst10/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/TRUE_DP.PRIM18.ram (RAM)
+  Source Clock:      sclk rising 0.5X
+  Destination Clock: sclk falling
+
+  Data Path: b2v_inst1/HPixel_1 to b2v_inst10/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/TRUE_DP.PRIM18.ram
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             11   0.525   1.315  b2v_inst1/HPixel_1 (b2v_inst1/HPixel_1)
+     LUT4:I0->O            0   0.254   0.000  b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_lutdi (b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_lutdi)
+     MUXCY:DI->O           1   0.181   0.000  b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<0> (b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<1> (b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<2> (b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<3> (b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<4> (b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<5> (b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<6> (b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<6>)
+     MUXCY:CI->O           2   0.235   0.834  b2v_inst2/Mcompar_box_x[15]_x[15]_LessThan_44_o_cy<7> (b2v_inst2/box_x[15]_x[15]_LessThan_44_o)
+     LUT2:I0->O            2   0.250   0.725  b2v_inst2/box_x[15]_GND_8_o_AND_10_o1 (b2v_inst2/box_x[15]_GND_8_o_AND_10_o)
+     DSP48A1:OPMODE2->P13    1   3.591   0.681  b2v_inst5/Maddsub_n0008 (box_addr<13>)
+     begin scope: 'b2v_inst10:addra<13>'
+     RAMB16BWER:ADDRA13        0.400          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/TRUE_DP.PRIM18.ram
+    ----------------------------------------
+    Total                      9.131ns (5.576ns logic, 3.555ns route)
+                                       (61.1% logic, 38.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'b2v_inst1/Vsync'
+  Total number of paths / destination ports: 93 / 77
+-------------------------------------------------------------------------
+Offset:              4.791ns (Levels of Logic = 2)
+  Source:            srst (PAD)
+  Destination:       b2v_inst2/box_y_2 (FF)
+  Destination Clock: b2v_inst1/Vsync rising
+
+  Data Path: srst to b2v_inst2/box_y_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  srst_IBUF (srst_IBUF)
+     INV:I->O             82   0.255   2.068  srst_inv1_INV_0 (b2v_inst1/rst_n_inv)
+     FDC:CLR                   0.459          b2v_inst2/box_y_2
+    ----------------------------------------
+    Total                      4.791ns (2.042ns logic, 2.749ns route)
+                                       (42.6% logic, 57.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'b2v_inst1/Hsync'
+  Total number of paths / destination ports: 26 / 26
+-------------------------------------------------------------------------
+Offset:              4.791ns (Levels of Logic = 2)
+  Source:            srst (PAD)
+  Destination:       b2v_inst1/v_counter_9 (FF)
+  Destination Clock: b2v_inst1/Hsync rising
+
+  Data Path: srst to b2v_inst1/v_counter_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  srst_IBUF (srst_IBUF)
+     INV:I->O             82   0.255   2.068  srst_inv1_INV_0 (b2v_inst1/rst_n_inv)
+     FDC:CLR                   0.459          b2v_inst1/VPixel_0
+    ----------------------------------------
+    Total                      4.791ns (2.042ns logic, 2.749ns route)
+                                       (42.6% logic, 57.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'sclk'
+  Total number of paths / destination ports: 11 / 11
+-------------------------------------------------------------------------
+Offset:              4.791ns (Levels of Logic = 2)
+  Source:            srst (PAD)
+  Destination:       b2v_inst1/h_counter_9 (FF)
+  Destination Clock: sclk rising 0.5X
+
+  Data Path: srst to b2v_inst1/h_counter_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  srst_IBUF (srst_IBUF)
+     INV:I->O             82   0.255   2.068  srst_inv1_INV_0 (b2v_inst1/rst_n_inv)
+     FDC:CLR                   0.459          b2v_inst1/Hsync
+    ----------------------------------------
+    Total                      4.791ns (2.042ns logic, 2.749ns route)
+                                       (42.6% logic, 57.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sclk'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              4.118ns (Levels of Logic = 1)
+  Source:            b2v_inst1/Hsync (FF)
+  Destination:       hsync (PAD)
+  Source Clock:      sclk rising 0.5X
+
+  Data Path: b2v_inst1/Hsync to hsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.525   0.681  b2v_inst1/Hsync (b2v_inst1/Hsync)
+     OBUF:I->O                 2.912          hsync_OBUF (hsync)
+    ----------------------------------------
+    Total                      4.118ns (3.437ns logic, 0.681ns route)
+                                       (83.5% logic, 16.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock b2v_inst1/Hsync
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+b2v_inst1/Hsync|    5.565|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock b2v_inst1/Vsync
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+b2v_inst1/Vsync|    5.340|    2.244|    7.303|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+b2v_inst1/Hsync|    6.981|         |   13.058|         |
+b2v_inst1/Vsync|    8.430|         |   13.853|         |
+sclk           |    5.593|    4.821|    9.131|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.30 secs
+ 
+--> 
+
+Total memory usage is 4559504 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   65 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

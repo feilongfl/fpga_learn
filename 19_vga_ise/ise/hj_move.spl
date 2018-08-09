@@ -1,0 +1,13 @@
+[Inputs]
+srst
+sclk
+[Outputs]
+hsync
+vsync
+r
+g
+b
+[BiDir]
+[ATTRIBUTES]
+VeriModel hj_move
+

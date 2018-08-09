@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\fpga\06_ise_test\src\prj_ise\impact.xsl
+OUTFILE=D:\fpga\06_ise_test\src\prj_ise\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=D:\fpga\06_ise_test\src\prj_ise
+LICENSE=iMPACT
+USER_INFO=iMPACT

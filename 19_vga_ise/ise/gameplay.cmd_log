@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/fpga/19_vga_ise/ise/gameplay.xst" -ofn "D:/fpga/19_vga_ise/ise/gameplay.syr" 
+xst -intstyle ise -ifn "D:/fpga/19_vga_ise/ise/gameplay.xst" -ofn "D:/fpga/19_vga_ise/ise/gameplay.syr" 
+xst -intstyle ise -ifn "D:/fpga/19_vga_ise/ise/gameplay.xst" -ofn "D:/fpga/19_vga_ise/ise/gameplay.syr" 

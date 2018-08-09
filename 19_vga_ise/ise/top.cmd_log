@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/fpga/19_vga_ise/ise/top.xst" -ofn "D:/fpga/19_vga_ise/ise/top.syr" 

@@ -1,0 +1,7 @@
+verilog work "ipcore_dir/blk_mem_gen_v7_3.v"
+verilog work "ipcore_dir/clk_wiz_v3_6.v"
+verilog work "../src/xy2addr.v"
+verilog work "../src/vga.v"
+verilog work "../src/gamebox.v"
+verilog work "../src/cov8_1.v"
+verilog work "../src/gameplay.v"

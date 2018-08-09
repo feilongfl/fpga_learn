@@ -1,0 +1,8 @@
+verilog work "../src/xy2addr.v"
+verilog work "../src/vga.v"
+verilog work "../src/rom.v"
+verilog work "../src/pll.v"
+verilog work "../src/picbox.v"
+verilog work "../src/divclock.v"
+verilog work "../src/cov8_1.v"
+verilog work "../src/hj_move.v"

@@ -1,0 +1,10 @@
+set -loop_iteration_limit 1000
+run
+-ifn led.prj
+-top led
+-p xc6slx16csg324-2
+-ofn led.ngc
+-opt_mode speed
+-opt_level 1
+-lc auto
+-bufg 16

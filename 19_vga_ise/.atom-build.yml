@@ -1,0 +1,5 @@
+
+name: modelsim
+cmd: vsim -do work.do
+cwd: .
+sh: true
