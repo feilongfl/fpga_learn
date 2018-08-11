@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Aug 11 19:26:53 2018
+# Process ID: 87732
+# Current directory: D:/fpga/08_vivado_boardtest/test.runs/impl_1
+# Command line: vivado.exe -log test.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source test.tcl -notrace
+# Log file: D:/fpga/08_vivado_boardtest/test.runs/impl_1/test.vdi
+# Journal file: D:/fpga/08_vivado_boardtest/test.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source test.tcl -notrace
