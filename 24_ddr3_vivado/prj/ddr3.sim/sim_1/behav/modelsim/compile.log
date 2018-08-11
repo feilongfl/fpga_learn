@@ -1,0 +1,22 @@
+# do {sim_tb_top_compile.do} 
+# Modifying D:\Xilinx\ISE\14.7\ISE_DS\ISE\verilog\mti_se\10.2c\nt64\modelsim.ini
+# ** Error: Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+# ** Error: (vlog-7) Failed to open design unit file "c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# child process exited abnormally
+# Error in macro ./sim_tb_top_compile.do line 103
+# Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+# ** Error: (vlog-7) Failed to open design unit file "c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# child process exited abnormally
+#     while executing
+# "exec <nul: {C:\modelsim\win64\vlog.EXE} -64 -incr -work xil_defaultlib +incdir+../../../../../ddr_mig_ex/imports c:/Users/fei_l/AppData/Roaming/Xilinx..."
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 exec $redir $new [lrange $args 1 end]"
+#     (procedure "::unknown" line 47)
+#     invoked from within
+# "C:\\modelsim\\win64\\vlog -64 -incr -work xil_defaultlib  "+incdir+../../../../../ddr_mig_ex/imports" \
+# "c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/..."

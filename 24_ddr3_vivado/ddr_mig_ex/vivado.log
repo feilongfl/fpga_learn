@@ -1,0 +1,182 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Aug 11 15:48:17 2018
+# Process ID: 73648
+# Current directory: d:/fpga/24_ddr3_vivado/ddr_mig_ex
+# Command line: vivado.exe -notrace -source d:/fpga/24_ddr3_vivado/prj/ddr3.srcs/sources_1/ip/ddr_mig/ddr_mig_ex.tcl
+# Log file: d:/fpga/24_ddr3_vivado/ddr_mig_ex/vivado.log
+# Journal file: d:/fpga/24_ddr3_vivado/ddr_mig_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source d:/fpga/24_ddr3_vivado/prj/ddr3.srcs/sources_1/ip/ddr_mig/ddr_mig_ex.tcl -notrace
+INFO: [open_example_project] Creating new example project...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/vivado/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 751.277 ; gain = 40.387
+INFO: [open_example_project] Importing original IP ...
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/clocking/mig_7series_v4_1_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_arb_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_arb_row_col.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_arb_select.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_compare.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_queue.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_state.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_col_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_mc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_rank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_rank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_rank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_round_robin_arb.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ecc/mig_7series_v4_1_ecc_buf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ecc/mig_7series_v4_1_ecc_dec_fix.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ecc/mig_7series_v4_1_ecc_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ecc/mig_7series_v4_1_ecc_merge_enc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ecc/mig_7series_v4_1_fi_xor.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ip_top/mig_7series_v4_1_memc_ui_top_std.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ip_top/mig_7series_v4_1_mem_intfc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_group_io.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_lane.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_calib_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_if_post_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy_wrapper.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_of_pre_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_4lanes.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ck_addr_cmd_delay.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal_hr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_init.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_cntlr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_edge.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_lim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_po_cntlr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_samp.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_oclkdelay_cal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_prbs_rdlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_rdlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrcal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl_off_delay.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_prbs_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_skip_calib_tap.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_poc_cc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_poc_edge_store.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_poc_meta.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_poc_pd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_poc_tap_base.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_poc_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ui/mig_7series_v4_1_ui_cmd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ui/mig_7series_v4_1_ui_rd_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ui/mig_7series_v4_1_ui_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ui/mig_7series_v4_1_ui_wr_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/constraints/ddr_mig.xdc'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/constraints/ddr_mig_ooc.xdc'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ddr_mig.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ddr_mig_mig.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/clocking/mig_7series_v4_1_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_arb_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_arb_row_col.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_arb_select.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_compare.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_queue.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_bank_state.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_col_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_mc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_rank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_rank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_rank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/controller/mig_7series_v4_1_round_robin_arb.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ecc/mig_7series_v4_1_ecc_buf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ecc/mig_7series_v4_1_ecc_dec_fix.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ecc/mig_7series_v4_1_ecc_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ecc/mig_7series_v4_1_ecc_merge_enc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ecc/mig_7series_v4_1_fi_xor.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ip_top/mig_7series_v4_1_memc_ui_top_std.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/ip_top/mig_7series_v4_1_mem_intfc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_group_io.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_lane.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_calib_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'ddr_mig' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-12088-DESKTOP-B3SJCBK/coregen/ddr_mig/ddr_mig/user_design/rtl/phy/mig_7series_v4_1_ddr_if_post_fifo.v'. Please regenerate to continue.
+INFO: [Common 17-14] Message 'IP_Flow 19-3664' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+import_ip: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 791.773 ; gain = 40.496
+INFO: [open_example_project] Generating the example project IP ...
+INFO: [open_example_project] Adding example synthesis HDL files ...
+INFO: [open_example_project] Adding example XDC files ...
+INFO: [open_example_project] Adding simulation HDL files ...
+INFO: [open_example_project] Adding simulation miscellaneous files ...
+INFO: [open_example_project] Sourcing example extension scripts ...
+Post Processing the example_design
+INFO: [open_example_project] Rebuilding all the top level IPs ...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ddr_mig'...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XSIM" (Xilinx Vivado Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/xsim/ddr_mig.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/xsim/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "MODELSIM" (Mentor Graphics ModelSim Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/modelsim/ddr_mig.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/modelsim/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "QUESTA" (Mentor Graphics Questa Advanced Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/questa/ddr_mig.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/questa/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "IES" (Cadence Incisive Enterprise Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/ies/ddr_mig.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/ies/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "VCS" (Synopsys Verilog Compiler Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/vcs/ddr_mig.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/vcs/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "RIVIERA" (Aldec Riviera-PRO Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/riviera/ddr_mig.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/riviera/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "ACTIVEHDL" (Aldec Active-HDL Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/activehdl/ddr_mig.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/activehdl/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XCELIUM" (Cadence Xcelium Parallel Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/xcelium/ddr_mig.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.ip_user_files/sim_scripts/ddr_mig/xcelium/mig_a.prj'
+export_ip_user_files: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 814.043 ; gain = 8.406
+INFO: [open_example_project] Open Example Project completed
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs synth_1 -jobs 16
+[Sat Aug 11 15:52:46 2018] Launched synth_1...
+Run output will be captured here: d:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Sat Aug 11 16:03:37 2018] Launched impl_1...
+Run output will be captured here: d:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.runs/impl_1/runme.log

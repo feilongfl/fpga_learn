@@ -252,3 +252,12 @@ MIG: 14:05:54 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <Inpu
 MIG: 14:05:54 : Running implementation.xit
 MIG: 14:05:54 : IGN:     <ModuleName>ddr_mig</ModuleName> <==>     <ModuleName>ddr_mig</ModuleName> 
 MIG: 14:05:54 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:48:11 : Running example_syn.xit
+MIG: 15:48:11 : IGN:     <ModuleName>ddr_mig</ModuleName> <==>     <ModuleName>ddr_mig</ModuleName> 
+MIG: 15:48:11 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:48:12 : Running example_sim.xit
+MIG: 15:48:12 : IGN:     <ModuleName>ddr_mig</ModuleName> <==>     <ModuleName>ddr_mig</ModuleName> 
+MIG: 15:48:12 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:48:12 : MEM_TECH: DDR3_SDRAM
+MIG: 15:48:13 : axi -- NATIVE
+MIG: 15:48:13 : data_depth -- 1024

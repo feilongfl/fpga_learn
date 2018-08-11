@@ -1,0 +1,34 @@
+MIG: 15:49:10 : ################# RUNNING MIG BATCH ###################
+MIG: 15:49:11 : Writing IN file for 'ddr_mig'...compDirPath: d:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/mig_7series_v4_1... instDirPath: d:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.srcs/sources_1/ip/ddr_mig
+MIG: 15:49:11 : synp_flow:  -- synthesis_mode: Other
+MIG: 15:49:11 : outputDirectory: d:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.srcs/sources_1/ip/ddr_mig/_tmp/
+MIG: 15:49:11 : vivado_mode: xpg_pa
+MIG: 15:49:11 :  locked false  
+MIG: 15:49:11 : HDL Language: Verilog
+MIG: 15:49:11 : compInfo: false
+MIG: 15:49:11 : Vivado Options xc7a100t fgg484 -2
+MIG: 15:49:11 : 1: xc7a100t 2: fgg484 3: -2
+MIG: 15:49:11 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_1/bin/nt64/mig.exe
+MIG: 15:49:11 : xilinx_path: D:/Xilinx/vivado/Vivado/2018.2/ids_lite/ISE
+MIG: 15:49:11 : I am in catch area
+MIG: 15:49:11 : Running D:/Xilinx/vivado/Vivado/2018.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_1/bin/nt64/mig.exe -cg_exc_inp d:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.srcs/sources_1/ip/ddr_mig/xil_txt.in -cg_exc_out d:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.srcs/sources_1/ip/ddr_mig/xil_txt.out ... 
+MIG: 15:49:24 : XML_INPUT_FILE: d:/fpga/24_ddr3_vivado/ddr_mig_ex/ddr_mig_ex.srcs/sources_1/ip/ddr_mig/mig_a.prj
+MIG: 15:49:24 : Component_Name: ddr_mig
+MIG: 15:49:24 : Moving ddr_mig ...
+MIG: 15:49:24 : Moving ddr_mig.veo ...
+MIG: 15:49:24 : Moving ddr_mig_xmdf.tcl ...
+MIG: 15:49:24 : Running synthesis.xit
+MIG: 15:49:25 : IGN:     <ModuleName>ddr_mig</ModuleName> <==>     <ModuleName>ddr_mig</ModuleName> 
+MIG: 15:49:25 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:49:25 : Running vlog_synth_rpr.xit
+MIG: 15:49:25 : IGN:     <ModuleName>ddr_mig</ModuleName> <==>     <ModuleName>ddr_mig</ModuleName> 
+MIG: 15:49:25 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:49:26 : Running simulation.xit
+MIG: 15:49:26 : IGN:     <ModuleName>ddr_mig</ModuleName> <==>     <ModuleName>ddr_mig</ModuleName> 
+MIG: 15:49:26 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:49:26 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 15:49:27 : IGN:     <ModuleName>ddr_mig</ModuleName> <==>     <ModuleName>ddr_mig</ModuleName> 
+MIG: 15:49:27 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 15:49:27 : Running implementation.xit
+MIG: 15:49:27 : IGN:     <ModuleName>ddr_mig</ModuleName> <==>     <ModuleName>ddr_mig</ModuleName> 
+MIG: 15:49:27 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
