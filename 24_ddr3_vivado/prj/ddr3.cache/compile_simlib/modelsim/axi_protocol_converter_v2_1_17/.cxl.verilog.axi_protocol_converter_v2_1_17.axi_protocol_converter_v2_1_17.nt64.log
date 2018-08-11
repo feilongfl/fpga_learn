@@ -1,0 +1,23 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axi_protocol_converter_v2_1_17_a_axi3_conv
+-- Compiling module axi_protocol_converter_v2_1_17_axi3_conv
+-- Compiling module axi_protocol_converter_v2_1_17_axilite_conv
+-- Compiling module axi_protocol_converter_v2_1_17_r_axi3_conv
+-- Compiling module axi_protocol_converter_v2_1_17_w_axi3_conv
+-- Compiling module axi_protocol_converter_v2_1_17_b_downsizer
+-- Compiling module axi_protocol_converter_v2_1_17_decerr_slave
+-- Compiling module axi_protocol_converter_v2_1_17_b2s_simple_fifo
+-- Compiling module axi_protocol_converter_v2_1_17_b2s_wrap_cmd
+-- Compiling module axi_protocol_converter_v2_1_17_b2s_incr_cmd
+-- Compiling module axi_protocol_converter_v2_1_17_b2s_wr_cmd_fsm
+-- Compiling module axi_protocol_converter_v2_1_17_b2s_rd_cmd_fsm
+-- Compiling module axi_protocol_converter_v2_1_17_b2s_cmd_translator
+-- Compiling module axi_protocol_converter_v2_1_17_b2s_b_channel
+-- Compiling module axi_protocol_converter_v2_1_17_b2s_r_channel
+-- Compiling module axi_protocol_converter_v2_1_17_b2s_aw_channel
+-- Compiling module axi_protocol_converter_v2_1_17_b2s_ar_channel
+-- Compiling module axi_protocol_converter_v2_1_17_b2s
+-- Compiling module axi_protocol_converter_v2_1_17_axi_protocol_converter
+
+Top level modules:
+	axi_protocol_converter_v2_1_17_axi_protocol_converter

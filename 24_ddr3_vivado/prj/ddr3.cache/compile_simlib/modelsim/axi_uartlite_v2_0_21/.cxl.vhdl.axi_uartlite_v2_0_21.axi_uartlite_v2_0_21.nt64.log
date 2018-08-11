@@ -1,0 +1,16 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+-- Compiling entity dynshreg_i_f
+-- Compiling architecture behavioral of dynshreg_i_f
+-- Loading entity srl_fifo_f
+-- Compiling entity uartlite_tx
+-- Compiling architecture RTL of uartlite_tx
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_uartlite_v2_0\hdl\axi_uartlite_v2_0_vh_rfs.vhd(850): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_uartlite_v2_0\hdl\axi_uartlite_v2_0_vh_rfs.vhd(899): VHDL Compiler exiting

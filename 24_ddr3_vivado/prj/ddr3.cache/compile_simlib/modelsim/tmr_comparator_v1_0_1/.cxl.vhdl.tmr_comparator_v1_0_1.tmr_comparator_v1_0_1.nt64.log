@@ -1,0 +1,49 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Comparator
+-- Compiling architecture IMP of Comparator
+-- Compiling entity lmb_comparator
+-- Compiling architecture imp of lmb_comparator
+-- Loading entity Comparator
+-- Compiling entity s_lmb_comparator
+-- Compiling architecture imp of s_lmb_comparator
+-- Compiling entity bram_comparator
+-- Compiling architecture imp of bram_comparator
+-- Compiling entity axi_comparator
+-- Compiling architecture imp of axi_comparator
+-- Compiling entity s_axi_comparator
+-- Compiling architecture imp of s_axi_comparator
+-- Compiling entity s_axis_comparator
+-- Compiling architecture imp of s_axis_comparator
+-- Compiling entity m_axis_comparator
+-- Compiling architecture imp of m_axis_comparator
+-- Compiling entity trace_comparator
+-- Compiling architecture imp of trace_comparator
+-- Compiling entity interrupt_comparator
+-- Compiling architecture imp of interrupt_comparator
+-- Compiling entity tmr_test
+-- Compiling architecture imp of tmr_test
+-- Compiling entity tmr_comparator
+-- Compiling architecture imp of tmr_comparator
+-- Loading entity Voter
+-- Loading entity lmb_comparator
+-- Loading entity lmb_voter
+-- Loading entity s_lmb_comparator
+-- Loading entity s_lmb_voter
+-- Loading entity bram_comparator
+-- Loading entity bram_voter
+-- Loading entity axi_comparator
+-- Loading entity axi_voter
+-- Loading entity s_axi_comparator
+-- Loading entity s_axi_voter
+-- Loading entity m_axis_comparator
+-- Loading entity m_axis_voter
+-- Loading entity s_axis_comparator
+-- Loading entity s_axis_voter
+-- Loading entity trace_comparator
+-- Loading entity trace_voter
+-- Loading entity interrupt_comparator
+-- Loading entity interrupt_voter
+-- Loading entity tmr_test

@@ -1,0 +1,8 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity axi_traffic_gen_v3_0_3_bmg_wrap
+-- Compiling architecture implementation of axi_traffic_gen_v3_0_3_bmg_wrap
+-- Loading package VCOMPONENTS
+-- Loading entity blk_mem_gen_wrapper

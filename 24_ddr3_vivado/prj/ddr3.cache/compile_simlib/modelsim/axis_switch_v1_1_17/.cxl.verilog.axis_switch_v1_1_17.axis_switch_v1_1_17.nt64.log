@@ -1,0 +1,19 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axis_switch_v1_1_17_arb_rr
+-- Compiling module axis_switch_v1_1_17_arb_trr
+-- Compiling module axis_switch_v1_1_17_axisc_decoder
+-- Compiling module axis_switch_v1_1_17_axisc_transfer_mux
+-- Compiling module axis_switch_v1_1_17_axisc_arb_responder
+-- Compiling module axis_switch_v1_1_17_axis_switch_arbiter
+-- Compiling module axis_switch_v1_1_17_dynamic_priority_encoder
+-- Compiling module axis_switch_v1_1_17_axi_ctrl_read
+-- Compiling module axis_switch_v1_1_17_axi_ctrl_write
+-- Compiling module axis_switch_v1_1_17_axi_ctrl_top
+-- Compiling module axis_switch_v1_1_17_static_router_config_dp
+-- Compiling module axis_switch_v1_1_17_static_router_config
+-- Compiling module axis_switch_v1_1_17_static_router
+-- Compiling module axis_switch_v1_1_17_reg_bank_16x32
+-- Compiling module axis_switch_v1_1_17_axis_switch
+
+Top level modules:
+	axis_switch_v1_1_17_axis_switch

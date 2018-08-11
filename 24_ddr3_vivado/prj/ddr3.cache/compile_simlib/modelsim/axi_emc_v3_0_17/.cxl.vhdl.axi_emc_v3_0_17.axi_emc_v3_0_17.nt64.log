@@ -1,0 +1,34 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package emc_pkg
+-- Compiling package body emc_pkg
+-- Loading package emc_pkg
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_f
+-- Compiling architecture imp of counter_f
+-- Compiling entity pselect_f
+-- Compiling architecture imp of pselect_f
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Compiling entity axi_emc_addr_gen
+-- Compiling architecture imp of axi_emc_addr_gen
+-- Loading package emc_pkg
+-- Compiling entity axi_emc_address_decode
+-- Compiling architecture imp of axi_emc_address_decode
+-- Loading entity pselect_f
+-- Compiling entity axi_emc_native_interface
+-- Compiling architecture imp of axi_emc_native_interface
+** Warning: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_emc_v3_0\hdl\axi_emc_v3_0_vh_rfs.vhd(2527): (vcom-1445) Duplicate signal "single_transfer_cmb" found in sensitivity list.
+-- Loading entity axi_emc_addr_gen
+-- Loading entity axi_emc_address_decode
+-- Loading package lib_pkg
+-- Loading entity srl_fifo_rbu_f
+-- Loading entity counter_f
+** Error: (vcom-11) Could not find unisim.vcomponents.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_emc_v3_0\hdl\axi_emc_v3_0_vh_rfs.vhd(3102): (vcom-1195) Cannot find expanded name "unisim.vcomponents".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_emc_v3_0\hdl\axi_emc_v3_0_vh_rfs.vhd(3102): Unknown expanded name.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_emc_v3_0\hdl\axi_emc_v3_0_vh_rfs.vhd(3104): VHDL Compiler exiting

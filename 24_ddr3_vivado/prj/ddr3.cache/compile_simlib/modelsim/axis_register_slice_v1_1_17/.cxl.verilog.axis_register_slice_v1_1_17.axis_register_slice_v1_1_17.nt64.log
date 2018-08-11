@@ -1,0 +1,14 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axis_register_slice_v1_1_17_tdm_sample
+-- Compiling module axis_register_slice_v1_1_17_multi_slr
+-- Compiling module axis_register_slice_v1_1_17_middle_region_slr
+-- Compiling module axis_register_slice_v1_1_17_source_region_slr
+-- Compiling module axis_register_slice_v1_1_17_dest_region_slr
+-- Compiling module axis_register_slice_v1_1_17_single_slr
+-- Compiling module axis_register_slice_v1_1_17_axic_reg_srl_fifo
+-- Compiling module axis_register_slice_v1_1_17_srl_rtl
+-- Compiling module axis_register_slice_v1_1_17_axisc_register_slice
+-- Compiling module axis_register_slice_v1_1_17_axis_register_slice
+
+Top level modules:
+	axis_register_slice_v1_1_17_axis_register_slice

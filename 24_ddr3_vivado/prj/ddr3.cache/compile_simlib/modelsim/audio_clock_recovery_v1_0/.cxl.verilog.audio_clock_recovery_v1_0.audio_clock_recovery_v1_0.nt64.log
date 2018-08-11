@@ -1,0 +1,7 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module audio_clock_recovery_v1_0_axi
+-- Compiling module audio_clock_recovery_v1_0_sys
+-- Compiling module audio_clock_recovery_v1_0
+
+Top level modules:
+	audio_clock_recovery_v1_0

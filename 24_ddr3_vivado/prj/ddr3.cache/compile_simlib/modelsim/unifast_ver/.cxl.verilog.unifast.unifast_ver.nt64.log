@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module DSP48E1
+-- Compiling module MMCME2_ADV
+-- Compiling module PLLE2_ADV
+
+Top level modules:
+	DSP48E1
+	MMCME2_ADV
+	PLLE2_ADV

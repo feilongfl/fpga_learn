@@ -1,0 +1,24 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package ipif_pkg
+-- Compiling package body ipif_pkg
+-- Loading package ipif_pkg
+-- Compiling entity pselect_f
+-- Compiling architecture imp of pselect_f
+-- Loading package NUMERIC_STD
+-- Loading package ipif_pkg
+-- Compiling entity address_decoder
+-- Compiling architecture IMP of address_decoder
+-- Loading entity pselect_f
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Compiling entity slave_attachment
+-- Compiling architecture imp of slave_attachment
+-- Loading entity address_decoder
+-- Compiling entity axi_lite_ipif
+-- Compiling architecture imp of axi_lite_ipif
+-- Loading entity slave_attachment

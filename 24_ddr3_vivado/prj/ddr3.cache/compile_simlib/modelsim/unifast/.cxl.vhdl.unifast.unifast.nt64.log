@@ -1,0 +1,16 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+** Error: (vcom-11) Could not find unisim.vpkg.
+###### D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unifast\primitive\DSP48E1.vhd(54): use unisim.vpkg.all;
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unifast\primitive\DSP48E1.vhd(54): (vcom-1195) Cannot find expanded name "unisim.vpkg".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unifast\primitive\DSP48E1.vhd(54): Unknown expanded name.
+** Error: (vcom-11) Could not find unisim.vcomponents.
+###### D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unifast\primitive\DSP48E1.vhd(55): use unisim.vcomponents.all;
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unifast\primitive\DSP48E1.vhd(55): (vcom-1195) Cannot find expanded name "unisim.vcomponents".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unifast\primitive\DSP48E1.vhd(55): Unknown expanded name.
+###### D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unifast\primitive\DSP48E1.vhd(57): entity DSP48E1 is
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unifast\primitive\DSP48E1.vhd(57): VHDL Compiler exiting

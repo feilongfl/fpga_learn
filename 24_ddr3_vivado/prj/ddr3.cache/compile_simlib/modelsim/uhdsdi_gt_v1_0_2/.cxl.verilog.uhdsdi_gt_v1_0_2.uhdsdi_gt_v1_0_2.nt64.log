@@ -1,0 +1,49 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module uhdsdi_drp_control
+-- Compiling module uhdsdi_rate_detect
+-- Compiling module uhdsdi_control
+-- Compiling module uhdsdi_rx_control
+-- Compiling module uhdsdi_tx_control
+-- Compiling module uhdsdi_gt_sync_block
+-- Compiling module uhdsdi_drp_control_fsm
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_bit_synchronizer
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gte4_drp_arb
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gthe3_cpll_cal_freq_counter
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gthe3_cpll_cal
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gthe4_cpll_cal_freq_counter
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gthe4_cpll_cal
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gthe4_cpll_cal_rx
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gthe4_cpll_cal_tx
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gthe4_delay_powergood
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtwiz_buffbypass_rx
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtwiz_buffbypass_tx
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtwiz_reset
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtwiz_userclk_rx
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtwiz_userclk_tx
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtwiz_userdata_rx
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtwiz_userdata_tx
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtye4_cpll_cal_freq_counter
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtye4_cpll_cal
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtye4_cpll_cal_rx
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtye4_cpll_cal_tx
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtye4_delay_powergood
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_reset_inv_synchronizer
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_reset_synchronizer
+-- Compiling module uhdsdi_gtwiz_gtwizard_top
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gthe4_channel
+-- Compiling module uhdsdi_gtwiz_gthe4
+-- Compiling module uhdsdi_gtwiz_gthe4_channel_wrapper
+-- Compiling module uhdsdi_gtwiz_gtwizard_gthe4
+-- Compiling module uhdsdi_gthe4_common
+-- Compiling module uhdsdi_gthe4_common_wrapper
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtye4_channel
+-- Compiling module uhdsdi_gtwiz_gtye4
+-- Compiling module uhdsdi_gtwiz_gtye4_channel_wrapper
+-- Compiling module uhdsdi_gtwiz_gtwizard_gtye4
+-- Compiling module gtwizard_ultrascale_v1_7_4_1_gtye4_common
+-- Compiling module uhdsdi_gtwiz_gtye4_common_wrapper
+-- Compiling module uhdsdi_multigt_wrapper
+
+Top level modules:
+	uhdsdi_control
+	uhdsdi_multigt_wrapper

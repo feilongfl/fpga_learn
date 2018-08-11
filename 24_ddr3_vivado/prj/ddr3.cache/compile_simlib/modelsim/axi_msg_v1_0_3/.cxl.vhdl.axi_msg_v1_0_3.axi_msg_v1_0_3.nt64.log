@@ -1,0 +1,17 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package axi_msg_pkg
+-- Compiling package body axi_msg_pkg
+-- Loading package axi_msg_pkg
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package axi_msg_pkg
+** Error: (vcom-11) Could not find lib_fifo_v1_0_11.sync_fifo_fg.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_msg_v1_0\hdl\axi_msg_v1_0_rfs.vhd(223): (vcom-1195) Cannot find expanded name "lib_fifo_v1_0_11.sync_fifo_fg".
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_msg_v1_0\hdl\axi_msg_v1_0_rfs.vhd(228): VHDL Compiler exiting

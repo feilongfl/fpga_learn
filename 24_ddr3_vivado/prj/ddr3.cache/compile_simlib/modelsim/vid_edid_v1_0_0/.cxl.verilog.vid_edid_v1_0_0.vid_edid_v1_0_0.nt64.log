@@ -1,0 +1,7 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module vid_edid_v1_0_0
+** Warning: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\vid_edid_v1_0\hdl\vid_edid_v1_0_rfs.v(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\vid_edid_v1_0\hdl\vid_edid_v1_0_rfs.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	vid_edid_v1_0_0

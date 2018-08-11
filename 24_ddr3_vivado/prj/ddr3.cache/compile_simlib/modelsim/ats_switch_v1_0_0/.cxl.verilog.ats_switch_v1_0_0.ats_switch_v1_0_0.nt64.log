@@ -1,0 +1,16 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module ats_switch_v1_0_0_axilite
+-- Compiling module ats_switch_v1_0_0_cc
+-- Compiling module ats_switch_v1_0_0_cq
+-- Compiling module ats_switch_v1_0_0_header_extract
+-- Compiling module ats_switch_v1_0_0_straddle_header_extract
+-- Compiling module ats_switch_v1_0_0_rc
+-- Compiling module ats_switch_v1_0_0_reg
+-- Compiling module ats_switch_v1_0_0_rq
+-- Compiling module ats_switch_v1_0_0_tdest_cq
+-- Compiling module ats_switch_v1_0_0_tdest_rc
+-- Compiling module ats_switch_v1_0_0_tdest_rc_straddle
+-- Compiling module ats_switch_v1_0_0_top
+
+Top level modules:
+	ats_switch_v1_0_0_top

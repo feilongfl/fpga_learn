@@ -1,0 +1,36 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_anc_rx
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_flags
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_loc
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_processor
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_mux
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_bitrep_20b
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_video_decode
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_autodetect
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_tx
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_rx
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_channel
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_output
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_syncbit_insert
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_trsgen
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_crc2
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_insert_crc
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_scrambler
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_crc16
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_st352_pid_insert
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_trs_detect
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_fly_horz
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_insert_ln
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_fly_fsm
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_s00_axi
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_errcnt
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_crc
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_flywheel
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_encoder
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_fly_vert
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_edh_fly_field
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0_tx
+-- Compiling module v_smpte_uhdsdi_tx_v1_0_0
+
+Top level modules:
+	v_smpte_uhdsdi_tx_v1_0_0

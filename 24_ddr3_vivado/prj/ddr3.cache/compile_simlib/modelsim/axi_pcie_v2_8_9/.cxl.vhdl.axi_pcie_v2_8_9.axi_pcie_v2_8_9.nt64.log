@@ -1,0 +1,93 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Compiling entity axi_enhanced_pcie
+-- Compiling architecture structure of axi_enhanced_pcie
+-- Compiling package axi_pcie_mm_s_pkg
+-- Loading package axi_pcie_mm_s_pkg
+-- Compiling entity axi_mm_masterbridge_rd
+-- Compiling architecture behavioral of axi_mm_masterbridge_rd
+** Warning: [5] D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(2731): Nonresolved signal 'rddatasmsig' may have multiple sources.
+  Drivers:
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(2921):Process axi_wr_master_data
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(2926)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(2995):Process axi_wr_master_data
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(3000)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(3072):Process axi_wr_master_data
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(3077)
+-- Compiling entity axi_mm_masterbridge_wr
+-- Compiling architecture behavioral of axi_mm_masterbridge_wr
+** Warning: [5] D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(3448): Nonresolved signal 'wrdatasmsig' may have multiple sources.
+  Drivers:
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(3585):Process axi_wr_master_data
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(3592)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(3644):Process axi_wr_master_data
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(3651)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(3748):Process axi_wr_master_data
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(3755)
+-- Compiling entity array_arith
+-- Compiling architecture rtl of array_arith
+-- Compiling entity axi_s_masterbridge_rd
+-- Compiling architecture behavioral of axi_s_masterbridge_rd
+** Warning: [5] D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(4269): Nonresolved signal 'rdreqsmsig' may have multiple sources.
+  Drivers:
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(4479):Process rd_master_ingress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(4492)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(5383):Process rd_master_ingress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(5396)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(6474):Process rd_master_ingress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(6487)
+** Warning: [5] D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(4279): Nonresolved signal 'cpltlpsmsig' may have multiple sources.
+  Drivers:
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(5101):Process cpl_master_egress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(5105)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(6147):Process cpl_master_egress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(6152)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(7219):Process cpl_master_egress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(7224)
+** Warning: [5] D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(4287): Nonresolved signal 'cplndtlpsmsig' may have multiple sources.
+  Drivers:
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(4974):Process cplnd_master_egress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(4978)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(6047):Process cplnd_master_egress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(6051)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(7113):Process cplnd_master_egress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(7117)
+-- Compiling entity axi_s_masterbridge_wr
+-- Compiling architecture behavioral of axi_s_masterbridge_wr
+** Warning: [5] D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(8156): Nonresolved signal 'wrreqsmsig' may have multiple sources.
+  Drivers:
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(8184):Process wr_master_ingress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(8198)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(8421):Process wr_master_ingress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(8435)
+    D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(8762):Process wr_master_ingress
+       Driven at:
+          D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(8776)
+** Error: (vcom-11) Could not find lib_fifo_v1_0_11.sync_fifo_fg.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(9319): (vcom-1195) Cannot find expanded name "lib_fifo_v1_0_11.sync_fifo_fg".
+-- Loading package lib_pkg
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_pcie_v2_8\hdl\axi_pcie_v2_8_rfs.vhd(9332): VHDL Compiler exiting

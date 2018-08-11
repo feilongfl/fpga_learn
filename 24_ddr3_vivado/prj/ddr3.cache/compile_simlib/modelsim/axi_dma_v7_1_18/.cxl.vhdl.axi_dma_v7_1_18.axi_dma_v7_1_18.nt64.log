@@ -1,0 +1,38 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+-- Compiling package axi_dma_pkg
+-- Compiling package body axi_dma_pkg
+-- Loading package axi_dma_pkg
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package axi_dma_pkg
+-- Compiling entity axi_dma_reset
+-- Compiling architecture implementation of axi_dma_reset
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(901): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(901): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1003): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1003): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1032): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1032): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1127): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1127): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1202): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1202): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1251): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1251): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1315): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1315): Unknown expanded name.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_dma_v7_1\hdl\axi_dma_v7_1_vh_rfs.vhd(1381): VHDL Compiler exiting

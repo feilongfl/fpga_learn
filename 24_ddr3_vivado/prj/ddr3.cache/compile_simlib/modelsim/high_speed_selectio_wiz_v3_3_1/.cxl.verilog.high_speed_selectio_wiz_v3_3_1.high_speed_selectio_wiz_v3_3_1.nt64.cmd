@@ -1,0 +1,3 @@
+"C:\Program Files\ModelSim\win64/vlib" D:/fpga/24_ddr3_vivado/prj/ddr3.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_3_1
+"C:\Program Files\ModelSim\win64/vmap" high_speed_selectio_wiz_v3_3_1 D:/fpga/24_ddr3_vivado/prj/ddr3.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_3_1
+"C:\Program Files\ModelSim\win64/vlog"  -64 +incdir+c:\Users\fei_l\AppData\Roaming\Xilinx\Vivado\.cxl.ip/incl -work high_speed_selectio_wiz_v3_3_1 -f D:\fpga\24_ddr3_vivado\prj\ddr3.cache\compile_simlib\modelsim/high_speed_selectio_wiz_v3_3_1/.cxl.verilog.high_speed_selectio_wiz_v3_3_1.high_speed_selectio_wiz_v3_3_1.nt64.cmf

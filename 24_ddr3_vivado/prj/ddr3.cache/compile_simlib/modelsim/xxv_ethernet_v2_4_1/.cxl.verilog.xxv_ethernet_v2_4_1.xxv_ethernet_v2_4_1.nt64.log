@@ -1,0 +1,3 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\xxv_ethernet_v2_4\hdl\xxv_ethernet_v2_4_vl_rfs.v(64): The appropriate key has not been specified
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\xxv_ethernet_v2_4\hdl\xxv_ethernet_v2_4_vl_rfs.v(64): syntax error in protected region.

@@ -1,0 +1,7 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axis_dwidth_converter_v1_1_16_axisc_downsizer
+-- Compiling module axis_dwidth_converter_v1_1_16_axisc_upsizer
+-- Compiling module axis_dwidth_converter_v1_1_16_axis_dwidth_converter
+
+Top level modules:
+	axis_dwidth_converter_v1_1_16_axis_dwidth_converter

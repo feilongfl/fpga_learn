@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module amm_axi_bridge_v1_0_3_read_top
+-- Compiling module amm_axi_bridge_v1_0_3_read_multi
+-- Compiling module amm_axi_bridge_v1_0_3_read_demux
+-- Compiling module amm_axi_bridge_v1_0_3_write_top
+-- Compiling module amm_axi_bridge_v1_0_3_write_multi
+-- Compiling module amm_axi_bridge_v1_0_3_write_mux
+-- Compiling module amm_axi_bridge_v1_0_3_top
+-- Compiling module amm_axi_bridge_v1_0_3_fifo
+-- Compiling module amm_axi_bridge_v1_0_3_arbitration
+
+Top level modules:
+	amm_axi_bridge_v1_0_3_top

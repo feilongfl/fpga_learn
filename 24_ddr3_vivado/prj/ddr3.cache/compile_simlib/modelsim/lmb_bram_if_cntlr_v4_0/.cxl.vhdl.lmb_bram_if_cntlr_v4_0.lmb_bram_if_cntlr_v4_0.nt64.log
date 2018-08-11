@@ -1,0 +1,14 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package lmb_bram_if_funcs
+-- Loading package NUMERIC_STD
+-- Compiling package body lmb_bram_if_funcs
+-- Loading package lmb_bram_if_funcs
+-- Loading package lmb_bram_if_funcs
+-- Compiling entity MB_LUT6
+** Error: (vcom-11) Could not find unisim.vcomponents.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\microblaze_mcs_v2_3\pcores\lmb_bram_if_cntlr_v4_0\hdl\vhdl\lmb_bram_if_primitives.vhd(112): (vcom-1195) Cannot find expanded name "unisim.vcomponents".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\microblaze_mcs_v2_3\pcores\lmb_bram_if_cntlr_v4_0\hdl\vhdl\lmb_bram_if_primitives.vhd(112): Unknown expanded name.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\microblaze_mcs_v2_3\pcores\lmb_bram_if_cntlr_v4_0\hdl\vhdl\lmb_bram_if_primitives.vhd(114): VHDL Compiler exiting

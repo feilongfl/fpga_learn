@@ -1,0 +1,31 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module high_speed_selectio_wiz_v3_3_1_sync_cell
+-- Compiling module PRBS_ANY
+-- Compiling module high_speed_selectio_wiz_v3_3_1_rst_scheme
+-- Compiling module high_speed_selectio_wiz_v3_3_1_clk_scheme
+-- Compiling module high_speed_selectio_wiz_v3_3_1_clk_rst_top
+-- Compiling module high_speed_selectio_wiz_v3_3_1_bs_ctrl_top
+-- Compiling module high_speed_selectio_wiz_v3_3_1_iobuf_top
+-- Compiling module high_speed_selectio_wiz_v3_3_1_C2BCEtc
+-- Compiling module high_speed_selectio_wiz_v3_3_1_C2BCEtc_dwnld
+-- Compiling module high_speed_selectio_wiz_v3_3_1_C3BCEtc
+-- Compiling module high_speed_selectio_wiz_v3_3_1_C3BCEtc_dwnld
+-- Compiling module high_speed_selectio_wiz_v3_3_1_Fdcr
+-- Compiling module high_speed_selectio_wiz_v3_3_1_GenPulse
+-- Compiling module high_speed_selectio_wiz_v3_3_1_BitSlipInLogic_4b
+-- Compiling module high_speed_selectio_wiz_v3_3_1_BitSlipInLogic_8b
+-- Compiling module high_speed_selectio_wiz_v3_3_1_BitSlipInLogic_FstCmp_4b
+-- Compiling module high_speed_selectio_wiz_v3_3_1_BitSlipInLogic_FstCmp_8b
+-- Compiling module high_speed_selectio_wiz_v3_3_1_BitSlipInLogic_Toplevel
+-- Compiling module high_speed_selectio_wiz_v3_3_1_rxtx_bs
+-- Compiling module high_speed_selectio_wiz_v3_3_1_tx_bs_tri
+-- Compiling module high_speed_selectio_wiz_v3_3_1_rx_bs
+-- Compiling module high_speed_selectio_wiz_v3_3_1_tx_bs
+-- Compiling module high_speed_selectio_wiz_v3_3_1_bs_top
+
+Top level modules:
+	PRBS_ANY
+	high_speed_selectio_wiz_v3_3_1_clk_rst_top
+	high_speed_selectio_wiz_v3_3_1_bs_ctrl_top
+	high_speed_selectio_wiz_v3_3_1_iobuf_top
+	high_speed_selectio_wiz_v3_3_1_bs_top

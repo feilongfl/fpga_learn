@@ -1,0 +1,36 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axi_perf_mon_v5_0_19_dff_async_reset
+-- Compiling module axi_perf_mon_v5_0_19_async_fifo
+-- Compiling module axi_perf_mon_v5_0_19_sync_fifo
+-- Compiling module axi_perf_mon_v5_0_19_acc_n_incr
+-- Compiling module axi_perf_mon_v5_0_19_async_stream_fifo
+-- Compiling module axi_perf_mon_v5_0_19_axi_interface
+-- Compiling module axi_perf_mon_v5_0_19_counter
+-- Compiling module axi_perf_mon_v5_0_19_counter_ovf
+-- Compiling module axi_perf_mon_v5_0_19_cdc_sync
+-- Compiling module axi_perf_mon_v5_0_19_flags_gen
+-- Compiling module axi_perf_mon_v5_0_19_glbl_clk_cnt
+-- Compiling module axi_perf_mon_v5_0_19_interrupt_module
+-- Compiling module axi_perf_mon_v5_0_19_intr_sync
+-- Compiling module axi_perf_mon_v5_0_19_metric_calc
+-- Compiling module axi_perf_mon_v5_0_19_metric_counters
+-- Compiling module axi_perf_mon_v5_0_19_metric_sel_n_cnt
+-- Compiling module axi_perf_mon_v5_0_19_mon_fifo
+-- Compiling module axi_perf_mon_v5_0_19_ext_calc
+-- Compiling module axi_perf_mon_v5_0_19_register_module
+-- Compiling module axi_perf_mon_v5_0_19_samp_intl_cnt
+-- Compiling module axi_perf_mon_v5_0_19_samp_metrics_data
+-- Compiling module axi_perf_mon_v5_0_19_strm_fifo_wr_logic
+-- Compiling module axi_perf_mon_v5_0_19_throttle
+-- Compiling module axi_perf_mon_v5_0_19_postTriggerMarker
+-- Compiling module axi_perf_mon_v5_0_19_advanced
+-- Compiling module axi_perf_mon_v5_0_19_profile
+-- Compiling module axi_perf_mon_v5_0_19_acc_sample_profile
+-- Compiling module axi_perf_mon_v5_0_19_register_module_profile
+-- Compiling module axi_perf_mon_v5_0_19_metric_calc_profile
+-- Compiling module axi_perf_mon_v5_0_19_metric_counters_profile
+-- Compiling module axi_perf_mon_v5_0_19_flags_gen_trace
+-- Compiling module axi_perf_mon_v5_0_19_top
+
+Top level modules:
+	axi_perf_mon_v5_0_19_top

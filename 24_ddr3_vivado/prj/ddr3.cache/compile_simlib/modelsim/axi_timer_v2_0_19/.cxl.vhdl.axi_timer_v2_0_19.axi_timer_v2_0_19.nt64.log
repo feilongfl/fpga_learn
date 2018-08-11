@@ -1,0 +1,19 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_f
+-- Compiling architecture imp of counter_f
+-- Compiling entity mux_onehot_f
+-- Compiling architecture imp of mux_onehot_f
+-- Compiling package TC_Types
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ipif_pkg
+-- Loading package lib_pkg
+** Error: (vcom-11) Could not find unisim.vcomponents.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_timer_v2_0\hdl\axi_timer_v2_0_vh_rfs.vhd(766): (vcom-1195) Cannot find expanded name "unisim.vcomponents".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_timer_v2_0\hdl\axi_timer_v2_0_vh_rfs.vhd(766): Unknown expanded name.
+-- Loading package TC_Types
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_timer_v2_0\hdl\axi_timer_v2_0_vh_rfs.vhd(799): VHDL Compiler exiting

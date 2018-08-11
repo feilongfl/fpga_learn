@@ -1,0 +1,37 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module xpm_cdc_single
+-- Compiling module xpm_cdc_gray
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xpm\xpm_cdc\hdl\xpm_cdc.sv(364): data type of variable dest_graysync_ff not allowed in force.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xpm\xpm_cdc\hdl\xpm_cdc.sv(366): data type of variable dest_graysync_ff not allowed in release.
+-- Compiling module xpm_cdc_handshake
+-- Compiling module xpm_cdc_pulse
+-- Compiling module xpm_cdc_array_single
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xpm\xpm_cdc\hdl\xpm_cdc.sv(980): data type of variable syncstages_ff not allowed in force.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xpm\xpm_cdc\hdl\xpm_cdc.sv(982): data type of variable syncstages_ff not allowed in release.
+-- Compiling module xpm_cdc_sync_rst
+-- Compiling module xpm_cdc_async_rst
+-- Compiling module xpm_fifo_base
+-- Compiling module xpm_fifo_rst
+-- Compiling module xpm_counter_updn
+-- Compiling module xpm_fifo_reg_vec
+-- Compiling module xpm_fifo_reg_bit
+-- Compiling module xpm_reg_pipe_bit
+-- Compiling module xpm_fifo_sync
+-- Compiling module xpm_fifo_async
+-- Compiling module xpm_fifo_axis
+-- Compiling module xpm_fifo_tb
+-- Compiling module xpm_fifo_ex
+-- Compiling module xpm_fifo_gen_dverif
+-- Compiling module xpm_fifo_gen_rng
+-- Compiling module xpm_fifo_gen_dgen
+-- Compiling module xpm_fifo_gen_pctrl
+-- Compiling module xpm_memory_base
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xpm\xpm_memory\hdl\xpm_memory.sv(3958): data type of variable mem not allowed in force.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xpm\xpm_memory\hdl\xpm_memory.sv(3960): data type of variable mem not allowed in release.
+-- Compiling module asym_bwe_bb
+-- Compiling module xpm_memory_dpdistram
+-- Compiling module xpm_memory_dprom
+-- Compiling module xpm_memory_sdpram
+-- Compiling module xpm_memory_spram
+-- Compiling module xpm_memory_sprom
+-- Compiling module xpm_memory_tdpram

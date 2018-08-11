@@ -1,0 +1,7 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axi_sideband_util_v1_0_1_top
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_sideband_util_v1_0/hdl/axi_sideband_util_v1_0_vl_rfs.sv(190): Could not find the package (sc_util_v1_0_3_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_sideband_util_v1_0/hdl/axi_sideband_util_v1_0_vl_rfs.sv(224): (vlog-2730) Undefined variable: 'K_MAX_VECTOR_WIDTH'.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_sideband_util_v1_0/hdl/axi_sideband_util_v1_0_vl_rfs.sv(229): (vlog-2730) Undefined variable: 'K_AXI_LEN_WIDTH'.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_sideband_util_v1_0/hdl/axi_sideband_util_v1_0_vl_rfs.sv(230): (vlog-2730) Undefined variable: 'K_AXI_LOCK_WIDTH'.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_sideband_util_v1_0/hdl/axi_sideband_util_v1_0_vl_rfs.sv(231): (vlog-2730) Undefined variable: 'K_MAX_USER_WIDTH'.

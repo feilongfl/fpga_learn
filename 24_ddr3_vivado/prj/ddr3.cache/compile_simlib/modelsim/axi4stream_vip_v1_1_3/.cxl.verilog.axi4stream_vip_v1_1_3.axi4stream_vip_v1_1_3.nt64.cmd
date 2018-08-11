@@ -1,0 +1,3 @@
+"C:\Program Files\ModelSim\win64/vlib" D:/fpga/24_ddr3_vivado/prj/ddr3.cache/compile_simlib/modelsim/axi4stream_vip_v1_1_3
+"C:\Program Files\ModelSim\win64/vmap" axi4stream_vip_v1_1_3 D:/fpga/24_ddr3_vivado/prj/ddr3.cache/compile_simlib/modelsim/axi4stream_vip_v1_1_3
+"C:\Program Files\ModelSim\win64/vlog"  -64 -L axi4stream_vip_v1_1_3 -L xilinx_vip +incdir+c:\Users\fei_l\AppData\Roaming\Xilinx\Vivado\.cxl.ip/incl -sv -work axi4stream_vip_v1_1_3 -f D:\fpga\24_ddr3_vivado\prj\ddr3.cache\compile_simlib\modelsim/axi4stream_vip_v1_1_3/.cxl.systemverilog.axi4stream_vip_v1_1_3.axi4stream_vip_v1_1_3.nt64.cmf

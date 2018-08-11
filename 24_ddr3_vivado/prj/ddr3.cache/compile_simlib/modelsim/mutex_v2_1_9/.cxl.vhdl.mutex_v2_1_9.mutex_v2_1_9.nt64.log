@@ -1,0 +1,16 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity pselect
+-- Compiling architecture imp of pselect
+-- Compiling entity Gen_DRAM
+-- Compiling architecture syn of Gen_DRAM
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find unisim.vcomponents.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\mutex_v2_1\hdl\mutex_v2_1_vh_rfs.vhd(459): (vcom-1195) Cannot find expanded name "unisim.vcomponents".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\mutex_v2_1\hdl\mutex_v2_1_vh_rfs.vhd(459): Unknown expanded name.
+-- Loading entity Gen_DRAM
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\mutex_v2_1\hdl\mutex_v2_1_vh_rfs.vhd(465): VHDL Compiler exiting

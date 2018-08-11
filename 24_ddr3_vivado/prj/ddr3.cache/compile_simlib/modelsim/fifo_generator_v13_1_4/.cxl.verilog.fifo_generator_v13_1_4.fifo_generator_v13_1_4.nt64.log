@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module fifo_generator_vlog_beh
+-- Compiling module fifo_generator_v13_1_4_CONV_VER
+-- Compiling module fifo_generator_v13_1_4_sync_stage
+-- Compiling module fifo_generator_v13_1_4_bhv_ver_as
+-- Compiling module fifo_generator_v13_1_4_beh_ver_ll_afifo
+-- Compiling module fifo_generator_v13_1_4_bhv_ver_ss
+-- Compiling module fifo_generator_v13_1_4_bhv_ver_preload0
+-- Compiling module fifo_generator_v13_1_4_axic_reg_slice
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\fifo_generator_v13_1\hdl\fifo_generator_v13_1_rfs.v(64): The appropriate key has not been specified
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\fifo_generator_v13_1\hdl\fifo_generator_v13_1_rfs.v(64): syntax error in protected region.

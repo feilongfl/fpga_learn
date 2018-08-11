@@ -44,23 +44,160 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="hj_move_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="hj_move_xst.xrpt"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ipcore_dir/blk_mem_gen_v7_3.sym" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="ipcore_dir/blk_mem_gen_v7_3.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="ipcore_dir/blk_mem_gen_v7_3.v" xil_pn:origination="imported">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
     <file xil_pn:fileType="FILE_VEO" xil_pn:name="ipcore_dir/blk_mem_gen_v7_3.veo" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="ipcore_dir/clk_wiz_v3_6.v" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VEO" xil_pn:name="ipcore_dir/clk_wiz_v3_6.veo" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="sim_tb_top.fdo"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="top.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="top.prj"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="top.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="top.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="top_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="work"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1533866287" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1533866287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1533869151" xil_pn:in_ck="5172613274526173376" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1533869151">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../src/box.v"/>
+      <outfile xil_pn:name="../src/box_move.v"/>
+      <outfile xil_pn:name="../src/circle.v"/>
+      <outfile xil_pn:name="../src/color.v"/>
+      <outfile xil_pn:name="../src/color_flash.v"/>
+      <outfile xil_pn:name="../src/cov1_8.v"/>
+      <outfile xil_pn:name="../src/cov8_1.v"/>
+      <outfile xil_pn:name="../src/divclock.v"/>
+      <outfile xil_pn:name="../src/gamebox.v"/>
+      <outfile xil_pn:name="../src/gameplay.v"/>
+      <outfile xil_pn:name="../src/hj_move.v"/>
+      <outfile xil_pn:name="../src/picbox.v"/>
+      <outfile xil_pn:name="../src/pll.v"/>
+      <outfile xil_pn:name="../src/rom.v"/>
+      <outfile xil_pn:name="../src/rom2.v"/>
+      <outfile xil_pn:name="../src/temp.v"/>
+      <outfile xil_pn:name="../src/top.v"/>
+      <outfile xil_pn:name="../src/vga.v"/>
+      <outfile xil_pn:name="../src/white.v"/>
+      <outfile xil_pn:name="../src/xy2addr.v"/>
+      <outfile xil_pn:name="ddr3_model_parameters_c3.vh"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/example_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/infrastructure.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/iodrp_controller.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/iodrp_mcb_controller.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/mcb_raw_wrapper.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/mcb_soft_calibration.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/mcb_soft_calibration_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/mcb_ui_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/memc_tb_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/memc_wrapper.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/afifo.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/cmd_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/cmd_prbs_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/data_prbs_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/init_mem_pattern_ctr.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/mcb_flow_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/mcb_traffic_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/rd_data_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/read_data_path.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/read_posted_fifo.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/sp6_data_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/tg_status.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/v6_data_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/wr_data_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/write_data_path.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/sim/functional/ddr3_model_c3.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/sim/functional/sim_tb_top.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1533866287" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4374809851500309255" xil_pn:start_ts="1533866287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1533866287" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3204561417956192453" xil_pn:start_ts="1533866287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1533866287" xil_pn:in_ck="3764671967101131436" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5362592770077852077" xil_pn:start_ts="1533866287">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/blk_mem_gen_v7_3.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/blk_mem_gen_v7_3.v"/>
+      <outfile xil_pn:name="ipcore_dir/clk_wiz_v3_6.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1533869152" xil_pn:in_ck="2332582078596131841" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1533869151">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../src/box.v"/>
+      <outfile xil_pn:name="../src/box_move.v"/>
+      <outfile xil_pn:name="../src/circle.v"/>
+      <outfile xil_pn:name="../src/color.v"/>
+      <outfile xil_pn:name="../src/color_flash.v"/>
+      <outfile xil_pn:name="../src/cov1_8.v"/>
+      <outfile xil_pn:name="../src/cov8_1.v"/>
+      <outfile xil_pn:name="../src/divclock.v"/>
+      <outfile xil_pn:name="../src/gamebox.v"/>
+      <outfile xil_pn:name="../src/gameplay.v"/>
+      <outfile xil_pn:name="../src/hj_move.v"/>
+      <outfile xil_pn:name="../src/picbox.v"/>
+      <outfile xil_pn:name="../src/pll.v"/>
+      <outfile xil_pn:name="../src/rom.v"/>
+      <outfile xil_pn:name="../src/rom2.v"/>
+      <outfile xil_pn:name="../src/temp.v"/>
+      <outfile xil_pn:name="../src/top.v"/>
+      <outfile xil_pn:name="../src/vga.v"/>
+      <outfile xil_pn:name="../src/white.v"/>
+      <outfile xil_pn:name="../src/xy2addr.v"/>
+      <outfile xil_pn:name="ddr3_model_parameters_c3.vh"/>
+      <outfile xil_pn:name="ipcore_dir/blk_mem_gen_v7_3.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/example_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/infrastructure.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/iodrp_controller.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/iodrp_mcb_controller.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/mcb_raw_wrapper.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/mcb_soft_calibration.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/mcb_soft_calibration_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/mcb_controller/mcb_ui_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/memc_tb_top.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/memc_wrapper.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/afifo.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/cmd_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/cmd_prbs_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/data_prbs_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/init_mem_pattern_ctr.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/mcb_flow_control.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/mcb_traffic_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/rd_data_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/read_data_path.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/read_posted_fifo.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/sp6_data_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/tg_status.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/v6_data_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/wr_data_gen.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/rtl/traffic_gen/write_data_path.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/sim/functional/ddr3_model_c3.v"/>
+      <outfile xil_pn:name="ipcore_dir/mig_39_2/example_design/sim/functional/sim_tb_top.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1533869153" xil_pn:in_ck="7030458920448071940" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="5418583846023243621" xil_pn:start_ts="1533869152">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="sim_tb_top.fdo"/>
+      <outfile xil_pn:name="work"/>
+    </transform>
     <transform xil_pn:end_ts="1533803618" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1533803618">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1533806279" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1883652979828788549" xil_pn:start_ts="1533806279">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -94,6 +231,7 @@
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="gameplay.lso"/>

@@ -1,0 +1,22 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_lib_sync_fifo
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_lib_sync_bus
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_12g_ce_gen
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_12g_converter
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_12g_fifo
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_12g_formatter
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_12g_trs_decode
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_12g
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_3g_ce_gen
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_3g_converter
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_3g_fifo
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_3g_formatter
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_3g_sync_extract
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_3g_trs_decode
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0_3g
+-- Compiling module v_sdi_rx_vid_bridge_v2_0_0
+
+Top level modules:
+	v_sdi_rx_vid_bridge_v2_0_0_lib_sync_fifo
+	v_sdi_rx_vid_bridge_v2_0_0_lib_sync_bus
+	v_sdi_rx_vid_bridge_v2_0_0

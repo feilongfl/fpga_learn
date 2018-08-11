@@ -1,0 +1,27 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module ADDMACC_MACRO
+-- Compiling module ADDSUB_MACRO
+-- Compiling module BRAM_SDP_MACRO
+-- Compiling module BRAM_SINGLE_MACRO
+-- Compiling module BRAM_TDP_MACRO
+-- Compiling module COUNTER_LOAD_MACRO
+-- Compiling module COUNTER_TC_MACRO
+-- Compiling module EQ_COMPARE_MACRO
+-- Compiling module FIFO_DUALCLOCK_MACRO
+-- Compiling module FIFO_SYNC_MACRO
+-- Compiling module MACC_MACRO
+-- Compiling module MULT_MACRO
+
+Top level modules:
+	ADDMACC_MACRO
+	ADDSUB_MACRO
+	BRAM_SDP_MACRO
+	BRAM_SINGLE_MACRO
+	BRAM_TDP_MACRO
+	COUNTER_LOAD_MACRO
+	COUNTER_TC_MACRO
+	EQ_COMPARE_MACRO
+	FIFO_DUALCLOCK_MACRO
+	FIFO_SYNC_MACRO
+	MACC_MACRO
+	MULT_MACRO

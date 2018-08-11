@@ -1,0 +1,8 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axi_amm_bridge_v1_0_7_lite
+-- Compiling module axi_amm_bridge_v1_0_7_fifo
+-- Compiling module axi_amm_bridge_v1_0_7_full
+-- Compiling module axi_amm_bridge_v1_0_7_top
+
+Top level modules:
+	axi_amm_bridge_v1_0_7_top

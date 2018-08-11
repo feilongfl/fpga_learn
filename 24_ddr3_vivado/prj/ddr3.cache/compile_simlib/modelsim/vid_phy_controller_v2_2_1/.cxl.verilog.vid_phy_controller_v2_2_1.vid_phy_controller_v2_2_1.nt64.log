@@ -1,0 +1,22 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module vid_phy_controller_v2_2_1_lib_rst_v1_0
+-- Compiling module vid_phy_controller_v2_2_1_lib_sync_v1_0
+-- Compiling module vid_phy_controller_v2_2_1_lib_cap_v1_0
+-- Compiling module vid_phy_controller_v2_2_1_lib_edge_v1_0
+-- Compiling module vid_phy_controller_v2_2_1_lib_cda_gray_v1_0
+-- Compiling module vid_phy_controller_v2_2_1_lib_fifo_sc_v1_0
+-- Compiling module vid_phy_controller_v2_2_1_lib_fifo_dc_v1_0
+-- Compiling module vid_phy_controller_v2_2_1_lib_div_v1_0
+-- Compiling module vid_phy_controller_v2_2_1_datawidth_conv
+-- Compiling module vid_phy_controller_v2_2_1_gt_tx_tmdsclk_patgen
+-- Compiling module vid_phy_controller_v2_2_1_dru
+
+Top level modules:
+	vid_phy_controller_v2_2_1_lib_sync_v1_0
+	vid_phy_controller_v2_2_1_lib_cap_v1_0
+	vid_phy_controller_v2_2_1_lib_edge_v1_0
+	vid_phy_controller_v2_2_1_lib_fifo_sc_v1_0
+	vid_phy_controller_v2_2_1_lib_div_v1_0
+	vid_phy_controller_v2_2_1_datawidth_conv
+	vid_phy_controller_v2_2_1_gt_tx_tmdsclk_patgen
+	vid_phy_controller_v2_2_1_dru

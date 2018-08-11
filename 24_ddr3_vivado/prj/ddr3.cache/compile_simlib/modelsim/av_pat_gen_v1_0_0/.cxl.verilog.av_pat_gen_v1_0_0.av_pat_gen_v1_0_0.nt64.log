@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module av_pat_gen_v1_0_0_av_axi
+-- Compiling module av_pat_gen_v1_0_0_timing
+-- Compiling module av_pat_gen_v1_0_0_video_pattern
+-- Compiling module av_pat_gen_v1_0_0_dport
+-- Compiling module av_pat_gen_v1_0_0
+-- Compiling module pulse_clkcross_aud
+
+Top level modules:
+	av_pat_gen_v1_0_0

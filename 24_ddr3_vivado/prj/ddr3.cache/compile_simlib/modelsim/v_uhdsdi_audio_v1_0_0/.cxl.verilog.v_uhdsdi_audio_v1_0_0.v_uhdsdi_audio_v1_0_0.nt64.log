@@ -1,0 +1,55 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module v_uhdsdi_audio_v1_0_0_fifo_28x32_fwft
+-- Compiling module v_uhdsdi_audio_v1_0_0_fifo_28x16_fwft
+-- Compiling module v_uhdsdi_audio_v1_0_0_fifo_28x16_nofwft
+-- Compiling module v_uhdsdi_audio_v1_0_0_input_audio_status
+-- Compiling module v_uhdsdi_audio_v1_0_0_sync_one_shot
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_mux_anc_det
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_mux_clock_phase
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_mux_ctrl_constr
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_mux_ctrl
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_mux_data_constr
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_mux_data
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_mux_ecc_encode
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_mux_fifos
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_mux_pkt_mux
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_mux_top
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_mux_anc_det
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_mux_anc_store
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_mux_fifos
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_mux_pkt_gen
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_mux_pkt_mux
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_mux_ram_300x10
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_mux_ram_64x9
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_mux_samp_calc_alu
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_mux_vid_delay
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_mux_top
+-- Compiling module v_uhdsdi_audio_v1_0_0_mux_axilite_slave
+-- Compiling module v_uhdsdi_audio_v1_0_0_mux_axis_slave
+-- Compiling module v_uhdsdi_audio_v1_0_0_mux_delay_dwx32
+-- Compiling module v_uhdsdi_audio_v1_0_0_mux_top
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_demux_audio_det
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_demux_ctrl
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_demux_data_extr
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_demux_data
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_demux_fifos
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_demux_tim
+-- Compiling module v_uhdsdi_audio_v1_0_0_hd_demux_top
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_demux_buffer_512
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_demux_fifo
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_demux_infsm
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_demux_outfsm
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_demux_pkt_del
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_demux_present_flags
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_demux_trs_adf_xyz_detect
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_demux_aes
+-- Compiling module v_uhdsdi_audio_v1_0_0_sd_demux_aes_top
+-- Compiling module v_uhdsdi_audio_v1_0_0_demux_axilite_slave
+-- Compiling module v_uhdsdi_audio_v1_0_0_demux_axis_master
+-- Compiling module v_uhdsdi_audio_v1_0_0_demux_chan_status
+-- Compiling module v_uhdsdi_audio_v1_0_0_demux_rx_smpl_fifo
+-- Compiling module v_uhdsdi_audio_v1_0_0_demux_top
+
+Top level modules:
+	v_uhdsdi_audio_v1_0_0_mux_top
+	v_uhdsdi_audio_v1_0_0_demux_top

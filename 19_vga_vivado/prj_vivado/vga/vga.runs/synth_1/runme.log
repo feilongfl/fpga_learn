@@ -1,0 +1,450 @@
+
+*** Running vivado
+    with args -log gameplay.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source gameplay.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source gameplay.tcl -notrace
+Command: synth_design -top gameplay -part xc7a100tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20100 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 365.234 ; gain = 100.914
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'gameplay' [D:/fpga/19_vga_vivado/src/gameplay.v:19]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/fpga/19_vga_vivado/prj_vivado/vga/vga.runs/synth_1/.Xil/Vivado-17532-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/fpga/19_vga_vivado/prj_vivado/vga/vga.runs/synth_1/.Xil/Vivado-17532-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'vga' [D:/fpga/19_vga_vivado/src/vga.v:5]
+	Parameter HorTotal bound to: 800 - type: integer 
+	Parameter HorAddr bound to: 640 - type: integer 
+	Parameter HorBlankStart bound to: 648 - type: integer 
+	Parameter HorBlankTime bound to: 144 - type: integer 
+	Parameter HorSyncStart bound to: 656 - type: integer 
+	Parameter HRightBorder bound to: 8 - type: integer 
+	Parameter HFrontPorch bound to: 8 - type: integer 
+	Parameter HorSyncTime bound to: 96 - type: integer 
+	Parameter HBackPorch bound to: 40 - type: integer 
+	Parameter HLeftBoader bound to: 8 - type: integer 
+	Parameter VerTotal bound to: 525 - type: integer 
+	Parameter VerAddr bound to: 480 - type: integer 
+	Parameter VerBlankStart bound to: 488 - type: integer 
+	Parameter VerBlankTime bound to: 29 - type: integer 
+	Parameter VerSyncStart bound to: 490 - type: integer 
+	Parameter VBottomBorder bound to: 8 - type: integer 
+	Parameter VFrontPorch bound to: 2 - type: integer 
+	Parameter VerSyncTime bound to: 2 - type: integer 
+	Parameter VBackPorch bound to: 25 - type: integer 
+	Parameter VTopBorder bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vga' (2#1) [D:/fpga/19_vga_vivado/src/vga.v:5]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [D:/fpga/19_vga_vivado/prj_vivado/vga/vga.runs/synth_1/.Xil/Vivado-17532-DESKTOP-B3SJCBK/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (3#1) [D:/fpga/19_vga_vivado/prj_vivado/vga/vga.runs/synth_1/.Xil/Vivado-17532-DESKTOP-B3SJCBK/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'gamebox' [D:/fpga/19_vga_vivado/src/gamebox.v:6]
+	Parameter box_w bound to: 100 - type: integer 
+	Parameter box_h bound to: 100 - type: integer 
+	Parameter drawable_w bound to: 640 - type: integer 
+	Parameter drawable_h bound to: 480 - type: integer 
+	Parameter box_x_speed bound to: 2 - type: integer 
+	Parameter box_y_speed bound to: 2 - type: integer 
+	Parameter board_y bound to: 400 - type: integer 
+	Parameter board_height bound to: 50 - type: integer 
+	Parameter board_width bound to: 100 - type: integer 
+	Parameter board_x_speed bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'gamebox' (4#1) [D:/fpga/19_vga_vivado/src/gamebox.v:6]
+INFO: [Synth 8-6157] synthesizing module 'xy2addr' [D:/fpga/19_vga_vivado/src/xy2addr.v:6]
+	Parameter WIDTH bound to: 100 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xy2addr' (5#1) [D:/fpga/19_vga_vivado/src/xy2addr.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cov8_1' [D:/fpga/19_vga_vivado/src/cov8_1.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cov8_1' (6#1) [D:/fpga/19_vga_vivado/src/cov8_1.v:6]
+WARNING: [Synth 8-689] width (5) of port connection 'o' does not match port width (1) of module 'cov8_1' [D:/fpga/19_vga_vivado/src/gameplay.v:161]
+WARNING: [Synth 8-689] width (6) of port connection 'o' does not match port width (1) of module 'cov8_1' [D:/fpga/19_vga_vivado/src/gameplay.v:165]
+WARNING: [Synth 8-689] width (5) of port connection 'o' does not match port width (1) of module 'cov8_1' [D:/fpga/19_vga_vivado/src/gameplay.v:169]
+INFO: [Synth 8-6155] done synthesizing module 'gameplay' (7#1) [D:/fpga/19_vga_vivado/src/gameplay.v:19]
+WARNING: [Synth 8-3917] design gameplay has port r[4] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port r[3] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port r[2] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port r[1] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port g[5] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port g[4] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port g[3] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port g[2] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port g[1] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port b[4] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port b[3] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port b[2] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port b[1] driven by constant 0
+WARNING: [Synth 8-3331] design xy2addr has unconnected port x[15]
+WARNING: [Synth 8-3331] design xy2addr has unconnected port x[14]
+WARNING: [Synth 8-3331] design xy2addr has unconnected port y[15]
+WARNING: [Synth 8-3331] design xy2addr has unconnected port y[14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 419.875 ; gain = 155.555
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 419.875 ; gain = 155.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 419.875 ; gain = 155.555
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/fpga/19_vga_vivado/prj_vivado/vga/vga.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'b2v_inst10'
+Finished Parsing XDC File [d:/fpga/19_vga_vivado/prj_vivado/vga/vga.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'b2v_inst10'
+Parsing XDC File [d:/fpga/19_vga_vivado/prj_vivado/vga/vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'b2v_inst'
+Finished Parsing XDC File [d:/fpga/19_vga_vivado/prj_vivado/vga/vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'b2v_inst'
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 775.414 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 775.414 ; gain = 511.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tfgg484-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 775.414 ; gain = 511.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sclk. (constraint file  d:/fpga/19_vga_vivado/prj_vivado/vga/vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sclk. (constraint file  d:/fpga/19_vga_vivado/prj_vivado/vga/vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for b2v_inst10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for b2v_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 775.414 ; gain = 511.094
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "h_counter0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v_counter0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "box_x_inv_flag" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 775.414 ; gain = 511.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     17 Bit       Adders := 4     
+	   2 Input     16 Bit       Adders := 4     
+	   3 Input     16 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     16 Bit        Muxes := 7     
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module vga 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 1     
+Module gamebox 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 4     
+	   2 Input     16 Bit       Adders := 4     
+	   3 Input     16 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 7     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "b2v_inst1/h_counter0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "b2v_inst1/v_counter0" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "b2v_inst2/box_x_inv_flag" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP b2v_inst5/addr, operation Mode is: (C or 0)+A*(B:0x64).
+DSP Report: operator b2v_inst5/addr is absorbed into DSP b2v_inst5/addr.
+DSP Report: operator b2v_inst5/addr0 is absorbed into DSP b2v_inst5/addr.
+DSP Report: operator b2v_inst5/addr is absorbed into DSP b2v_inst5/addr.
+DSP Report: Generating DSP b2v_inst6/addr, operation Mode is: (C or 0)+A*(B:0x64).
+DSP Report: operator b2v_inst6/addr is absorbed into DSP b2v_inst6/addr.
+DSP Report: operator b2v_inst6/addr0 is absorbed into DSP b2v_inst6/addr.
+DSP Report: operator b2v_inst6/addr is absorbed into DSP b2v_inst6/addr.
+WARNING: [Synth 8-3917] design gameplay has port r[4] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port r[3] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port r[2] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port r[1] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port g[5] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port g[4] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port g[3] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port g[2] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port g[1] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port b[4] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port b[3] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port b[2] driven by constant 0
+WARNING: [Synth 8-3917] design gameplay has port b[1] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Bo_reg[0]' (FD) to 'b2v_inst1/Bo_reg[7]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Bo_reg[7]' (FD) to 'b2v_inst1/Bo_reg[6]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Bo_reg[6]' (FD) to 'b2v_inst1/Bo_reg[5]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Bo_reg[5]' (FD) to 'b2v_inst1/Bo_reg[4]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Bo_reg[4]' (FD) to 'b2v_inst1/Bo_reg[3]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Bo_reg[3]' (FD) to 'b2v_inst1/Bo_reg[2]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Bo_reg[2]' (FD) to 'b2v_inst1/Bo_reg[1]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Go_reg[0]' (FD) to 'b2v_inst1/Go_reg[7]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Go_reg[7]' (FD) to 'b2v_inst1/Go_reg[6]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Go_reg[6]' (FD) to 'b2v_inst1/Go_reg[5]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Go_reg[5]' (FD) to 'b2v_inst1/Go_reg[4]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Go_reg[4]' (FD) to 'b2v_inst1/Go_reg[3]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Go_reg[3]' (FD) to 'b2v_inst1/Go_reg[2]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Go_reg[2]' (FD) to 'b2v_inst1/Go_reg[1]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Ro_reg[0]' (FD) to 'b2v_inst1/Ro_reg[7]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Ro_reg[7]' (FD) to 'b2v_inst1/Ro_reg[6]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Ro_reg[6]' (FD) to 'b2v_inst1/Ro_reg[5]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Ro_reg[5]' (FD) to 'b2v_inst1/Ro_reg[4]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Ro_reg[4]' (FD) to 'b2v_inst1/Ro_reg[3]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Ro_reg[3]' (FD) to 'b2v_inst1/Ro_reg[2]'
+INFO: [Synth 8-3886] merging instance 'b2v_inst1/Ro_reg[2]' (FD) to 'b2v_inst1/Ro_reg[1]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 775.414 ; gain = 511.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+---------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping         | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+---------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|xy2addr     | (C or 0)+A*(B:0x64) | 14     | 7      | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|xy2addr     | (C or 0)+A*(B:0x64) | 14     | 7      | 14     | -      | 14     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+---------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'b2v_inst/clk_out1' to pin 'b2v_inst/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'b2v_inst/clk_out2' to pin 'b2v_inst/bbstub_clk_out2/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 809.512 ; gain = 545.191
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 853.527 ; gain = 589.207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:00:48 . Memory (MB): peak = 853.527 ; gain = 589.207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 853.527 ; gain = 589.207
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 853.527 ; gain = 589.207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:50 . Memory (MB): peak = 853.527 ; gain = 589.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 853.527 ; gain = 589.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 853.527 ; gain = 589.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 853.527 ; gain = 589.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |blk_mem_gen_0 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |blk_mem_gen_0 |     1|
+|2     |clk_wiz_0     |     1|
+|3     |BUFG          |     2|
+|4     |CARRY4        |    97|
+|5     |DSP48E1       |     2|
+|6     |LUT1          |    61|
+|7     |LUT2          |   157|
+|8     |LUT3          |    25|
+|9     |LUT4          |   141|
+|10    |LUT5          |    29|
+|11    |LUT6          |    40|
+|12    |FDCE          |   123|
+|13    |FDPE          |     4|
+|14    |FDRE          |    22|
+|15    |IBUF          |     3|
+|16    |OBUF          |    18|
++------+--------------+------+
+
+Report Instance Areas: 
++------+------------+----------+------+
+|      |Instance    |Module    |Cells |
++------+------------+----------+------+
+|1     |top         |          |   728|
+|2     |  b2v_inst1 |vga       |   374|
+|3     |  b2v_inst2 |gamebox   |   320|
+|4     |  b2v_inst5 |xy2addr   |     1|
+|5     |  b2v_inst6 |xy2addr_0 |     1|
++------+------------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 853.527 ; gain = 589.207
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 853.527 ; gain = 233.668
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 853.527 ; gain = 589.207
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 102 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:53 . Memory (MB): peak = 853.527 ; gain = 600.680
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/fpga/19_vga_vivado/prj_vivado/vga/vga.runs/synth_1/gameplay.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file gameplay_utilization_synth.rpt -pb gameplay_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 853.527 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 10 14:12:30 2018...

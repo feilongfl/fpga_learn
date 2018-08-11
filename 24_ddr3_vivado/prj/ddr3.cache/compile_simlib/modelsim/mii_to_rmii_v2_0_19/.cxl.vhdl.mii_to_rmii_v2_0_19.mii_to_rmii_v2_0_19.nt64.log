@@ -1,0 +1,27 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity rx_fifo_loader
+-- Compiling architecture simulation of rx_fifo_loader
+-- Compiling entity rx_fifo_disposer
+-- Compiling architecture simulation of rx_fifo_disposer
+-- Compiling entity rx_fifo
+-- Compiling architecture simulation of rx_fifo
+-- Compiling entity SRL_FIFO
+-- Compiling architecture IMP of SRL_FIFO
+-- Compiling entity rmii_tx_fixed
+-- Compiling architecture simulation of rmii_tx_fixed
+-- Compiling entity rmii_tx_agile
+-- Compiling architecture simulation of rmii_tx_agile
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rmii_rx_fixed
+-- Compiling architecture simulation of rmii_rx_fixed
+-- Loading entity SRL_FIFO
+-- Compiling entity rmii_rx_agile
+-- Compiling architecture simulation of rmii_rx_agile
+** Error: (vcom-11) Could not find unisim.vcomponents.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\mii_to_rmii_v2_0\hdl\mii_to_rmii_v2_0_vh_rfs.vhd(4120): (vcom-1195) Cannot find expanded name "unisim.Vcomponents".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\mii_to_rmii_v2_0\hdl\mii_to_rmii_v2_0_vh_rfs.vhd(4120): Unknown expanded name.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\mii_to_rmii_v2_0\hdl\mii_to_rmii_v2_0_vh_rfs.vhd(4153): VHDL Compiler exiting

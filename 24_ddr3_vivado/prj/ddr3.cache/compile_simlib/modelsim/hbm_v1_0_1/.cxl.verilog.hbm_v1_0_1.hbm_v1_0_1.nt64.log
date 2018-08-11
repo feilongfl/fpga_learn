@@ -1,0 +1,15 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module hbm_top
+-- Compiling module hbm_rst_gen
+-- Compiling module hbm_apb_mst
+-- Compiling module hbm_apb_arbiter
+-- Compiling module hbm_data_fetch
+-- Compiling module xsdb_top
+-- Compiling module xsdb2apb
+-- Compiling module hbm_v1_0_1_chipscope_xsdb_slave
+-- Compiling module HBM
+
+Top level modules:
+	hbm_top
+	hbm_rst_gen
+	HBM

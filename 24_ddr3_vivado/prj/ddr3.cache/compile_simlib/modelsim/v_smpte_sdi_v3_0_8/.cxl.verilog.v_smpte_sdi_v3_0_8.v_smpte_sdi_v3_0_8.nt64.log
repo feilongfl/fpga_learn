@@ -1,0 +1,42 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module v_smpte_sdi_v3_0_8_anc_rx
+-- Compiling module v_smpte_sdi_v3_0_8_autodetect
+-- Compiling module v_smpte_sdi_v3_0_8_edh_crc
+-- Compiling module v_smpte_sdi_v3_0_8_edh_crc16
+-- Compiling module v_smpte_sdi_v3_0_8_edh_errcnt
+-- Compiling module v_smpte_sdi_v3_0_8_edh_flags
+-- Compiling module v_smpte_sdi_v3_0_8_edh_loc
+-- Compiling module v_smpte_sdi_v3_0_8_edh_processor
+-- Compiling module v_smpte_sdi_v3_0_8_edh_rx
+-- Compiling module v_smpte_sdi_v3_0_8_edh_tx
+-- Compiling module v_smpte_sdi_v3_0_8_fly_field
+-- Compiling module v_smpte_sdi_v3_0_8_fly_fsm
+-- Compiling module v_smpte_sdi_v3_0_8_fly_horz
+-- Compiling module v_smpte_sdi_v3_0_8_fly_vert
+-- Compiling module v_smpte_sdi_v3_0_8_flywheel
+-- Compiling module v_smpte_sdi_v3_0_8_hdsdi_crc2
+-- Compiling module v_smpte_sdi_v3_0_8_hdsdi_insert_crc
+-- Compiling module v_smpte_sdi_v3_0_8_hdsdi_insert_ln
+-- Compiling module v_smpte_sdi_v3_0_8_hdsdi_rx_crc
+-- Compiling module v_smpte_sdi_v3_0_8_multi_sdi_decoder
+-- Compiling module v_smpte_sdi_v3_0_8_multi_sdi_encoder
+-- Compiling module v_smpte_sdi_v3_0_8_multi_sdi_framer
+-- Compiling module v_smpte_sdi_v3_0_8_mux12_wide
+-- Compiling module v_smpte_sdi_v3_0_8_sdi_bitrep_20b
+-- Compiling module v_smpte_sdi_v3_0_8_SMPTE352_vpid_capture
+-- Compiling module v_smpte_sdi_v3_0_8_SMPTE352_vpid_insert
+-- Compiling module v_smpte_sdi_v3_0_8_SMPTE425_B_demux2
+-- Compiling module v_smpte_sdi_v3_0_8_smpte_encoder
+-- Compiling module v_smpte_sdi_v3_0_8_triple_sdi_reset
+-- Compiling module v_smpte_sdi_v3_0_8_triple_sdi_rx
+-- Compiling module v_smpte_sdi_v3_0_8_triple_sdi_rx_autorate
+-- Compiling module v_smpte_sdi_v3_0_8_triple_sdi_transport_detect
+-- Compiling module v_smpte_sdi_v3_0_8_triple_sdi_tx_output
+-- Compiling module v_smpte_sdi_v3_0_8_triple_sdi_vpid_insert
+-- Compiling module v_smpte_sdi_v3_0_8_trs_detect
+-- Compiling module v_smpte_sdi_v3_0_8_trsgen
+-- Compiling module v_smpte_sdi_v3_0_8_video_decode
+-- Compiling module v_smpte_sdi_v3_0_8
+
+Top level modules:
+	v_smpte_sdi_v3_0_8

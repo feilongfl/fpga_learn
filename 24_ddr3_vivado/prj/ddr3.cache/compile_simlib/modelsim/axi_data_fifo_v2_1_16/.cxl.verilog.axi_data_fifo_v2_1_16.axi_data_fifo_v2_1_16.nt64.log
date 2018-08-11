@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axi_data_fifo_v2_1_16_axic_fifo
+-- Compiling module axi_data_fifo_v2_1_16_fifo_gen
+-- Compiling module axi_data_fifo_v2_1_16_axic_srl_fifo
+-- Compiling module axi_data_fifo_v2_1_16_axic_reg_srl_fifo
+-- Compiling module axi_data_fifo_v2_1_16_ndeep_srl
+-- Compiling module axi_data_fifo_v2_1_16_axi_data_fifo
+
+Top level modules:
+	axi_data_fifo_v2_1_16_axic_fifo
+	axi_data_fifo_v2_1_16_axic_srl_fifo
+	axi_data_fifo_v2_1_16_axic_reg_srl_fifo
+	axi_data_fifo_v2_1_16_axi_data_fifo

@@ -1,0 +1,14 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axi_firewall_v1_0_5_checks
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(539): Could not find the package (sc_util_v1_0_3_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1060): Could not find the package (sc_util_v1_0_3_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1109): near "t_axi_len": syntax error, unexpected IDENTIFIER
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1118): near "}": syntax error, unexpected '}'
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1123): near "t_axi_len": syntax error, unexpected IDENTIFIER
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1132): near "}": syntax error, unexpected '}'
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1138): near "t_axi_last": syntax error, unexpected IDENTIFIER
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1140): near "}": syntax error, unexpected '}'
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1145): near "t_axi_resp": syntax error, unexpected IDENTIFIER
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1148): near "}": syntax error, unexpected '}'
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1152): near "t_axi_resp": syntax error, unexpected IDENTIFIER
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/axi_firewall_v1_0/hdl/axi_firewall_v1_0_vl_rfs.sv(1154): near "}": syntax error, unexpected '}'

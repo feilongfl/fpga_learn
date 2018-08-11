@@ -1,0 +1,3 @@
+"C:\Program Files\ModelSim\win64/vlib" D:/fpga/24_ddr3_vivado/prj/ddr3.cache/compile_simlib/modelsim/audio_clock_recovery_v1_0
+"C:\Program Files\ModelSim\win64/vmap" audio_clock_recovery_v1_0 D:/fpga/24_ddr3_vivado/prj/ddr3.cache/compile_simlib/modelsim/audio_clock_recovery_v1_0
+"C:\Program Files\ModelSim\win64/vlog"  -64 -L audio_clock_recovery_v1_0 +incdir+c:\Users\fei_l\AppData\Roaming\Xilinx\Vivado\.cxl.ip/incl -sv -work audio_clock_recovery_v1_0 -f D:\fpga\24_ddr3_vivado\prj\ddr3.cache\compile_simlib\modelsim/audio_clock_recovery_v1_0/.cxl.systemverilog.audio_clock_recovery_v1_0.audio_clock_recovery_v1_0.nt64.cmf

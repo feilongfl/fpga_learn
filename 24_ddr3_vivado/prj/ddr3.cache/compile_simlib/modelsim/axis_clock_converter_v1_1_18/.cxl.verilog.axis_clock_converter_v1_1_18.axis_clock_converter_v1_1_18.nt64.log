@@ -1,0 +1,8 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axis_clock_converter_v1_1_18_axisc_sync_clock_converter
+-- Compiling module axis_clock_converter_v1_1_18_axisc_async_clock_converter
+-- Compiling module axis_clock_converter_v1_1_18_axisc_sample_cycle_ratio
+-- Compiling module axis_clock_converter_v1_1_18_axis_clock_converter
+
+Top level modules:
+	axis_clock_converter_v1_1_18_axis_clock_converter

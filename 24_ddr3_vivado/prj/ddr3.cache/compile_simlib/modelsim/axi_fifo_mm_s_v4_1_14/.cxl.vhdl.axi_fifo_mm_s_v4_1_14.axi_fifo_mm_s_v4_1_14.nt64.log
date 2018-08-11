@@ -1,0 +1,31 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package axi_fifo_mm_s_pkg
+-- Compiling package body axi_fifo_mm_s_pkg
+-- Loading package axi_fifo_mm_s_pkg
+-- Loading package axi_fifo_mm_s_pkg
+-- Compiling entity axi_write_fsm
+-- Compiling architecture axi_write_fsm_arch of axi_write_fsm
+-- Compiling entity axi_write_wrapper
+-- Compiling architecture axi_write_wrap_arch of axi_write_wrapper
+-- Loading entity axi_write_fsm
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Compiling entity axi_read_fsm
+-- Compiling architecture axi_read_fsm_arch of axi_read_fsm
+-- Compiling entity axi_read_wrapper
+-- Compiling architecture axi_read_wrapper_arch of axi_read_wrapper
+-- Loading entity axi_read_fsm
+-- Compiling entity axi_wrapper
+-- Compiling architecture xilinx of axi_wrapper
+-- Loading entity axi_write_wrapper
+-- Loading entity axi_read_wrapper
+-- Loading package NUMERIC_STD
+** Error: (vcom-11) Could not find unisim.vcomponents.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_fifo_mm_s_v4_1\hdl\axi_fifo_mm_s_v4_1_rfs.vhd(2685): (vcom-1195) Cannot find expanded name "unisim.vcomponents".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_fifo_mm_s_v4_1\hdl\axi_fifo_mm_s_v4_1_rfs.vhd(2685): Unknown expanded name.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_fifo_mm_s_v4_1\hdl\axi_fifo_mm_s_v4_1_rfs.vhd(2689): VHDL Compiler exiting

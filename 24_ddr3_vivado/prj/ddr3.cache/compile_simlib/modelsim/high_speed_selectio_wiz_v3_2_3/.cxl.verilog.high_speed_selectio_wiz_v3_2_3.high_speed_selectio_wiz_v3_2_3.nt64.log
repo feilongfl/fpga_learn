@@ -1,0 +1,29 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module high_speed_selectio_wiz_v3_2_3_sync_cell
+-- Compiling module high_speed_selectio_wiz_v3_2_3_rst_scheme
+-- Compiling module high_speed_selectio_wiz_v3_2_3_clk_scheme
+-- Compiling module high_speed_selectio_wiz_v3_2_3_clk_rst_top
+-- Compiling module high_speed_selectio_wiz_v3_2_3_bs_ctrl_top
+-- Compiling module high_speed_selectio_wiz_v3_2_3_iobuf_top
+-- Compiling module high_speed_selectio_wiz_v3_2_3_C2BCEtc
+-- Compiling module high_speed_selectio_wiz_v3_2_3_C2BCEtc_dwnld
+-- Compiling module high_speed_selectio_wiz_v3_2_3_C3BCEtc
+-- Compiling module high_speed_selectio_wiz_v3_2_3_C3BCEtc_dwnld
+-- Compiling module high_speed_selectio_wiz_v3_2_3_Fdcr
+-- Compiling module high_speed_selectio_wiz_v3_2_3_GenPulse
+-- Compiling module high_speed_selectio_wiz_v3_2_3_BitSlipInLogic_4b
+-- Compiling module high_speed_selectio_wiz_v3_2_3_BitSlipInLogic_8b
+-- Compiling module high_speed_selectio_wiz_v3_2_3_BitSlipInLogic_FstCmp_4b
+-- Compiling module high_speed_selectio_wiz_v3_2_3_BitSlipInLogic_FstCmp_8b
+-- Compiling module high_speed_selectio_wiz_v3_2_3_BitSlipInLogic_Toplevel
+-- Compiling module high_speed_selectio_wiz_v3_2_3_rxtx_bs
+-- Compiling module high_speed_selectio_wiz_v3_2_3_tx_bs_tri
+-- Compiling module high_speed_selectio_wiz_v3_2_3_rx_bs
+-- Compiling module high_speed_selectio_wiz_v3_2_3_tx_bs
+-- Compiling module high_speed_selectio_wiz_v3_2_3_bs_top
+
+Top level modules:
+	high_speed_selectio_wiz_v3_2_3_clk_rst_top
+	high_speed_selectio_wiz_v3_2_3_bs_ctrl_top
+	high_speed_selectio_wiz_v3_2_3_iobuf_top
+	high_speed_selectio_wiz_v3_2_3_bs_top

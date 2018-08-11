@@ -1,0 +1,19 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ld_arith_reg
+-- Loading package NUMERIC_STD
+-- Compiling architecture imp of ld_arith_reg
+-- Compiling entity mux_onehot_f
+-- Compiling architecture imp of mux_onehot_f
+-- Compiling package mac_pkg
+-- Compiling package body mac_pkg
+-- Loading package mac_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+** Error: (vcom-11) Could not find unisim.vcomponents.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_ethernetlite_v3_0\hdl\axi_ethernetlite_v3_0_vh_rfs.vhd(1339): (vcom-1195) Cannot find expanded name "unisim.Vcomponents".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_ethernetlite_v3_0\hdl\axi_ethernetlite_v3_0_vh_rfs.vhd(1339): Unknown expanded name.
+-- Loading package mac_pkg
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_ethernetlite_v3_0\hdl\axi_ethernetlite_v3_0_vh_rfs.vhd(1365): VHDL Compiler exiting

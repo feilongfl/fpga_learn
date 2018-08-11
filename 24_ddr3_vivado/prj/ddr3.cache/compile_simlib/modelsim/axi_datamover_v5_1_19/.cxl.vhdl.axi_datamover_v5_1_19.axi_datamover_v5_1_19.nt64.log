@@ -1,0 +1,17 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity axi_datamover_reset
+-- Compiling architecture implementation of axi_datamover_reset
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(354): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(354): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(434): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(434): Unknown expanded name.
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(516): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(516): Unknown expanded name.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_datamover_v5_1\hdl\axi_datamover_v5_1_vh_rfs.vhd(744): VHDL Compiler exiting

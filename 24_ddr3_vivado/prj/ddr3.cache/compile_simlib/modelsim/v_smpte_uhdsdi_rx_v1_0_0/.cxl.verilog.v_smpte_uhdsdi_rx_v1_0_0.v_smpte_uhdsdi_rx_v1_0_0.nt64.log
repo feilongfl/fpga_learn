@@ -1,0 +1,34 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_fly_horz
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_decoder
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_framer
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_errcnt
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_st352_pid_capture
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_crc
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_autodetect
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_demux_4
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_flags
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_trs_restore
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_video_decode
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_processor
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_rx
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_tx
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_autorate
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_loc
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_fly_fsm
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_fly_field
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_crc16
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_transport_detect
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_anc_rx
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_flywheel
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_fly_vert
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_to_demux
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_crc
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_crc2
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_edh_trs_detect
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_s00_axi
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0_rx
+-- Compiling module v_smpte_uhdsdi_rx_v1_0_0
+
+Top level modules:
+	v_smpte_uhdsdi_rx_v1_0_0

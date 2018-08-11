@@ -1,0 +1,29 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axis_interconnect_v1_1_15_axisc_sync_clock_converter
+-- Compiling module axis_interconnect_v1_1_15_axisc_sample_cycle_ratio
+-- Compiling module axis_interconnect_v1_1_15_axis_clock_converter
+-- Compiling module axis_interconnect_v1_1_15_axis_data_fifo
+-- Compiling module axis_interconnect_v1_1_15_arb_rr
+-- Compiling module axis_interconnect_v1_1_15_axisc_decoder
+-- Compiling module axis_interconnect_v1_1_15_axisc_transfer_mux
+-- Compiling module axis_interconnect_v1_1_15_axisc_arb_responder
+-- Compiling module axis_interconnect_v1_1_15_axis_switch_arbiter
+-- Compiling module axis_interconnect_v1_1_15_dynamic_priority_encoder
+-- Compiling module axis_interconnect_v1_1_15_axis_switch
+-- Compiling module axis_interconnect_v1_1_15_axis_subset_converter
+-- Compiling module axis_interconnect_v1_1_15_mux_enc
+-- Compiling module axis_interconnect_v1_1_15_util_aclken_converter
+-- Compiling module axis_interconnect_v1_1_15_util_aclken_converter_wrapper
+-- Compiling module axis_interconnect_v1_1_15_util_axis2vector
+-- Compiling module axis_interconnect_v1_1_15_util_vector2axis
+-- Compiling module axis_interconnect_v1_1_15_axisc_register_slice
+-- Compiling module axis_interconnect_v1_1_15_axis_register_slice
+-- Compiling module axis_interconnect_v1_1_15_axisc_downsizer
+-- Compiling module axis_interconnect_v1_1_15_axisc_upsizer
+-- Compiling module axis_interconnect_v1_1_15_axis_dwidth_converter
+-- Compiling module axis_interconnect_v1_1_15_dynamic_datapath
+-- Compiling module axis_interconnect_v1_1_15_axis_interconnect
+-- Compiling module axis_interconnect_v1_1_15_axis_interconnect_16x16_top
+
+Top level modules:
+	axis_interconnect_v1_1_15_axis_interconnect_16x16_top

@@ -1,0 +1,3 @@
+"C:\Program Files\ModelSim\win64/vlib" D:/fpga/24_ddr3_vivado/prj/ddr3.cache/compile_simlib/modelsim/processing_system7_vip_v1_0_5
+"C:\Program Files\ModelSim\win64/vmap" processing_system7_vip_v1_0_5 D:/fpga/24_ddr3_vivado/prj/ddr3.cache/compile_simlib/modelsim/processing_system7_vip_v1_0_5
+"C:\Program Files\ModelSim\win64/vlog"  -64 -L smartconnect_v1_0 -L axi_protocol_checker_v2_0_3 -L axi_vip_v1_1_3 -L processing_system7_vip_v1_0_5 -L xilinx_vip +incdir+c:\Users\fei_l\AppData\Roaming\Xilinx\Vivado\.cxl.ip/incl -sv -work processing_system7_vip_v1_0_5 -f D:\fpga\24_ddr3_vivado\prj\ddr3.cache\compile_simlib\modelsim/processing_system7_vip_v1_0_5/.cxl.systemverilog.processing_system7_vip_v1_0_5.processing_system7_vip_v1_0_5.nt64.cmf

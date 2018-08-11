@@ -1,0 +1,16 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_util_v1_0/hdl/sc_util_v1_0_vl_rfs.sv(64): The appropriate key has not been specified
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_util_v1_0/hdl/sc_util_v1_0_vl_rfs.sv(64): syntax error in protected region.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_axi2sc_v1_0/hdl/sc_axi2sc_v1_0_vl_rfs.sv(64): near "/": syntax error, unexpected '/', expecting class
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_exit_v1_0/hdl/sc_exit_v1_0_vl_rfs.sv(64): The appropriate key has not been specified
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_exit_v1_0/hdl/sc_exit_v1_0_vl_rfs.sv(64): syntax error in protected region.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_mmu_v1_0/hdl/sc_mmu_v1_0_vl_rfs.sv(64): near "+": syntax error, unexpected '+', expecting class
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_node_v1_0/hdl/sc_node_v1_0_vl_rfs.sv(64): The appropriate key has not been specified
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_node_v1_0/hdl/sc_node_v1_0_vl_rfs.sv(64): syntax error in protected region.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_sc2axi_v1_0/hdl/sc_sc2axi_v1_0_vl_rfs.sv(64): near "/": syntax error, unexpected '/', expecting class
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_si_converter_v1_0/hdl/sc_si_converter_v1_0_vl_rfs.sv(64): The appropriate key has not been specified
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_si_converter_v1_0/hdl/sc_si_converter_v1_0_vl_rfs.sv(64): syntax error in protected region.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_splitter_v1_0/hdl/sc_splitter_v1_0_vl_rfs.sv(64): near "/": syntax error, unexpected '/', expecting class
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_switchboard_v1_0/hdl/sc_switchboard_v1_0_vl_rfs.sv(64): The appropriate key has not been specified
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_switchboard_v1_0/hdl/sc_switchboard_v1_0_vl_rfs.sv(64): syntax error in protected region.
+** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xilinx/sc_transaction_regulator_v1_0/hdl/sc_transaction_regulator_v1_0_vl_rfs.sv(64): near "+": syntax error, unexpected '+', expecting class

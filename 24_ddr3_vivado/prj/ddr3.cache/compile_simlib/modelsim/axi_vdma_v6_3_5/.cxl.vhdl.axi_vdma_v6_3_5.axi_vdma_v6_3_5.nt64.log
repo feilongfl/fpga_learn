@@ -1,0 +1,18 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package axi_sg_pkg
+-- Compiling package body axi_sg_pkg
+-- Loading package axi_sg_pkg
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+** Error: (vcom-11) Could not find unisim.vcomponents.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_vdma_v6_3\hdl\axi_vdma_v6_3_rfs.vhd(323): (vcom-1195) Cannot find expanded name "unisim.vcomponents".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_vdma_v6_3\hdl\axi_vdma_v6_3_rfs.vhd(323): Unknown expanded name.
+-- Loading package axi_sg_pkg
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_vdma_v6_3\hdl\axi_vdma_v6_3_rfs.vhd(332): VHDL Compiler exiting

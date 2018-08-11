@@ -1,0 +1,20 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package lib_pkg
+-- Compiling package axi_cdma_pkg
+-- Compiling package body axi_cdma_pkg
+-- Loading package axi_cdma_pkg
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package axi_cdma_pkg
+-- Compiling entity axi_cdma_pulse_gen
+-- Compiling architecture implementation of axi_cdma_pulse_gen
+** Error: (vcom-11) Could not find lib_cdc_v1_0_2.cdc_sync.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_cdma_v4_1\hdl\axi_cdma_v4_1_vh_rfs.vhd(525): (vcom-1195) Cannot find expanded name "lib_cdc_v1_0_2.cdc_sync".
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_cdma_v4_1\hdl\axi_cdma_v4_1_vh_rfs.vhd(525): Unknown expanded name.
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\axi_cdma_v4_1\hdl\axi_cdma_v4_1_vh_rfs.vhd(811): VHDL Compiler exiting

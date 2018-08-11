@@ -1,0 +1,6 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+###### D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unisims\unisim_retarget_VCOMP.vhdp(45): `protect data_method = "AES128-CBC"
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unisims\unisim_retarget_VCOMP.vhdp(45): near "AES128-CBC": Unknown session key in protected region
+###### D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unisims\unisim_retarget_VCOMP.vhdp(46): `protect encoding = (enctype = "BASE64", line_length = 76, bytes = 3026160)
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\vhdl\src\unisims\unisim_retarget_VCOMP.vhdp(46): VHDL Compiler exiting

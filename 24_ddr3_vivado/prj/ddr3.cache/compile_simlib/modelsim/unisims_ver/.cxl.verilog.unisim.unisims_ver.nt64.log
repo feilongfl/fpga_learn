@@ -1,0 +1,7 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module HSADC
+-- Compiling module HSDAC
+
+Top level modules:
+	HSADC
+	HSDAC

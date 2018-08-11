@@ -1,0 +1,18 @@
+Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module axi_dwidth_converter_v2_1_17_a_downsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_b_downsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_r_downsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_w_downsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_axi_downsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_axi4lite_downsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_axi4lite_upsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_a_upsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_r_upsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_w_upsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_w_upsizer_pktfifo
+-- Compiling module axi_dwidth_converter_v2_1_17_r_upsizer_pktfifo
+-- Compiling module axi_dwidth_converter_v2_1_17_axi_upsizer
+-- Compiling module axi_dwidth_converter_v2_1_17_top
+
+Top level modules:
+	axi_dwidth_converter_v2_1_17_top

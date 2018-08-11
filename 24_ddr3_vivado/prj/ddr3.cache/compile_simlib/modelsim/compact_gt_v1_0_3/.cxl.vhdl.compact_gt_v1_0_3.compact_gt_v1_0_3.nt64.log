@@ -1,0 +1,4 @@
+Model Technology ModelSim SE-64 vcom 10.2c Compiler 2013.07 Jul 19 2013
+-- Loading package STANDARD
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\compact_gt_v1_0\hdl\src\vhd\bs_flex_v_2.vhd(61): near "AES128-CBC": Unknown session key in protected region
+** Error: D:\Xilinx\vivado\Vivado\2018.2\data\ip\xilinx\compact_gt_v1_0\hdl\src\vhd\bs_flex_v_2.vhd(62): VHDL Compiler exiting
