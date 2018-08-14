@@ -1,0 +1,230 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Aug 14 15:01:53 2018
+# Process ID: 20064
+# Current directory: d:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex
+# Command line: vivado.exe -notrace -source d:/fpga/25_uart_send_pic_to_hdmi/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl
+# Log file: d:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/vivado.log
+# Journal file: d:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source d:/fpga/25_uart_send_pic_to_hdmi/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl -notrace
+INFO: [open_example_project] Creating new example project...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/vivado/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:07 . Memory (MB): peak = 799.691 ; gain = 64.340
+INFO: [open_example_project] Importing original IP ...
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15648-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15648-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15648-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15648-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15648-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_row_col.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_select.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_compare.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_queue.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_state.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_col_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_mc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_round_robin_arb.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_buf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_dec_fix.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_merge_enc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_fi_xor.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_1_memc_ui_top_std.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_1_mem_intfc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_group_io.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_lane.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_calib_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_if_post_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy_wrapper.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_of_pre_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_4lanes.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ck_addr_cmd_delay.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal_hr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_init.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_cntlr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_edge.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_lim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_po_cntlr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_samp.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_oclkdelay_cal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_prbs_rdlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_rdlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrcal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl_off_delay.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_prbs_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_skip_calib_tap.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_cc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_edge_store.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_meta.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_pd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_tap_base.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_1_ui_cmd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_1_ui_rd_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_1_ui_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_1_ui_wr_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/doc/mig_7series_v4_1_changelog.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_row_col.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_select.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_compare.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_queue.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_state.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_col_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_mc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_round_robin_arb.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_buf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_dec_fix.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_merge_enc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_fi_xor.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_1_memc_ui_top_std.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found 'c:/Users/fei_l/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-18412-DESKTOP-B3SJCBK/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_1_mem_intfc.v'. Please regenerate to continue.
+INFO: [Common 17-14] Message 'IP_Flow 19-3664' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+import_ip: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 803.723 ; gain = 4.031
+INFO: [open_example_project] Generating the example project IP ...
+INFO: [open_example_project] Adding example synthesis HDL files ...
+INFO: [open_example_project] Adding example XDC files ...
+INFO: [open_example_project] Adding simulation HDL files ...
+INFO: [open_example_project] Adding simulation miscellaneous files ...
+INFO: [open_example_project] Sourcing example extension scripts ...
+Post Processing the example_design
+INFO: [open_example_project] Rebuilding all the top level IPs ...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'mig_7series_0'...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XSIM" (Xilinx Vivado Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xsim/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xsim/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "MODELSIM" (Mentor Graphics ModelSim Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/modelsim/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/modelsim/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "QUESTA" (Mentor Graphics Questa Advanced Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/questa/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/questa/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "IES" (Cadence Incisive Enterprise Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/ies/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/ies/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "VCS" (Synopsys Verilog Compiler Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/vcs/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/vcs/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "RIVIERA" (Aldec Riviera-PRO Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/riviera/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/riviera/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "ACTIVEHDL" (Aldec Active-HDL Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/activehdl/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/activehdl/mig_a.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XCELIUM" (Cadence Xcelium Parallel Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xcelium/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xcelium/mig_a.prj'
+export_ip_user_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 824.473 ; gain = 20.750
+INFO: [open_example_project] Open Example Project completed
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs impl_1 -jobs 16
+[Tue Aug 14 15:03:39 2018] Launched synth_1...
+Run output will be captured here: d:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/runme.log
+[Tue Aug 14 15:03:39 2018] Launched impl_1...
+Run output will be captured here: d:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 498 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1777.910 ; gain = 0.000
+Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1777.910 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 232 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 194 instances
+  SRLC32E => SRL16E: 1 instances
+
+open_run: Time (s): cpu = 00:00:53 ; elapsed = 00:00:38 . Memory (MB): peak = 1905.453 ; gain = 1037.676
+open_report: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1983.004 ; gain = 67.023
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Netlist 29-17] Analyzing 508 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/imports/example_top.xdc]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/imports/example_top.xdc]
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 231 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 194 instances
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2008.906 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 14 15:17:26 2018...

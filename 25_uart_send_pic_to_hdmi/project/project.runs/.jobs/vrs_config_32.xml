@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="fifo_w256to32_synth_1" LaunchDir="D:/fpga/25_uart_send_pic_to_hdmi/project/project.runs/fifo_w256to32_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fifo_w32to8_synth_1" LaunchDir="D:/fpga/25_uart_send_pic_to_hdmi/project/project.runs/fifo_w32to8_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/fpga/25_uart_send_pic_to_hdmi/project/project.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="fifo_w256to32_synth_1"/>
+		<Parent Id="fifo_w32to8_synth_1"/>
+	</Run>
+</Runs>
+

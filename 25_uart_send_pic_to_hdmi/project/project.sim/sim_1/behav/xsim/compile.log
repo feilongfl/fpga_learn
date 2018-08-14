@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga/25_uart_send_pic_to_hdmi/src/transfer/reg256to8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg256to8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga/25_uart_send_pic_to_hdmi/sim/tb_reg256to8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_reg256to8
