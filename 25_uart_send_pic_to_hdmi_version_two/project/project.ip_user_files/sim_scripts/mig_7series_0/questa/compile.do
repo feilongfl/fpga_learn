@@ -2,8 +2,16 @@ vlib questa_lib/work
 vlib questa_lib/msim
 
 vlib questa_lib/msim/xil_defaultlib
+vlib questa_lib/msim/xpm
 
 vmap xil_defaultlib questa_lib/msim/xil_defaultlib
+vmap xpm questa_lib/msim/xpm
+
+vlog -work xil_defaultlib -64 -sv \
+"D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+
+vcom -work xpm -64 -93 \
+"D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_VCOMP.vhd" \
 
 vlog -work xil_defaultlib -64 \
 "../../../../project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v" \
@@ -73,7 +81,6 @@ vlog -work xil_defaultlib -64 \
 "../../../../project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_1_ui_wr_data.v" \
 "../../../../project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v" \
 "../../../../project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v" \
-
 
 vlog -work xil_defaultlib \
 "glbl.v"

@@ -14,13 +14,13 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 3520 
-WARNING: [Synth 8-2507] parameter declaration becomes local in mig_7series_v4_1_init_mem_pattern_ctr with formal parameter declaration list [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:357]
+INFO: Helper process launched with PID 33812 
+WARNING: [Synth 8-2507] parameter declaration becomes local in mig_7series_v4_1_init_mem_pattern_ctr with formal parameter declaration list [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:357]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 399.957 ; gain = 102.813
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 400.176 ; gain = 103.277
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'example_top' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:75]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:265]
+INFO: [Synth 8-6157] synthesizing module 'example_top' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:75]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:265]
 	Parameter PORT_MODE bound to: BI_MODE - type: string 
 	Parameter DATA_MODE bound to: 4'b0010 
 	Parameter TST_MEM_INSTR_MODE bound to: R_W_INSTR_MODE - type: string 
@@ -78,44 +78,44 @@ WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uar
 	Parameter APP_MASK_WIDTH bound to: 32 - type: integer 
 	Parameter TG_ADDR_WIDTH bound to: 27 - type: integer 
 	Parameter MASK_SIZE bound to: 4 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/.Xil/Vivado-28588-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/.Xil/Vivado-28588-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_0' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/.Xil/Vivado-28588-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_0' (2#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/.Xil/Vivado-28588-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_traffic_gen_top' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:78]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/.Xil/Vivado-42180-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/.Xil/Vivado-42180-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/.Xil/Vivado-42180-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_0' (2#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/.Xil/Vivado-42180-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_traffic_gen_top' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:78]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter SIMULATION bound to: FALSE - type: string 
 	Parameter FAMILY bound to: VIRTEX7 - type: string 
@@ -153,7 +153,7 @@ WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uar
 	Parameter RD_WDT_WIDTH bound to: 10 - type: integer 
 	Parameter WR_WDT_WIDTH bound to: 13 - type: integer 
 	Parameter TG_FAMILY bound to: VIRTEX6 - type: string 
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_init_mem_pattern_ctr' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:87]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_init_mem_pattern_ctr' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:87]
 	Parameter SIMULATION bound to: FALSE - type: string 
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: VIRTEX6 - type: string 
@@ -208,18 +208,18 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_init_mem_pattern_ctr'
 	Parameter WRP_INSTR bound to: 3'b010 
 	Parameter REFRESH_INSTR bound to: 3'b100 
 	Parameter NOP_WR_INSTR bound to: 3'b101 
-WARNING: [Synth 8-6014] Unused sequential element mode_load_d1_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:483]
-WARNING: [Synth 8-6014] Unused sequential element mode_load_d2_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:485]
-WARNING: [Synth 8-6014] Unused sequential element mode_load_d3_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:487]
-WARNING: [Synth 8-6014] Unused sequential element mode_load_d4_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:489]
-WARNING: [Synth 8-6014] Unused sequential element mode_load_d5_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:491]
-WARNING: [Synth 8-6014] Unused sequential element mode_load_pulse_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:501]
-WARNING: [Synth 8-6014] Unused sequential element Cout_b_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:844]
-WARNING: [Synth 8-6014] Unused sequential element COuta_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:998]
-WARNING: [Synth 8-6014] Unused sequential element pre_instr_switch_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:1046]
-WARNING: [Synth 8-6014] Unused sequential element switch_instr_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:1100]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_init_mem_pattern_ctr' (3#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:87]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_memc_traffic_gen' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:81]
+WARNING: [Synth 8-6014] Unused sequential element mode_load_d1_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:483]
+WARNING: [Synth 8-6014] Unused sequential element mode_load_d2_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:485]
+WARNING: [Synth 8-6014] Unused sequential element mode_load_d3_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:487]
+WARNING: [Synth 8-6014] Unused sequential element mode_load_d4_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:489]
+WARNING: [Synth 8-6014] Unused sequential element mode_load_d5_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:491]
+WARNING: [Synth 8-6014] Unused sequential element mode_load_pulse_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:501]
+WARNING: [Synth 8-6014] Unused sequential element Cout_b_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:844]
+WARNING: [Synth 8-6014] Unused sequential element COuta_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:998]
+WARNING: [Synth 8-6014] Unused sequential element pre_instr_switch_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:1046]
+WARNING: [Synth 8-6014] Unused sequential element switch_instr_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:1100]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_init_mem_pattern_ctr' (3#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v:87]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_memc_traffic_gen' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:81]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: VIRTEX6 - type: string 
 	Parameter MEM_TYPE bound to: DDR3 - type: string 
@@ -243,7 +243,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_memc_traffic_gen' [d:
 	Parameter PRBS_EADDR bound to: 16777215 - type: integer 
 	Parameter PRBS_SADDR bound to: 0 - type: integer 
 	Parameter EYE_TEST bound to: FALSE - type: string 
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_read_data_path' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:72]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_read_data_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:72]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter START_ADDR bound to: 0 - type: integer 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
@@ -260,25 +260,25 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_read_data_path' [d:/f
 	Parameter MEM_COL_WIDTH bound to: 10 - type: integer 
 	Parameter SIMULATION bound to: FALSE - type: string 
 	Parameter ER_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_read_posted_fifo' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_posted_fifo.v:69]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_read_posted_fifo' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_posted_fifo.v:69]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: VIRTEX6 - type: string 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
 	Parameter MEM_BURST_LEN bound to: 8 - type: integer 
 	Parameter ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter BL_WIDTH bound to: 10 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_afifo' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:69]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_afifo' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:69]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter DSIZE bound to: 42 - type: integer 
 	Parameter FIFO_DEPTH bound to: 16 - type: integer 
 	Parameter ASIZE bound to: 4 - type: integer 
 	Parameter SYNC bound to: 1 - type: integer 
-WARNING: [Synth 8-6014] Unused sequential element COuta_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:158]
-WARNING: [Synth 8-6014] Unused sequential element COutc_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:197]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_afifo' (4#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:69]
-WARNING: [Synth 8-6014] Unused sequential element dfifo_has_enough_room_d1_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_posted_fifo.v:163]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_read_posted_fifo' (5#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_posted_fifo.v:69]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_rd_data_gen' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_rd_data_gen.v:69]
+WARNING: [Synth 8-6014] Unused sequential element COuta_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:158]
+WARNING: [Synth 8-6014] Unused sequential element COutc_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:197]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_afifo' (4#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:69]
+WARNING: [Synth 8-6014] Unused sequential element dfifo_has_enough_room_d1_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_posted_fifo.v:163]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_read_posted_fifo' (5#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_posted_fifo.v:69]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_rd_data_gen' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_rd_data_gen.v:69]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: VIRTEX6 - type: string 
 	Parameter MEM_TYPE bound to: DDR3 - type: string 
@@ -292,7 +292,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_rd_data_gen' [d:/fpga
 	Parameter NUM_DQ_PINS bound to: 32 - type: integer 
 	Parameter SEL_VICTIM_LINE bound to: 0 - type: integer 
 	Parameter COLUMN_WIDTH bound to: 10 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_s7ven_data_gen' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:85]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_s7ven_data_gen' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:85]
 	Parameter DMODE bound to: READ - type: string 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
 	Parameter MEM_TYPE bound to: DDR3 - type: string 
@@ -320,30 +320,30 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_s7ven_data_gen' [d:/f
 	Parameter WALKING1_DATA_MODE bound to: 4'b0101 
 	Parameter WALKING0_DATA_MODE bound to: 4'b0110 
 	Parameter PRBS_DATA_MODE bound to: 4'b0111 
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_data_prbs_gen' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_data_prbs_gen.v:70]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_data_prbs_gen' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_data_prbs_gen.v:70]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter EYE_TEST bound to: FALSE - type: string 
 	Parameter PRBS_WIDTH bound to: 32 - type: integer 
 	Parameter SEED_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_data_prbs_gen' (6#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_data_prbs_gen.v:70]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_tg_prbs_gen' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:82]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:104]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_data_prbs_gen' (6#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_data_prbs_gen.v:70]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_tg_prbs_gen' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:82]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:104]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter PRBS_WIDTH bound to: 8 - type: integer 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
 	Parameter PRBS_SEQ_LEN_CYCLES bound to: 32 - type: integer 
 	Parameter PRBS_SEQ_LEN_CYCLES_BITS bound to: 5 - type: integer 
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:104]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_tg_prbs_gen' (7#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:82]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_vio_init_pattern_bram' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_vio_init_pattern_bram.v:70]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:104]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:106]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_tg_prbs_gen' (7#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v:82]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_vio_init_pattern_bram' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_vio_init_pattern_bram.v:70]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter START_ADDR bound to: 0 - type: integer 
 	Parameter MEM_BURST_LEN bound to: 8 - type: integer 
@@ -351,34 +351,34 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_vio_init_pattern_bram
 	Parameter DEPTH bound to: 16 - type: integer 
 	Parameter NUM_DQ_PINS bound to: 32 - type: integer 
 	Parameter SEL_VICTIM_LINE bound to: 0 - type: integer 
-INFO: [Synth 8-226] default block is never used [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_vio_init_pattern_bram.v:284]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_vio_init_pattern_bram' (8#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_vio_init_pattern_bram.v:70]
-WARNING: [Synth 8-6014] Unused sequential element ADDRESS_PATTERN.COut_a_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:806]
-WARNING: [Synth 8-6014] Unused sequential element PSUEDO_PRBS_PATTERN.m_addr_r_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:917]
-INFO: [Synth 8-4471] merging register 'data_mode_rr_c_reg[3:0]' into 'data_mode_rr_a_reg[3:0]' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:308]
-WARNING: [Synth 8-6014] Unused sequential element data_mode_rr_c_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:308]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_s7ven_data_gen' (9#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:85]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_rd_data_gen' (10#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_rd_data_gen.v:69]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_afifo__parameterized0' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:69]
+INFO: [Synth 8-226] default block is never used [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_vio_init_pattern_bram.v:284]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_vio_init_pattern_bram' (8#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_vio_init_pattern_bram.v:70]
+WARNING: [Synth 8-6014] Unused sequential element ADDRESS_PATTERN.COut_a_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:806]
+WARNING: [Synth 8-6014] Unused sequential element PSUEDO_PRBS_PATTERN.m_addr_r_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:917]
+INFO: [Synth 8-4471] merging register 'data_mode_rr_c_reg[3:0]' into 'data_mode_rr_a_reg[3:0]' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:308]
+WARNING: [Synth 8-6014] Unused sequential element data_mode_rr_c_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:308]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_s7ven_data_gen' (9#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:85]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_rd_data_gen' (10#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_rd_data_gen.v:69]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_afifo__parameterized0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:69]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter DSIZE bound to: 256 - type: integer 
 	Parameter FIFO_DEPTH bound to: 32 - type: integer 
 	Parameter ASIZE bound to: 4 - type: integer 
 	Parameter SYNC bound to: 1 - type: integer 
-WARNING: [Synth 8-6014] Unused sequential element COuta_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:158]
-WARNING: [Synth 8-6014] Unused sequential element COutc_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:197]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_afifo__parameterized0' (10#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:69]
-WARNING: [Synth 8-6014] Unused sequential element gen_error_v7.dq_bit_error_r1_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:695]
-WARNING: [Synth 8-6014] Unused sequential element gen_error_v7.dq_lane_error_r2_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:697]
-WARNING: [Synth 8-6014] Unused sequential element gen_error_v7.COuta_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:737]
-WARNING: [Synth 8-6014] Unused sequential element wait_bl_end_r1_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:245]
-WARNING: [Synth 8-6014] Unused sequential element force_wrcmd_gen_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:254]
-WARNING: [Synth 8-6014] Unused sequential element force_wrcmd_timeout_cnts_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:265]
-WARNING: [Synth 8-6014] Unused sequential element wait_bl_end_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:275]
-WARNING: [Synth 8-6014] Unused sequential element v6_data_cmp_valid_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:421]
-WARNING: [Synth 8-6014] Unused sequential element cmp_data_en_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:425]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_read_data_path' (11#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:72]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_write_data_path' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_write_data_path.v:70]
+WARNING: [Synth 8-6014] Unused sequential element COuta_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:158]
+WARNING: [Synth 8-6014] Unused sequential element COutc_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:197]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_afifo__parameterized0' (10#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:69]
+WARNING: [Synth 8-6014] Unused sequential element gen_error_v7.dq_bit_error_r1_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:695]
+WARNING: [Synth 8-6014] Unused sequential element gen_error_v7.dq_lane_error_r2_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:697]
+WARNING: [Synth 8-6014] Unused sequential element gen_error_v7.COuta_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:737]
+WARNING: [Synth 8-6014] Unused sequential element wait_bl_end_r1_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:245]
+WARNING: [Synth 8-6014] Unused sequential element force_wrcmd_gen_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:254]
+WARNING: [Synth 8-6014] Unused sequential element force_wrcmd_timeout_cnts_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:265]
+WARNING: [Synth 8-6014] Unused sequential element wait_bl_end_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:275]
+WARNING: [Synth 8-6014] Unused sequential element v6_data_cmp_valid_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:421]
+WARNING: [Synth 8-6014] Unused sequential element cmp_data_en_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:425]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_read_data_path' (11#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v:72]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_write_data_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_write_data_path.v:70]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: VIRTEX6 - type: string 
 	Parameter MEM_TYPE bound to: DDR3 - type: string 
@@ -393,7 +393,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_write_data_path' [d:/
 	Parameter SEL_VICTIM_LINE bound to: 0 - type: integer 
 	Parameter MEM_COL_WIDTH bound to: 10 - type: integer 
 	Parameter EYE_TEST bound to: FALSE - type: string 
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_wr_data_gen' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v:70]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_wr_data_gen' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v:70]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: VIRTEX6 - type: string 
 	Parameter MEM_BURST_LEN bound to: 8 - type: integer 
@@ -409,7 +409,7 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_wr_data_gen' [d:/fpga
 	Parameter SEL_VICTIM_LINE bound to: 0 - type: integer 
 	Parameter COLUMN_WIDTH bound to: 10 - type: integer 
 	Parameter EYE_TEST bound to: FALSE - type: string 
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_s7ven_data_gen__parameterized0' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:85]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_s7ven_data_gen__parameterized0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:85]
 	Parameter DMODE bound to: WRITE - type: string 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
 	Parameter MEM_TYPE bound to: DDR3 - type: string 
@@ -437,19 +437,19 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_s7ven_data_gen__param
 	Parameter WALKING1_DATA_MODE bound to: 4'b0101 
 	Parameter WALKING0_DATA_MODE bound to: 4'b0110 
 	Parameter PRBS_DATA_MODE bound to: 4'b0111 
-WARNING: [Synth 8-6014] Unused sequential element ADDRESS_PATTERN.COut_a_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:806]
-WARNING: [Synth 8-6014] Unused sequential element PSUEDO_PRBS_PATTERN.m_addr_r_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:917]
-INFO: [Synth 8-4471] merging register 'data_mode_rr_c_reg[3:0]' into 'data_mode_rr_a_reg[3:0]' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:308]
-WARNING: [Synth 8-6014] Unused sequential element data_mode_rr_c_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:308]
-INFO: [Synth 8-4471] merging register 'user_burst_cnt_larger_bram_reg' into 'wr_ubr.user_burst_cnt_larger_1_r_reg' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:469]
-WARNING: [Synth 8-6014] Unused sequential element user_burst_cnt_larger_bram_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:469]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_s7ven_data_gen__parameterized0' (11#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:85]
-WARNING: [Synth 8-6014] Unused sequential element data_wr_end_r_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v:184]
-WARNING: [Synth 8-6014] Unused sequential element cmd_startF_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v:205]
-WARNING: [Synth 8-6014] Unused sequential element cmd_rdyF_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v:354]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_wr_data_gen' (12#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v:70]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_write_data_path' (13#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_write_data_path.v:70]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_gen' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:101]
+WARNING: [Synth 8-6014] Unused sequential element ADDRESS_PATTERN.COut_a_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:806]
+WARNING: [Synth 8-6014] Unused sequential element PSUEDO_PRBS_PATTERN.m_addr_r_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:917]
+INFO: [Synth 8-4471] merging register 'data_mode_rr_c_reg[3:0]' into 'data_mode_rr_a_reg[3:0]' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:308]
+WARNING: [Synth 8-6014] Unused sequential element data_mode_rr_c_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:308]
+INFO: [Synth 8-4471] merging register 'user_burst_cnt_larger_bram_reg' into 'wr_ubr.user_burst_cnt_larger_1_r_reg' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:469]
+WARNING: [Synth 8-6014] Unused sequential element user_burst_cnt_larger_bram_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:469]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_s7ven_data_gen__parameterized0' (11#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v:85]
+WARNING: [Synth 8-6014] Unused sequential element data_wr_end_r_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v:184]
+WARNING: [Synth 8-6014] Unused sequential element cmd_startF_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v:205]
+WARNING: [Synth 8-6014] Unused sequential element cmd_rdyF_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v:354]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_wr_data_gen' (12#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_write_data_path' (13#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_write_data_path.v:70]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_gen' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:101]
 WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: VIRTEX6 - type: string 
@@ -488,7 +488,7 @@ WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "u
 	Parameter PRBS_ADDR bound to: 2'b10 
 	Parameter SEQUENTIAL_ADDR bound to: 2'b11 
 	Parameter MEM_BURST_INT bound to: 8 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: VIRTEX6 - type: string 
 	Parameter MEM_BURST_LEN bound to: 8 - type: integer 
@@ -501,8 +501,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen' [d:/fpg
 	Parameter PRBS_SADDR_MASK_POS bound to: 0 - type: integer 
 	Parameter PRBS_EADDR bound to: 16777215 - type: integer 
 	Parameter PRBS_SADDR bound to: 0 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_cmd_prbs_gen' (14#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized0' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_cmd_prbs_gen' (14#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: SPARTAN6 - type: string 
 	Parameter MEM_BURST_LEN bound to: 8 - type: integer 
@@ -515,8 +515,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__paramet
 	Parameter PRBS_SADDR_MASK_POS bound to: 8192 - type: integer 
 	Parameter PRBS_EADDR bound to: 8192 - type: integer 
 	Parameter PRBS_SADDR bound to: 8192 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized0' (14#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized1' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized0' (14#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized1' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: SPARTAN6 - type: string 
 	Parameter MEM_BURST_LEN bound to: 8 - type: integer 
@@ -529,8 +529,8 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__paramet
 	Parameter PRBS_SADDR_MASK_POS bound to: 8192 - type: integer 
 	Parameter PRBS_EADDR bound to: 8192 - type: integer 
 	Parameter PRBS_SADDR bound to: 8192 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized1' (14#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized2' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized1' (14#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized2' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter FAMILY bound to: VIRTEX6 - type: string 
 	Parameter MEM_BURST_LEN bound to: 8 - type: integer 
@@ -543,24 +543,24 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__paramet
 	Parameter PRBS_SADDR_MASK_POS bound to: 8192 - type: integer 
 	Parameter PRBS_EADDR bound to: 8192 - type: integer 
 	Parameter PRBS_SADDR bound to: 8192 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized2' (14#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
-WARNING: [Synth 8-6014] Unused sequential element seq_addr_gen.COut_c_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:1239]
-WARNING: [Synth 8-6014] Unused sequential element bl_out_clk_en_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:486]
-WARNING: [Synth 8-6014] Unused sequential element bl_out_vld_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:488]
-WARNING: [Synth 8-6014] Unused sequential element force_wrcmd_gen_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:670]
-WARNING: [Synth 8-6014] Unused sequential element instr_vld_dly1_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:816]
-WARNING: [Synth 8-6014] Unused sequential element rd_data_counts_asked_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:828]
-WARNING: [Synth 8-6014] Unused sequential element COutA_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:834]
-WARNING: [Synth 8-6014] Unused sequential element rd_data_received_counts_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:852]
-WARNING: [Synth 8-6014] Unused sequential element buf_avail_r_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:876]
-WARNING: [Synth 8-6014] Unused sequential element n_gen_write_only_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:1258]
-WARNING: [Synth 8-6014] Unused sequential element refresh_timer_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:1384]
-WARNING: [Synth 8-6014] Unused sequential element refresh_cmd_en_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:1397]
-WARNING: [Synth 8-6014] Unused sequential element bl_out_reg_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:1634]
-INFO: [Synth 8-4471] merging register 'cmd_vld_reg' into 'instr_vld_reg' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:522]
-WARNING: [Synth 8-6014] Unused sequential element cmd_vld_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:522]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_cmd_gen' (15#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:101]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_memc_flow_vcontrol' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_cmd_prbs_gen__parameterized2' (14#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v:71]
+WARNING: [Synth 8-6014] Unused sequential element seq_addr_gen.COut_c_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:1239]
+WARNING: [Synth 8-6014] Unused sequential element bl_out_clk_en_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:486]
+WARNING: [Synth 8-6014] Unused sequential element bl_out_vld_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:488]
+WARNING: [Synth 8-6014] Unused sequential element force_wrcmd_gen_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:670]
+WARNING: [Synth 8-6014] Unused sequential element instr_vld_dly1_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:816]
+WARNING: [Synth 8-6014] Unused sequential element rd_data_counts_asked_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:828]
+WARNING: [Synth 8-6014] Unused sequential element COutA_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:834]
+WARNING: [Synth 8-6014] Unused sequential element rd_data_received_counts_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:852]
+WARNING: [Synth 8-6014] Unused sequential element buf_avail_r_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:876]
+WARNING: [Synth 8-6014] Unused sequential element n_gen_write_only_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:1258]
+WARNING: [Synth 8-6014] Unused sequential element refresh_timer_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:1384]
+WARNING: [Synth 8-6014] Unused sequential element refresh_cmd_en_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:1397]
+WARNING: [Synth 8-6014] Unused sequential element bl_out_reg_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:1634]
+INFO: [Synth 8-4471] merging register 'cmd_vld_reg' into 'instr_vld_reg' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:522]
+WARNING: [Synth 8-6014] Unused sequential element cmd_vld_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:522]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_cmd_gen' (15#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v:101]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_memc_flow_vcontrol' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:70]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter nCK_PER_CLK bound to: 4 - type: integer 
 	Parameter NUM_DQ_PINS bound to: 32 - type: integer 
@@ -578,64 +578,64 @@ INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_memc_flow_vcontrol' [
 	Parameter WRP bound to: 3'b010 
 	Parameter REFRESH bound to: 3'b100 
 	Parameter NOP bound to: 3'b101 
-WARNING: [Synth 8-6014] Unused sequential element cmd_en_r2_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:208]
-WARNING: [Synth 8-6014] Unused sequential element COuta_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:267]
-INFO: [Synth 8-4471] merging register 'cmd_rdy_o_reg' into 'push_cmd_r_reg' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:190]
-INFO: [Synth 8-4471] merging register 'wdp_validB_o_reg' into 'wdp_valid_o_reg' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:280]
-INFO: [Synth 8-4471] merging register 'wdp_validC_o_reg' into 'wdp_valid_o_reg' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:281]
-WARNING: [Synth 8-6014] Unused sequential element cmd_rdy_o_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:190]
-WARNING: [Synth 8-6014] Unused sequential element wdp_validB_o_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:280]
-WARNING: [Synth 8-6014] Unused sequential element wdp_validC_o_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:281]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_memc_flow_vcontrol' (16#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:70]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_tg_status' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_status.v:70]
+WARNING: [Synth 8-6014] Unused sequential element cmd_en_r2_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:208]
+WARNING: [Synth 8-6014] Unused sequential element COuta_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:267]
+INFO: [Synth 8-4471] merging register 'cmd_rdy_o_reg' into 'push_cmd_r_reg' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:190]
+INFO: [Synth 8-4471] merging register 'wdp_validB_o_reg' into 'wdp_valid_o_reg' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:280]
+INFO: [Synth 8-4471] merging register 'wdp_validC_o_reg' into 'wdp_valid_o_reg' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:281]
+WARNING: [Synth 8-6014] Unused sequential element cmd_rdy_o_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:190]
+WARNING: [Synth 8-6014] Unused sequential element wdp_validB_o_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:280]
+WARNING: [Synth 8-6014] Unused sequential element wdp_validC_o_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:281]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_memc_flow_vcontrol' (16#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:70]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_v4_1_tg_status' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_status.v:70]
 	Parameter TCQ bound to: 100 - type: integer 
 	Parameter DWIDTH bound to: 256 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_tg_status' (17#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_status.v:70]
-WARNING: [Synth 8-6014] Unused sequential element COutc_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:429]
-WARNING: [Synth 8-6014] Unused sequential element COutd_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:438]
-INFO: [Synth 8-4471] merging register 'data_mode_r_b_reg[3:0]' into 'data_mode_r_a_reg[3:0]' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:395]
-INFO: [Synth 8-4471] merging register 'data_mode_r_c_reg[3:0]' into 'data_mode_r_a_reg[3:0]' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:396]
-WARNING: [Synth 8-6014] Unused sequential element data_mode_r_b_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:395]
-WARNING: [Synth 8-6014] Unused sequential element data_mode_r_c_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:396]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_memc_traffic_gen' (18#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:81]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_traffic_gen_top' (19#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:78]
-WARNING: [Synth 8-689] width (28) of port connection 'memc_cmd_addr' does not match port width (32) of module 'mig_7series_v4_1_traffic_gen_top' [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:509]
-WARNING: [Synth 8-6104] Input port 'size' has an internal driver [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:265]
-WARNING: [Synth 8-3848] Net manual_clear_error in module/entity example_top does not have driver. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:503]
-INFO: [Synth 8-6155] done synthesizing module 'example_top' (20#1) [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_tg_status' (17#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_status.v:70]
+WARNING: [Synth 8-6014] Unused sequential element COutc_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:429]
+WARNING: [Synth 8-6014] Unused sequential element COutd_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:438]
+INFO: [Synth 8-4471] merging register 'data_mode_r_b_reg[3:0]' into 'data_mode_r_a_reg[3:0]' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:395]
+INFO: [Synth 8-4471] merging register 'data_mode_r_c_reg[3:0]' into 'data_mode_r_a_reg[3:0]' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:396]
+WARNING: [Synth 8-6014] Unused sequential element data_mode_r_b_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:395]
+WARNING: [Synth 8-6014] Unused sequential element data_mode_r_c_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:396]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_memc_traffic_gen' (18#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v:81]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:269]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:271]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_v4_1_traffic_gen_top' (19#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:78]
+WARNING: [Synth 8-689] width (28) of port connection 'memc_cmd_addr' does not match port width (32) of module 'mig_7series_v4_1_traffic_gen_top' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:509]
+WARNING: [Synth 8-6104] Input port 'size' has an internal driver [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:265]
+WARNING: [Synth 8-3848] Net manual_clear_error in module/entity example_top does not have driver. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:503]
+INFO: [Synth 8-6155] done synthesizing module 'example_top' (20#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:75]
 WARNING: [Synth 8-3331] design mig_7series_v4_1_memc_flow_vcontrol has unconnected port mcb_wr_full_i
 WARNING: [Synth 8-3331] design mig_7series_v4_1_memc_flow_vcontrol has unconnected port mcb_wr_en_i
 WARNING: [Synth 8-3331] design mig_7series_v4_1_cmd_gen has unconnected port rst_i[9]
@@ -738,7 +738,7 @@ WARNING: [Synth 8-3331] design mig_7series_v4_1_s7ven_data_gen has unconnected p
 WARNING: [Synth 8-3331] design mig_7series_v4_1_s7ven_data_gen has unconnected port prbs_fseed_i[11]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 474.316 ; gain = 177.172
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 474.250 ; gain = 177.352
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -747,15 +747,15 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin u_traffic_gen_top:manual_clear_error to constant 0 [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:498]
+WARNING: [Synth 8-3295] tying undriven pin u_traffic_gen_top:manual_clear_error to constant 0 [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.v:498]
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 474.316 ; gain = 177.172
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 474.250 ; gain = 177.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 474.316 ; gain = 177.172
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 474.250 ; gain = 177.352
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tfgg484-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -766,27 +766,27 @@ Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0
 Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc] for cell 'u_mig_7series_0'
 Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'instance_name'
 Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'instance_name'
-Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.xdc]
-Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/example_top_propImpl.xdc].
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/example_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/example_top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/example_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 868.793 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 867.613 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tfgg484-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -936,7 +936,7 @@ Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_i. (constraint file  d
 Applied set_property DONT_TOUCH = true for u_mig_7series_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for instance_name. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'mig_7series_v4_1_init_mem_pattern_ctr'
 INFO: [Synth 8-5546] ROM "run_traffic" won't be mapped to RAM because it is too sparse
@@ -947,7 +947,7 @@ INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because addre
 INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
-WARNING: [Synth 8-6014] Unused sequential element rd_ptr_cp_reg_rep was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:141]
+WARNING: [Synth 8-6014] Unused sequential element rd_ptr_cp_reg_rep was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:141]
 INFO: [Synth 8-5544] ROM "wait_done" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "reseed_prbs_r" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "w1data" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
@@ -955,11 +955,11 @@ INFO: [Synth 8-5545] ROM "user_burst_cnt_larger_1_r" won't be mapped to RAM beca
 INFO: [Synth 8-5546] ROM "user_bl_cnt_is_1" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "user_burst_cnt" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "prefetch" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-6014] Unused sequential element rd_ptr_cp_reg_rep was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:141]
+WARNING: [Synth 8-6014] Unused sequential element rd_ptr_cp_reg_rep was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:141]
 INFO: [Synth 8-5544] ROM "w1data" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "user_burst_cnt" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "cmd_rdy" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-3936] Found unconnected internal register 'cmd_reg_reg' and it is trimmed from '3' to '1' bits. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:292]
+WARNING: [Synth 8-3936] Found unconnected internal register 'cmd_reg_reg' and it is trimmed from '3' to '1' bits. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v:292]
 INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'mig_7series_v4_1_memc_flow_vcontrol'
 INFO: [Synth 8-5544] ROM "addr_INC" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "goahead" won't be mapped to RAM because it is too sparse
@@ -968,10 +968,10 @@ INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because addre
 INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "rst_remem" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm246A2E704800'
-INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm246A6CBD0C00'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm1FB9D0B9C600'
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'fsm1FB9CD3E7000'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1374,16 +1374,16 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 INFO: [Synth 8-5545] ROM "user_burst_cnt_larger_1_r" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
-WARNING: [Synth 8-6014] Unused sequential element read_postedfifo/rd_fifo/almost_full_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:224]
-WARNING: [Synth 8-6014] Unused sequential element rd_datagen/user_bl_cnt_is_1_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_rd_data_gen.v:153]
-WARNING: [Synth 8-6014] Unused sequential element rd_mdata_fifo/full_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:213]
+WARNING: [Synth 8-6014] Unused sequential element read_postedfifo/rd_fifo/almost_full_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:224]
+WARNING: [Synth 8-6014] Unused sequential element rd_datagen/user_bl_cnt_is_1_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_rd_data_gen.v:153]
+WARNING: [Synth 8-6014] Unused sequential element rd_mdata_fifo/full_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:213]
 WARNING: [Synth 8-6014] Unused sequential element rd_mdata_fifo/mem_reg was removed. 
-WARNING: [Synth 8-6014] Unused sequential element rd_mdata_fifo/almost_full_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:224]
+WARNING: [Synth 8-6014] Unused sequential element rd_mdata_fifo/almost_full_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v:224]
 INFO: [Synth 8-5546] ROM "rd_datagen/user_bl_cnt_is_1" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "wr_data_gen/cmd_rdy" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-6014] Unused sequential element u_traffic_gen_top/cmd_wdt_err_o_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:582]
-WARNING: [Synth 8-6014] Unused sequential element u_traffic_gen_top/wr_wdt_err_o_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:584]
-WARNING: [Synth 8-6014] Unused sequential element u_traffic_gen_top/rd_wdt_err_o_reg was removed.  [d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:583]
+WARNING: [Synth 8-6014] Unused sequential element u_traffic_gen_top/cmd_wdt_err_o_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:582]
+WARNING: [Synth 8-6014] Unused sequential element u_traffic_gen_top/wr_wdt_err_o_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:584]
+WARNING: [Synth 8-6014] Unused sequential element u_traffic_gen_top/rd_wdt_err_o_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v:583]
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_traffic_gen_top/u_memc_traffic_gen/RD_PATH.read_data_path/rd_datagen/s7ven_data_gen /\wdatamask_ripplecnt_reg[0] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_traffic_gen_top/u_memc_traffic_gen/RD_PATH.read_data_path/rd_datagen/s7ven_data_gen /\wdatamask_ripplecnt_reg[1] )
 INFO: [Synth 8-3886] merging instance 'u_traffic_gen_top/u_memc_traffic_gen/RD_PATH.read_data_path/rd_datagen/s7ven_data_gen/wdatamask_ripplecnt_reg[2]' (FDRE) to 'u_traffic_gen_top/u_memc_traffic_gen/RD_PATH.read_data_path/rd_datagen/s7ven_data_gen/wdatamask_ripplecnt_reg[1]'
@@ -1688,7 +1688,7 @@ WARNING: [Synth 8-3332] Sequential element (WALKING_ONE_64_PATTERN.WALKING_ONE_6
 WARNING: [Synth 8-3332] Sequential element (WALKING_ONE_64_PATTERN.WALKING_ONE_64_PATTERN_NCK_4.w1data_reg[237]) is unused and will be removed from module mig_7series_v4_1_s7ven_data_gen.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:44 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1718,13 +1718,13 @@ INFO: [Synth 8-5578] Moved timing constraint from pin 'u_mig_7series_0/ui_clk' t
 INFO: [Synth 8-5578] Moved timing constraint from pin 'instance_name/clk_out1' to pin 'instance_name/bbstub_clk_out1/O'
 INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:56 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Timing Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:00:57 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1750,7 +1750,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Technology Mapping : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1774,7 +1774,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1787,7 +1787,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:00:58 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1799,25 +1799,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1875,11 +1875,11 @@ Report Instance Areas:
 |18    |        \gen_prbs_instr.instr_prbs_gen_a          |mig_7series_v4_1_cmd_prbs_gen__parameterized0   |    22|
 +------+--------------------------------------------------+------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 868.793 ; gain = 571.648
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 867.613 ; gain = 570.715
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 4353 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:43 . Memory (MB): peak = 868.793 ; gain = 177.172
-Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 868.793 ; gain = 571.648
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:44 . Memory (MB): peak = 867.613 ; gain = 177.352
+Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:00:59 . Memory (MB): peak = 867.613 ; gain = 570.715
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 78 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -1892,9 +1892,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 311 Infos, 351 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:01:02 . Memory (MB): peak = 868.793 ; gain = 571.648
+synth_design: Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 867.613 ; gain = 570.715
 WARNING: [Constraints 18-5210] No constraint will be written out.
-INFO: [Common 17-1381] The checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/example_top.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/example_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file example_top_utilization_synth.rpt -pb example_top_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 868.793 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Aug 14 18:25:28 2018...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 867.613 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 14 19:34:13 2018...

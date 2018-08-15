@@ -1,3 +1,9 @@
+-makelib ies_lib/xil_defaultlib -sv \
+  "D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+-endlib
+-makelib ies_lib/xpm \
+  "D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_VCOMP.vhd" \
+-endlib
 -makelib ies_lib/xil_defaultlib \
   "../../../../project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v" \
   "../../../../project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v" \

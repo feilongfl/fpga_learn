@@ -2,8 +2,16 @@ vlib work
 vlib riviera
 
 vlib riviera/xil_defaultlib
+vlib riviera/xpm
 
 vmap xil_defaultlib riviera/xil_defaultlib
+vmap xpm riviera/xpm
+
+vlog -work xil_defaultlib  -sv2k12 \
+"D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+
+vcom -work xpm -93 \
+"D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_VCOMP.vhd" \
 
 vlog -work xil_defaultlib  -v2k5 \
 "../../../../project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v" \
@@ -73,7 +81,6 @@ vlog -work xil_defaultlib  -v2k5 \
 "../../../../project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_1_ui_wr_data.v" \
 "../../../../project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.v" \
 "../../../../project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v" \
-
 
 vlog -work xil_defaultlib \
 "glbl.v"

@@ -1,7 +1,7 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-// Date        : Tue Aug 14 17:28:53 2018
+// Date        : Tue Aug 14 20:10:58 2018
 // Host        : DESKTOP-B3SJCBK running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0_stub.v

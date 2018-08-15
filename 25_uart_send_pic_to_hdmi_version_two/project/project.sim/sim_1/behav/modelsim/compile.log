@@ -1,0 +1,42 @@
+# do {sim_tb_top_compile.do} 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xpm".
+# 
+# Modifying D:\Xilinx\ISE\14.7\ISE_DS\ISE\verilog\mti_se\10.2c\nt64\modelsim.ini
+# Modifying D:\Xilinx\ISE\14.7\ISE_DS\ISE\verilog\mti_se\10.2c\nt64\modelsim.ini
+# ** Error: Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+# -- Skipping module xpm_cdc_single
+# ** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(364): data type of variable dest_graysync_ff not allowed in force.
+# ** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(366): data type of variable dest_graysync_ff not allowed in release.
+# -- Skipping module xpm_cdc_handshake
+# -- Skipping module xpm_cdc_pulse
+# ** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(980): data type of variable syncstages_ff not allowed in force.
+# ** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(982): data type of variable syncstages_ff not allowed in release.
+# -- Skipping module xpm_cdc_sync_rst
+# -- Skipping module xpm_cdc_async_rst
+# child process exited abnormally
+# Error in macro ./sim_tb_top_compile.do line 20
+# Model Technology ModelSim SE-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+# -- Skipping module xpm_cdc_single
+# ** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(364): data type of variable dest_graysync_ff not allowed in force.
+# ** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(366): data type of variable dest_graysync_ff not allowed in release.
+# -- Skipping module xpm_cdc_handshake
+# -- Skipping module xpm_cdc_pulse
+# ** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(980): data type of variable syncstages_ff not allowed in force.
+# ** Error: D:/Xilinx/vivado/Vivado/2018.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv(982): data type of variable syncstages_ff not allowed in release.
+# -- Skipping module xpm_cdc_sync_rst
+# -- Skipping module xpm_cdc_async_rst
+# child process exited abnormally
+#     while executing
+# "exec <nul: {C:\modelsim\win64\vlog.EXE} -64 -incr -sv -work xil_defaultlib +incdir+../../../../../exp/mig_7series_0_ex/imports +incdir+../../../../pro..."
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 exec $redir $new [lrange $args 1 end]"
+#     (procedure "::unknown" line 47)
+#     invoked from within
+# "C:\\modelsim\\win64\\vlog -64 -incr -sv -work xil_defaultlib  "+incdir+../../../../../exp/mig_7series_0_ex/imports" "+incdir+../../../../project.srcs/..."

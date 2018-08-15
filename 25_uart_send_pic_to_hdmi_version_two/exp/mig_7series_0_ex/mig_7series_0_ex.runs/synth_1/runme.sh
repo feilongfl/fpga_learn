@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='d:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1'
+HD_PWD='D:/fpga/25_uart_send_pic_to_hdmi_version_two/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
