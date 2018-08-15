@@ -5,15 +5,30 @@
       <probeOptions Id="DebugProbeParams">
         <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
         <Option Id="CORE_LOCATION" value="1:0"/>
-        <Option Id="CORE_UUID" value="00000000000000000000000000000000"/>
-        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value="50000000"/>
-        <Option Id="HW_ILA" value="u_ila_0"/>
+        <Option Id="CORE_UUID" value="d7f66bbc62045aea8c9b20b797086963"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value="200000001"/>
+        <Option Id="HW_ILA" value="ila_0"/>
         <Option Id="PROBE_PORT" value="0"/>
         <Option Id="PROBE_PORT_BITS" value="0"/>
         <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
       </probeOptions>
       <nets>
         <net name="init_calib_complete_OBUF"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="CORE_UUID" value="d7f66bbc62045aea8c9b20b797086963"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value="200000001"/>
+        <Option Id="HW_ILA" value="ila_0"/>
+        <Option Id="PROBE_PORT" value="1"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="ui_clk"/>
       </nets>
     </probe>
   </probeset>

@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Wed Aug 15 15:02:06 2018
-# Process ID: 79892
+# Start of session at: Wed Aug 15 17:12:07 2018
+# Process ID: 69132
 # Current directory: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/top.vds
@@ -16,36 +16,44 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 83708 
+INFO: Helper process launched with PID 12944 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 387.938 ; gain = 91.391
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 413.074 ; gain = 96.934
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'top' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/.Xil/Vivado-79892-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/.Xil/Vivado-79892-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/.Xil/Vivado-79892-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mig_7series_0' (2#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/.Xil/Vivado-79892-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
-WARNING: [Synth 8-689] width (1) of port connection 'app_rd_data' does not match port width (256) of module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:193]
-WARNING: [Synth 8-350] instance 'u_mig_7series_0' of module 'mig_7series_0' requires 40 connections, but only 39 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:166]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:139]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/.Xil/Vivado-69132-DESKTOP-B3SJCBK/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (1#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/.Xil/Vivado-69132-DESKTOP-B3SJCBK/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bit8to256' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/bit8to256.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bit8to256' (2#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/bit8to256.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/.Xil/Vivado-69132-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (3#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/.Xil/Vivado-69132-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/.Xil/Vivado-69132-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_0' (4#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/.Xil/Vivado-69132-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+WARNING: [Synth 8-689] width (1) of port connection 'app_rd_data' does not match port width (256) of module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:201]
+WARNING: [Synth 8-350] instance 'u_mig_7series_0' of module 'mig_7series_0' requires 40 connections, but only 39 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:174]
 INFO: [Synth 8-6157] synthesizing module 'uart_rx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:23]
 	Parameter BAUD_DIV bound to: 13'b1010001011000 
 	Parameter BAUD_DIV_CAP bound to: 13'b0101000101100 
 INFO: [Synth 8-226] default block is never used [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:75]
-INFO: [Synth 8-6155] done synthesizing module 'uart_rx_path' (3#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:23]
-WARNING: [Synth 8-689] width (1) of port connection 'uart_rx_data_o' does not match port width (8) of module 'uart_rx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:220]
-WARNING: [Synth 8-350] instance 'uart_rx_path_u' of module 'uart_rx_path' requires 5 connections, but only 4 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:216]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx_path' (5#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:23]
+WARNING: [Synth 8-350] instance 'uart_rx_path_u' of module 'uart_rx_path' requires 5 connections, but only 4 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:224]
 INFO: [Synth 8-6157] synthesizing module 'uart_tx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:23]
 	Parameter BAUD_DIV bound to: 13'b1010001011000 
 	Parameter BAUD_DIV_CAP bound to: 13'b0101000101100 
-INFO: [Synth 8-6155] done synthesizing module 'uart_tx_path' (4#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:23]
-WARNING: [Synth 8-689] width (1) of port connection 'uart_tx_data_i' does not match port width (8) of module 'uart_tx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:226]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx_path' (6#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'uart_tx_data_i' does not match port width (8) of module 'uart_tx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:234]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_mig_7series_0'. This will prevent further optimization [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:174]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:139]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'uart_tx_path_u'. This will prevent further optimization [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:232]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'uart_rx_path_u'. This will prevent further optimization [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:224]
 WARNING: [Synth 8-3848] Net tg_compare_error in module/entity top does not have driver. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:109]
 WARNING: [Synth 8-3848] Net uart_tx in module/entity top does not have driver. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:122]
-INFO: [Synth 8-6155] done synthesizing module 'top' (5#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'top' (7#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
 WARNING: [Synth 8-3331] design top has unconnected port tg_compare_error
 WARNING: [Synth 8-3331] design top has unconnected port sys_rst
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 441.660 ; gain = 145.113
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 467.563 ; gain = 151.422
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -54,50 +62,57 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin uart_tx_path_u:uart_tx_data_i[0] to constant 0 [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:224]
+WARNING: [Synth 8-3295] tying undriven pin uart_tx_path_u:uart_tx_data_i[0] to constant 0 [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:232]
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 441.660 ; gain = 145.113
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 467.563 ; gain = 151.422
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 441.660 ; gain = 145.113
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 467.563 ; gain = 151.422
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tfgg484-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc] for cell 'u_mig_7series_0'
-Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc] for cell 'u_mig_7series_0'
 Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'instance_name'
 Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'instance_name'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila_0'
 Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
-WARNING: [Vivado 12-507] No nets matched 'init_calib_complete_OBUF'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:19]
+WARNING: [Vivado 12-507] No nets matched 'init_calib_complete_OBUF'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:25]
 Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/dont_touch.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/dont_touch.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 802.301 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 824.508 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'ila_0' at clock pin 'clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 824.508 ; gain = 508.367
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tfgg484-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 824.508 ; gain = 508.367
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_i. (constraint file  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_i. (constraint file  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
 Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[0]. (constraint file  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 2).
 Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_addr[0]. (constraint file  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 3).
 Applied set_property IO_BUFFER_TYPE = NONE for ddr3_addr[10]. (constraint file  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 4).
@@ -238,19 +253,18 @@ Applied set_property IO_BUFFER_TYPE = NONE for ddr3_reset_n. (constraint file  d
 Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_reset_n. (constraint file  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 139).
 Applied set_property IO_BUFFER_TYPE = NONE for ddr3_we_n. (constraint file  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 140).
 Applied set_property CLOCK_BUFFER_TYPE = NONE for ddr3_we_n. (constraint file  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/mig_7series_0_in_context.xdc, line 141).
-Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_i. (constraint file  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_i. (constraint file  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
-Applied set_property DONT_TOUCH = true for u_mig_7series_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for instance_name. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for u_mig_7series_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ila_0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 824.508 ; gain = 508.367
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "baud_bps" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "uart_rx_done_r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "baud_bps" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "uart_send_flag" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 824.508 ; gain = 508.367
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -334,63 +348,14 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-6014] Unused sequential element uart_rx_path_u/uart_rx_data_o_r0_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:87]
-WARNING: [Synth 8-6014] Unused sequential element uart_rx_path_u/uart_rx_data_o_r1_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:93]
-WARNING: [Synth 8-6014] Unused sequential element uart_rx_path_u/uart_rx_done_r_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:74]
-WARNING: [Synth 8-6014] Unused sequential element uart_tx_path_u/uart_tx_o_r_reg was removed.  [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:83]
-INFO: [Synth 8-5546] ROM "uart_rx_path_u/baud_bps" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "uart_tx_path_u/baud_bps" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "baud_bps" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "baud_bps" won't be mapped to RAM because it is too sparse
 WARNING: [Synth 8-3331] design top has unconnected port tg_compare_error
-WARNING: [Synth 8-3331] design top has unconnected port uart_tx
 WARNING: [Synth 8-3331] design top has unconnected port sys_rst
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/uart_rx_i_r_reg[4]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/uart_rx_i_r_reg[3]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/uart_rx_i_r_reg[2]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/uart_rx_i_r_reg[1]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/uart_rx_i_r_reg[0]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/bps_start_reg) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[12]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[11]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[10]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[9]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[8]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[7]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[6]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[5]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[4]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[3]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[2]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[1]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_div_reg[0]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/baud_bps_reg) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_rx_path_u/state_reg) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[12]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[11]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[10]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[9]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[8]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[7]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[6]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[5]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[4]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[3]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[2]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[1]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_div_reg[0]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/baud_bps_reg) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/uart_send_flag_reg) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/send_data_reg[9]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/send_data_reg[8]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/send_data_reg[7]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/send_data_reg[6]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/send_data_reg[5]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/send_data_reg[4]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/send_data_reg[3]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/send_data_reg[2]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/send_data_reg[1]) is unused and will be removed from module top.
-WARNING: [Synth 8-3332] Sequential element (uart_tx_path_u/send_data_reg[0]) is unused and will be removed from module top.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (uart_tx_path_u/\send_data_reg[9] )
+WARNING: [Synth 8-3332] Sequential element (send_data_reg[9]) is unused and will be removed from module uart_tx_path.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 824.508 ; gain = 508.367
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -401,18 +366,18 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5578] Moved timing constraint from pin 'u_mig_7series_0/ui_clk' to pin 'u_mig_7series_0/bbstub_ui_clk/O'
 INFO: [Synth 8-5578] Moved timing constraint from pin 'instance_name/clk_out1' to pin 'instance_name/bbstub_clk_out1/O'
 INFO: [Synth 8-5578] Moved timing constraint from pin 'instance_name/clk_out2' to pin 'instance_name/bbstub_clk_out2/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'u_mig_7series_0/ui_clk' to pin 'u_mig_7series_0/bbstub_ui_clk/O'
 INFO: [Synth 8-5819] Moved 3 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 824.508 ; gain = 508.367
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 824.508 ; gain = 508.367
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -424,7 +389,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 833.195 ; gain = 517.055
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -447,8 +412,10 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin uart_tx_path_u:uart_tx_data_i[0] to constant 0
+WARNING: [Synth 8-5396] Clock pin C has keep related attribute (keep/mark_debug/dont_touch) which could create extra logic on its net [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:66]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 833.195 ; gain = 517.055
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -461,7 +428,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 833.195 ; gain = 517.055
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -473,25 +440,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 833.195 ; gain = 517.055
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 833.195 ; gain = 517.055
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 833.195 ; gain = 517.055
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 833.195 ; gain = 517.055
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -501,8 +468,9 @@ Report BlackBoxes:
 +------+--------------+----------+
 |      |BlackBox name |Instances |
 +------+--------------+----------+
-|1     |clk_wiz_0     |         1|
-|2     |mig_7series_0 |         1|
+|1     |ila_0         |         1|
+|2     |clk_wiz_0     |         1|
+|3     |mig_7series_0 |         1|
 +------+--------------+----------+
 
 Report Cell Usage: 
@@ -510,38 +478,54 @@ Report Cell Usage:
 |      |Cell          |Count |
 +------+--------------+------+
 |1     |clk_wiz_0     |     1|
-|2     |mig_7series_0 |     1|
-|3     |OBUF          |     2|
-|4     |OBUFT         |     2|
+|2     |ila_0         |     1|
+|3     |mig_7series_0 |     1|
+|4     |CARRY4        |     6|
+|5     |LUT1          |     2|
+|6     |LUT2          |    14|
+|7     |LUT3          |     4|
+|8     |LUT4          |     9|
+|9     |LUT5          |    10|
+|10    |LUT6          |    34|
+|11    |MUXF7         |     1|
+|12    |FDRE          |    51|
+|13    |FDSE          |    20|
+|14    |IBUF          |     1|
+|15    |OBUF          |     1|
+|16    |OBUFT         |     2|
 +------+--------------+------+
 
 Report Instance Areas: 
-+------+---------+-------+------+
-|      |Instance |Module |Cells |
-+------+---------+-------+------+
-|1     |top      |       |   315|
-+------+---------+-------+------+
++------+-----------------+-------------+------+
+|      |Instance         |Module       |Cells |
++------+-----------------+-------------+------+
+|1     |top              |             |   466|
+|2     |  uart_rx_path_u |uart_rx_path |    83|
+|3     |  uart_tx_path_u |uart_tx_path |    68|
++------+-----------------+-------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 802.301 ; gain = 505.754
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 833.195 ; gain = 517.055
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 53 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 802.301 ; gain = 145.113
-Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 802.301 ; gain = 505.754
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 833.195 ; gain = 160.109
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 833.195 ; gain = 517.055
 INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-31 Infos, 65 Warnings, 0 Critical Warnings and 0 Errors encountered.
+42 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 806.016 ; gain = 509.469
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 837.305 ; gain = 522.895
 INFO: [Common 17-600] The following parameters have non-default value.
 tcl.collectionResultDisplayLimit
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.070 . Memory (MB): peak = 806.016 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 837.305 ; gain = 0.000
 source D:/fpga/usefulTCL/SynthesisFinish.tcl
-INFO: [Common 17-206] Exiting Vivado at Wed Aug 15 15:03:12 2018...
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 15 17:13:02 2018...

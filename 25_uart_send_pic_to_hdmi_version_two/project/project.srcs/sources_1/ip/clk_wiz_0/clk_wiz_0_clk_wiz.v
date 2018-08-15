@@ -204,7 +204,9 @@ wire clk_in2_clk_wiz_0;
     .I   (clk_out1_clk_wiz_0));
 
 
-  assign clk_out2 = clk_out2_clk_wiz_0;
+  BUFG clkout2_buf
+   (.O   (clk_out2),
+    .I   (clk_out2_clk_wiz_0));
 
 
 

@@ -1,100 +1,95 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
+// Company:
+// Engineer:
+//
 // Create Date: 2017/07/25 13:36:08
-// Design Name: 
+// Design Name:
 // Module Name: uart_tx_path
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
+// Project Name:
+// Target Devices:
+// Tool Versions:
+// Description:
+//
+// Dependencies:
+//
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
-// 
+//
 //////////////////////////////////////////////////////////////////////////////////
 
 
 module uart_tx_path(
-	input clk_i,
+           input clk_i,
 
-	input [7:0] uart_tx_data_i,	//´ı·¢ËÍÊı¾İ
-	input uart_tx_en_i,			//·¢ËÍ·¢ËÍÊ¹ÄÜĞÅºÅ
-	
-	output uart_tx_o
-);
+           input [7:0] uart_tx_data_i,	//å¾…å‘é€æ•°æ®
+           input uart_tx_en_i,			//å‘é€å‘é€ä½¿èƒ½ä¿¡å·
 
-parameter BAUD_DIV     = 13'd5208;//²¨ÌØÂÊÊ±ÖÓ£¬9600bps£¬50Mhz/9600=5208£¬²¨ÌØÂÊ¿Éµ÷
-parameter BAUD_DIV_CAP = 13'd2604;//²¨ÌØÂÊÊ±ÖÓÖĞ¼ä²ÉÑùµã£¬50Mhz/9600/2=2604£¬²¨ÌØÂÊ¿Éµ÷
+           output reg uart_send_flag=0;	//æ•°æ®å‘é€æ ‡å¿—ä½
+           output uart_tx_o
+       );
+parameter CLKSPEED = 100_000_000;
+parameter BANDRATE = 115200;
 
-reg [12:0] baud_div=0;			//²¨ÌØÂÊÉèÖÃ¼ÆÊıÆ÷
-reg baud_bps=0;				//Êı¾İ·¢ËÍµãĞÅºÅ,¸ßÓĞĞ§
-reg [9:0] send_data=10'b1111111111;//´ı·¢ËÍÊı¾İ¼Ä´æÆ÷£¬1bitÆğÊ¼ĞÅºÅ+8bitÓĞĞ§ĞÅºÅ+1bit½áÊøĞÅºÅ
-reg [3:0] bit_num=0;	//·¢ËÍÊı¾İ¸öÊı¼ÆÊıÆ÷
-reg uart_send_flag=0;	//Êı¾İ·¢ËÍ±êÖ¾Î»
-reg uart_tx_o_r=1;		//·¢ËÍÊı¾İ¼Ä´æÆ÷£¬³õÊ¼×´Ì¬Î»¸ß
+parameter [12:0] BAUD_DIV     = CLKSPEED / BANDRATE;//æ³¢ç‰¹ç‡æ—¶é’Ÿï¼Œ9600bpsï¼Œ50Mhz/9600=5208
+parameter [12:0] BAUD_DIV_CAP = BAUD_DIV / 2;//æ³¢ç‰¹ç‡æ—¶é’Ÿä¸­é—´é‡‡æ ·ç‚¹ï¼Œ50Mhz/9600/2=2604
 
-always@(posedge clk_i)
-begin
-	if(baud_div==BAUD_DIV_CAP)	//µ±²¨ÌØÂÊ¼ÆÊıÆ÷¼ÆÊıµ½Êı¾İ·¢ËÍÖĞµãÊ±£¬²úÉú²ÉÑùĞÅºÅbaud_bps£¬ÓÃÀ´·¢ËÍÊı¾İ
-		begin
-			baud_bps<=1'b1;
-			baud_div<=baud_div+1'b1;
-		end
-	else if(baud_div<BAUD_DIV && uart_send_flag)//Êı¾İ·¢ËÍ±êÖ¾Î»ÓĞĞ§ÆÚ¼ä£¬²¨ÌØÂÊ¼ÆÊıÆ÷ÀÛ¼Ó£¬ÒÔ²úÉú²¨ÌØÂÊÊ±ÖÓ
-		begin
-			baud_div<=baud_div+1'b1;
-			baud_bps<=0;	
-		end
-	else
-		begin
-			baud_bps<=0;
-			baud_div<=0;
-		end
+reg [12:0] baud_div=0;			//æ³¢ç‰¹ç‡è®¾ç½®è®¡æ•°å™¨
+reg baud_bps=0;				//æ•°æ®å‘é€ç‚¹ä¿¡å·,é«˜æœ‰æ•ˆ
+reg [9:0] send_data=10'b1111111111;//å¾…å‘é€æ•°æ®å¯„å­˜å™¨ï¼Œ1bitèµ·å§‹ä¿¡å·+8bitæœ‰æ•ˆä¿¡å·+1bitç»“æŸä¿¡å·
+reg [3:0] bit_num=0;	//å‘é€æ•°æ®ä¸ªæ•°è®¡æ•°å™¨
+reg uart_tx_o_r=1;		//å‘é€æ•°æ®å¯„å­˜å™¨ï¼Œåˆå§‹çŠ¶æ€ä½é«˜
+
+always@(posedge clk_i) begin
+    if(baud_div==BAUD_DIV_CAP)	//å½“æ³¢ç‰¹ç‡è®¡æ•°å™¨è®¡æ•°åˆ°æ•°æ®å‘é€ä¸­ç‚¹æ—¶ï¼Œäº§ç”Ÿé‡‡æ ·ä¿¡å·baud_bpsï¼Œç”¨æ¥å‘é€æ•°æ®
+    begin
+        baud_bps<=1'b1;
+        baud_div<=baud_div+1'b1;
+    end
+    else if(baud_div<BAUD_DIV && uart_send_flag)//æ•°æ®å‘é€æ ‡å¿—ä½æœ‰æ•ˆæœŸé—´ï¼Œæ³¢ç‰¹ç‡è®¡æ•°å™¨ç´¯åŠ ï¼Œä»¥äº§ç”Ÿæ³¢ç‰¹ç‡æ—¶é’Ÿ
+    begin
+        baud_div<=baud_div+1'b1;
+        baud_bps<=0;
+    end
+    else begin
+        baud_bps<=0;
+        baud_div<=0;
+    end
 end
 
-always@(posedge clk_i)
-begin
-	if(uart_tx_en_i)	//½ÓÊÕÊı¾İ·¢ËÍÊ¹ÄÜĞÅºÅÊ±£¬²úÉúÊı¾İ·¢ËÍ±êÖ¾ĞÅºÅ
-		begin
-			uart_send_flag<=1'b1;
-			send_data<={1'b1,uart_tx_data_i,1'b0};//´ı·¢ËÍÊı¾İ¼Ä´æÆ÷×°Ìî£¬1bitÆğÊ¼ĞÅºÅ0+8bitÓĞĞ§ĞÅºÅ+1bit½áÊøĞÅºÅ
-		end
-	else if(bit_num==4'd10)	//·¢ËÍ½áÊøÊ±ºò£¬Çå³ş·¢ËÍ±êÖ¾ĞÅºÅ£¬²¢Çå³ş´ı·¢ËÍÊı¾İ¼Ä´æÆ÷ÄÚ²¿ĞÅºÅ
-		begin
-			uart_send_flag<=1'b0;
-			send_data<=10'b1111_1111_11;
-		end
+always@(posedge clk_i) begin
+    if(uart_tx_en_i)	//æ¥æ”¶æ•°æ®å‘é€ä½¿èƒ½ä¿¡å·æ—¶ï¼Œäº§ç”Ÿæ•°æ®å‘é€æ ‡å¿—ä¿¡å·
+    begin
+        uart_send_flag<=1'b1;
+        send_data<={1'b1,uart_tx_data_i,1'b0};//å¾…å‘é€æ•°æ®å¯„å­˜å™¨è£…å¡«ï¼Œ1bitèµ·å§‹ä¿¡å·0+8bitæœ‰æ•ˆä¿¡å·+1bitç»“æŸä¿¡å·
+    end
+    else if(bit_num==4'd10)	//å‘é€ç»“æŸæ—¶å€™ï¼Œæ¸…æ¥šå‘é€æ ‡å¿—ä¿¡å·ï¼Œå¹¶æ¸…æ¥šå¾…å‘é€æ•°æ®å¯„å­˜å™¨å†…éƒ¨ä¿¡å·
+    begin
+        uart_send_flag<=1'b0;
+        send_data<=10'b1111_1111_11;
+    end
 end
 
-always@(posedge clk_i)
-begin
-	if(uart_send_flag)	//·¢ËÍÓĞĞ§Ê±ºò
-		begin
-			if(baud_bps)//¼ì²â·¢ËÍµãĞÅºÅ
-				begin
-					if(bit_num<=4'd9)
-						begin
-							uart_tx_o_r<=send_data[bit_num];	//·¢ËÍ´ı·¢ËÍ¼Ä´æÆ÷ÄÚÊı¾İ£¬´ÓµÍÎ»µ½¸ßÎ»
-							bit_num<=bit_num+1'b1;
-						end
-				end
-			else if(bit_num==4'd10)
-				bit_num<=4'd0;
-		end
-	else
-		begin
-			uart_tx_o_r<=1'b1;	//¿ÕÏĞ×´Ì¬Ê±£¬±£³Ö·¢ËÍ¶ËÎ»¸ßµçÆ½£¬ÒÔ±¸·¢ËÍÊ±ºò²úÉúµÍµçÆ½ĞÅºÅ
-			bit_num<=0;
-		end
+always@(posedge clk_i) begin
+    if(uart_send_flag)	//å‘é€æœ‰æ•ˆæ—¶å€™
+    begin
+        if(baud_bps)//æ£€æµ‹å‘é€ç‚¹ä¿¡å·
+        begin
+            if(bit_num<=4'd9) begin
+                uart_tx_o_r<=send_data[bit_num];	//å‘é€å¾…å‘é€å¯„å­˜å™¨å†…æ•°æ®ï¼Œä»ä½ä½åˆ°é«˜ä½
+                bit_num<=bit_num+1'b1;
+            end
+        end
+        else if(bit_num==4'd10)
+            bit_num<=4'd0;
+    end
+    else begin
+        uart_tx_o_r<=1'b1;	//ç©ºé—²çŠ¶æ€æ—¶ï¼Œä¿æŒå‘é€ç«¯ä½é«˜ç”µå¹³ï¼Œä»¥å¤‡å‘é€æ—¶å€™äº§ç”Ÿä½ç”µå¹³ä¿¡å·
+        bit_num<=0;
+    end
 end
 
 assign uart_tx_o=uart_tx_o_r;
 
 endmodule
-

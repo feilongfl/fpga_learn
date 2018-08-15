@@ -119,9 +119,7 @@ module top
            //////////////////////////////////////////////////////////
            // uart
            input uart_rx,
-           output uart_tx,
-           
-           output sclk_50m
+           output uart_tx
        );
 
 
@@ -136,12 +134,22 @@ wire sclk_200m;
 //wire sclk_50m;
 wire pllLock;
 
-//ila_0 ila_0 (
-//	.clk(sclk_50m), // input wire clk
+wire ui_clk_100m;
 
-//	.probe0(init_calib_complete), 
-//	.probe1(sys_rst) 
-//);
+// ila_0 ila_0 (
+//           .clk(sclk_200m), // input wire clk
+//
+//           .probe0(init_calib_complete),
+//           .probe1(ui_clk_100m)
+//       );
+
+wire[255:0]app_wdf_data;
+wire[7:0]uart_rx_data_o;
+
+bit8to256 bit8to256_inst(
+              .I (uart_rx_data_o),
+              .O (app_wdf_data)
+          );
 
 
 clk_wiz_0 instance_name
@@ -183,27 +191,30 @@ mig_7series_0 u_mig_7series_0 (
                   .ddr3_cs_n (ddr3_cs_n), // output [0:0] ddr3_cs_n
                   .ddr3_dm (ddr3_dm), // output [3:0] ddr3_dm
                   .ddr3_odt (ddr3_odt), // output [0:0] ddr3_odt
+
+                  /////////////////////////////////////////////////
                   // Application interface ports
+                  /////////////////////////////////////////////////
                   .app_addr (0), // input [27:0] app_addr
                   .app_cmd (0), // input [2:0] app_cmd
                   .app_en (1), // input app_en
-                  .app_wdf_data (0), // input [255:0] app_wdf_data
+                  .app_wdf_data (app_wdf_data), // input [255:0] app_wdf_data
                   .app_wdf_end (0), // input app_wdf_end
+                  .app_wdf_mask (app_wdf_mask), // input [31:0] app_wdf_mask
                   .app_wdf_wren (1), // input app_wdf_wren
                   .app_rd_data (app_rd_data), // output [255:0] app_rd_data
-                  .app_rd_data_end (app_rd_data_end), // output app_rd_data_end
+                  // .app_rd_data_end (app_rd_data_end), // output app_rd_data_end
                   .app_rd_data_valid (app_rd_data_valid), // output app_rd_data_valid
                   .app_rdy (app_rdy), // output app_rdy
                   .app_wdf_rdy (app_wdf_rdy), // output app_wdf_rdy
                   .app_sr_req (0), // input app_sr_req
                   .app_ref_req (0), // input app_ref_req
                   .app_zq_req (0), // input app_zq_req
-                  .app_sr_active (app_sr_active), // output app_sr_active
+                  // .app_sr_active (app_sr_active), // output app_sr_active
                   .app_ref_ack (app_ref_ack), // output app_ref_ack
                   .app_zq_ack (app_zq_ack), // output app_zq_ack
-                  .ui_clk (ui_clk), // output ui_clk
-                  .ui_clk_sync_rst (ui_clk_sync_rst), // output ui_clk_sync_rst
-                  .app_wdf_mask (0), // input [31:0] app_wdf_mask
+                  .ui_clk_100m (ui_clk_100m), // output ui_clk_100m
+                  .ui_clk_100m_sync_rst (ui_clk_100m_sync_rst), // output ui_clk_100m_sync_rst
                   // System Clock Ports
                   .sys_clk_i (sclk_200m),
                   // Reference Clock Ports
@@ -214,18 +225,19 @@ mig_7series_0 u_mig_7series_0 (
 
 
 uart_rx_path uart_rx_path_u (
-    .clk_i(sclk_50m), 
-    .uart_rx_i(uart_rx), 
+                 .clk_i(ui_clk_100m),
+                 .uart_rx_i(uart_rx),
 
-    .uart_rx_data_o(uart_rx_data_o), 
-    .uart_rx_done(uart_rx_done)
-    );
-    
+                 .uart_rx_data_o(uart_rx_data_o),
+                 .uart_rx_done(uart_rx_done)
+             );
+
 uart_tx_path uart_tx_path_u (
-    .clk_i(sclk_50m), 
-    .uart_tx_data_i(uart_tx), 
-    .uart_tx_en_i(0), 
-    .uart_tx_o(uart_tx_o)
-    );
+                 .clk_i(ui_clk_100m),
+                 .uart_tx_data_i(uart_tx_data_i),
+                 .uart_tx_en_i(uart_tx_en),
+                 .uart_tx_o(uart_tx),
+                 .uart_send_flag(uart_tx_busy)
+             );
 
 endmodule

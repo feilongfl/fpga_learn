@@ -489,3 +489,7 @@ MIG: 20:05:32 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <Inpu
 MIG: 20:05:33 : Running implementation.xit
 MIG: 20:05:33 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
 MIG: 20:05:33 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 17:38:48 : xml_input_file: mig_b.prj
+MIG: 17:38:48 : Absolute path of xml_input_file: d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 17:38:48 : xml_input_file: mig_b.prj
+MIG: 17:38:48 : Absolute path of xml_input_file: d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_b.prj
