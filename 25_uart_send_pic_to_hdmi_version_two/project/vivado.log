@@ -2,10 +2,10 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Wed Aug 15 09:07:36 2018
-# Process ID: 13992
+# Start of session at: Wed Aug 15 13:23:32 2018
+# Process ID: 72028
 # Current directory: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16144 D:\fpga\25_uart_send_pic_to_hdmi_version_two\project\project.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17356 D:\fpga\25_uart_send_pic_to_hdmi_version_two\project\project.xpr
 # Log file: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/vivado.log
 # Journal file: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project\vivado.jou
 #-----------------------------------------------------------
@@ -16,142 +16,416 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/vivado/Vivado/2018.2/data/ip'.
-open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:12 . Memory (MB): peak = 819.004 ; gain = 119.957
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:16 . Memory (MB): peak = 838.195 ; gain = 133.250
+open_hw
 update_compile_order -fileset sources_1
-set_property target_simulator XSim [current_project]
-update_ip_catalog
-launch_simulation
-INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.sim/sim_1/behav/xsim'
-INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [USF-XSim-7] Finding pre-compiled libraries...
-INFO: [USF-XSim-11] File 'D:/Xilinx/vivado/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-54] Inspecting design source files for 'sim_tb_top' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj sim_tb_top_vlog.prj"
-INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.sim/sim_1/behav/xsim'
-Vivado Simulator 2018.2
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: D:/Xilinx/vivado/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7ae3406260cf4ff39df5a4c502001fcc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_tb_top_behav xil_defaultlib.sim_tb_top xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 28 for port app_addr [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:177]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 3 for port app_cmd [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:178]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port app_en [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:179]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 256 for port app_wdf_data [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:180]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port app_wdf_end [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:181]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port app_wdf_wren [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:182]
-WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 256 for port app_rd_data [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:183]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port app_sr_req [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:188]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port app_ref_req [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:189]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port app_zq_req [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:190]
-WARNING: [VRFC 10-278] actual bit length 12 differs from formal bit length 8 for port pi_dqs_found_lanes [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy_wrapper.v:1671]
-WARNING: [VRFC 10-278] actual bit length 12 differs from formal bit length 8 for port pi_phase_locked_lanes [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy_wrapper.v:1679]
-WARNING: [VRFC 10-278] actual bit length 12 differs from formal bit length 8 for port pi_dqs_found_lanes [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_top.v:1340]
-WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port uart_rx_data_o [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:210]
-WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port uart_tx_data_i [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:216]
-WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port uart_tx_en_i [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:217]
-Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
-run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 924.055 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '19' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "sim_tb_top_behav -key {Behavioral:sim_1:Functional:sim_tb_top} -tclbatch {sim_tb_top.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2018.2
-Time resolution is 1 fs
-source sim_tb_top.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-WARNING: file design.txt could not be opened
- *** Warning: The analog data file design.txt for XADC instance sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.temp_mon_enabled.u_tempmon.xadc_supplied_temperature.XADC_inst was not found. Use the SIM_MONITOR_FILE parameter to specify the analog data file name or use the default name: design.txt.
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249855154
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-1973] Mismatch between the design programmed into the device xc7a100t (JTAG device index = 0) and the probes file(s) D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx.
+ The device core at location uuid_23E7D65A79BC59F7BC47406C1714DFAE, has 2 ILA Input port(s), but the core in the probes file(s) have 1 ILA Input port(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/download/PanDownload/pandown/free_source/S01/S01_CH10_UART/UART/UART.runs/impl_1/uart_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-1347] Unable to find Debug Probes file []. Please update hw_device property [PROBES.FILE]
+ Update of hw_probe objects, will be skipped.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file(s) .
+The device design has 1 ILA core(s) and 0 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 2645.344 ; gain = 549.070
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 270 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
 
-############# Write Clocks PLLE2_ADV Parameters #############
+open_run: Time (s): cpu = 00:01:17 ; elapsed = 00:01:03 . Memory (MB): peak = 2696.672 ; gain = 1034.688
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.C_PROBE1_WIDTH {1} CONFIG.C_PROBE0_WIDTH {1}] [get_ips ila_0]
+generate_target all [get_files  D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+reset_run ila_0_synth_1
+launch_runs -jobs 16 ila_0_synth_1
+[Wed Aug 15 14:19:53 2018] Launched ila_0_synth_1...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci] -directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/sim_scripts -ip_user_files_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files -ipstatic_source_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/fpga/000_vivado_sim} {questa=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/questa} {riviera=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/riviera} {activehdl=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_4
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4
 
-nCK_PER_CLK      =       4
-CLK_PERIOD       =    5000
-CLKIN1_PERIOD    =   5.000
-DIVCLK_DIVIDE    =       1
-CLKFBOUT_MULT    =       4
-VCO_PERIOD       =  1250.0
-CLKOUT0_DIVIDE_F =       1
-CLKOUT1_DIVIDE   =       2
-CLKOUT2_DIVIDE   =      32
-CLKOUT3_DIVIDE   =       8
-CLKOUT0_PERIOD   =    1250
-CLKOUT1_PERIOD   =    2500
-CLKOUT2_PERIOD   =   40000
-CLKOUT3_PERIOD   =   10000
-CLKOUT4_PERIOD   =    5000
-############################################################
+launch_runs synth_4 -jobs 16
+[Wed Aug 15 14:21:02 2018] Launched ila_0_synth_1...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/ila_0_synth_1/runme.log
+[Wed Aug 15 14:21:02 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+close_design
+launch_runs impl_5 -jobs 16
+[Wed Aug 15 14:24:31 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 'ila_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 537 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ila_0 UUID: d7f66bbc-6204-5aea-8c9b-20b797086963 
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila_0/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila_0/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_0/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_0/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 306 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 36 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
 
-############# MMCME2_ADV Parameters #############
+open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 2840.145 ; gain = 117.609
+close_design
+open_run impl_5
+INFO: [Netlist 29-17] Analyzing 566 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2851.348 ; gain = 0.000
+Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2851.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 302 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 68 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 196 instances
+  SRLC32E => SRL16E: 1 instances
 
-MMCM_MULT_F           =           8
-MMCM_VCO_FREQ (MHz)   = 800.000
-MMCM_VCO_PERIOD       = 1250.000
-#################################################
+open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 2896.125 ; gain = 55.980
+open_report: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2933.559 ; gain = 34.082
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+[Wed Aug 15 14:38:01 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=uuid_D7F66BBC62045AEA8C9B20B797086963 (sys_rst_IBUF)
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 14:41:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 14:41:10
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=uuid_D7F66BBC62045AEA8C9B20B797086963 (sys_rst_IBUF)
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 14:41:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 14:41:16
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=uuid_D7F66BBC62045AEA8C9B20B797086963 (sys_rst_IBUF)
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 'ila_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 537 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ila_0 UUID: d7f66bbc-6204-5aea-8c9b-20b797086963 
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila_0/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila_0/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_0/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_0/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 306 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 36 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : BYTE_LANES_B0 = f BYTE_LANES_B1 = f DATA_CTL_B0 = f DATA_CTL_B1 = 0
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : HIGHEST_LANE =           8 HIGHEST_LANE_B0 =           4 HIGHEST_LANE_B1 =           4
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : HIGHEST_BANK =           2
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : FREQ_REF_PERIOD         = 1250.00 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : DDR_TCK                 = 2500 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_S2_TAPS_SIZE         = 9.77 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_EARLY       = 1 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_OFFSET      = 1219.75 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_META_ZONE   = 200.00 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_FINE_INTR_DLY   = 769.25 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_COARSE_INTR_DLY = 511.00 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_STG2_INTRINSIC_DELAY = 1280.25 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_CIRC_BUF_DELAY       = 60 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_INTRINSIC_DELAY      = 1280.25 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_DELAY                = 1866.19 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PO_OCLK_DELAY           = 0 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : L_PHY_0_PO_FINE_DELAY   = 60 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG1_INTRINSIC_DELAY = 0.00 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG2_INTRINSIC_DELAY = 744.00 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_INTRINSIC_DELAY      = 744.00 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_MAX_STG2_DELAY       = 615.23 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_OFFSET               = -78.00 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : a negative PI_OFFSET means that rclk path is longer than oclk path so rclk will be delayed to next oclk edge and the negedge of rclk may be used.
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : PI_STG2_DELAY           = 615.23 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy :PI_STG2_DELAY_CAND       = 1172.00 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : DEFAULT_RCLK_DELAY      = 63 
-sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy : RCLK_SELECT_EDGE        = 0 
-WARNING: sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy: The required delay though the phaser_in to internally match the aux_out clock  to ddr clock exceeds the maximum allowable delay. The clock edge  will occur at the output registers of aux_out 556.77 ps before the ddr clock  edge. If aux_out is used for memory inputs, this may violate setup or hold time.
-Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sim_tb_top.u_ip_top.instance_name.inst.mmcm_adv_inst 
-Warning : input CLKIN1 period and attribute CLKIN1_PERIOD on PLLE2_ADV instance sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_ddr3_infrastructure.plle2_i are not same.
-Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_ddr3_infrastructure.gen_mmcm.mmcm_i 
-Warning: Invalid average CLKIN frequency detected = 3189.801 MHz
-    on PHASER_REF instance sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy.ddr_phy_4lanes_0.u_ddr_phy_4lanes.phaser_ref_i at time 612190.0 ps ps.
-    The valid CLKIN frequency range is:
-        Minimum = 400.000 MHz
-        Maximum = 1066.000 MHz
-Warning: Invalid average CLKIN frequency detected = 3189.801 MHz
-    on PHASER_REF instance sim_tb_top.u_ip_top.u_mig_7series_0.u_mig_7series_0_mig.u_memc_ui_top_std.mem_intfc0.ddr_phy_top0.u_ddr_mc_phy_wrapper.u_ddr_mc_phy.ddr_phy_4lanes_1.u_ddr_phy_4lanes.phaser_ref_i at time 612190.0 ps ps.
-    The valid CLKIN frequency range is:
-        Minimum = 400.000 MHz
-        Maximum = 1066.000 MHz
-run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 935.422 ; gain = 0.000
-xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 935.422 ; gain = 11.367
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_tb_top_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:16 ; elapsed = 00:00:39 . Memory (MB): peak = 935.422 ; gain = 35.102
-run 1000 us
+open_run: Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 3356.660 ; gain = 271.617
+reset_run synth_4
+launch_runs synth_4 -jobs 16
+[Wed Aug 15 14:43:31 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:20 . Memory (MB): peak = 3423.953 ; gain = 67.293
+place_ports sclk_50m M17
+set_property IOSTANDARD LVCMOS33 [get_ports [list sclk_50m]]
+save_constraints
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.166 . Memory (MB): peak = 3423.953 ; gain = 0.000
+[Wed Aug 15 14:46:57 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 3423.953 ; gain = 0.000
+set_property -dict [list CONFIG.CLKOUT2_DRIVES {No_buffer}] [get_ips clk_wiz_0]
+generate_target all [get_files  D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+reset_run clk_wiz_0_synth_1
+launch_runs -jobs 16 clk_wiz_0_synth_1
+[Wed Aug 15 15:00:33 2018] Launched clk_wiz_0_synth_1...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/clk_wiz_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/sim_scripts -ip_user_files_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files -ipstatic_source_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/fpga/000_vivado_sim} {questa=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/questa} {riviera=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/riviera} {activehdl=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_4
+launch_runs impl_5 -jobs 16
+WARNING: [Project 1-478] Design 'synth_4' is stale and will not be used when launching 'impl_5'
+[Wed Aug 15 15:02:02 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+[Wed Aug 15 15:02:03 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+CRITICAL WARNING: [Chipscope 16-3] Cannot debug net 'sclk_50m'; it is not accessible from the fabric routing. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:41]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:18 . Memory (MB): peak = 3487.105 ; gain = 63.152
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+[Wed Aug 15 15:10:32 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 65536 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clk_out1 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list init_calib_complete_OBUF ]]
+save_constraints
+reset_run impl_5
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.145 . Memory (MB): peak = 3487.105 ; gain = 0.000
+[Wed Aug 15 15:17:20 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 32768 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clkfbout_buf_clk_wiz_0 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list init_calib_complete_OBUF ]]
+reset_run impl_5
+save_constraints
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.140 . Memory (MB): peak = 3487.105 ; gain = 0.000
+[Wed Aug 15 15:18:35 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 3487.105 ; gain = 0.000
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 15:32:05
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 15:32:05
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=uuid_D7F66BBC62045AEA8C9B20B797086963 (sys_rst_IBUF)
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 15:32:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 15:32:28
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=uuid_D7F66BBC62045AEA8C9B20B797086963 (sys_rst_IBUF)
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 15:32:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 15:32:44
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 15:32:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 15:32:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.

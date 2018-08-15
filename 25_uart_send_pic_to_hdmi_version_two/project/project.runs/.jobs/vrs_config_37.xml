@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_4" LaunchDir="D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="impl_5" LaunchDir="D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_4"/>
+	</Run>
+</Runs>
+

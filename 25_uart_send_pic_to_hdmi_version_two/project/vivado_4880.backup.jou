@@ -1,0 +1,157 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Aug 15 11:18:15 2018
+# Process ID: 4880
+# Current directory: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent74376 D:\fpga\25_uart_send_pic_to_hdmi_version_two\project\project.xpr
+# Log file: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/vivado.log
+# Journal file: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.xpr
+update_compile_order -fileset sources_1
+create_run synth_4 -flow {Vivado Synthesis 2018} -strategy tg -report_strategy {Vivado Synthesis Default Reports}
+current_run [get_runs synth_4]
+set_property strategy tg2 [get_runs synth_4]
+set_property STEPS.SYNTH_DESIGN.TCL.PRE D:/fpga/usefulTCL/SynthesisStart.tcl [get_runs synth_4]
+set_property STEPS.SYNTH_DESIGN.TCL.POST D:/fpga/usefulTCL/SynthesisFinish.tcl [get_runs synth_4]
+update_ip_catalog
+set_property strategy tg3 [get_runs synth_4]
+update_ip_catalog
+set_property strategy tg [get_runs impl_4]
+update_ip_catalog
+update_ip_catalog
+set_property STEPS.SYNTH_DESIGN.TCL.PRE D:/fpga/usefulTCL/SynthesisStart.tcl [get_runs synth_4]
+set_property STEPS.SYNTH_DESIGN.TCL.POST D:/fpga/usefulTCL/SynthesisFinish.tcl [get_runs synth_4]
+update_ip_catalog
+update_ip_catalog
+delete_runs "synth_1"
+delete_runs "synth_2"
+delete_runs "synth_3"
+launch_runs synth_4 -jobs 16
+wait_on_run synth_4
+launch_runs impl_5 -jobs 16
+wait_on_run impl_5
+open_run synth_4 -name synth_4
+set_property mark_debug true [get_nets [list init_calib_complete_OBUF]]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 65536 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clk_out2 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list init_calib_complete_OBUF ]]
+reset_run impl_5
+save_constraints
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+wait_on_run impl_5
+close_design
+open_run impl_5
+open_run synth_4 -name synth_4
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 65536 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clk_out2 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 65536 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clk_out2 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list init_calib_complete_OBUF ]]
+save_constraints
+reset_run synth_4
+launch_runs synth_4 -jobs 16
+wait_on_run synth_4
+refresh_design
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+wait_on_run impl_5
+current_design impl_5
+refresh_design
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+current_design synth_4
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0 -dir d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip
+set_property -dict [list CONFIG.C_PROBE1_WIDTH {2} CONFIG.C_PROBE0_WIDTH {2} CONFIG.C_NUM_OF_PROBES {2}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci]
+update_compile_order -fileset sources_1
+generate_target all [get_files  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci]
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci]
+launch_runs -jobs 16 ila_0_synth_1
+export_simulation -of_objects [get_files d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci] -directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/sim_scripts -ip_user_files_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files -ipstatic_source_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/fpga/000_vivado_sim} {questa=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/questa} {riviera=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/riviera} {activehdl=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_4
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+wait_on_run impl_5
+reset_run impl_5 -prev_step 
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+wait_on_run impl_5

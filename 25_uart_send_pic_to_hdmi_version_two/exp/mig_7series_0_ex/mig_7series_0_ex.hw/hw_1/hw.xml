@@ -7,8 +7,8 @@
   <device name="xc7a100t_0" gui_info="dashboard1=dashboard_1[xc7a100t_0/XADC=XADC_PLOT_1;]"/>
   <ObjectList object_type="hw_device" gui_info="">
     <Object name="xc7a100t_0" gui_info="">
-      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_2/example_top.ltx"/>
-      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_2/example_top.ltx"/>
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_2/debug_nets.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_2/debug_nets.ltx"/>
       <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_2/example_top.bit"/>
       <Properties Property="SLR.COUNT" value="1"/>
     </Object>

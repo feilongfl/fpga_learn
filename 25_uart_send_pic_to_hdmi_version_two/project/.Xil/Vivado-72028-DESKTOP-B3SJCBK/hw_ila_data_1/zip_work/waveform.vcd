@@ -1,0 +1,25 @@
+$date
+        2018-Aug-15 15:33:00
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " init_calib_complete_OBUF $end
+$var reg 1 # _TRIGGER $end
+$var reg 1 $ _WINDOW $end
+$var reg 1 % _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1"
+0#
+1$
+0%
+$end
+#16384
+1#

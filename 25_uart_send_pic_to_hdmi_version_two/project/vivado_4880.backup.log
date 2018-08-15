@@ -1,0 +1,408 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Aug 15 11:18:15 2018
+# Process ID: 4880
+# Current directory: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent74376 D:\fpga\25_uart_send_pic_to_hdmi_version_two\project\project.xpr
+# Log file: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/vivado.log
+# Journal file: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/vivado/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:14 . Memory (MB): peak = 902.406 ; gain = 124.754
+update_compile_order -fileset sources_1
+create_run synth_4 -flow {Vivado Synthesis 2018} -strategy tg -report_strategy {Vivado Synthesis Default Reports}
+Run is defaulting to srcset: sources_1
+Run is defaulting to constrset: constrs_1
+Run is defaulting to part: xc7a100tfgg484-2
+current_run [get_runs synth_4]
+set_property strategy tg2 [get_runs synth_4]
+set_property STEPS.SYNTH_DESIGN.TCL.PRE D:/fpga/usefulTCL/SynthesisStart.tcl [get_runs synth_4]
+set_property STEPS.SYNTH_DESIGN.TCL.POST D:/fpga/usefulTCL/SynthesisFinish.tcl [get_runs synth_4]
+update_ip_catalog
+set_property strategy tg3 [get_runs synth_4]
+update_ip_catalog
+set_property strategy tg [get_runs impl_4]
+update_ip_catalog
+update_ip_catalog
+set_property STEPS.SYNTH_DESIGN.TCL.PRE D:/fpga/usefulTCL/SynthesisStart.tcl [get_runs synth_4]
+set_property STEPS.SYNTH_DESIGN.TCL.POST D:/fpga/usefulTCL/SynthesisFinish.tcl [get_runs synth_4]
+update_ip_catalog
+update_ip_catalog
+delete_runs "synth_1"
+INFO: [Vivado 12-3261] Dependent run, 'impl_1', will be deleted with parent run, 'synth_1'.
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_1
+
+delete_runs "synth_2"
+INFO: [Vivado 12-3261] Dependent run, 'impl_2', will be deleted with parent run, 'synth_2'.
+INFO: [Vivado 12-3261] Dependent run, 'impl_3', will be deleted with parent run, 'synth_2'.
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_2
+
+delete_runs "synth_3"
+INFO: [Vivado 12-3261] Dependent run, 'impl_4', will be deleted with parent run, 'synth_3'.
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_3
+
+launch_runs synth_4 -jobs 16
+[Wed Aug 15 11:21:50 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+launch_runs impl_5 -jobs 16
+[Wed Aug 15 11:23:04 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 477 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 2069.668 ; gain = 550.379
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 270 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
+
+open_run: Time (s): cpu = 00:01:28 ; elapsed = 00:00:49 . Memory (MB): peak = 2098.648 ; gain = 993.742
+set_property mark_debug true [get_nets [list init_calib_complete_OBUF]]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 65536 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clk_out2 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list init_calib_complete_OBUF ]]
+reset_run impl_5
+save_constraints
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.156 . Memory (MB): peak = 2098.648 ; gain = 0.000
+[Wed Aug 15 11:25:00 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+close_design
+open_run impl_5
+INFO: [Netlist 29-17] Analyzing 506 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: u_ila_0 UUID: 23e7d65a-79bc-59f7-bc47-406c1714dfae 
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2106.711 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2106.711 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 266 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 32 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 196 instances
+  SRLC32E => SRL16E: 1 instances
+
+open_run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 2169.910 ; gain = 71.262
+open_report: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 2224.016 ; gain = 40.180
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 477 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 270 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
+
+open_run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:15 . Memory (MB): peak = 2706.316 ; gain = 244.102
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 65536 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clk_out2 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+u_ila_0/probe0
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 65536 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clk_out2 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list init_calib_complete_OBUF ]]
+save_constraints
+reset_run synth_4
+launch_runs synth_4 -jobs 16
+[Wed Aug 15 11:34:48 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 477 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:17 . Memory (MB): peak = 2754.867 ; gain = 48.551
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.159 . Memory (MB): peak = 2754.867 ; gain = 0.000
+[Wed Aug 15 11:36:43 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+current_design impl_5
+refresh_design
+INFO: [Netlist 29-17] Analyzing 506 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: u_ila_0 UUID: 23e7d65a-79bc-59f7-bc47-406c1714dfae 
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2754.867 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2754.867 ; gain = 0.000
+refresh_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:15 . Memory (MB): peak = 2754.867 ; gain = 0.000
+open_report: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 2754.867 ; gain = 0.000
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249855154
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location '1:0-0' from probes file, since it cannot be found on the programmed device.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file(s) D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx.
+The device design has 1 ILA core(s) and 0 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location '1:0-0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location '1:0-0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/debug_nets.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location '1:0-0' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location '1:0-0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location '1:0-0' from probes file, since it cannot be found on the programmed device.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location '1:0-0' from probes file, since it cannot be found on the programmed device.
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249855154
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location '1:0-0' from probes file, since it cannot be found on the programmed device.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+WARNING: [Xicom 50-38] xicom: No CseXsdb register file specified for CseXsdb slave type: 0, cse driver version: 0. Slave initialization skipped.
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-3413] Dropping logic core with cellname:'u_ila_0' at location '1:0-0' from probes file, since it cannot be found on the programmed device.
+current_design synth_4
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0 -dir d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip
+set_property -dict [list CONFIG.C_PROBE1_WIDTH {2} CONFIG.C_PROBE0_WIDTH {2} CONFIG.C_NUM_OF_PROBES {2}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci]
+launch_runs -jobs 16 ila_0_synth_1
+[Wed Aug 15 11:56:19 2018] Launched ila_0_synth_1...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci] -directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/sim_scripts -ip_user_files_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files -ipstatic_source_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/fpga/000_vivado_sim} {questa=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/questa} {riviera=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/riviera} {activehdl=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_4
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+WARNING: [Project 1-478] Design 'synth_4' is stale and will not be used when launching 'impl_5'
+[Wed Aug 15 12:00:03 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+[Wed Aug 15 12:00:03 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+reset_run impl_5 -prev_step 
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+[Wed Aug 15 12:16:48 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log

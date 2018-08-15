@@ -119,7 +119,9 @@ module top
            //////////////////////////////////////////////////////////
            // uart
            input uart_rx,
-           output uart_tx
+           output uart_tx,
+           
+           output sclk_50m
        );
 
 
@@ -131,8 +133,16 @@ module top
 
 
 wire sclk_200m;
-wire sclk_50m;
+//wire sclk_50m;
 wire pllLock;
+
+//ila_0 ila_0 (
+//	.clk(sclk_50m), // input wire clk
+
+//	.probe0(init_calib_complete), 
+//	.probe1(sys_rst) 
+//);
+
 
 clk_wiz_0 instance_name
           (
@@ -140,7 +150,7 @@ clk_wiz_0 instance_name
               .clk_out1(sclk_200m), // output clk_out1
               .clk_out2(sclk_50m),     // output clk_out2
               // Status and control signals
-              .reset(sys_rst), // input reset
+              .reset(0), // input reset
               .locked(pllLock), // output locked
               // Clock in ports
               .clk_in1(sys_clk_i)); // input clk_in1
