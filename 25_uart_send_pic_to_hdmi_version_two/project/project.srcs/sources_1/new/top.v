@@ -143,8 +143,16 @@ wire ui_clk_100m;
 //           .probe1(ui_clk_100m)
 //       );
 
-wire[255:0]app_wdf_data;
+wire[255:0]app_wdf_data,app_rd_data;
 wire[7:0]uart_rx_data_o;
+
+wire[27:0] app_addr;
+wire[2:0] app_cmd;
+wire [31:0] app_wdf_mask;
+
+wire [7:0] uart_tx_data_i;
+
+wire uart_tx_busy,uart_tx_en;
 
 bit8to256 bit8to256_inst(
               .I (uart_rx_data_o),
@@ -152,11 +160,11 @@ bit8to256 bit8to256_inst(
           );
 
 
-clk_wiz_0 instance_name
+clk_wiz_0 clk_wiz_inst
           (
               // Clock out ports
               .clk_out1(sclk_200m), // output clk_out1
-              .clk_out2(sclk_50m),     // output clk_out2
+              //              .clk_out2(sclk_50m),     // output clk_out2
               // Status and control signals
               .reset(0), // input reset
               .locked(pllLock), // output locked
@@ -171,7 +179,7 @@ clk_wiz_0 instance_name
 // for connecting the memory controller to system.
 //***************************************************************************
 
-mig_7series_0 u_mig_7series_0 (
+mig_7series_1 u_mig_7series_inst (
 
                   // Memory interface ports
                   .ddr3_addr (ddr3_addr), // output [13:0] ddr3_addr
@@ -195,26 +203,30 @@ mig_7series_0 u_mig_7series_0 (
                   /////////////////////////////////////////////////
                   // Application interface ports
                   /////////////////////////////////////////////////
-                  .app_addr (0), // input [27:0] app_addr
-                  .app_cmd (0), // input [2:0] app_cmd
+                  .app_addr (app_addr), // input [27:0] app_addr
+                  .app_cmd (app_cmd), // input [2:0] app_cmd
                   .app_en (1), // input app_en
                   .app_wdf_data (app_wdf_data), // input [255:0] app_wdf_data
-                  .app_wdf_end (0), // input app_wdf_end
+                  .app_wdf_end (app_wdf_end), // input app_wdf_end
                   .app_wdf_mask (app_wdf_mask), // input [31:0] app_wdf_mask
-                  .app_wdf_wren (1), // input app_wdf_wren
+                  .app_wdf_wren (app_wdf_wren), // input app_wdf_wren
                   .app_rd_data (app_rd_data), // output [255:0] app_rd_data
                   // .app_rd_data_end (app_rd_data_end), // output app_rd_data_end
                   .app_rd_data_valid (app_rd_data_valid), // output app_rd_data_valid
                   .app_rdy (app_rdy), // output app_rdy
                   .app_wdf_rdy (app_wdf_rdy), // output app_wdf_rdy
+
+                  // not use
                   .app_sr_req (0), // input app_sr_req
                   .app_ref_req (0), // input app_ref_req
                   .app_zq_req (0), // input app_zq_req
                   // .app_sr_active (app_sr_active), // output app_sr_active
-                  .app_ref_ack (app_ref_ack), // output app_ref_ack
-                  .app_zq_ack (app_zq_ack), // output app_zq_ack
-                  .ui_clk_100m (ui_clk_100m), // output ui_clk_100m
-                  .ui_clk_100m_sync_rst (ui_clk_100m_sync_rst), // output ui_clk_100m_sync_rst
+                  // .app_ref_ack (app_ref_ack), // output app_ref_ack
+                  // .app_zq_ack (app_zq_ack), // output app_zq_ack
+
+                  //clock
+                  .ui_clk (ui_clk_100m), // output ui_clk_100m
+                  .ui_clk_sync_rst (ui_clk_100m_sync_rst), // output ui_clk_100m_sync_rst
                   // System Clock Ports
                   .sys_clk_i (sclk_200m),
                   // Reference Clock Ports
@@ -222,6 +234,24 @@ mig_7series_0 u_mig_7series_0 (
                   .sys_rst (pllLock) // input sys_rst
               );
 // End of User Design top instance
+uartaddr uartaddr_inst (
+             .ui_clk(ui_clk_100m),
+             .ui_clk_sync_rst(ui_clk_100m_sync_rst),
+             .app_rdy(app_rdy),
+             .app_wdf_rdy(app_wdf_rdy),
+             .app_addr(app_addr),
+             .app_cmd(app_cmd),
+             .app_en(app_en_wire),
+             .app_wdf_end(app_wdf_end),
+             .app_wdf_wren(app_wdf_wren),
+             .app_wdf_mask(app_wdf_mask),
+             .app_rd_data_valid(app_rd_data_valid),
+             .app_rd_data(app_rd_data),
+             .uart_rx_done(uart_rx_done),
+             .uart_tx_en(uart_tx_en),
+             .uart_tx_data(uart_tx_data_i),
+             .uart_tx_busy(uart_tx_busy)
+         );
 
 
 uart_rx_path uart_rx_path_u (

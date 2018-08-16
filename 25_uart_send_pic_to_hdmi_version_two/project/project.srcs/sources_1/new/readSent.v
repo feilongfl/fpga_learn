@@ -5,9 +5,9 @@
 
 module readSent (
            input ui_clk,
-           input ui_clk_100m_sync_rst,
+           input ui_clk_sync_rst,
 
-           input dataRecvFlag,
+           // input dataRecvFlag,
 
            input app_rdy,
            input app_wdf_rdy,
@@ -49,8 +49,8 @@ reg [255:0] recvDataTemp = 0;
 /////////////////////////////////////////////
 // main code
 /////////////////////////////////////////////
-always @ ( posedge ui_clk or posedge ui_clk_100m_sync_rst ) begin
-    if (ui_clk_100m_sync_rst) begin
+always @ ( posedge ui_clk or posedge ui_clk_sync_rst ) begin
+    if (ui_clk_sync_rst) begin
         status <= Status_Idle;
     end
     else
@@ -70,9 +70,11 @@ always @ ( posedge ui_clk or posedge ui_clk_100m_sync_rst ) begin
             end
         Status_SendData:
             if(app_addr % 32 == 0) begin
-                status <= send_data;
+                status <= Status_SendData;
             end
-        Status_Err, default:
+        Status_Err:
+                    status <= Status_Idle;
+default:
             status <= Status_Idle;
     endcase
 end
@@ -97,10 +99,12 @@ always @ (posedge ui_clk) begin
         Status_READ_DDR: begin
             app_cmd <= 3'b001;
             app_wdf_wren <= 0;
+        end
+        Status_SendData: begin
             if(!uart_tx_busy) begin
                 // saveCounter <= saveCounter - 1;
                 uart_tx_en <= 1;
-                uart_tx_data <=
+//                uart_tx_data <= app_rd_data[(recvDataTemp % 32) * 8 + 7 : (recvDataTemp % 32) * 8];
             end
             else begin
                 uart_tx_en <= 0;

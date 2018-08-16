@@ -17,10 +17,3 @@ set_operating_conditions -board_layers 4to7
 set_operating_conditions -heatsink low
 
 
-
-#set_property PACKAGE_PIN M17 [get_ports sclk_50m]
-#set_property IOSTANDARD LVCMOS33 [get_ports sclk_50m]
-
-
-set_property MARK_DEBUG false [get_nets init_calib_complete_OBUF]
-set_property MARK_DEBUG false [get_nets ui_clk]

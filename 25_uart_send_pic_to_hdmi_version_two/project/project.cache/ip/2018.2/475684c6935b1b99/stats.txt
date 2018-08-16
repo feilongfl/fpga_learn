@@ -1,4 +1,4 @@
-NumberHits:2
-Timestamp: Tue Aug 14 11:50:57 UTC 2018
+NumberHits:4
+Timestamp: Thu Aug 16 03:13:00 UTC 2018
 VLNV: xilinx.com:ip:mig_7series:4.1
 SynthRuntime: 273
