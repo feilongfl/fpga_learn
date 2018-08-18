@@ -264,17 +264,17 @@ uart_rx_path uart_rx_path_u (
              );
 
 
-ila_uart rx_dbg(
-             .clk(ui_clk_100m),
-             .probe0(uart_rx_data_o),
-             .probe1(uart_rx_done)
-         );
+//ila_uart rx_dbg(
+//             .clk(ui_clk_100m),
+//             .probe0(uart_rx_data_o),
+//             .probe1(uart_rx_done)
+//         );
 
-ila_uart tx_dbg(
-             .clk(ui_clk_100m),
-             .probe0(uart_tx_data_i),
-             .probe1(uart_tx_en)
-         );
+//ila_uart tx_dbg(
+//             .clk(ui_clk_100m),
+//             .probe0(uart_tx_data_i),
+//             .probe1(uart_tx_en)
+//         );
 
 uart_tx_path uart_tx_path_u (
                  .clk_i(ui_clk_100m),
