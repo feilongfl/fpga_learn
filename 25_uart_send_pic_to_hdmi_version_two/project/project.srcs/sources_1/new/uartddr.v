@@ -12,7 +12,7 @@ module uartaddr (
            output reg [2:0] app_cmd,
 
            output reg app_en,
-           output reg app_wdf_end,
+           output app_wdf_end,
            output reg app_wdf_wren,
            output reg [31:0] app_wdf_mask = 32'b11111111_11111111_11111111_11111110,
            // output reg [255:0] app_wdf_data,
@@ -40,34 +40,37 @@ localparam Status_Err = 5'b10000;
 
 reg[4:0] status = Status_Idle;
 
-reg writeFlag = 0;
+// reg writeFlag = 0;
 
-localparam  RS_SEND_CMD = 5'b00001;
-localparam  RS_WAIT_DATA = 5'b00010;
-localparam  RS_PRE_UART = 5'b00100;
-localparam  RS_TX_TRIG = 5'b01000;
-localparam  RS_FIN = 5'b10000;
-reg [4:0] readStatus = RS_SEND_CMD;
+localparam  RS_SEND_CMD = 6'b000001;
+localparam  RS_WAIT_DATA = 6'b000010;
+localparam  RS_PRE_UART = 6'b000100;
+localparam  RS_TX_TRIG = 6'b001000;
+localparam  RS_FIN = 6'b010000;
+// localparam  RS_wait = 6'b100000;
+reg [5:0] readStatus = RS_SEND_CMD;
 
 reg [255:0] recvDataTemp = 0;
 
-ila_1 ila_0_temp1 (
-          .clk(ui_clk), // input wire clk
+//ila_1 ila_0_temp1 (
+//          .clk(ui_clk), // input wire clk
 
-          .probe0(status),
-          .probe1(readStatus),
-          .probe2(writeStatus)
-      );
+//          .probe0(status),
+//          .probe1(readStatus),
+//          .probe2(writeStatus)
+//      );
 
-ila_0 ila0 (
-          .clk(ui_clk), // input wire clk
+//ila_0 ila0 (
+//          .clk(ui_clk), // input wire clk
 
-          .probe0(app_en),
-          .probe1(app_rdy),
-          .probe2(app_wdf_rdy),
-          .probe3(app_rd_data_valid),
-          .probe4(saveCounter[6:0])
-      );
+//          .probe0(app_en),
+//          .probe1(app_rdy),
+//          .probe2(app_wdf_rdy),
+//          .probe3(app_rd_data_valid),
+//          .probe4(saveCounter[6:0])
+//      );
+
+assign app_wdf_end = app_wdf_wren;
 
 always @ (posedge ui_clk or posedge ui_clk_sync_rst) begin
     if(ui_clk_sync_rst) begin
@@ -79,7 +82,7 @@ always @ (posedge ui_clk or posedge ui_clk_sync_rst) begin
             if( app_rdy && app_wdf_rdy )
                 status <= Status_Write_DDR;
         Status_Write_DDR:
-            if(saveCounter == Length && !writeFlag)
+            if(saveCounter == Length)
                 status <= Status_READ_DDR;
         Status_READ_DDR:
             if(saveCounter == 0)
@@ -98,12 +101,15 @@ localparam  WS_FIN = 5'b01000;
 reg [4:0] writeStatus = WS_WAIT_RX;
 
 reg[4:0] rdTime = 0;
-parameter rdTimeLim = 10;
+parameter rdTimeLim = 100;
+
+reg trigedrx = 0;
+
 always @ (posedge ui_clk or posedge ui_clk_sync_rst) begin
     if(ui_clk_sync_rst) begin
         app_wdf_mask <= 32'b11111111_11111111_11111111_11111110;
         saveCounter <= 0;
-        app_wdf_end <= 0;
+        // app_wdf_end <= 0;
         app_wdf_wren <= 0;
         app_en <= 0;
         app_addr <= 0;
@@ -121,20 +127,20 @@ always @ (posedge ui_clk or posedge ui_clk_sync_rst) begin
                     end
                 end
                 WS_TRIG_CMD: begin
-                    if(app_rdy && app_wdf_rdy) begin
-                        app_wdf_end <= 1;
-                        app_wdf_wren <= 1;
-                        app_en <= 1;
-                        writeStatus <= WS_FIN;
-                        $display("[%d]uart fake rx => %d,mask => %b",saveCounter,uartdata,app_wdf_mask);
-                    end
+                    // app_wdf_end <= 1;
+                    app_wdf_wren <= 1;
+                    app_en <= 1;
+                    writeStatus <= WS_FIN;
+                    $display("[%d]uart fake rx => %h,mask => %b",saveCounter,uartdata,app_wdf_mask);
                 end
                 WS_FIN: begin
-                    app_wdf_end <= 0;
-                    app_wdf_wren <= 0;
-                    app_en <= 0;
-                    saveCounter <= saveCounter + 1;
-                    writeStatus <= WS_WAIT_RX;
+                    if(app_rdy && app_wdf_rdy) begin
+                        // app_wdf_end <= 0;
+                        app_wdf_wren <= 0;
+                        app_en <= 0;
+                        saveCounter <= saveCounter + 1;
+                        writeStatus <= WS_WAIT_RX;
+                    end
                 end
                 default:
                     writeStatus = WS_WAIT_RX;
@@ -144,7 +150,7 @@ always @ (posedge ui_clk or posedge ui_clk_sync_rst) begin
             app_cmd <= 3'b001;
             case (readStatus)
                 RS_SEND_CMD: begin
-                    if(saveCounter != 0 && app_rdy) begin
+                    if(saveCounter != 0 && app_rdy && app_cmd == 3'b001) begin
                         app_en <= 1;
                         app_addr <= (saveCounter - 1) / 32;
                         readStatus <= RS_WAIT_DATA;
@@ -166,7 +172,7 @@ always @ (posedge ui_clk or posedge ui_clk_sync_rst) begin
                 end
                 RS_PRE_UART: begin
                     uart_tx_data <= (recvDataTemp >> ((31 - (saveCounter - 1) % 32) * 8)) & 8'hff;
-                    $display("[%d]uart fake tx => %d,orig => %h",saveCounter,uart_tx_data,recvDataTemp);
+                    $display("[%d]uart fake tx => %h,orig => %h",saveCounter,uart_tx_data,recvDataTemp);
 
                     // uart_tx_data <= readTime;
                     // readTime <= readTime + 1;
@@ -176,11 +182,16 @@ always @ (posedge ui_clk or posedge ui_clk_sync_rst) begin
                     if(!uart_tx_busy) begin
                         uart_tx_en <= 1;
                         readStatus <= RS_FIN;
+                        trigedrx <= 0;
                     end
                 end
                 RS_FIN: begin
                     uart_tx_en <= 0;
-                    if(!uart_tx_busy) begin
+
+                    if(uart_tx_busy)
+                        trigedrx <= 1;
+
+                    if(!uart_tx_busy && trigedrx) begin
                         app_wdf_mask <= {app_wdf_mask[30:0],app_wdf_mask[31]};
                         saveCounter <= (saveCounter == 0)? 0 : saveCounter - 1;
                         readStatus <= RS_SEND_CMD;
