@@ -8,13 +8,19 @@ module fakeTx(
            output uart_tx_o
        );
 
+reg [7:0] waitCnt = 0;
+
 always @ (posedge clk_i) begin
     if(uart_tx_en_i) begin
+        waitCnt <= 0;
         uart_send_flag <= 1;
         $display("uart fake tx => %d",uart_tx_data_i);
     end
-    else begin
+    else if(waitCnt == 10) begin
         uart_send_flag <= 0;
+    end
+    else begin
+        waitCnt <= waitCnt + 1;
     end
 end
 

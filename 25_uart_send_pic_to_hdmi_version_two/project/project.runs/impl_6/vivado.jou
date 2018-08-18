@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Sat Aug 18 07:13:15 2018
-# Process ID: 436
+# Start of session at: Sat Aug 18 12:55:33 2018
+# Process ID: 84036
 # Current directory: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_6
 # Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
 # Log file: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_6/top.vdi

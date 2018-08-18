@@ -10,14 +10,16 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="2971fs"></ZoomEndTime>
-      <Cursor1Time time="893000fs"></Cursor1Time>
+      <ZoomEndTime time="4096001fs"></ZoomEndTime>
+      <Cursor1Time time="997000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="243"></NameColumnWidth>
-      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+      <ValueColumnWidth column_width="126"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="3" />
+   <WVObjectSize size="4" />
+   <wave_markers>
+   </wave_markers>
    <wvobject fp_name="uartaddr_inst/status" type="array">
       <obj_property name="DisplayName">FullPathName</obj_property>
       <obj_property name="ElementShortName">uartaddr_inst/status[4:0]</obj_property>
@@ -39,6 +41,14 @@
       <obj_property name="ElementShortName">uartaddr_inst/writeStatus[4:0]</obj_property>
       <obj_property name="ObjectShortName">writeStatus[4:0]</obj_property>
       <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uartaddr_inst/cycleTime" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uartaddr_inst/cycleTime[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cycleTime[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
