@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sim_1/new/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_tb_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

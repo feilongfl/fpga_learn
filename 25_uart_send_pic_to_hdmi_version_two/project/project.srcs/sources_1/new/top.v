@@ -135,6 +135,7 @@ wire sclk_200m;
 wire pllLock;
 
 wire ui_clk_100m;
+wire app_en;
 
 // ila_0 ila_0 (
 //           .clk(sclk_200m), // input wire clk
@@ -205,7 +206,7 @@ mig_7series_1 u_mig_7series_inst (
                   /////////////////////////////////////////////////
                   .app_addr (app_addr), // input [27:0] app_addr
                   .app_cmd (app_cmd), // input [2:0] app_cmd
-                  .app_en (1), // input app_en
+                  .app_en (app_en), // input app_en
                   .app_wdf_data (app_wdf_data), // input [255:0] app_wdf_data
                   .app_wdf_end (app_wdf_end), // input app_wdf_end
                   .app_wdf_mask (app_wdf_mask), // input [31:0] app_wdf_mask
@@ -241,7 +242,7 @@ uartaddr uartaddr_inst (
              .app_wdf_rdy(app_wdf_rdy),
              .app_addr(app_addr),
              .app_cmd(app_cmd),
-             .app_en(app_en_wire),
+             .app_en(app_en),
              .app_wdf_end(app_wdf_end),
              .app_wdf_wren(app_wdf_wren),
              .app_wdf_mask(app_wdf_mask),
@@ -261,6 +262,19 @@ uart_rx_path uart_rx_path_u (
                  .uart_rx_data_o(uart_rx_data_o),
                  .uart_rx_done(uart_rx_done)
              );
+
+
+ila_uart rx_dbg(
+             .clk(ui_clk_100m),
+             .probe0(uart_rx_data_o),
+             .probe1(uart_rx_done)
+         );
+
+ila_uart tx_dbg(
+             .clk(ui_clk_100m),
+             .probe0(uart_tx_data_i),
+             .probe1(uart_tx_en)
+         );
 
 uart_tx_path uart_tx_path_u (
                  .clk_i(ui_clk_100m),

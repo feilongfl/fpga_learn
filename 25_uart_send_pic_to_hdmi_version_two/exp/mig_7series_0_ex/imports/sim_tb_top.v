@@ -433,37 +433,56 @@ module sim_tb_top;
   //                         FPGA Memory Controller
   //===========================================================================
 
- top  u_ip_top
-     (
+module topsim
+       (
 
-     .ddr3_dq              (ddr3_dq_fpga),
-     .ddr3_dqs_n           (ddr3_dqs_n_fpga),
-     .ddr3_dqs_p           (ddr3_dqs_p_fpga),
+           // Inouts
+           inout [31:0] ddr3_dq,
+           inout [3:0] ddr3_dqs_n,
+           inout [3:0] ddr3_dqs_p,
 
-     .ddr3_addr            (ddr3_addr_fpga),
-     .ddr3_ba              (ddr3_ba_fpga),
-     .ddr3_ras_n           (ddr3_ras_n_fpga),
-     .ddr3_cas_n           (ddr3_cas_n_fpga),
-     .ddr3_we_n            (ddr3_we_n_fpga),
-     .ddr3_reset_n         (ddr3_reset_n),
-     .ddr3_ck_p            (ddr3_ck_p_fpga),
-     .ddr3_ck_n            (ddr3_ck_n_fpga),
-     .ddr3_cke             (ddr3_cke_fpga),
-     .ddr3_cs_n            (ddr3_cs_n_fpga),
-    
-     .ddr3_dm              (ddr3_dm_fpga),
-    
-     .ddr3_odt             (ddr3_odt_fpga),
-    
-     
-     .sys_clk_i            (sys_clk_i),
-    
-//     .clk_ref_i            (clk_ref_i),
-    
-      .init_calib_complete (init_calib_complete),
-      .tg_compare_error    (tg_compare_error),
-      .sys_rst             (~sys_rst)
-     );
+           // Outputs
+           output [13:0] ddr3_addr,
+           output [2:0] ddr3_ba,
+           output ddr3_ras_n,
+           output ddr3_cas_n,
+           output ddr3_we_n,
+           output ddr3_reset_n,
+           output [0:0] ddr3_ck_p,
+           output [0:0] ddr3_ck_n,
+           output [0:0] ddr3_cke,
+
+           output [0:0] ddr3_cs_n,
+
+           output [3:0] ddr3_dm,
+
+           output [0:0] ddr3_odt,
+
+
+           // Inputs
+
+           // Single-ended system clock
+           input sys_clk_i,
+
+           // Single-ended iodelayctrl clk (reference clock)
+           // input clk_ref_i,
+
+           output tg_compare_error,
+           output init_calib_complete,
+
+
+
+           // System reset - Default polarity of sys_rst pin is Active Low.
+           // System reset polarity will change based on the option
+           // selected in GUI.
+           input sys_rst,
+
+           //////////////////////////////////////////////////////////
+           // uart
+           input uart_rx,
+           output uart_tx
+       );
+
 
   //**************************************************************************//
   // Memory Models instantiations
@@ -563,3 +582,5 @@ module sim_tb_top;
   end
     
 endmodule
+
+

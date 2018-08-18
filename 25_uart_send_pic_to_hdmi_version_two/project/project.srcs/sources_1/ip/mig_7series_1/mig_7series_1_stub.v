@@ -1,11 +1,11 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-// Date        : Tue Aug 14 17:28:44 2018
+// Date        : Fri Aug 17 08:10:52 2018
 // Host        : DESKTOP-B3SJCBK running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub -rename_top mig_7series_1 -prefix
-//               mig_7series_1_ mig_7series_0_stub.v
-// Design      : mig_7series_0
+// Command     : write_verilog -force -mode synth_stub
+//               D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_1/mig_7series_1_stub.v
+// Design      : mig_7series_1
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a100tfgg484-2
 // --------------------------------------------------------------------------------

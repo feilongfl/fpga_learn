@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Aug 17 15:30:46 2018
+# Process ID: 54648
+# Current directory: V:/
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent87408 V:\project.xpr
+# Log file: V:/vivado.log
+# Journal file: V:/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/project.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/wiredly.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/ddr3_model_parameters.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/ddr3_model.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/example_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_afifo.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_gen.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_cmd_prbs_gen.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_data_prbs_gen.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_init_mem_pattern_ctr.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_flow_vcontrol.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_memc_traffic_gen.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_rd_data_gen.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_data_path.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_read_posted_fifo.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_s7ven_data_gen.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_prbs_gen.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_tg_status.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_traffic_gen_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_vio_init_pattern_bram.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_wr_data_gen.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/../exp/mig_7series_0_ex/imports/mig_7series_v4_1_write_data_path.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'V:/project.srcs/sim_1/new/top.v'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] synth_4 strategy "tg3," step synth_design, attribute : Could not find the file 'V:/../../usefulTCL/SynthesisFinish.tcl'.
+WARNING: [filemgmt 56-3] synth_4 strategy "tg3," step synth_design, attribute : Could not find the file 'V:/../../usefulTCL/SynthesisStart.tcl'.
+WARNING: [filemgmt 56-3] impl_5 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationStart.tcl'.
+WARNING: [filemgmt 56-3] impl_5 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationFinish.tcl'.
+WARNING: [filemgmt 56-3] impl_5 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptStart.tcl'.
+WARNING: [filemgmt 56-3] impl_5 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptFinish.tcl'.
+WARNING: [filemgmt 56-3] impl_5 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceStart.tcl'.
+WARNING: [filemgmt 56-3] impl_5 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceFinish.tcl'.
+WARNING: [filemgmt 56-3] impl_5 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteStart.tcl'.
+WARNING: [filemgmt 56-3] impl_5 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteFinish.tcl'.
+WARNING: [filemgmt 56-3] impl_5 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamStart.tcl'.
+WARNING: [filemgmt 56-3] impl_5 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamFinish.tcl'.
+WARNING: [filemgmt 56-3] ila_1_impl_1 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationStart.tcl'.
+WARNING: [filemgmt 56-3] ila_1_impl_1 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationFinish.tcl'.
+WARNING: [filemgmt 56-3] ila_1_impl_1 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptStart.tcl'.
+WARNING: [filemgmt 56-3] ila_1_impl_1 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptFinish.tcl'.
+WARNING: [filemgmt 56-3] ila_1_impl_1 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceStart.tcl'.
+WARNING: [filemgmt 56-3] ila_1_impl_1 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceFinish.tcl'.
+WARNING: [filemgmt 56-3] ila_1_impl_1 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteStart.tcl'.
+WARNING: [filemgmt 56-3] ila_1_impl_1 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteFinish.tcl'.
+WARNING: [filemgmt 56-3] ila_1_impl_1 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamStart.tcl'.
+WARNING: [filemgmt 56-3] ila_1_impl_1 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamFinish.tcl'.
+WARNING: [filemgmt 56-3] impl_6 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationStart.tcl'.
+WARNING: [filemgmt 56-3] impl_6 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationFinish.tcl'.
+WARNING: [filemgmt 56-3] impl_6 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptStart.tcl'.
+WARNING: [filemgmt 56-3] impl_6 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptFinish.tcl'.
+WARNING: [filemgmt 56-3] impl_6 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceStart.tcl'.
+WARNING: [filemgmt 56-3] impl_6 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceFinish.tcl'.
+WARNING: [filemgmt 56-3] impl_6 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteStart.tcl'.
+WARNING: [filemgmt 56-3] impl_6 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteFinish.tcl'.
+WARNING: [filemgmt 56-3] impl_6 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamStart.tcl'.
+WARNING: [filemgmt 56-3] impl_6 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamFinish.tcl'.
+WARNING: [filemgmt 56-3] mig_7series_1_impl_1 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationStart.tcl'.
+WARNING: [filemgmt 56-3] mig_7series_1_impl_1 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationFinish.tcl'.
+WARNING: [filemgmt 56-3] mig_7series_1_impl_1 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptStart.tcl'.
+WARNING: [filemgmt 56-3] mig_7series_1_impl_1 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptFinish.tcl'.
+WARNING: [filemgmt 56-3] mig_7series_1_impl_1 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceStart.tcl'.
+WARNING: [filemgmt 56-3] mig_7series_1_impl_1 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceFinish.tcl'.
+WARNING: [filemgmt 56-3] mig_7series_1_impl_1 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteStart.tcl'.
+WARNING: [filemgmt 56-3] mig_7series_1_impl_1 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteFinish.tcl'.
+WARNING: [filemgmt 56-3] mig_7series_1_impl_1 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamStart.tcl'.
+WARNING: [filemgmt 56-3] mig_7series_1_impl_1 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamFinish.tcl'.
+WARNING: [filemgmt 56-3] ila_uart_impl_1 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationStart.tcl'.
+WARNING: [filemgmt 56-3] ila_uart_impl_1 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationFinish.tcl'.
+WARNING: [filemgmt 56-3] ila_uart_impl_1 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptStart.tcl'.
+WARNING: [filemgmt 56-3] ila_uart_impl_1 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptFinish.tcl'.
+WARNING: [filemgmt 56-3] ila_uart_impl_1 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceStart.tcl'.
+WARNING: [filemgmt 56-3] ila_uart_impl_1 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceFinish.tcl'.
+WARNING: [filemgmt 56-3] ila_uart_impl_1 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteStart.tcl'.
+WARNING: [filemgmt 56-3] ila_uart_impl_1 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteFinish.tcl'.
+WARNING: [filemgmt 56-3] ila_uart_impl_1 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamStart.tcl'.
+WARNING: [filemgmt 56-3] ila_uart_impl_1 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamFinish.tcl'.
+WARNING: [filemgmt 56-3] clk_wiz_0_impl_1 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationStart.tcl'.
+WARNING: [filemgmt 56-3] clk_wiz_0_impl_1 strategy "tg," step init_design, attribute : Could not find the file 'V:/../../usefulTCL/ImplementationFinish.tcl'.
+WARNING: [filemgmt 56-3] clk_wiz_0_impl_1 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptStart.tcl'.
+WARNING: [filemgmt 56-3] clk_wiz_0_impl_1 strategy "tg," step opt_design, attribute : Could not find the file 'V:/../../usefulTCL/OptFinish.tcl'.
+WARNING: [filemgmt 56-3] clk_wiz_0_impl_1 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceStart.tcl'.
+WARNING: [filemgmt 56-3] clk_wiz_0_impl_1 strategy "tg," step place_design, attribute : Could not find the file 'V:/../../usefulTCL/PlaceFinish.tcl'.
+WARNING: [filemgmt 56-3] clk_wiz_0_impl_1 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteStart.tcl'.
+WARNING: [filemgmt 56-3] clk_wiz_0_impl_1 strategy "tg," step route_design, attribute : Could not find the file 'V:/../../usefulTCL/RouteFinish.tcl'.
+WARNING: [filemgmt 56-3] clk_wiz_0_impl_1 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamStart.tcl'.
+WARNING: [filemgmt 56-3] clk_wiz_0_impl_1 strategy "tg," step write_bitstream, attribute : Could not find the file 'V:/../../usefulTCL/BitStreamFinish.tcl'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/vivado/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:17 . Memory (MB): peak = 873.137 ; gain = 159.625
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 17 15:32:02 2018...

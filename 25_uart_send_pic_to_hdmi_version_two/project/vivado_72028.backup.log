@@ -1,0 +1,992 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Aug 15 13:23:32 2018
+# Process ID: 72028
+# Current directory: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17356 D:\fpga\25_uart_send_pic_to_hdmi_version_two\project\project.xpr
+# Log file: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/vivado.log
+# Journal file: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/vivado/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:16 . Memory (MB): peak = 838.195 ; gain = 133.250
+open_hw
+update_compile_order -fileset sources_1
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249855154
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-1973] Mismatch between the design programmed into the device xc7a100t (JTAG device index = 0) and the probes file(s) D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx.
+ The device core at location uuid_23E7D65A79BC59F7BC47406C1714DFAE, has 2 ILA Input port(s), but the core in the probes file(s) have 1 ILA Input port(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/download/PanDownload/pandown/free_source/S01/S01_CH10_UART/UART/UART.runs/impl_1/uart_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-1347] Unable to find Debug Probes file []. Please update hw_device property [PROBES.FILE]
+ Update of hw_probe objects, will be skipped.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file(s) .
+The device design has 1 ILA core(s) and 0 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 2645.344 ; gain = 549.070
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 270 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
+
+open_run: Time (s): cpu = 00:01:17 ; elapsed = 00:01:03 . Memory (MB): peak = 2696.672 ; gain = 1034.688
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.C_PROBE1_WIDTH {1} CONFIG.C_PROBE0_WIDTH {1}] [get_ips ila_0]
+generate_target all [get_files  D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+reset_run ila_0_synth_1
+launch_runs -jobs 16 ila_0_synth_1
+[Wed Aug 15 14:19:53 2018] Launched ila_0_synth_1...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.xci] -directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/sim_scripts -ip_user_files_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files -ipstatic_source_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/fpga/000_vivado_sim} {questa=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/questa} {riviera=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/riviera} {activehdl=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_4
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4
+
+launch_runs synth_4 -jobs 16
+[Wed Aug 15 14:21:02 2018] Launched ila_0_synth_1...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/ila_0_synth_1/runme.log
+[Wed Aug 15 14:21:02 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+close_design
+launch_runs impl_5 -jobs 16
+[Wed Aug 15 14:24:31 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 'ila_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 537 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ila_0 UUID: d7f66bbc-6204-5aea-8c9b-20b797086963 
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila_0/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila_0/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_0/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_0/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 306 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 36 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
+
+open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 2840.145 ; gain = 117.609
+close_design
+open_run impl_5
+INFO: [Netlist 29-17] Analyzing 566 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2851.348 ; gain = 0.000
+Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2851.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 302 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 68 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 196 instances
+  SRLC32E => SRL16E: 1 instances
+
+open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:15 . Memory (MB): peak = 2896.125 ; gain = 55.980
+open_report: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 2933.559 ; gain = 34.082
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+[Wed Aug 15 14:38:01 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 2 ILA core(s).
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=uuid_D7F66BBC62045AEA8C9B20B797086963 (sys_rst_IBUF)
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 14:41:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 14:41:10
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=uuid_D7F66BBC62045AEA8C9B20B797086963 (sys_rst_IBUF)
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 14:41:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 14:41:16
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=uuid_D7F66BBC62045AEA8C9B20B797086963 (sys_rst_IBUF)
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 'ila_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 537 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: ila_0 UUID: d7f66bbc-6204-5aea-8c9b-20b797086963 
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila_0/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'ila_0/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_0/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'ila_0/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 306 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 36 instances
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
+
+open_run: Time (s): cpu = 00:00:33 ; elapsed = 00:00:17 . Memory (MB): peak = 3356.660 ; gain = 271.617
+reset_run synth_4
+launch_runs synth_4 -jobs 16
+[Wed Aug 15 14:43:31 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:20 . Memory (MB): peak = 3423.953 ; gain = 67.293
+place_ports sclk_50m M17
+set_property IOSTANDARD LVCMOS33 [get_ports [list sclk_50m]]
+save_constraints
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.166 . Memory (MB): peak = 3423.953 ; gain = 0.000
+[Wed Aug 15 14:46:57 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+launch_runs: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 3423.953 ; gain = 0.000
+set_property -dict [list CONFIG.CLKOUT2_DRIVES {No_buffer}] [get_ips clk_wiz_0]
+generate_target all [get_files  D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+reset_run clk_wiz_0_synth_1
+launch_runs -jobs 16 clk_wiz_0_synth_1
+[Wed Aug 15 15:00:33 2018] Launched clk_wiz_0_synth_1...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/clk_wiz_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/sim_scripts -ip_user_files_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files -ipstatic_source_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/fpga/000_vivado_sim} {questa=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/questa} {riviera=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/riviera} {activehdl=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_4
+launch_runs impl_5 -jobs 16
+WARNING: [Project 1-478] Design 'synth_4' is stale and will not be used when launching 'impl_5'
+[Wed Aug 15 15:02:02 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+[Wed Aug 15 15:02:03 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+CRITICAL WARNING: [Chipscope 16-3] Cannot debug net 'sclk_50m'; it is not accessible from the fabric routing. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:41]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:18 . Memory (MB): peak = 3487.105 ; gain = 63.152
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+[Wed Aug 15 15:10:32 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 65536 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clk_out1 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list init_calib_complete_OBUF ]]
+save_constraints
+reset_run impl_5
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.145 . Memory (MB): peak = 3487.105 ; gain = 0.000
+[Wed Aug 15 15:17:20 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 32768 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clkfbout_buf_clk_wiz_0 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list init_calib_complete_OBUF ]]
+reset_run impl_5
+save_constraints
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.140 . Memory (MB): peak = 3487.105 ; gain = 0.000
+[Wed Aug 15 15:18:35 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 3487.105 ; gain = 0.000
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 15:32:05
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 15:32:05
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=uuid_D7F66BBC62045AEA8C9B20B797086963 (sys_rst_IBUF)
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 15:32:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 15:32:28
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=uuid_D7F66BBC62045AEA8C9B20B797086963 (sys_rst_IBUF)
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 15:32:44
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 15:32:44
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-15 15:32:58
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-15 15:32:58
+INFO: [Labtools 27-3304] ILA Waveform data saved to file D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+delete_debug_core [get_debug_cores {u_ila_0 }]
+save_constraints
+set_property -dict [list CONFIG.CLKOUT2_DRIVES {BUFG}] [get_ips clk_wiz_0]
+generate_target all [get_files  D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP clk_wiz_0, cache-ID = 64e7a740f50345b3; cache size = 48.236 MB.
+catch { [ delete_ip_run [get_ips -all clk_wiz_0] ] }
+INFO: [Project 1-386] Moving file 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' from fileset 'clk_wiz_0' to fileset 'sources_1'.
+export_ip_user_files -of_objects [get_files D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci'
+export_simulation -of_objects [get_files D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/sim_scripts -ip_user_files_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files -ipstatic_source_dir D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/fpga/000_vivado_sim} {questa=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/questa} {riviera=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/riviera} {activehdl=D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+update_compile_order -fileset sources_1
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tfgg484-2
+Top: top
+WARNING: [Synth 8-2611] redeclaration of ansi port uart_rx is not allowed [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:138]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_0' (2#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+WARNING: [Synth 8-689] width (1) of port connection 'app_wdf_data' does not match port width (256) of module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:190]
+WARNING: [Synth 8-689] width (1) of port connection 'app_rd_data' does not match port width (256) of module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:193]
+WARNING: [Synth 8-350] instance 'u_mig_7series_0' of module 'mig_7series_0' requires 40 connections, but only 39 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:166]
+ERROR: [Synth 8-439] module 'bit8to256' not found [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:216]
+ERROR: [Synth 8-6156] failed synthesizing module 'top' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+5 Infos, 4 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+close_design
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 270 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
+
+open_run: Time (s): cpu = 00:00:23 ; elapsed = 00:00:16 . Memory (MB): peak = 3487.105 ; gain = 0.000
+add_files -norecurse {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/bit8to256.v D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/ddrAddrGen.v D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/reg256to8.v}
+update_compile_order -fileset sources_1
+close_design
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tfgg484-2
+Top: top
+WARNING: [Synth 8-2611] redeclaration of ansi port uart_rx is not allowed [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:138]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_0' (2#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+WARNING: [Synth 8-689] width (1) of port connection 'app_wdf_data' does not match port width (256) of module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:190]
+WARNING: [Synth 8-689] width (1) of port connection 'app_rd_data' does not match port width (256) of module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:193]
+WARNING: [Synth 8-350] instance 'u_mig_7series_0' of module 'mig_7series_0' requires 40 connections, but only 39 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:166]
+INFO: [Synth 8-6157] synthesizing module 'bit8to256' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/bit8to256.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bit8to256' (3#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/bit8to256.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 'I' does not match port width (8) of module 'bit8to256' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:217]
+WARNING: [Synth 8-689] width (1) of port connection 'O' does not match port width (256) of module 'bit8to256' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:218]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:23]
+	Parameter BAUD_DIV bound to: 13'b1010001011000 
+	Parameter BAUD_DIV_CAP bound to: 13'b0101000101100 
+INFO: [Synth 8-226] default block is never used [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx_path' (4#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'uart_rx_data_o' does not match port width (8) of module 'uart_rx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:225]
+WARNING: [Synth 8-350] instance 'uart_rx_path_u' of module 'uart_rx_path' requires 5 connections, but only 4 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:221]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:23]
+	Parameter BAUD_DIV bound to: 13'b1010001011000 
+	Parameter BAUD_DIV_CAP bound to: 13'b0101000101100 
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx_path' (5#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'uart_tx_data_i' does not match port width (8) of module 'uart_tx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:231]
+WARNING: [Synth 8-3848] Net tg_compare_error in module/entity top does not have driver. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:109]
+WARNING: [Synth 8-3848] Net uart_tx in module/entity top does not have driver. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:122]
+INFO: [Synth 8-6155] done synthesizing module 'top' (6#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
+WARNING: [Synth 8-3331] design top has unconnected port tg_compare_error
+WARNING: [Synth 8-3331] design top has unconnected port sys_rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin uart_tx_path_u:uart_tx_data_i[0] to constant 0 [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:229]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:481]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:488]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sclk_50m'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'sclk_50m'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:23]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 270 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:25 ; elapsed = 00:00:17 . Memory (MB): peak = 3487.105 ; gain = 0.000
+27 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:18 . Memory (MB): peak = 3487.105 ; gain = 0.000
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.collectionResultDisplayLimit
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_0' (2#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+WARNING: [Synth 8-689] width (1) of port connection 'app_wdf_data' does not match port width (256) of module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:190]
+WARNING: [Synth 8-689] width (1) of port connection 'app_rd_data' does not match port width (256) of module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:193]
+WARNING: [Synth 8-350] instance 'u_mig_7series_0' of module 'mig_7series_0' requires 40 connections, but only 39 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:166]
+INFO: [Synth 8-6157] synthesizing module 'bit8to256' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/bit8to256.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bit8to256' (3#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/bit8to256.v:6]
+WARNING: [Synth 8-689] width (1) of port connection 'O' does not match port width (256) of module 'bit8to256' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:218]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:23]
+	Parameter BAUD_DIV bound to: 13'b1010001011000 
+	Parameter BAUD_DIV_CAP bound to: 13'b0101000101100 
+INFO: [Synth 8-226] default block is never used [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx_path' (4#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:23]
+WARNING: [Synth 8-350] instance 'uart_rx_path_u' of module 'uart_rx_path' requires 5 connections, but only 4 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:221]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:23]
+	Parameter BAUD_DIV bound to: 13'b1010001011000 
+	Parameter BAUD_DIV_CAP bound to: 13'b0101000101100 
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx_path' (5#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'uart_tx_data_i' does not match port width (8) of module 'uart_tx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:231]
+WARNING: [Synth 8-3848] Net tg_compare_error in module/entity top does not have driver. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:109]
+WARNING: [Synth 8-3848] Net uart_tx in module/entity top does not have driver. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:122]
+INFO: [Synth 8-6155] done synthesizing module 'top' (6#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
+WARNING: [Synth 8-3331] design top has unconnected port tg_compare_error
+WARNING: [Synth 8-3331] design top has unconnected port sys_rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin uart_tx_path_u:uart_tx_data_i[0] to constant 0 [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:229]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:481]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:488]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sclk_50m'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'sclk_50m'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:23]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:21 . Memory (MB): peak = 3487.105 ; gain = 0.000
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mig_7series_0' (2#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/.Xil/Vivado-72028-DESKTOP-B3SJCBK/realtime/mig_7series_0_stub.v:5]
+WARNING: [Synth 8-689] width (1) of port connection 'app_rd_data' does not match port width (256) of module 'mig_7series_0' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:193]
+WARNING: [Synth 8-350] instance 'u_mig_7series_0' of module 'mig_7series_0' requires 40 connections, but only 39 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:166]
+INFO: [Synth 8-6157] synthesizing module 'bit8to256' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/bit8to256.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bit8to256' (3#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/bit8to256.v:6]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:23]
+	Parameter BAUD_DIV bound to: 13'b1010001011000 
+	Parameter BAUD_DIV_CAP bound to: 13'b0101000101100 
+INFO: [Synth 8-226] default block is never used [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx_path' (4#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_rx_path.v:23]
+WARNING: [Synth 8-350] instance 'uart_rx_path_u' of module 'uart_rx_path' requires 5 connections, but only 4 given [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:221]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:23]
+	Parameter BAUD_DIV bound to: 13'b1010001011000 
+	Parameter BAUD_DIV_CAP bound to: 13'b0101000101100 
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx_path' (5#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/uart_tx_path.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'uart_tx_data_i' does not match port width (8) of module 'uart_tx_path' [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:231]
+WARNING: [Synth 8-3848] Net tg_compare_error in module/entity top does not have driver. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:109]
+WARNING: [Synth 8-3848] Net uart_tx in module/entity top does not have driver. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:122]
+INFO: [Synth 8-6155] done synthesizing module 'top' (6#1) [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:75]
+WARNING: [Synth 8-3331] design top has unconnected port tg_compare_error
+WARNING: [Synth 8-3331] design top has unconnected port sys_rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin uart_tx_path_u:uart_tx_data_i[0] to constant 0 [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/new/top.v:229]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 3487.105 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 1 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:481]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:488]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sclk_50m'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'sclk_50m'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:23]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:21 . Memory (MB): peak = 3487.105 ; gain = 0.000
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 476 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 270 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
+
+open_run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:16 . Memory (MB): peak = 3556.395 ; gain = 69.289
+reset_run synth_4
+launch_runs synth_4 -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+[Wed Aug 15 15:58:11 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+close_design
+refresh_design
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:481]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc:488]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sclk_50m'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'sclk_50m'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:23]
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 3584.855 ; gain = 28.461
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+[Wed Aug 15 16:00:50 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+open_run synth_4 -name synth_4
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 480 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sclk_50m'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk_50m'. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 270 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 233 instances
+
+open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:16 . Memory (MB): peak = 3624.039 ; gain = 39.184
+set_property mark_debug true [get_nets [list ui_clk]]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 131072 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list instance_name/inst/clk_out1 ]]
+set_property port_width 1 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list init_calib_complete_OBUF ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list ui_clk ]]
+save_constraints
+reset_run impl_5
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.179 . Memory (MB): peak = 3624.039 ; gain = 0.000
+[Wed Aug 15 16:10:29 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+reset_run impl_5
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.143 . Memory (MB): peak = 3624.039 ; gain = 0.000
+[Wed Aug 15 16:13:24 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+exec curl -s -x socks5://127.0.0.1:9980 -i -X GET "https://api.telegram.org/bot631376709:AAFk4vmYAIRbSwNf44IJFwVDTaUZQxWoYf0/sendmessage?chat_id=369768837&text=Vivado%20BitStream%20Start!" &
+2940
+reset_run impl_5
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.134 . Memory (MB): peak = 3624.039 ; gain = 0.000
+[Wed Aug 15 16:18:36 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=1:0-0 (ui_clk)
+set_property PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=1:0-0 (ui_clk)
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/download/PanDownload/pandown/free_source/S01/S01_CH10_UART/UART/UART.runs/impl_1/uart_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+WARNING: [Labtools 27-1347] Unable to find Debug Probes file []. Please update hw_device property [PROBES.FILE]
+ Update of hw_probe objects, will be skipped.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7a100t_0 and the probes file(s) .
+The device design has 1 ILA core(s) and 0 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+ERROR: [Common 17-70] Application Exception: CORE_LOCATION mismatch
+probe_1=uuid_23E7D65A79BC59F7BC47406C1714DFAE (init_calib_complete_OBUF)
+probe_2=1:0-0 (ui_clk)
+delete_debug_core [get_debug_cores {u_ila_0 }]
+set_property mark_debug false [get_nets [list init_calib_complete_OBUF]]
+set_property mark_debug false [get_nets [list ui_clk]]
+save_constraints
+update_compile_order -fileset sources_1
+reset_run synth_4
+launch_runs impl_5 -to_step write_bitstream -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci' is already up-to-date
+WARNING: [Project 1-478] Design 'synth_4' is stale and will not be used when launching 'impl_5'
+[Wed Aug 15 16:33:57 2018] Launched synth_4...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/synth_4/runme.log
+[Wed Aug 15 16:33:57 2018] Launched impl_5...
+Run output will be captured here: D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.runs/impl_5/runme.log
+set_property PROBES.FILE {D:/download/PanDownload/pandown/free_source/S01/S01_CH10_UART/UART/UART.runs/impl_1/uart_top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {D:/download/PanDownload/pandown/free_source/S01/S01_CH10_UART/UART/UART.runs/impl_1/uart_top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/download/PanDownload/pandown/free_source/S01/S01_CH10_UART/UART/UART.runs/impl_1/uart_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
