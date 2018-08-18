@@ -76,3 +76,6 @@ transcript*
 sc_dpiheader.h
 vsim.dbg
 /libs/mc8051_design_v1.6
+
+
+000_vivado_sim
