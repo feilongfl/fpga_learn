@@ -1,0 +1,4 @@
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlib /home/feilong/Storages/fpga/000_vivado_sim_linux32/audio_tpg_v1_0_0
+/opt/intelFPGA/18.0/modelsim_ase/bin/vmap audio_tpg_v1_0_0 /home/feilong/Storages/fpga/000_vivado_sim_linux32/audio_tpg_v1_0_0
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlog  -32 -L audio_tpg_v1_0_0 +incdir+/home/feilong/.cxl.ip/incl -work audio_tpg_v1_0_0 -f /home/feilong/Storages/fpga/000_vivado_sim_linux32/audio_tpg_v1_0_0/.cxl.verilog.audio_tpg_v1_0_0.audio_tpg_v1_0_0.lin64.cmf
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlog  -32 -L audio_tpg_v1_0_0 +incdir+/home/feilong/.cxl.ip/incl -sv -work audio_tpg_v1_0_0 -f /home/feilong/Storages/fpga/000_vivado_sim_linux32/audio_tpg_v1_0_0/.cxl.systemverilog.audio_tpg_v1_0_0.audio_tpg_v1_0_0.lin64.cmf

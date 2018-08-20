@@ -1,0 +1,3 @@
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlib /home/feilong/Storages/fpga/000_vivado_sim_linux32/pr_axi_shutdown_manager_v1_0_0
+/opt/intelFPGA/18.0/modelsim_ase/bin/vmap pr_axi_shutdown_manager_v1_0_0 /home/feilong/Storages/fpga/000_vivado_sim_linux32/pr_axi_shutdown_manager_v1_0_0
+/opt/intelFPGA/18.0/modelsim_ase/bin/vcom  -32 -93 -work pr_axi_shutdown_manager_v1_0_0 -f /home/feilong/Storages/fpga/000_vivado_sim_linux32/pr_axi_shutdown_manager_v1_0_0/.cxl.vhdl.pr_axi_shutdown_manager_v1_0_0.pr_axi_shutdown_manager_v1_0_0.lin64.cmf

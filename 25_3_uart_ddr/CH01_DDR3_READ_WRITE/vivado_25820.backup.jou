@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sat Sep 23 16:12:50 2017
+# Process ID: 25820
+# Current directory: e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex
+# Command line: vivado.exe -source e:/DS_SRC/MIA701/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl
+# Log file: e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/vivado.log
+# Journal file: e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source e:/DS_SRC/MIA701/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 5.3 -module_name clk_wiz_0
+set_property -dict [list CONFIG.PRIM_IN_FREQ {50.000} CONFIG.CLKOUT2_USED {false} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {200.000} CONFIG.CLKIN1_JITTER_PS {200.0} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {20.000} CONFIG.MMCM_CLKIN1_PERIOD {20.0} CONFIG.MMCM_CLKOUT0_DIVIDE_F {5.000} CONFIG.MMCM_CLKOUT1_DIVIDE {1} CONFIG.NUM_OUT_CLKS {1} CONFIG.CLKOUT1_JITTER {142.107} CONFIG.CLKOUT1_PHASE_ERROR {164.985} CONFIG.CLKOUT2_JITTER {162.035} CONFIG.CLKOUT2_PHASE_ERROR {164.985}] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+generate_target all [get_files  e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+export_ip_user_files -of_objects [get_files e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+launch_runs -jobs 8 clk_wiz_0_synth_1
+export_simulation -of_objects [get_files e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts -ip_user_files_dir e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.ip_user_files -ipstatic_source_dir e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/ipstatic -lib_map_path [list {modelsim=e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/modelsim} {questa=e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/questa} {riviera=e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/riviera} {activehdl=e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+remove_files  e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_traffic_gen_top.v
+remove_files  {e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_memc_traffic_gen.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_init_mem_pattern_ctr.v}
+remove_files  {e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_cmd_gen.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_read_data_path.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_write_data_path.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_memc_flow_vcontrol.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_tg_status.v}
+remove_files  {e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_rd_data_gen.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_read_posted_fifo.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_wr_data_gen.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_cmd_prbs_gen.v}
+remove_files  {e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_s7ven_data_gen.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_afifo.v}
+remove_files  {e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_data_prbs_gen.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_tg_prbs_gen.v e:/DS_SRC/MIA701/MIA701DDR/mig_7series_0_ex/imports/mig_7series_v4_0_vio_init_pattern_bram.v}
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1

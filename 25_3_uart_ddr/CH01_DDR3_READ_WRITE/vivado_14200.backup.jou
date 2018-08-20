@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun Sep 24 09:34:19 2017
+# Process ID: 14200
+# Current directory: E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27596 E:\DS_SRC\MIA701\MIA701_DDR\MIA701_DDR\mig_7series_0_ex.xpr
+# Log file: E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR/vivado.log
+# Journal file: E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR/mig_7series_0_ex.xpr
+launch_simulation
+source sim_tb_top.tcl
+add_bp {E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR/imports/example_top.v} 403
+run 5 ms
+remove_bps -file {E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR/imports/example_top.v} -line 403
+run 5 ms
+add_bp {E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR/imports/example_top.v} 403
+run 5 ms
+add_wave {{/sim_tb_top/u_ip_top/cmp_data}} {{/sim_tb_top/u_ip_top/cmp_data_r}} {{/sim_tb_top/u_ip_top/cmp_data_valid}} {{/sim_tb_top/u_ip_top/cmp_data_valid_r}} {{/sim_tb_top/u_ip_top/cmp_error}} {{/sim_tb_top/u_ip_top/dq_error_bytelane_cmp}} {{/sim_tb_top/u_ip_top/clk}} {{/sim_tb_top/u_ip_top/rst}} {{/sim_tb_top/u_ip_top/device_temp}} {{/sim_tb_top/u_ip_top/state}} {{/sim_tb_top/u_ip_top/Count_64}} {{/sim_tb_top/u_ip_top/Count_64_1}} {{/sim_tb_top/u_ip_top/ProsessIn}} {{/sim_tb_top/u_ip_top/WriteSign}} {{/sim_tb_top/u_ip_top/ProsessIn1}} {{/sim_tb_top/u_ip_top/app_addr_begin}} {{/sim_tb_top/u_ip_top/CountWrite_tem}} {{/sim_tb_top/u_ip_top/CountRead_tem}} {{/sim_tb_top/u_ip_top/CountWrite}} {{/sim_tb_top/u_ip_top/CountRead}} {{/sim_tb_top/u_ip_top/error_rddata}} {{/sim_tb_top/u_ip_top/state1}} {{/sim_tb_top/u_ip_top/app_rd_data_tem}} 
+remove_bps -file {E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR/imports/example_top.v} -line 403
+restart
+run 5 ms
+relaunch_sim
+add_bp {E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR/imports/example_top.v} 469
+run 5 ms
+add_wave {{/sim_tb_top/u_ip_top/cmp_data}} {{/sim_tb_top/u_ip_top/cmp_data_r}} {{/sim_tb_top/u_ip_top/cmp_data_valid}} {{/sim_tb_top/u_ip_top/cmp_data_valid_r}} {{/sim_tb_top/u_ip_top/cmp_error}} {{/sim_tb_top/u_ip_top/dq_error_bytelane_cmp}} {{/sim_tb_top/u_ip_top/clk}} {{/sim_tb_top/u_ip_top/rst}} {{/sim_tb_top/u_ip_top/device_temp}} {{/sim_tb_top/u_ip_top/state}} {{/sim_tb_top/u_ip_top/Count_64}} {{/sim_tb_top/u_ip_top/Count_64_1}} {{/sim_tb_top/u_ip_top/ProsessIn}} {{/sim_tb_top/u_ip_top/WriteSign}} {{/sim_tb_top/u_ip_top/ProsessIn1}} {{/sim_tb_top/u_ip_top/app_addr_begin}} {{/sim_tb_top/u_ip_top/CountWrite_tem}} {{/sim_tb_top/u_ip_top/CountRead_tem}} {{/sim_tb_top/u_ip_top/CountWrite}} {{/sim_tb_top/u_ip_top/CountRead}} {{/sim_tb_top/u_ip_top/error_rddata}} {{/sim_tb_top/u_ip_top/state1}} {{/sim_tb_top/u_ip_top/app_rd_data_tem}} {{/sim_tb_top/u_ip_top/diff}} {{/sim_tb_top/u_ip_top/diff_sign0}} {{/sim_tb_top/u_ip_top/diff_sign1}} {{/sim_tb_top/u_ip_top/diff_sign2}} 
+run 5 ms
+remove_bps -file {E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR/imports/example_top.v} -line 469
+run 5 ms
+open_project E:/DS_SRC/MIA701/mig_7series_0_ex/mig_7series_0_ex.xpr
+current_project mig_7series_0_ex
+open_example_project -force -dir E:/DS_SRC/MIA701/MIA701_DDR/ddrtest [get_ips  mig_7series_0]
+add_bp {E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR/imports/example_top.v} 406
+run 5 ms
+remove_bps -file {E:/DS_SRC/MIA701/MIA701_DDR/MIA701_DDR/imports/example_top.v} -line 406
+add_wave {{/sim_tb_top/u_ip_top/app_addr}} {{/sim_tb_top/u_ip_top/app_cmd}} {{/sim_tb_top/u_ip_top/app_en}} {{/sim_tb_top/u_ip_top/app_rdy}} {{/sim_tb_top/u_ip_top/app_rd_data}} {{/sim_tb_top/u_ip_top/app_rd_data_end}} {{/sim_tb_top/u_ip_top/app_rd_data_valid}} {{/sim_tb_top/u_ip_top/app_wdf_data}} {{/sim_tb_top/u_ip_top/app_wdf_end}} {{/sim_tb_top/u_ip_top/app_wdf_mask}} {{/sim_tb_top/u_ip_top/app_wdf_rdy}} {{/sim_tb_top/u_ip_top/app_sr_active}} {{/sim_tb_top/u_ip_top/app_ref_ack}} {{/sim_tb_top/u_ip_top/app_zq_ack}} {{/sim_tb_top/u_ip_top/app_wdf_wren}} 
+restart
+run 5 ms
+run 5 ms

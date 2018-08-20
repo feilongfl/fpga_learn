@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_2" LaunchPart="xc7a100tfgg484-2" LaunchTime="1534757666">
+  <File Type="BITSTR-BMM" Name="colorLine_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="colorLine_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="colorLine_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="colorLine_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="colorLine.tcl"/>
+  <File Type="OPT-TIMING" Name="colorLine_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="colorLine_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="colorLine_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="colorLine_reports.tcl"/>
+  <File Type="OPT-DRC" Name="colorLine_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="colorLine.hwdef"/>
+  <File Type="PWROPT-DCP" Name="colorLine_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="colorLine_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="colorLine_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="colorLine_placed.dcp"/>
+  <File Type="PLACE-IO" Name="colorLine_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="colorLine_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="colorLine_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="colorLine_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="colorLine_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="colorLine_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="colorLine_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="colorLine.bgn"/>
+  <File Type="PLACE-TIMING" Name="colorLine_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="colorLine_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="colorLine.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="colorLine_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="colorLine_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="colorLine_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="colorLine.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="colorLine_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="colorLine_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="colorLine_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="colorLine_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="colorLine_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="colorLine_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="colorLine.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="colorLine_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="colorLine.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="colorLine_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="colorLine_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="colorLine.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="colorLine_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="colorLine_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="colorLine_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="colorLine_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="colorLine_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="colorLine_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="colorLine_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="colorLine_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="colorLine_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="colorLine_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="colorLine_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="colorLine_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="colorLine_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="colorLine_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="colorLine_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="colorLine_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="colorLine_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="colorLine_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="colorLine_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="colorLine.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="colorLine_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="colorLine.rbt"/>
+  <File Type="BITSTR-NKY" Name="colorLine.nky"/>
+  <File Type="BG-DRC" Name="colorLine.drc"/>
+  <File Type="RDI-RDI" Name="colorLine.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/hdmi.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/colorLine.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/xy2addr.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="colorLine"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pin.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/pin.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="tg" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design" PreStepTclHook="D:/fpga/usefulTCL/ImplementationStart.tcl" PostStepTclHook="D:/fpga/usefulTCL/ImplementationFinish.tcl"/>
+    <Step Id="opt_design" PreStepTclHook="D:/fpga/usefulTCL/OptStart.tcl" PostStepTclHook="D:/fpga/usefulTCL/OptFinish.tcl"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design" PreStepTclHook="D:/fpga/usefulTCL/PlaceStart.tcl" PostStepTclHook="D:/fpga/usefulTCL/PlaceFinish.tcl"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design" PostStepTclHook="D:/fpga/usefulTCL/RouteFinish.tcl" PreStepTclHook="D:/fpga/usefulTCL/RouteStart.tcl"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream" PreStepTclHook="D:/fpga/usefulTCL/BitStreamStart.tcl" PostStepTclHook="D:/fpga/usefulTCL/BitStreamFinish.tcl"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="HDMI_FPGA_ML_A7_0"/>
+</GenRun>

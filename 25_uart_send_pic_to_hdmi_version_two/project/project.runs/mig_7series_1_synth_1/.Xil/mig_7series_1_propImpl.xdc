@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:d:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/constraints/mig_7series_1.xdc rfile:../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/constraints/mig_7series_1.xdc id:1 order:EARLY} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/feilong/Storages/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/constraints/mig_7series_1.xdc rfile:../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/constraints/mig_7series_1.xdc id:1 order:EARLY} [current_design]
 set_property src_info {type:XDC file:1 line:40 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN C2 [get_ports {ddr3_dq[0]}]
 set_property src_info {type:XDC file:1 line:46 export:INPUT save:INPUT read:READ} [current_design]

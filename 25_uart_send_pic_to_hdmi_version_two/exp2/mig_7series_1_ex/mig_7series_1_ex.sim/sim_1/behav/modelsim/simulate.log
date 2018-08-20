@@ -1,0 +1,19 @@
+# do {sim_tb_top_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.sim_tb_top xil_defaultlib.glbl 
+# Start time: 07:35:11 on Aug 19,2018
+# Loading xil_defaultlib.sim_tb_top
+# Loading xil_defaultlib.WireDelay
+# Loading xil_defaultlib.example_top
+# Loading xil_defaultlib.mig_7series_1
+# Loading xil_defaultlib.mig_7series_1_mig
+# Loading xil_defaultlib.mig_7series_v4_1_iodelay_ctrl
+# Refreshing /home/feilong/Storages/fpga/000_vivado_sim/unisims_ver.IDELAYCTRL
+# ** Fatal: Bad library format, library not compiled with Intel FPGA Edition compiler.
+#    Time: 0 fs  Iteration: 0  Instance: /sim_tb_top/u_ip_top/u_mig_7series_1/u_mig_7series_1_mig/u_iodelay_ctrl File: ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./sim_tb_top_simulate.do PAUSED at line 9
+# End time: 07:38:35 on Aug 19,2018, Elapsed time: 0:03:24
+# Errors: 1, Warnings: 0

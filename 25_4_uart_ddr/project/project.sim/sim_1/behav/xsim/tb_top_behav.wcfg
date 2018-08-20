@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="114159813000fs"></ZoomStartTime>
+      <ZoomEndTime time="128168691001fs"></ZoomEndTime>
+      <Cursor1Time time="125833878000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="111"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/u_mig_7series_1/u_mig_7series_0_mig/u_memc_ui_top_std/mem_intfc0/mc0/bank_mach0/bank_common0/init_calib_complete">
+      <obj_property name="ElementShortName">init_calib_complete</obj_property>
+      <obj_property name="ObjectShortName">init_calib_complete</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/uartaddr_inst/app_rdy">
+      <obj_property name="ElementShortName">app_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_rdy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/status">
+      <obj_property name="ElementShortName">status[4:0]</obj_property>
+      <obj_property name="ObjectShortName">status[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/writeStatus">
+      <obj_property name="ElementShortName">writeStatus[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeStatus[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/uartaddr_inst/app_wdf_rdy">
+      <obj_property name="ElementShortName">app_wdf_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_rdy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/readStatus">
+      <obj_property name="ElementShortName">readStatus[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readStatus[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/app_addr">
+      <obj_property name="ElementShortName">app_addr[27:0]</obj_property>
+      <obj_property name="ObjectShortName">app_addr[27:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/app_cmd">
+      <obj_property name="ElementShortName">app_cmd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">app_cmd[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/uartaddr_inst/app_en">
+      <obj_property name="ElementShortName">app_en</obj_property>
+      <obj_property name="ObjectShortName">app_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/uartaddr_inst/app_wdf_end">
+      <obj_property name="ElementShortName">app_wdf_end</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_end</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/uartaddr_inst/app_wdf_wren">
+      <obj_property name="ElementShortName">app_wdf_wren</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_wren</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/app_wdf_mask">
+      <obj_property name="ElementShortName">app_wdf_mask[31:0]</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_mask[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/uartaddr_inst/app_rd_data_valid">
+      <obj_property name="ElementShortName">app_rd_data_valid</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/app_rd_data">
+      <obj_property name="ElementShortName">app_rd_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/uartaddr_inst/uart_rx_done">
+      <obj_property name="ElementShortName">uart_rx_done</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/uartaddr_inst/uart_tx_en">
+      <obj_property name="ElementShortName">uart_tx_en</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/uart_tx_data">
+      <obj_property name="ElementShortName">uart_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/uartdata">
+      <obj_property name="ElementShortName">uartdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uartdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/uartaddr_inst/uart_tx_busy">
+      <obj_property name="ElementShortName">uart_tx_busy</obj_property>
+      <obj_property name="ObjectShortName">uart_tx_busy</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/saveCounter">
+      <obj_property name="ElementShortName">saveCounter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">saveCounter[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/recvDataTemp">
+      <obj_property name="ElementShortName">recvDataTemp[255:0]</obj_property>
+      <obj_property name="ObjectShortName">recvDataTemp[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top/u_ip_top/uartaddr_inst/rdTime">
+      <obj_property name="ElementShortName">rdTime[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rdTime[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top/u_ip_top/uartaddr_inst/trigedrx">
+      <obj_property name="ElementShortName">trigedrx</obj_property>
+      <obj_property name="ObjectShortName">trigedrx</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,3 @@
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlib /home/feilong/Storages/fpga/000_vivado_sim_linux32/tsn_endpoint_ethernet_mac_block_v1_0_2
+/opt/intelFPGA/18.0/modelsim_ase/bin/vmap tsn_endpoint_ethernet_mac_block_v1_0_2 /home/feilong/Storages/fpga/000_vivado_sim_linux32/tsn_endpoint_ethernet_mac_block_v1_0_2
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlog  -32 +incdir+/home/feilong/.cxl.ip/incl -work tsn_endpoint_ethernet_mac_block_v1_0_2 -f /home/feilong/Storages/fpga/000_vivado_sim_linux32/tsn_endpoint_ethernet_mac_block_v1_0_2/.cxl.verilog.tsn_endpoint_ethernet_mac_block_v1_0_2.tsn_endpoint_ethernet_mac_block_v1_0_2.lin64.cmf

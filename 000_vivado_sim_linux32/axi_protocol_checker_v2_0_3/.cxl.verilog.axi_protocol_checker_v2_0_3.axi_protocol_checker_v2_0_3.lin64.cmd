@@ -1,0 +1,3 @@
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlib /home/feilong/Storages/fpga/000_vivado_sim_linux32/axi_protocol_checker_v2_0_3
+/opt/intelFPGA/18.0/modelsim_ase/bin/vmap axi_protocol_checker_v2_0_3 /home/feilong/Storages/fpga/000_vivado_sim_linux32/axi_protocol_checker_v2_0_3
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlog  -32 -L smartconnect_v1_0 -L axi_protocol_checker_v2_0_3 +incdir+/home/feilong/.cxl.ip/incl -sv -work axi_protocol_checker_v2_0_3 -f /home/feilong/Storages/fpga/000_vivado_sim_linux32/axi_protocol_checker_v2_0_3/.cxl.systemverilog.axi_protocol_checker_v2_0_3.axi_protocol_checker_v2_0_3.lin64.cmf

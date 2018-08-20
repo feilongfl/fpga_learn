@@ -1883,7 +1883,7 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 105715814.0 p
 Calibration Done
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 107113314.0 ps INFO: Refresh  
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 107113314.0 ps INFO: Refresh  
-[         0]uart fake rx => 164,mask => 01111111111111111111111111111111
+[         0]uart fake rx => a4,mask => 01111111111111111111111111111111
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 107273314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 107273314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 107335814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
@@ -1952,7 +1952,7 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 107610814.0 ps IN
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 107610814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 107638314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 107638314.0 ps INFO: Precharge bank   0
-[         1]uart fake rx => 165,mask => 10111111111111111111111111111111
+[         1]uart fake rx => a5,mask => 10111111111111111111111111111111
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 107973314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 107973314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 107995814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
@@ -1979,7 +1979,7 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 108020814.0 ps IN
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 108020814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 108048314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 108048314.0 ps INFO: Precharge bank   0
-[         2]uart fake rx => 166,mask => 11011111111111111111111111111111
+[         2]uart fake rx => a6,mask => 11011111111111111111111111111111
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 108623314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 108623314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 108645814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
@@ -2006,7 +2006,7 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 108670814.0 ps IN
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 108670814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 108698314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 108698314.0 ps INFO: Precharge bank   0
-[         3]uart fake rx => 167,mask => 11101111111111111111111111111111
+[         3]uart fake rx => a7,mask => 11101111111111111111111111111111
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 109273314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 109273314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 109295814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
@@ -2033,7 +2033,7 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 109320814.0 ps IN
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 109320814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 109348314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 109348314.0 ps INFO: Precharge bank   0
-[         4]uart fake rx => 168,mask => 11110111111111111111111111111111
+[         4]uart fake rx => a8,mask => 11110111111111111111111111111111
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 109923314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 109923314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 109945814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
@@ -2060,7 +2060,7 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 109970814.0 ps IN
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 109970814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 109998314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 109998314.0 ps INFO: Precharge bank   0
-[         5]uart fake rx => 169,mask => 11111011111111111111111111111111
+[         5]uart fake rx => a9,mask => 11111011111111111111111111111111
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 110573314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 110573314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 110595814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
@@ -2087,7 +2087,7 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 110620814.0 ps IN
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 110620814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 110648314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 110648314.0 ps INFO: Precharge bank   0
-[         6]uart fake rx => 170,mask => 11111101111111111111111111111111
+[         6]uart fake rx => aa,mask => 11111101111111111111111111111111
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 111223314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 111223314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 111245814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
@@ -2114,7 +2114,7 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 111270814.0 ps IN
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 111270814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 111298314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 111298314.0 ps INFO: Precharge bank   0
-[         7]uart fake rx => 171,mask => 11111110111111111111111111111111
+[         7]uart fake rx => ab,mask => 11111110111111111111111111111111
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 111873314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 111873314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 111895814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
@@ -2141,7 +2141,7 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 111920814.0 ps IN
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 111920814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 111948314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 111948314.0 ps INFO: Precharge bank   0
-[         8]uart fake rx => 172,mask => 11111111011111111111111111111111
+[         8]uart fake rx => ac,mask => 11111111011111111111111111111111
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 112523314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 112523314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 112545814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
@@ -2168,7 +2168,7 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 112570814.0 ps IN
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 112570814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 112598314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 112598314.0 ps INFO: Precharge bank   0
-[         9]uart fake rx => 173,mask => 11111111101111111111111111111111
+[         9]uart fake rx => ad,mask => 11111111101111111111111111111111
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113173314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113173314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113195814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
@@ -2213,154 +2213,146 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113258314.0 
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113258314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113278314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113278314.0 ps INFO: Precharge bank   0
-[        10]uart fake tx =>   x,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
-uart fake tx => 173
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113503314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113503314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113525814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113525814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113539564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113539564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113540814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113540814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113542064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113542064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113543314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113543314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113544564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113544564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113545814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113545814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113547064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113547064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113548314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113548314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113568314.0 ps INFO: Precharge bank   0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113568314.0 ps INFO: Precharge bank   0
-[         9]uart fake tx => 173,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
-uart fake tx => 172
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113793314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113793314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113815814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113815814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113829564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113829564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113830814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113830814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113832064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113832064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113833314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113833314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113834564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113834564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113835814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113835814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113837064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113837064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113838314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113838314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113858314.0 ps INFO: Precharge bank   0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113858314.0 ps INFO: Precharge bank   0
-[         8]uart fake tx => 172,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
-uart fake tx => 171
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114083314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114083314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114105814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114105814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114119564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114119564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114120814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114120814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114122064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114122064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114123314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114123314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114124564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114124564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114125814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114125814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114127064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114127064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114128314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114128314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114148314.0 ps INFO: Precharge bank   0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114148314.0 ps INFO: Precharge bank   0
-[         7]uart fake tx => 171,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
-uart fake tx => 170
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114373314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114373314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114395814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114395814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114409564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114409564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114410814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114410814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114412064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114412064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114413314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114413314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114414564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114414564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114415814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114415814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114417064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114417064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114418314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114418314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114438314.0 ps INFO: Precharge bank   0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114438314.0 ps INFO: Precharge bank   0
-[         6]uart fake tx => 170,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
-uart fake tx => 169
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114523314.0 ps INFO: Refresh  
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114523314.0 ps INFO: Refresh  
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114683314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114683314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114705814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114705814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114719564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114719564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114720814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114720814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114722064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114722064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114723314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114723314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114724564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114724564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114725814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114725814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114727064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114727064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114728314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114728314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114748314.0 ps INFO: Precharge bank   0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114748314.0 ps INFO: Precharge bank   0
-[         5]uart fake tx => 169,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
-uart fake tx => 168
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114973314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114973314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114995814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114995814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115009564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115009564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115010814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115010814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115012064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115012064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115013314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115013314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115014564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115014564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115015814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115015814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115017064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115017064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115018314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115018314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115038314.0 ps INFO: Precharge bank   0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115038314.0 ps INFO: Precharge bank   0
-[         4]uart fake tx => 168,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
-uart fake tx => 167
+[        10]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000ad,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => ad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113623314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113623314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113645814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113645814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113659564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113659564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113660814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113660814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113662064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113662064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113663314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113663314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113664564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113664564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113665814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113665814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113667064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113667064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 113668314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 113668314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 113688314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 113688314.0 ps INFO: Precharge bank   0
+[         9]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000ac,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => ac
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114033314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114033314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114055814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114055814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114069564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114069564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114070814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114070814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114072064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114072064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114073314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114073314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114074564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114074564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114075814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114075814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114077064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114077064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114078314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114078314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114098314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114098314.0 ps INFO: Precharge bank   0
+[         8]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000ab,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => ab
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114443314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114443314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114465814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114465814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114479564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114479564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114480814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114480814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114482064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114482064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114483314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114483314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114484564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114484564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114485814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114485814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114487064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114487064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114488314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114488314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114508314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114508314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114533314.0 ps INFO: Refresh  
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114533314.0 ps INFO: Refresh  
+[         7]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000aa,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => aa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114723314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114723314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114745814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114745814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114755814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114755814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114759564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114759564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114760814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114760814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114762064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114762064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114763314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114763314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114764564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114764564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114765814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114765814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114767064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114767064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114768314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114768314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114769564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114769564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114770814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114770814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114772064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114772064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114773314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114773314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114774564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114774564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114775814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114775814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114777064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114777064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114778314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114778314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114798314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114798314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114853314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114853314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114875814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114875814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114889564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114889564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114890814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114890814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114892064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114892064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114893314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114893314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114894564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114894564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114895814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114895814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114897064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114897064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 114898314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 114898314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 114918314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 114918314.0 ps INFO: Precharge bank   0
+[         6]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000a9,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => a9
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115263314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115263314.0 ps INFO: Activate  bank 0 row 0000
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115285814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
@@ -2383,80 +2375,663 @@ sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115308314.0 
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115308314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
 sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115328314.0 ps INFO: Precharge bank   0
 sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115328314.0 ps INFO: Precharge bank   0
-[         3]uart fake tx => 167,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
-uart fake tx => 166
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115553314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115553314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115575814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115575814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115589564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115589564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115590814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115590814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115592064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115592064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115593314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115593314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115594564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115594564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115595814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115595814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115597064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115597064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115598314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115598314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115618314.0 ps INFO: Precharge bank   0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115618314.0 ps INFO: Precharge bank   0
-[         2]uart fake tx => 166,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
-uart fake tx => 165
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115843314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115843314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115865814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115865814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115879564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115879564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115880814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115880814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115882064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115882064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115883314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115883314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115884564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115884564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115885814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115885814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115887064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115887064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115888314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115888314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115908314.0 ps INFO: Precharge bank   0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115908314.0 ps INFO: Precharge bank   0
-[         1]uart fake tx => 165,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
-uart fake tx => 164
-[         0]uart fake rx => 178,mask => 01111111111111111111111111111111
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116423314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116423314.0 ps INFO: Activate  bank 0 row 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116445814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116445814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 116450814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 116450814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116459564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116459564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116460814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116460814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116462064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116462064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116463314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116463314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116464564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116464564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116465814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116465814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116467064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116467064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116468314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116468314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b2a5
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 116470814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 116470814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
-sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116498314.0 ps INFO: Precharge bank   0
-sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116498314.0 ps INFO: Precharge bank   0
+[         5]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000a8,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => a8
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115673314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115673314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115695814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115695814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115709564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115709564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115710814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115710814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115712064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115712064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115713314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115713314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115714564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115714564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115715814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115715814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115717064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115717064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 115718314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 115718314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 115738314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 115738314.0 ps INFO: Precharge bank   0
+[         4]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000a7,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116083314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116083314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116105814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116105814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116119564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116119564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116120814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116120814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116122064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116122064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116123314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116123314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116124564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116124564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116125814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116125814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116127064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116127064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116128314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116128314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116148314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116148314.0 ps INFO: Precharge bank   0
+[         3]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000a6,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => a6
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116493314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116493314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116515814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116515814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116529564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116529564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116530814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116530814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116532064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116532064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116533314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116533314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116534564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116534564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116535814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116535814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116537064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116537064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116538314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116538314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116558314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116558314.0 ps INFO: Precharge bank   0
+[         2]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000a5,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116903314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116903314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116925814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116925814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116939564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116939564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116940814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116940814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116942064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116942064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116943314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116943314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116944564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116944564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116945814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116945814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116947064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116947064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 116948314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 116948314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = a4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 116968314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 116968314.0 ps INFO: Precharge bank   0
+[         1]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000a4,orig => a4a5a6a7a8a9aaabacadaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => a4
+[         0]uart fake rx => b4,mask => 01111111111111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 117723314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 117723314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 117745814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 117745814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 117750814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 117750814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 117759564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 117759564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 117760814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 117760814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 117762064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 117762064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 117763314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 117763314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 117764564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 117764564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 117765814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 117765814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 117767064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 117767064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 117768314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 117768314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b4a5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 117770814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 117770814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 117798314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 117798314.0 ps INFO: Precharge bank   0
+[         1]uart fake rx => b5,mask => 10111111111111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 118373314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 118373314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 118395814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 118395814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 118400814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 118400814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 118409564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 118409564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 118410814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 118410814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 118412064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 118412064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 118413314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 118413314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 118414564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 118414564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 118415814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 118415814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 118417064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 118417064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 118418314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = a6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 118418314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 118420814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 118420814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 118448314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 118448314.0 ps INFO: Precharge bank   0
+[         2]uart fake rx => b6,mask => 11011111111111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 119023314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 119023314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 119045814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 119045814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 119050814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 119050814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119059564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119059564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119060814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119060814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119062064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119062064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119063314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119063314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119064564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119064564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119065814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119065814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119067064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119067064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119068314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b6a7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119068314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 119070814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 119070814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 119098314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 119098314.0 ps INFO: Precharge bank   0
+[         3]uart fake rx => b7,mask => 11101111111111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 119673314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 119673314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 119695814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 119695814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 119700814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 119700814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119709564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119709564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119710814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119710814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119712064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119712064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119713314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119713314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119714564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119714564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119715814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119715814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119717064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119717064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = a8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 119718314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 119718314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 119720814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 119720814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 119748314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 119748314.0 ps INFO: Precharge bank   0
+[         4]uart fake rx => b8,mask => 11110111111111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 120323314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 120323314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 120345814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 120345814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 120350814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 120350814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 120359564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 120359564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 120360814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 120360814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 120362064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 120362064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 120363314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 120363314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 120364564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 120364564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 120365814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 120365814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 120367064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 120367064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = b8a9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 120368314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 120368314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 120370814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 120370814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 120398314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 120398314.0 ps INFO: Precharge bank   0
+[         5]uart fake rx => b9,mask => 11111011111111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 120973314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 120973314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 120995814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 120995814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 121000814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 121000814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121009564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121009564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121010814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121010814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121012064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121012064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121013314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121013314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121014564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121014564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121015814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121015814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121017064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = aaab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121017064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121018314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121018314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 121020814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 121020814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 121048314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 121048314.0 ps INFO: Precharge bank   0
+[         6]uart fake rx => ba,mask => 11111101111111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 121623314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 121623314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 121645814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 121645814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 121650814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 121650814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121659564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121659564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121660814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121660814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121662064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121662064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121663314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121663314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121664564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121664564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121665814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121665814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121667064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = baab
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121667064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 121668314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 121668314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 121670814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 121670814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 121698314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 121698314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 121923314.0 ps INFO: Refresh  
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 121923314.0 ps INFO: Refresh  
+[         7]uart fake rx => bb,mask => 11111110111111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 122273314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 122273314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 122295814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 122295814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 122300814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 122300814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122309564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122309564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122310814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122310814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122312064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122312064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122313314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122313314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122314564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122314564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122315814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122315814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = acad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122317064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122317064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122318314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122318314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 122320814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 122320814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 122348314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 122348314.0 ps INFO: Precharge bank   0
+[         8]uart fake rx => bc,mask => 11111111011111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 122923314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 122923314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 122945814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 122945814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 122950814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 122950814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122959564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122959564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122960814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122960814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122962064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122962064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122963314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122963314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122964564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122964564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122965814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122965814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = bcad
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122967064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122967064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 122968314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 122968314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 122970814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 122970814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 122998314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 122998314.0 ps INFO: Precharge bank   0
+[         9]uart fake rx => bd,mask => 11111111101111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 123573314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 123573314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 123595814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 123595814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 123600814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 123600814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123609564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123609564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123610814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123610814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123612064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123612064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123613314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123613314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123614564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123614564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123615814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123615814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123617064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123617064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123618314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123618314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 123620814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 123620814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 123635814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 123635814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123649564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123649564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123650814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123650814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123652064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123652064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123653314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123653314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123654564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123654564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123655814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123655814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123657064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123657064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 123658314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 123658314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 123678314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 123678314.0 ps INFO: Precharge bank   0
+[        10]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000bd,orig => b4b5b6b7b8b9babbbcbdaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => bd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 124023314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 124023314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 124045814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 124045814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124059564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124059564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124060814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124060814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124062064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124062064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124063314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124063314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124064564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124064564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124065814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124065814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124067064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124067064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124068314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124068314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 124088314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 124088314.0 ps INFO: Precharge bank   0
+[         9]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000bc,orig => b4b5b6b7b8b9babbbcbdaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => bc
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 124433314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 124433314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 124455814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 124455814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124469564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124469564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124470814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124470814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124472064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124472064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124473314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124473314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124474564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124474564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124475814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124475814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124477064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124477064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124478314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124478314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 124498314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 124498314.0 ps INFO: Precharge bank   0
+[         8]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000bb,orig => b4b5b6b7b8b9babbbcbdaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => bb
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 124843314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 124843314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 124865814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 124865814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124879564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124879564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124880814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124880814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124882064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124882064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124883314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124883314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124884564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124884564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124885814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124885814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124887064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124887064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 124888314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 124888314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 124908314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 124908314.0 ps INFO: Precharge bank   0
+[         7]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000ba,orig => b4b5b6b7b8b9babbbcbdaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => ba
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 125253314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 125253314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 125275814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 125275814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125289564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125289564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125290814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125290814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125292064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125292064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125293314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125293314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125294564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125294564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125295814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125295814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125297064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125297064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125298314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125298314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 125318314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 125318314.0 ps INFO: Precharge bank   0
+[         6]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000b9,orig => b4b5b6b7b8b9babbbcbdaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 125663314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 125663314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 125685814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 125685814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125699564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125699564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125700814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125700814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125702064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125702064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125703314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125703314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125704564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125704564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125705814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125705814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125707064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125707064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 125708314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 125708314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 125728314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 125728314.0 ps INFO: Precharge bank   0
+[         5]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000b8,orig => b4b5b6b7b8b9babbbcbdaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => b8
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 126073314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 126073314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 126095814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 126095814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126109564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126109564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126110814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126110814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126112064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126112064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126113314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126113314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126114564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126114564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126115814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126115814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126117064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126117064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126118314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126118314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 126138314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 126138314.0 ps INFO: Precharge bank   0
+[         4]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000b7,orig => b4b5b6b7b8b9babbbcbdaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 126483314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 126483314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 126505814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 126505814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126519564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126519564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126520814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126520814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126522064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126522064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126523314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126523314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126524564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126524564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126525814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126525814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126527064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126527064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126528314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126528314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 126548314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 126548314.0 ps INFO: Precharge bank   0
+[         3]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000b6,orig => b4b5b6b7b8b9babbbcbdaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => b6
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 126893314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 126893314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 126915814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 126915814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126929564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126929564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126930814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126930814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126932064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126932064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126933314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126933314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126934564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126934564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126935814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126935814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126937064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126937064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 126938314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 126938314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 126958314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 126958314.0 ps INFO: Precharge bank   0
+[         2]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000b5,orig => b4b5b6b7b8b9babbbcbdaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 127303314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 127303314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 127325814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 127325814.0 ps INFO: Read      bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 127339564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 127339564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 127340814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 127340814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 127342064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 127342064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 127343314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 127343314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 127344564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 127344564.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 127345814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 127345814.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 127347064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 127347064.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 127348314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 127348314.0 ps INFO: READ @ DQS= bank = 0 row = 0000 col = 00000007 data = b4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 127368314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 127368314.0 ps INFO: Precharge bank   0
+[         1]uart fake tx => 00000000000000000000000000000000000000000000000000000000000000b4,orig => b4b5b6b7b8b9babbbcbdaaaa5555555555555555aaaaaaaa00000000ffffffff
+uart fake tx => b4
+[         0]uart fake rx => c4,mask => 01111111111111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 128123314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 128123314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 128145814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 128145814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 128150814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 128150814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128159564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128159564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128160814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128160814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128162064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128162064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128163314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128163314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128164564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128164564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128165814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128165814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128167064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128167064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128168314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128168314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = c4b5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 128170814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 128170814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 128198314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 128198314.0 ps INFO: Precharge bank   0
+[         1]uart fake rx => c5,mask => 10111111111111111111111111111111
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 128773314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 128773314.0 ps INFO: Activate  bank 0 row 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 128795814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 128795814.0 ps INFO: Write     bank 0 col 000, auto precharge 0
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 128800814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 128800814.0 ps INFO: Sync On Die Termination Rtt_NOM =         60 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128809564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128809564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000000 data = ffff
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128810814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128810814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000001 data = 0000
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128812064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128812064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000002 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128813314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128813314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000003 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128814564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128814564.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000004 data = 5555
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128815814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = aaaa
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128815814.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000005 data = bcbd
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128817064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = babb
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128817064.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000006 data = b8b9
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.data_task: at time 128818314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = b6b7
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.data_task: at time 128818314.0 ps INFO: WRITE @ DQS= bank = 0 row = 0000 col = 00000007 data = c4c5
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.main: at time 128820814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.main: at time 128820814.0 ps INFO: Sync On Die Termination Rtt_NOM =          0 Ohm
+sim_tb_top.mem_rnk[0].mem.gen_mem[0].u_comp_ddr3.cmd_task: at time 128848314.0 ps INFO: Precharge bank   0
+sim_tb_top.mem_rnk[0].mem.gen_mem[1].u_comp_ddr3.cmd_task: at time 128848314.0 ps INFO: Precharge bank   0

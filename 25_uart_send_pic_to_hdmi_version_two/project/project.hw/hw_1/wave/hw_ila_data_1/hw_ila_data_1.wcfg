@@ -3,33 +3,80 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+      <db_ref path="/home/feilong/Storages/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
          <top_modules>
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="9341fs"></ZoomEndTime>
-      <Cursor1Time time="539000fs"></Cursor1Time>
+      <ZoomEndTime time="8192001fs"></ZoomEndTime>
+      <Cursor1Time time="4104000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="175"></NameColumnWidth>
-      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+      <ValueColumnWidth column_width="118"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="2" />
-   <wvobject fp_name="uart_rx_data_o" type="array">
-      <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">uart_rx_data_o[7:0]</obj_property>
-      <obj_property name="ObjectShortName">uart_rx_data_o[7:0]</obj_property>
+   <WVObjectSize size="9" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="array" fp_name="uartaddr_inst/status">
+      <obj_property name="ElementShortName">uartaddr_inst/status[4:0]</obj_property>
+      <obj_property name="ObjectShortName">status[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="uartaddr_inst/readStatus">
+      <obj_property name="ElementShortName">uartaddr_inst/readStatus[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readStatus[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="uartaddr_inst/writeStatus">
+      <obj_property name="ElementShortName">uartaddr_inst/writeStatus[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeStatus[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="uartaddr_inst/saveCounter_reg_n_0_">
+      <obj_property name="ElementShortName">uartaddr_inst/saveCounter_reg_n_0_[6:0]</obj_property>
+      <obj_property name="ObjectShortName">saveCounter_reg_n_0_[6:0]</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="uart_rx_done" type="logic">
+   <wvobject type="logic" fp_name="uartaddr_inst/app_en">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">uart_rx_done</obj_property>
-      <obj_property name="ObjectShortName">uart_rx_done</obj_property>
+      <obj_property name="ElementShortName">uartaddr_inst/app_en</obj_property>
+      <obj_property name="ObjectShortName">app_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="uartaddr_inst/app_rd_data_valid">
+      <obj_property name="ElementShortName">uartaddr_inst/app_rd_data_valid</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_valid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="uartaddr_inst/app_rdy">
+      <obj_property name="ElementShortName">uartaddr_inst/app_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_rdy</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="uartaddr_inst/app_wdf_rdy">
+      <obj_property name="ElementShortName">uartaddr_inst/app_wdf_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_rdy</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="uartaddr_inst/app_en">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uartaddr_inst/app_en</obj_property>
+      <obj_property name="ObjectShortName">app_en</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>

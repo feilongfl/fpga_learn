@@ -42,33 +42,35 @@ reg[4:0] status = Status_Idle;
 
 // reg writeFlag = 0;
 
-localparam  RS_SEND_CMD = 6'b000001;
-localparam  RS_WAIT_DATA = 6'b000010;
-localparam  RS_PRE_UART = 6'b000100;
-localparam  RS_TX_TRIG = 6'b001000;
-localparam  RS_FIN = 6'b010000;
-// localparam  RS_wait = 6'b100000;
-reg [5:0] readStatus = RS_SEND_CMD;
+localparam  RS_SEND_CMD = 5'b00001;
+localparam  RS_WAIT_DATA = 5'b00010;
+localparam  RS_PRE_UART = 5'b00100;
+localparam  RS_TX_TRIG = 5'b01000;
+localparam  RS_FIN = 5'b10000;
+reg [4:0] readStatus = RS_SEND_CMD;
 
 reg [255:0] recvDataTemp = 0;
 
-//ila_1 ila_0_temp1 (
-//          .clk(ui_clk), // input wire clk
+// ila_1 ila_0_temp1 (
+//           .clk(ui_clk), // input wire clk
+//
+//           .probe0(status),
+//           .probe1(readStatus),
+//           .probe2(writeStatus)
+//       );
 
-//          .probe0(status),
-//          .probe1(readStatus),
-//          .probe2(writeStatus)
-//      );
+ila_0 ila0 (
+          .clk(ui_clk), // input wire clk
 
-//ila_0 ila0 (
-//          .clk(ui_clk), // input wire clk
-
-//          .probe0(app_en),
-//          .probe1(app_rdy),
-//          .probe2(app_wdf_rdy),
-//          .probe3(app_rd_data_valid),
-//          .probe4(saveCounter[6:0])
-//      );
+          .probe0(app_en),
+          .probe1(app_rdy),
+          .probe2(app_wdf_rdy),
+          .probe3(app_rd_data_valid),
+          .probe4(saveCounter[6:0]),
+          .probe5(status),
+          .probe6(readStatus),
+          .probe7(writeStatus)
+      );
 
 assign app_wdf_end = app_wdf_wren;
 
@@ -164,7 +166,7 @@ always @ (posedge ui_clk or posedge ui_clk_sync_rst) begin
                         rdTime <= 0;
                     end
                     else if(rdTime == rdTimeLim) begin // err when send cmd but no data return
-                        rdTime <= 0;
+                        //rdTime <= 0;
                         readStatus <= RS_SEND_CMD;
                     end
                     else
@@ -172,7 +174,7 @@ always @ (posedge ui_clk or posedge ui_clk_sync_rst) begin
                 end
                 RS_PRE_UART: begin
                     uart_tx_data <= (recvDataTemp >> ((31 - (saveCounter - 1) % 32) * 8)) & 8'hff;
-                    $display("[%d]uart fake tx => %h,orig => %h",saveCounter,uart_tx_data,recvDataTemp);
+                    $display("[%d]uart fake tx => %h,orig => %h",saveCounter,(recvDataTemp >> ((31 - (saveCounter - 1) % 32) * 8)) & 8'hff,recvDataTemp);
 
                     // uart_tx_data <= readTime;
                     // readTime <= readTime + 1;

@@ -263,3 +263,465 @@
 # 	glbl
 # End time: 10:39:36 on Aug 17,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:12:50 on Aug 19,2018
+vlog -work xil_defaultlib glbl.v 
+-- Compiling module glbl
+
+Top level modules:
+	glbl
+End time: 07:12:51 on Aug 19,2018, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:13:38 on Aug 19,2018
+vlog -work xil_defaultlib glbl.v 
+-- Compiling module glbl
+
+Top level modules:
+	glbl
+End time: 07:13:39 on Aug 19,2018, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:19:56 on Aug 19,2018
+vlog -work xil_defaultlib glbl.v 
+-- Compiling module glbl
+
+Top level modules:
+	glbl
+End time: 07:19:56 on Aug 19,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:21:49 on Aug 19,2018
+vlog -work xil_defaultlib glbl.v 
+-- Compiling module glbl
+
+Top level modules:
+	glbl
+End time: 07:21:49 on Aug 19,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:26:35 on Aug 19,2018
+vlog -incr -work xil_defaultlib "+incdir+../../../../../exp/mig_7series_0_ex/imports" ../../../../project.srcs/sources_1/ip/ila_uart/ila_uart_sim_netlist.v ../../../../project.srcs/sources_1/ip/ila_0_1/ila_0_sim_netlist.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/clocking/mig_7series_v4_1_tempmon.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_arb_mux.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_arb_row_col.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_arb_select.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_cntrl.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_common.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_compare.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_mach.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_queue.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_state.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_col_mach.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_mc.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_rank_cntrl.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_rank_common.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_rank_mach.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_round_robin_arb.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ecc/mig_7series_v4_1_ecc_buf.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ecc/mig_7series_v4_1_ecc_dec_fix.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ecc/mig_7series_v4_1_ecc_gen.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ecc/mig_7series_v4_1_ecc_merge_enc.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ecc/mig_7series_v4_1_fi_xor.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ip_top/mig_7series_v4_1_memc_ui_top_std.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ip_top/mig_7series_v4_1_mem_intfc.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_lim.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_group_io.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_lane.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_calib_top.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_if_post_fifo.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy_wrapper.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_of_pre_fifo.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_4lanes.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ck_addr_cmd_delay.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal_hr.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_init.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_cntlr.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_data.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_edge.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_mux.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_po_cntlr.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_samp.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_oclkdelay_cal.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_prbs_rdlvl.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_rdlvl.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_tempmon.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_top.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrcal.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl_off_delay.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_prbs_gen.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_skip_calib_tap.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_cc.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_edge_store.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_meta.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_pd.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_tap_base.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_top.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ui/mig_7series_v4_1_ui_cmd.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ui/mig_7series_v4_1_ui_rd_data.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ui/mig_7series_v4_1_ui_top.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ui/mig_7series_v4_1_ui_wr_data.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/mig_7series_1_mig_sim.v ../../../../project.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/mig_7series_1.v ../../../../project.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v ../../../../project.srcs/sources_1/new/bit8to256.v ../../../../project.srcs/sim_1/new/top_test.v ../../../../project.srcs/sources_1/new/uart_rx_path.v ../../../../project.srcs/sources_1/new/uart_tx_path.v ../../../../project.srcs/sources_1/new/uartddr.v ../../../../../exp/mig_7series_0_ex/imports/wiredly.v 
+-- Compiling module ila_uart
+-- Compiling module ila_uart_bindec
+-- Compiling module ila_uart_blk_mem_gen_generic_cstr
+-- Compiling module ila_uart_blk_mem_gen_mux__parameterized0
+-- Compiling module ila_uart_blk_mem_gen_prim_width
+-- Compiling module ila_uart_blk_mem_gen_prim_width__parameterized0
+-- Compiling module ila_uart_blk_mem_gen_prim_width__parameterized1
+-- Compiling module ila_uart_blk_mem_gen_prim_wrapper
+-- Compiling module ila_uart_blk_mem_gen_prim_wrapper__parameterized0
+-- Compiling module ila_uart_blk_mem_gen_prim_wrapper__parameterized1
+-- Compiling module ila_uart_blk_mem_gen_top
+-- Compiling module ila_uart_blk_mem_gen_v8_3_6
+-- Compiling module ila_uart_blk_mem_gen_v8_3_6_synth
+-- Compiling module ila_uart_ila_v6_2_7_ila
+-- Compiling module ila_uart_ila_v6_2_7_ila_cap_addrgen
+-- Compiling module ila_uart_ila_v6_2_7_ila_cap_ctrl_legacy
+-- Compiling module ila_uart_ila_v6_2_7_ila_cap_sample_counter
+-- Compiling module ila_uart_ila_v6_2_7_ila_cap_window_counter
+-- Compiling module ila_uart_ila_v6_2_7_ila_core
+-- Compiling module ila_uart_ila_v6_2_7_ila_register
+-- Compiling module ila_uart_ila_v6_2_7_ila_reset_ctrl
+-- Compiling module ila_uart_ila_v6_2_7_ila_trace_memory
+-- Compiling module ila_uart_ila_v6_2_7_ila_trig_match
+-- Compiling module ila_uart_ila_v6_2_7_ila_trigger
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_0
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_2
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA__parameterized0
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA__parameterized0_29
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA__parameterized0_37
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_slice
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_slice_1
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_slice_3
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_slice__parameterized0
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_slice__parameterized0_30
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_slice__parameterized0_38
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_slice__parameterized1
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_slice__parameterized1_31
+-- Compiling module ila_uart_ltlib_v1_0_0_all_typeA_slice__parameterized1_39
+-- Compiling module ila_uart_ltlib_v1_0_0_allx_typeA
+-- Compiling module ila_uart_ltlib_v1_0_0_allx_typeA__parameterized0
+-- Compiling module ila_uart_ltlib_v1_0_0_allx_typeA__parameterized1
+-- Compiling module ila_uart_ltlib_v1_0_0_allx_typeA_nodelay
+-- Compiling module ila_uart_ltlib_v1_0_0_allx_typeA_nodelay_28
+-- Compiling module ila_uart_ltlib_v1_0_0_allx_typeA_nodelay_36
+-- Compiling module ila_uart_ltlib_v1_0_0_async_edge_xfer
+-- Compiling module ila_uart_ltlib_v1_0_0_async_edge_xfer_4
+-- Compiling module ila_uart_ltlib_v1_0_0_async_edge_xfer_5
+-- Compiling module ila_uart_ltlib_v1_0_0_async_edge_xfer_6
+-- Compiling module ila_uart_ltlib_v1_0_0_cfglut4
+-- Compiling module ila_uart_ltlib_v1_0_0_cfglut4_32
+-- Compiling module ila_uart_ltlib_v1_0_0_cfglut5
+-- Compiling module ila_uart_ltlib_v1_0_0_cfglut5_26
+-- Compiling module ila_uart_ltlib_v1_0_0_cfglut5_33
+-- Compiling module ila_uart_ltlib_v1_0_0_cfglut6
+-- Compiling module ila_uart_ltlib_v1_0_0_cfglut6_34
+-- Compiling module ila_uart_ltlib_v1_0_0_cfglut6__parameterized0
+-- Compiling module ila_uart_ltlib_v1_0_0_cfglut7
+-- Compiling module ila_uart_ltlib_v1_0_0_cfglut7_25
+-- Compiling module ila_uart_ltlib_v1_0_0_generic_memrd
+-- Compiling module ila_uart_ltlib_v1_0_0_match
+-- Compiling module ila_uart_ltlib_v1_0_0_match__parameterized0
+-- Compiling module ila_uart_ltlib_v1_0_0_match__parameterized1
+-- Compiling module ila_uart_ltlib_v1_0_0_match_nodelay
+-- Compiling module ila_uart_ltlib_v1_0_0_match_nodelay_27
+-- Compiling module ila_uart_ltlib_v1_0_0_match_nodelay_35
+-- Compiling module ila_uart_ltlib_v1_0_0_rising_edge_detection
+-- Compiling module ila_uart_ltlib_v1_0_0_rising_edge_detection_7
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized13
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized14
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized15
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized16
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized28
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized29
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized30
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized31
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized32
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized33
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized34
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized35
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized36
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized37
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized38
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized39
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized41
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized43
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg__parameterized46
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl_11
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl_12
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl_13
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl_14
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl_17
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl_19
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl_20
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl_21
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl_22
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl_23
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl__parameterized0
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl__parameterized1
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl__parameterized1_15
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_ctl__parameterized1_18
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_p2s
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_p2s__parameterized0
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_p2s__parameterized1
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_p2s__parameterized2
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_stat
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_stat_10
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_stat_16
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_stat_24
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_stat_8
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_stat_9
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_stream
+-- Compiling module ila_uart_xsdbs_v1_0_2_reg_stream__parameterized0
+-- Compiling module ila_uart_xsdbs_v1_0_2_xsdbs
+-- Compiling module glbl
+-- Compiling module ila_0
+-- Compiling module ila_0_bindec
+-- Compiling module ila_0_blk_mem_gen_generic_cstr
+-- Compiling module ila_0_blk_mem_gen_mux__parameterized0
+-- Compiling module ila_0_blk_mem_gen_prim_width
+-- Compiling module ila_0_blk_mem_gen_prim_width__parameterized0
+-- Compiling module ila_0_blk_mem_gen_prim_width__parameterized1
+-- Compiling module ila_0_blk_mem_gen_prim_width__parameterized2
+-- Compiling module ila_0_blk_mem_gen_prim_width__parameterized3
+-- Compiling module ila_0_blk_mem_gen_prim_width__parameterized4
+-- Compiling module ila_0_blk_mem_gen_prim_wrapper
+-- Compiling module ila_0_blk_mem_gen_prim_wrapper__parameterized0
+-- Compiling module ila_0_blk_mem_gen_prim_wrapper__parameterized1
+-- Compiling module ila_0_blk_mem_gen_prim_wrapper__parameterized2
+-- Compiling module ila_0_blk_mem_gen_prim_wrapper__parameterized3
+-- Compiling module ila_0_blk_mem_gen_prim_wrapper__parameterized4
+-- Compiling module ila_0_blk_mem_gen_top
+-- Compiling module ila_0_blk_mem_gen_v8_3_6
+-- Compiling module ila_0_blk_mem_gen_v8_3_6_synth
+-- Compiling module ila_0_ila_v6_2_7_ila
+-- Compiling module ila_0_ila_v6_2_7_ila_cap_addrgen
+-- Compiling module ila_0_ila_v6_2_7_ila_cap_ctrl_legacy
+-- Compiling module ila_0_ila_v6_2_7_ila_cap_sample_counter
+-- Compiling module ila_0_ila_v6_2_7_ila_cap_window_counter
+-- Compiling module ila_0_ila_v6_2_7_ila_core
+-- Compiling module ila_0_ila_v6_2_7_ila_register
+-- Compiling module ila_0_ila_v6_2_7_ila_reset_ctrl
+-- Compiling module ila_0_ila_v6_2_7_ila_trace_memory
+-- Compiling module ila_0_ila_v6_2_7_ila_trig_match
+-- Compiling module ila_0_ila_v6_2_7_ila_trigger
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_11
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_13
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_16
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_19
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_22
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_24
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_6
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_9
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA__parameterized0
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA__parameterized0_51
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA__parameterized0_59
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice_10
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice_12
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice_14
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice_17
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice_20
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice_23
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice_25
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice_7
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized0
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized0_52
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized0_60
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized1
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized1_53
+-- Compiling module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized1_61
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA__parameterized0
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA__parameterized0_15
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA__parameterized0_18
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA__parameterized0_21
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA__parameterized1
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA__parameterized2
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA__parameterized2_5
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA__parameterized2_8
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA_nodelay
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA_nodelay_50
+-- Compiling module ila_0_ltlib_v1_0_0_allx_typeA_nodelay_58
+-- Compiling module ila_0_ltlib_v1_0_0_async_edge_xfer
+-- Compiling module ila_0_ltlib_v1_0_0_async_edge_xfer_26
+-- Compiling module ila_0_ltlib_v1_0_0_async_edge_xfer_27
+-- Compiling module ila_0_ltlib_v1_0_0_async_edge_xfer_28
+-- Compiling module ila_0_ltlib_v1_0_0_cfglut4
+-- Compiling module ila_0_ltlib_v1_0_0_cfglut4_54
+-- Compiling module ila_0_ltlib_v1_0_0_cfglut5
+-- Compiling module ila_0_ltlib_v1_0_0_cfglut5_48
+-- Compiling module ila_0_ltlib_v1_0_0_cfglut5_55
+-- Compiling module ila_0_ltlib_v1_0_0_cfglut6
+-- Compiling module ila_0_ltlib_v1_0_0_cfglut6_56
+-- Compiling module ila_0_ltlib_v1_0_0_cfglut6__parameterized0
+-- Compiling module ila_0_ltlib_v1_0_0_cfglut7
+-- Compiling module ila_0_ltlib_v1_0_0_cfglut7_47
+-- Compiling module ila_0_ltlib_v1_0_0_generic_memrd
+-- Compiling module ila_0_ltlib_v1_0_0_match
+-- Compiling module ila_0_ltlib_v1_0_0_match__parameterized0
+-- Compiling module ila_0_ltlib_v1_0_0_match__parameterized0_0
+-- Compiling module ila_0_ltlib_v1_0_0_match__parameterized0_1
+-- Compiling module ila_0_ltlib_v1_0_0_match__parameterized0_2
+-- Compiling module ila_0_ltlib_v1_0_0_match__parameterized1
+-- Compiling module ila_0_ltlib_v1_0_0_match__parameterized2
+-- Compiling module ila_0_ltlib_v1_0_0_match__parameterized2_3
+-- Compiling module ila_0_ltlib_v1_0_0_match__parameterized2_4
+-- Compiling module ila_0_ltlib_v1_0_0_match_nodelay
+-- Compiling module ila_0_ltlib_v1_0_0_match_nodelay_49
+-- Compiling module ila_0_ltlib_v1_0_0_match_nodelay_57
+-- Compiling module ila_0_ltlib_v1_0_0_rising_edge_detection
+-- Compiling module ila_0_ltlib_v1_0_0_rising_edge_detection_29
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized25
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized26
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized27
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized28
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized40
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized41
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized42
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized43
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized44
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized45
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized46
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized47
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized48
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized49
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized50
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized51
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized53
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized55
+-- Compiling module ila_0_xsdbs_v1_0_2_reg__parameterized58
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl_33
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl_34
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl_35
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl_36
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl_39
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl_41
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl_42
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl_43
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl_44
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl_45
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl__parameterized0
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl__parameterized1
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl__parameterized1_37
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_ctl__parameterized1_40
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_p2s
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized0
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized1
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized2
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized3
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized4
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized5
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized6
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized7
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized8
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_stat
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_stat_30
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_stat_31
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_stat_32
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_stat_38
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_stat_46
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_stream
+-- Compiling module ila_0_xsdbs_v1_0_2_reg_stream__parameterized0
+-- Compiling module ila_0_xsdbs_v1_0_2_xsdbs
+-- Compiling module mig_7series_v4_1_clk_ibuf
+-- Compiling module mig_7series_v4_1_infrastructure
+-- Compiling module mig_7series_v4_1_iodelay_ctrl
+-- Compiling module mig_7series_v4_1_tempmon
+-- Compiling module mig_7series_v4_1_arb_mux
+-- Compiling module mig_7series_v4_1_arb_row_col
+-- Compiling module mig_7series_v4_1_arb_select
+-- Compiling module mig_7series_v4_1_bank_cntrl
+-- Compiling module mig_7series_v4_1_bank_common
+-- Compiling module mig_7series_v4_1_bank_compare
+-- Compiling module mig_7series_v4_1_bank_mach
+-- Compiling module mig_7series_v4_1_bank_queue
+-- Compiling module mig_7series_v4_1_bank_state
+-- Compiling module mig_7series_v4_1_col_mach
+-- Compiling module mig_7series_v4_1_mc
+-- Compiling module mig_7series_v4_1_rank_cntrl
+-- Compiling module mig_7series_v4_1_rank_common
+-- Compiling module mig_7series_v4_1_rank_mach
+-- Compiling module mig_7series_v4_1_round_robin_arb
+-- Compiling module mig_7series_v4_1_ecc_buf
+-- Compiling module mig_7series_v4_1_ecc_dec_fix
+-- Compiling module mig_7series_v4_1_ecc_gen
+-- Compiling module mig_7series_v4_1_ecc_merge_enc
+-- Compiling module mig_7series_v4_1_fi_xor
+-- Compiling module mig_7series_v4_1_memc_ui_top_std
+-- Compiling module mig_7series_v4_1_mem_intfc
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_lim
+-- Compiling module mig_7series_v4_1_ddr_byte_group_io
+-- Compiling module mig_7series_v4_1_ddr_byte_lane
+-- Compiling module mig_7series_v4_1_ddr_calib_top
+-- Compiling module mig_7series_v4_1_ddr_if_post_fifo
+-- Compiling module mig_7series_v4_1_ddr_mc_phy
+-- Compiling module mig_7series_v4_1_ddr_mc_phy_wrapper
+-- Compiling module mig_7series_v4_1_ddr_of_pre_fifo
+-- Compiling module mig_7series_v4_1_ddr_phy_4lanes
+-- Compiling module mig_7series_v4_1_ddr_phy_ck_addr_cmd_delay
+-- Compiling module mig_7series_v4_1_ddr_phy_dqs_found_cal
+-- Compiling module mig_7series_v4_1_ddr_phy_dqs_found_cal_hr
+-- Compiling module mig_7series_v4_1_ddr_phy_init
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_cntlr
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_data
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_edge
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_mux
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_po_cntlr
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_samp
+-- Compiling module mig_7series_v4_1_ddr_phy_oclkdelay_cal
+-- Compiling module mig_7series_v4_1_ddr_phy_prbs_rdlvl
+-- Compiling module mig_7series_v4_1_ddr_phy_rdlvl
+-- Compiling module mig_7series_v4_1_ddr_phy_tempmon
+-- Compiling module mig_7series_v4_1_ddr_phy_top
+-- Compiling module mig_7series_v4_1_ddr_phy_wrcal
+-- Compiling module mig_7series_v4_1_ddr_phy_wrlvl
+-- Compiling module mig_7series_v4_1_ddr_phy_wrlvl_off_delay
+-- Compiling module mig_7series_v4_1_ddr_prbs_gen
+-- Compiling module mig_7series_v4_1_ddr_skip_calib_tap
+-- Compiling module mig_7series_v4_1_poc_cc
+-- Compiling module mig_7series_v4_1_poc_edge_store
+-- Compiling module mig_7series_v4_1_poc_meta
+-- Compiling module mig_7series_v4_1_poc_pd
+-- Compiling module mig_7series_v4_1_poc_tap_base
+-- Compiling module mig_7series_v4_1_poc_top
+-- Compiling module mig_7series_v4_1_ui_cmd
+-- Compiling module mig_7series_v4_1_ui_rd_data
+-- Compiling module mig_7series_v4_1_ui_top
+-- Compiling module mig_7series_v4_1_ui_wr_data
+-- Compiling module mig_7series_1_mig
+-- Compiling module mig_7series_1
+-- Compiling module clk_wiz_0
+-- Compiling module clk_wiz_0_clk_wiz_0_clk_wiz
+-- Compiling module bit8to256
+-- Compiling module top_test
+-- Compiling module uart_rx_path
+-- Compiling module uart_tx_path
+** Error (suppressible): ../../../../project.srcs/sources_1/new/uartddr.v(103): (vlog-2388) 'writeStatus' already declared in this scope (uartaddr).
+-- Compiling module WireDelay
+End time: 07:26:42 on Aug 19,2018, Elapsed time: 0:00:07
+Errors: 1, Warnings: 0
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:26:42 on Aug 19,2018
+vlog -incr -sv -work xil_defaultlib "+incdir+../../../../../exp/mig_7series_0_ex/imports" ../../../../../exp/mig_7series_0_ex/imports/ddr3_model.sv 
+-- Compiling module ddr3_model
+
+Top level modules:
+	ddr3_model
+End time: 07:26:42 on Aug 19,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:26:42 on Aug 19,2018
+vlog -incr -work xil_defaultlib "+incdir+../../../../../exp/mig_7series_0_ex/imports" ../../../../project.srcs/sim_1/new/tb_top.v 
+-- Compiling module sim_tb_top
+
+Top level modules:
+	sim_tb_top
+End time: 07:26:42 on Aug 19,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:26:42 on Aug 19,2018
+vlog -work xil_defaultlib glbl.v 
+-- Compiling module glbl
+
+Top level modules:
+	glbl
+End time: 07:26:42 on Aug 19,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

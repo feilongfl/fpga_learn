@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc rfile:../../../project.srcs/constrs_1/new/pin.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/feilong/Storages/fpga/25_uart_send_pic_to_hdmi_version_two/project/project.srcs/constrs_1/new/pin.xdc rfile:../../../project.srcs/constrs_1/new/pin.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN L19 [get_ports sys_clk_i]
 set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]

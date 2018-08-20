@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sat Sep 23 18:44:23 2017
+# Process ID: 13352
+# Current directory: E:/MIA701SRC/MIA701_DDR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9476 E:\MIA701SRC\MIA701_DDR\mig_7series_0_ex.xpr
+# Log file: E:/MIA701SRC/MIA701_DDR/vivado.log
+# Journal file: E:/MIA701SRC/MIA701_DDR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/MIA701SRC/MIA701_DDR/mig_7series_0_ex.xpr
+set_property -name {xsim.simulate.runtime} -value {100000ns} -objects [get_filesets sim_1]
+launch_simulation

@@ -1,0 +1,11 @@
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_bit_synchronizer.v
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gthe3_cpll_cal.v
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gthe3_cpll_cal_freq_counter.v
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_buffbypass_rx.v
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_buffbypass_tx.v
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_reset.v
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userclk_rx.v
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userclk_tx.v
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userdata_rx.v
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userdata_tx.v
+/opt/Xilinx/Vivado/2018.2/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_reset_synchronizer.v

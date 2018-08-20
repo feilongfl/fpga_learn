@@ -1,0 +1,4 @@
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlib /home/feilong/Storages/fpga/000_vivado_sim_linux32/vid_phy_controller_v2_1_0
+/opt/intelFPGA/18.0/modelsim_ase/bin/vmap vid_phy_controller_v2_1_0 /home/feilong/Storages/fpga/000_vivado_sim_linux32/vid_phy_controller_v2_1_0
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlog  -32 -L vid_phy_controller_v2_1_0 +incdir+/home/feilong/.cxl.ip/incl -work vid_phy_controller_v2_1_0 -f /home/feilong/Storages/fpga/000_vivado_sim_linux32/vid_phy_controller_v2_1_0/.cxl.verilog.vid_phy_controller_v2_1_0.vid_phy_controller_v2_1_0.lin64.cmf
+/opt/intelFPGA/18.0/modelsim_ase/bin/vlog  -32 -L vid_phy_controller_v2_1_0 +incdir+/home/feilong/.cxl.ip/incl -sv -work vid_phy_controller_v2_1_0 -f /home/feilong/Storages/fpga/000_vivado_sim_linux32/vid_phy_controller_v2_1_0/.cxl.systemverilog.vid_phy_controller_v2_1_0.vid_phy_controller_v2_1_0.lin64.cmf

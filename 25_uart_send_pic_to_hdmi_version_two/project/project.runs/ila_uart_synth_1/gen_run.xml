@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="ila_uart_synth_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1534464344">
   <File Type="PA-TCL" Name="ila_uart.tcl"/>
+  <File Type="RDS-DCP" Name="ila_uart.dcp"/>
   <File Type="REPORTS-TCL" Name="ila_uart_reports.tcl"/>
   <File Type="RDS-RDS" Name="ila_uart.vds"/>
   <File Type="RDS-UTIL" Name="ila_uart_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="ila_uart_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="ila_uart.dcp"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ila_uart">
     <File Path="$PSRCDIR/sources_1/ip/ila_uart/ila_uart.xci">
       <FileInfo>

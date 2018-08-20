@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Aug 19 08:22:13 2018
+# Process ID: 2558
+# Current directory: /home/feilong/Storages/fpga/25_3_uart_ddr/CH01_DDR3_READ_WRITE/mig_7series_0_ex.runs/mig_7series_0_synth_1
+# Command line: vivado -log mig_7series_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mig_7series_0.tcl
+# Log file: /home/feilong/Storages/fpga/25_3_uart_ddr/CH01_DDR3_READ_WRITE/mig_7series_0_ex.runs/mig_7series_0_synth_1/mig_7series_0.vds
+# Journal file: /home/feilong/Storages/fpga/25_3_uart_ddr/CH01_DDR3_READ_WRITE/mig_7series_0_ex.runs/mig_7series_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source mig_7series_0.tcl -notrace

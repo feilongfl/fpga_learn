@@ -1,0 +1,144 @@
+Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:30:27 on Aug 19,2018
+vlog -work xil_defaultlib glbl.v 
+-- Compiling module glbl
+
+Top level modules:
+	glbl
+End time: 07:30:28 on Aug 19,2018, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Failed to open executable /opt/intelFPGA/18.0/modelsim_ase/bin/../linux/../linux_x86_64pe/vlog in execute mode needed for the option -64.
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:30:43 on Aug 19,2018
+vlog -work xil_defaultlib glbl.v 
+-- Compiling module glbl
+
+Top level modules:
+	glbl
+End time: 07:30:43 on Aug 19,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:30:57 on Aug 19,2018
+vlog -incr -work xil_defaultlib "+incdir+../../../../imports" ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/clocking/mig_7series_v4_1_tempmon.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_arb_mux.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_arb_row_col.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_arb_select.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_cntrl.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_common.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_compare.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_mach.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_queue.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_bank_state.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_col_mach.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_mc.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_rank_cntrl.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_rank_common.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_rank_mach.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/controller/mig_7series_v4_1_round_robin_arb.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ecc/mig_7series_v4_1_ecc_buf.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ecc/mig_7series_v4_1_ecc_dec_fix.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ecc/mig_7series_v4_1_ecc_gen.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ecc/mig_7series_v4_1_ecc_merge_enc.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ecc/mig_7series_v4_1_fi_xor.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ip_top/mig_7series_v4_1_memc_ui_top_std.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ip_top/mig_7series_v4_1_mem_intfc.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_group_io.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_lane.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_calib_top.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_if_post_fifo.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy_wrapper.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_of_pre_fifo.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_4lanes.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ck_addr_cmd_delay.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal_hr.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_init.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_cntlr.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_data.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_edge.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_lim.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_mux.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_po_cntlr.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_samp.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_oclkdelay_cal.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_prbs_rdlvl.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_rdlvl.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_tempmon.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_top.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrcal.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl_off_delay.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_prbs_gen.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_ddr_skip_calib_tap.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_cc.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_edge_store.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_meta.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_pd.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_tap_base.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/phy/mig_7series_v4_1_poc_top.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ui/mig_7series_v4_1_ui_cmd.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ui/mig_7series_v4_1_ui_rd_data.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ui/mig_7series_v4_1_ui_top.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/ui/mig_7series_v4_1_ui_wr_data.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/mig_7series_1_mig_sim.v ../../../../mig_7series_1_ex.srcs/sources_1/ip/mig_7series_1/mig_7series_1/user_design/rtl/mig_7series_1.v ../../../../../../project/project.srcs/sources_1/new/bit8to256.v ../../../../imports/example_top.v ../../../../../../project/project.srcs/sim_1/new/fakeUart_rx.v ../../../../../../project/project.srcs/sim_1/new/faketx.v ../../../../../../project/project.srcs/sources_1/new/uartddr.v ../../../../imports/wiredly.v 
+-- Compiling module mig_7series_v4_1_clk_ibuf
+-- Compiling module mig_7series_v4_1_infrastructure
+-- Compiling module mig_7series_v4_1_iodelay_ctrl
+-- Compiling module mig_7series_v4_1_tempmon
+-- Compiling module mig_7series_v4_1_arb_mux
+-- Compiling module mig_7series_v4_1_arb_row_col
+-- Compiling module mig_7series_v4_1_arb_select
+-- Compiling module mig_7series_v4_1_bank_cntrl
+-- Compiling module mig_7series_v4_1_bank_common
+-- Compiling module mig_7series_v4_1_bank_compare
+-- Compiling module mig_7series_v4_1_bank_mach
+-- Compiling module mig_7series_v4_1_bank_queue
+-- Compiling module mig_7series_v4_1_bank_state
+-- Compiling module mig_7series_v4_1_col_mach
+-- Compiling module mig_7series_v4_1_mc
+-- Compiling module mig_7series_v4_1_rank_cntrl
+-- Compiling module mig_7series_v4_1_rank_common
+-- Compiling module mig_7series_v4_1_rank_mach
+-- Compiling module mig_7series_v4_1_round_robin_arb
+-- Compiling module mig_7series_v4_1_ecc_buf
+-- Compiling module mig_7series_v4_1_ecc_dec_fix
+-- Compiling module mig_7series_v4_1_ecc_gen
+-- Compiling module mig_7series_v4_1_ecc_merge_enc
+-- Compiling module mig_7series_v4_1_fi_xor
+-- Compiling module mig_7series_v4_1_memc_ui_top_std
+-- Compiling module mig_7series_v4_1_mem_intfc
+-- Compiling module mig_7series_v4_1_ddr_byte_group_io
+-- Compiling module mig_7series_v4_1_ddr_byte_lane
+-- Compiling module mig_7series_v4_1_ddr_calib_top
+-- Compiling module mig_7series_v4_1_ddr_if_post_fifo
+-- Compiling module mig_7series_v4_1_ddr_mc_phy
+-- Compiling module mig_7series_v4_1_ddr_mc_phy_wrapper
+-- Compiling module mig_7series_v4_1_ddr_of_pre_fifo
+-- Compiling module mig_7series_v4_1_ddr_phy_4lanes
+-- Compiling module mig_7series_v4_1_ddr_phy_ck_addr_cmd_delay
+-- Compiling module mig_7series_v4_1_ddr_phy_dqs_found_cal
+-- Compiling module mig_7series_v4_1_ddr_phy_dqs_found_cal_hr
+-- Compiling module mig_7series_v4_1_ddr_phy_init
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_cntlr
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_data
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_edge
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_lim
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_mux
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_po_cntlr
+-- Compiling module mig_7series_v4_1_ddr_phy_ocd_samp
+-- Compiling module mig_7series_v4_1_ddr_phy_oclkdelay_cal
+-- Compiling module mig_7series_v4_1_ddr_phy_prbs_rdlvl
+-- Compiling module mig_7series_v4_1_ddr_phy_rdlvl
+-- Compiling module mig_7series_v4_1_ddr_phy_tempmon
+-- Compiling module mig_7series_v4_1_ddr_phy_top
+-- Compiling module mig_7series_v4_1_ddr_phy_wrcal
+-- Compiling module mig_7series_v4_1_ddr_phy_wrlvl
+-- Compiling module mig_7series_v4_1_ddr_phy_wrlvl_off_delay
+-- Compiling module mig_7series_v4_1_ddr_prbs_gen
+-- Compiling module mig_7series_v4_1_ddr_skip_calib_tap
+-- Compiling module mig_7series_v4_1_poc_cc
+-- Compiling module mig_7series_v4_1_poc_edge_store
+-- Compiling module mig_7series_v4_1_poc_meta
+-- Compiling module mig_7series_v4_1_poc_pd
+-- Compiling module mig_7series_v4_1_poc_tap_base
+-- Compiling module mig_7series_v4_1_poc_top
+-- Compiling module mig_7series_v4_1_ui_cmd
+-- Compiling module mig_7series_v4_1_ui_rd_data
+-- Compiling module mig_7series_v4_1_ui_top
+-- Compiling module mig_7series_v4_1_ui_wr_data
+-- Compiling module mig_7series_1_mig
+-- Compiling module mig_7series_1
+-- Compiling module bit8to256
+-- Compiling module example_top
+-- Compiling module fakeRx
+-- Compiling module fakeTx
+** Error (suppressible): ../../../../../../project/project.srcs/sources_1/new/uartddr.v(103): (vlog-2388) 'writeStatus' already declared in this scope (uartaddr).
+-- Compiling module WireDelay
+End time: 07:30:59 on Aug 19,2018, Elapsed time: 0:00:02
+Errors: 1, Warnings: 0
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:30:59 on Aug 19,2018
+vlog -incr -sv -work xil_defaultlib "+incdir+../../../../imports" ../../../../imports/ddr3_model.sv 
+-- Compiling module ddr3_model
+
+Top level modules:
+	ddr3_model
+End time: 07:30:59 on Aug 19,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:30:59 on Aug 19,2018
+vlog -incr -work xil_defaultlib "+incdir+../../../../imports" ../../../../imports/sim_tb_top.v 
+-- Compiling module sim_tb_top
+
+Top level modules:
+	sim_tb_top
+End time: 07:30:59 on Aug 19,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+Start time: 07:30:59 on Aug 19,2018
+vlog -work xil_defaultlib glbl.v 
+-- Compiling module glbl
+
+Top level modules:
+	glbl
+End time: 07:30:59 on Aug 19,2018, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
