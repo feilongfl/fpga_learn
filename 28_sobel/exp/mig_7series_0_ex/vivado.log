@@ -1,0 +1,510 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Aug 20 21:24:31 2018
+# Process ID: 16557
+# Current directory: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex
+# Command line: vivado -notrace -source /home/feilong/Storages/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl
+# Log file: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/vivado.log
+# Journal file: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source /home/feilong/Storages/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl -notrace
+INFO: [open_example_project] Creating new example project...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:05 . Memory (MB): peak = 6131.789 ; gain = 71.117 ; free physical = 16453 ; free virtual = 24496
+INFO: [open_example_project] Loading IP Catalog...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/feilong/Storages/fpga/milian/mia_ip_lib'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:HDMI_FPGA_ML_A7:1.0'. The one found in IP location '/home/feilong/Storages/fpga/milian/mia_ip_lib/HDMI_FPGA_ML_A7' will take precedence over the same IP in location /home/feilong/Storages/fpga/milian/mia_ip_lib/HDMI_FPGA_ML_A7/HDMI_FPGA_ML
+INFO: [open_example_project] Importing original IP ...
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0.veo'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_row_col.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_select.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_compare.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_queue.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_state.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_col_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_mc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_round_robin_arb.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_buf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_dec_fix.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_merge_enc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_fi_xor.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_1_memc_ui_top_std.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_1_mem_intfc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_group_io.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_lane.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_calib_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_if_post_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_mc_phy_wrapper.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_of_pre_fifo.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_4lanes.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ck_addr_cmd_delay.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_dqs_found_cal_hr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_init.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_cntlr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_edge.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_lim.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_po_cntlr.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_samp.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_oclkdelay_cal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_prbs_rdlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_rdlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrcal.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_wrlvl_off_delay.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_prbs_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_skip_calib_tap.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_cc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_edge_store.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_meta.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_pd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_tap_base.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_poc_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_1_ui_cmd.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_1_ui_rd_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_1_ui_top.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ui/mig_7series_v4_1_ui_wr_data.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0_ooc.xdc'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_clk_ibuf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_infrastructure.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_iodelay_ctrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/clocking/mig_7series_v4_1_tempmon.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_row_col.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_arb_select.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_compare.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_queue.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_bank_state.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_col_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_mc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_cntrl.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_common.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_rank_mach.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/controller/mig_7series_v4_1_round_robin_arb.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_buf.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_dec_fix.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_gen.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_ecc_merge_enc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ecc/mig_7series_v4_1_fi_xor.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_1_memc_ui_top_std.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/ip_top/mig_7series_v4_1_mem_intfc.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_phy_ocd_mux.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_group_io.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_byte_lane.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'mig_7series_0' generated file not found '/home/feilong/.Xil/Vivado-25045-feilong-pc/coregen/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_1_ddr_calib_top.v'. Please regenerate to continue.
+INFO: [Common 17-14] Message 'IP_Flow 19-3664' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [open_example_project] Generating the example project IP ...
+INFO: [open_example_project] Adding example synthesis HDL files ...
+INFO: [open_example_project] Adding example XDC files ...
+INFO: [open_example_project] Adding simulation HDL files ...
+INFO: [open_example_project] Adding simulation miscellaneous files ...
+INFO: [open_example_project] Sourcing example extension scripts ...
+Post Processing the example_design
+INFO: [open_example_project] Rebuilding all the top level IPs ...
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'mig_7series_0'...
+generate_target: Time (s): cpu = 00:00:39 ; elapsed = 00:00:35 . Memory (MB): peak = 6225.434 ; gain = 0.000 ; free physical = 16392 ; free virtual = 24511
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XSIM" (Xilinx Vivado Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xsim/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xsim/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "MODELSIM" (Mentor Graphics ModelSim Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/modelsim/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/modelsim/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "QUESTA" (Mentor Graphics Questa Advanced Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/questa/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/questa/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "IES" (Cadence Incisive Enterprise Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/ies/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/ies/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "VCS" (Synopsys Verilog Compiler Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/vcs/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/vcs/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "RIVIERA" (Aldec Riviera-PRO Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/riviera/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/riviera/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "ACTIVEHDL" (Aldec Active-HDL Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/activehdl/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/activehdl/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XCELIUM" (Cadence Xcelium Parallel Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xcelium/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xcelium/mig_b.prj'
+export_ip_user_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 6225.434 ; gain = 0.000 ; free physical = 16330 ; free virtual = 24454
+INFO: [open_example_project] Open Example Project completed
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Synthesis'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Implementation'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+[Mon Aug 20 21:29:45 2018] Launched mig_7series_0_synth_1, synth_1...
+Run output will be captured here:
+mig_7series_0_synth_1: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/mig_7series_0_synth_1/runme.log
+synth_1: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/runme.log
+[Mon Aug 20 21:29:45 2018] Launched impl_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:33 ; elapsed = 00:00:28 . Memory (MB): peak = 6259.602 ; gain = 3.008 ; free physical = 16185 ; free virtual = 24387
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 475 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc]
+Finished Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc]
+Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 217 instances were transformed.
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 180 instances
+
+open_run: Time (s): cpu = 00:00:32 ; elapsed = 00:00:31 . Memory (MB): peak = 6824.602 ; gain = 502.973 ; free physical = 13190 ; free virtual = 23039
+place_ports clk_ref_i L19
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk_ref_i]]
+set_property package_pin "" [get_ports [list  clk_ref_i]]
+place_ports sys_clk_i L19
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_clk_i]]
+set_property target_constrs_file /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc [current_fileset -constrset]
+save_constraints -force
+update_compile_order -fileset sources_1
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0
+set_property -dict [list CONFIG.PRIM_IN_FREQ {50} CONFIG.CLKOUT2_USED {true} CONFIG.PRIMARY_PORT {clk_50m} CONFIG.CLK_OUT1_PORT {clk_200m} CONFIG.CLK_OUT2_PORT {clk_500m} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {200} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {500.000} CONFIG.USE_RESET {false} CONFIG.CLKIN1_JITTER_PS {200.0} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {20.000} CONFIG.MMCM_CLKIN1_PERIOD {20.000} CONFIG.MMCM_CLKIN2_PERIOD {10.0} CONFIG.MMCM_CLKOUT0_DIVIDE_F {5.000} CONFIG.MMCM_CLKOUT1_DIVIDE {2} CONFIG.NUM_OUT_CLKS {2} CONFIG.CLKOUT1_JITTER {142.107} CONFIG.CLKOUT1_PHASE_ERROR {164.985} CONFIG.CLKOUT2_JITTER {122.430} CONFIG.CLKOUT2_PHASE_ERROR {164.985}] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'...
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property package_pin "" [get_ports [list  sys_clk_i]]
+generate_target all [get_files  /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'...
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+launch_runs -jobs 16 clk_wiz_0_synth_1
+[Mon Aug 20 22:17:52 2018] Launched clk_wiz_0_synth_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/clk_wiz_0_synth_1/runme.log
+export_simulation -of_objects [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts -ip_user_files_dir /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files -ipstatic_source_dir /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/feilong/Storages/fpga/000_vivado_sim} {questa=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/questa} {ies=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/ies} {xcelium=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/xcelium} {vcs=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/vcs} {riviera=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_run mig_7series_0_synth_1
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Synthesis'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Implementation'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+[Mon Aug 20 22:20:00 2018] Launched mig_7series_0_synth_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/mig_7series_0_synth_1/runme.log
+[Mon Aug 20 22:20:00 2018] Launched synth_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 7374.312 ; gain = 0.000 ; free physical = 12692 ; free virtual = 22677
+reset_run mig_7series_0_synth_1
+launch_runs mig_7series_0_synth_1
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP mig_7series_0, cache-ID = f0291637b5ac15c9; cache size = 11.942 MB.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Synthesis'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Implementation'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+[Mon Aug 20 22:22:16 2018] Launched mig_7series_0_synth_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/mig_7series_0_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 7390.320 ; gain = 0.000 ; free physical = 12658 ; free virtual = 22853
+wait_on_run mig_7series_0_synth_1
+[Mon Aug 20 22:22:16 2018] Waiting for mig_7series_0_synth_1 to finish...
+[Mon Aug 20 22:22:21 2018] Waiting for mig_7series_0_synth_1 to finish...
+[Mon Aug 20 22:22:26 2018] Waiting for mig_7series_0_synth_1 to finish...
+[Mon Aug 20 22:22:31 2018] Waiting for mig_7series_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log mig_7series_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mig_7series_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source mig_7series_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP mig_7series_0, cache-ID = f0291637b5ac15c9.
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 20 22:22:30 2018...
+[Mon Aug 20 22:22:31 2018] mig_7series_0_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 7390.320 ; gain = 0.000 ; free physical = 12592 ; free virtual = 22829
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 396 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_ref_i'. [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_clk_i'. [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc]
+Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 7539.926 ; gain = 149.605 ; free physical = 12535 ; free virtual = 22772
+reset_run mig_7series_0_synth_1
+launch_runs mig_7series_0_synth_1
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP mig_7series_0, cache-ID = f0291637b5ac15c9; cache size = 11.942 MB.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Synthesis'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Implementation'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+[Mon Aug 20 22:23:45 2018] Launched mig_7series_0_synth_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/mig_7series_0_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 7539.926 ; gain = 0.000 ; free physical = 12610 ; free virtual = 22900
+wait_on_run mig_7series_0_synth_1
+[Mon Aug 20 22:23:45 2018] Waiting for mig_7series_0_synth_1 to finish...
+[Mon Aug 20 22:23:50 2018] Waiting for mig_7series_0_synth_1 to finish...
+[Mon Aug 20 22:23:55 2018] Waiting for mig_7series_0_synth_1 to finish...
+[Mon Aug 20 22:24:00 2018] Waiting for mig_7series_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log mig_7series_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mig_7series_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source mig_7series_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP mig_7series_0, cache-ID = f0291637b5ac15c9.
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 20 22:23:59 2018...
+[Mon Aug 20 22:24:00 2018] mig_7series_0_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 7539.926 ; gain = 0.000 ; free physical = 12536 ; free virtual = 22868
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 396 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc]
+Finished Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc]
+Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+Finished Parsing XDC File [/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 7609.934 ; gain = 70.008 ; free physical = 12510 ; free virtual = 22843
+reset_run synth_1
+reset_run mig_7series_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Synthesis'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Implementation'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 20 22:25:48 2018] Launched mig_7series_0_synth_1, synth_1...
+Run output will be captured here:
+mig_7series_0_synth_1: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/mig_7series_0_synth_1/runme.log
+synth_1: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/runme.log
+[Mon Aug 20 22:25:48 2018] Launched impl_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 7609.934 ; gain = 0.000 ; free physical = 12374 ; free virtual = 22718
+place_ports sysclk_50m L19
+set_property IOSTANDARD LVCMOS33 [get_ports [list sysclk_50m]]
+save_constraints -force
+reset_run impl_1
+reset_run mig_7series_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Synthesis'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Implementation'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 20 22:33:40 2018] Launched mig_7series_0_synth_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/mig_7series_0_synth_1/runme.log
+[Mon Aug 20 22:33:41 2018] Launched impl_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 7609.934 ; gain = 0.000 ; free physical = 11850 ; free virtual = 22606
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210249855154
+set_property PROGRAM.FILE {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+missing operand at _@_
+in expression "256+_@_"
+missing operand at _@_
+in expression "256+_@_"
+missing operand at _@_
+in expression "256+_@_"
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list CONFIG.C_PROBE2_WIDTH {28} CONFIG.C_PROBE1_WIDTH {128} CONFIG.C_PROBE0_WIDTH {128} CONFIG.C_NUM_OF_PROBES {5}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0.xci]
+launch_runs -jobs 16 ila_0_synth_1
+[Mon Aug 20 22:44:14 2018] Launched ila_0_synth_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0.xci] -directory /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts -ip_user_files_dir /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files -ipstatic_source_dir /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/feilong/Storages/fpga/000_vivado_sim} {questa=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/questa} {ies=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/ies} {xcelium=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/xcelium} {vcs=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/vcs} {riviera=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run ila_0_synth_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.C_NUM_OF_PROBES {6}] [get_ips ila_0]
+reset_run synth_1
+reset_run mig_7series_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mig_7series_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Synthesis'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'mig_7series_0'...
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Implementation'. Expected 'Generated', got 'Stale' for source '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci'
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Aug 20 22:48:25 2018] Launched mig_7series_0_synth_1, ila_0_synth_1, synth_1...
+Run output will be captured here:
+mig_7series_0_synth_1: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/mig_7series_0_synth_1/runme.log
+ila_0_synth_1: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/ila_0_synth_1/runme.log
+synth_1: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/runme.log
+[Mon Aug 20 22:48:26 2018] Launched impl_1...
+Run output will be captured here: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 8383.426 ; gain = 0.000 ; free physical = 14956 ; free virtual = 25984
+set_property PROBES.FILE {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a100t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-20 23:03:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-20 23:03:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-20 23:03:53
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-20 23:03:53
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Aug-20 23:03:54
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Aug-20 23:03:54
+INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+save_wave_config {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 20 23:04:14 2018...

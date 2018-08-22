@@ -2,11 +2,11 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Mon Aug 20 17:35:27 2018
-# Process ID: 30324
-# Current directory: D:/fpga/27_sobel/sobel/sobel.runs/impl_2
-# Command line: vivado.exe -log colorLine.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source colorLine.tcl -notrace
-# Log file: D:/fpga/27_sobel/sobel/sobel.runs/impl_2/colorLine.vdi
-# Journal file: D:/fpga/27_sobel/sobel/sobel.runs/impl_2\vivado.jou
+# Start of session at: Tue Aug 21 08:54:20 2018
+# Process ID: 12184
+# Current directory: D:/fpga/28_sobel/sobel/sobel.runs/impl_2
+# Command line: vivado.exe -log ddrvga.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ddrvga.tcl -notrace
+# Log file: D:/fpga/28_sobel/sobel/sobel.runs/impl_2/ddrvga.vdi
+# Journal file: D:/fpga/28_sobel/sobel/sobel.runs/impl_2\vivado.jou
 #-----------------------------------------------------------
-source colorLine.tcl -notrace
+source ddrvga.tcl -notrace

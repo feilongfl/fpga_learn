@@ -1,0 +1,137 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Aug 21 08:54:20 2018
+# Process ID: 12184
+# Current directory: D:/fpga/28_sobel/sobel/sobel.runs/impl_2
+# Command line: vivado.exe -log ddrvga.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ddrvga.tcl -notrace
+# Log file: D:/fpga/28_sobel/sobel/sobel.runs/impl_2/ddrvga.vdi
+# Journal file: D:/fpga/28_sobel/sobel/sobel.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source ddrvga.tcl -notrace
+source D:/fpga/usefulTCL/ImplementationStart.tcl
+Command: link_design -top ddrvga -part xc7a100tfgg484-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp' for cell 'instance_name'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/HDMI_FPGA_ML_A7_0/HDMI_FPGA_ML_A7_0.dcp' for cell 'hdmi_inst/u_HDMI'
+INFO: [Netlist 29-17] Analyzing 420 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Finished Parsing XDC File [d:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1240.199 ; gain = 581.523
+Finished Parsing XDC File [d:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'instance_name/inst'
+Parsing XDC File [d:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Parsing XDC File [D:/fpga/28_sobel/sobel/sobel.srcs/constrs_1/new/pin.xdc]
+Finished Parsing XDC File [D:/fpga/28_sobel/sobel/sobel.srcs/constrs_1/new/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 214 instances were transformed.
+  IOBUFDS_INTERMDISABLE => IOBUFDS_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS: 4 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 173 instances
+
+12 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:39 . Memory (MB): peak = 1282.055 ; gain = 982.293
+source D:/fpga/usefulTCL/ImplementationFinish.tcl
+source D:/fpga/usefulTCL/OptStart.tcl
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1282.055 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 145e39278
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1282.105 ; gain = 0.051
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+WARNING: [Opt 31-155] Driverless net u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_en is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_addr_r1[26]_i_1
+WARNING: [Opt 31-155] Driverless net u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_data[0] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[0].RAM32M0_i_6
+WARNING: [Opt 31-155] Driverless net u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_mask[0] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[21].RAM32M0_i_4
+WARNING: [Opt 31-155] Driverless net u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_en is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_en_r1_i_1
+WARNING: [Opt 31-155] Driverless net u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_end is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_end_r1_i_1
+WARNING: [Opt 31-155] Driverless net u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_wren is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_wren_r1_i_1
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_addr_r1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_cmd_r1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_data_r1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_mask_r1_reg[0]
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: a256d087
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1282.105 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_addr_r1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_cmd_r1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_data_r1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_mask_r1_reg[0]
+INFO: [Opt 31-138] Pushed 7 inverter(s) to 55 load pin(s).
+Phase 2 Constant propagation | Checksum: be4a53f6
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1282.105 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 78 cells and removed 648 cells
+
+Phase 3 Sweep
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_addr_r1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_cmd_r1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_data_r1_reg[0]
+CRITICAL WARNING: [Opt 31-430] Found a FDRE that its data pin is undriven. Driver is required to prevent unexpected behavior:u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_wr_data0/app_wdf_mask_r1_reg[0]
+Phase 3 Sweep | Checksum: 30ed722a
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1282.105 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 370 cells
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG instance_name/inst/hdmi_clk_5x_BUFG_inst to drive 8 load(s) on clock net hdmi_clk_5x
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: cabc3991
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1282.105 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: bd78a6dd
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1282.105 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 436e69a0
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1282.105 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 1 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1282.105 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+29 Infos, 6 Warnings, 12 Critical Warnings and 1 Errors encountered.
+opt_design failed
+ERROR: [Opt 31-67] Problem: A LUT2 cell in the design is missing a connection on input pin I1, which is used by the LUT equation. This pin has either been left unconnected in the design or the connection was removed due to the trimming of unused logic. The LUT cell name is: u_mig_7series_0/u_mig_7series_0_mig/u_memc_ui_top_std/u_ui_top/ui_cmd0/app_addr_r1[26]_i_1.
+Resolution: Please review the preceding OPT INFO messages that detail what has been trimmed in the design to determine if the removal of unused logic is causing this error. If opt_design is being specified directly, it will need to be rerun with opt_design -verbose to generate detailed INFO messages about trimming.
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 21 08:55:19 2018...

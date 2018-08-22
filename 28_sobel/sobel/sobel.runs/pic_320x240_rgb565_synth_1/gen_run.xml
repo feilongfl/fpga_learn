@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="pic_320x240_rgb565_synth_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1534817121">
+  <File Type="PA-TCL" Name="pic_320x240_rgb565.tcl"/>
+  <File Type="REPORTS-TCL" Name="pic_320x240_rgb565_reports.tcl"/>
+  <File Type="RDS-RDS" Name="pic_320x240_rgb565.vds"/>
+  <File Type="RDS-UTIL" Name="pic_320x240_rgb565_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="pic_320x240_rgb565_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="pic_320x240_rgb565.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pic_320x240_rgb565">
+    <File Path="$PSRCDIR/sources_1/ip/pic_320x240_rgb565/pic_320x240_rgb565.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="pic_320x240_rgb565"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pic_320x240_rgb565">
+    <File Path="$PSRCDIR/sources_1/ip/pic_320x240_rgb565/pic_320x240_rgb565.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="pic_320x240_rgb565"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="tg" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

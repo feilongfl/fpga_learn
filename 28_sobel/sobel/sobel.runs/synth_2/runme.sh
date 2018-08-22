@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/fpga/27_sobel/sobel/sobel.runs/synth_2'
+HD_PWD='D:/fpga/28_sobel/sobel/sobel.runs/synth_2'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log colorLine.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source colorLine.tcl
+EAStep vivado -log ddrvga.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ddrvga.tcl

@@ -1,28 +1,11 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company:
-// Engineer:
-//
-// Create Date: 2018/08/20 15:17:39
-// Design Name:
-// Module Name: hdmi
-// Project Name:
-// Target Devices:
-// Tool Versions:
-// Description:
-//
-// Dependencies:
-//
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-//
-//////////////////////////////////////////////////////////////////////////////////
 
 
 module hdmi (
-           input clk_50m,
-           input rst_n,
+           input hdmi_clk,
+           input hdmi_clk_5x,
+           input clk_locked,
+           //input rst_n,
            input [7:0] inR,
            input [7:0] inG,
            input [7:0] inB,
@@ -43,7 +26,7 @@ module hdmi (
 
            output pixelClk
        );
-wire hdmi_clk_5x,hdmi_clk,locked;
+//wire hdmi_clk_5x,hdmi_clk,locked;
 wire[7:0] R,G,B;
 wire Hs,Vs,De;
 vga #(
@@ -69,7 +52,7 @@ vga #(
         .VTopBorder(0)
     ) vga_inst(
         .clk(hdmi_clk),
-        .rst_n(locked),
+        .rst_n(clk_locked),
         .inR(inR),
         .inG(inG),
         .inB(inB),
@@ -88,7 +71,7 @@ HDMI_FPGA_ML_A7_0 u_HDMI
                   (
                       .PXLCLK_I (hdmi_clk),
                       .PXLCLK_5X_I (hdmi_clk_5x),
-                      .LOCKED_I (locked),
+                      .LOCKED_I (clk_locked),
                       .RST_N (1'b1),
                       .VGA_HS (Hs),
                       .VGA_VS (Vs),
@@ -103,16 +86,6 @@ HDMI_FPGA_ML_A7_0 u_HDMI
                       .HDMI_D0_P (HDMI_D0_P),
                       .HDMI_D0_N (HDMI_D0_N)
                   );
-
-clk_wiz_0 hdmi_clk_wiz
-          (
-              // Clock out ports
-              .hdmi_clk(hdmi_clk), // output hdmi_clk
-              .hdmi_clk_5x(hdmi_clk_5x), // output hdmi_clk_5x
-              // Status and control signals
-              .locked(locked), // output locked
-              // Clock in ports
-              .clk_50m(clk_50m)); // input clk_50m
 
 assign pixelClk = ~hdmi_clk;
 

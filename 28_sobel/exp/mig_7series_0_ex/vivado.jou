@@ -1,0 +1,105 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Aug 20 21:24:31 2018
+# Process ID: 16557
+# Current directory: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex
+# Command line: vivado -notrace -source /home/feilong/Storages/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl
+# Log file: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/vivado.log
+# Journal file: /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source /home/feilong/Storages/fpga/28_sobel/sobel/sobel.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl -notrace
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+place_ports clk_ref_i L19
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk_ref_i]]
+set_property package_pin "" [get_ports [list  clk_ref_i]]
+place_ports sys_clk_i L19
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_clk_i]]
+set_property target_constrs_file /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/imports/example_top.xdc [current_fileset -constrset]
+save_constraints -force
+update_compile_order -fileset sources_1
+create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0
+set_property -dict [list CONFIG.PRIM_IN_FREQ {50} CONFIG.CLKOUT2_USED {true} CONFIG.PRIMARY_PORT {clk_50m} CONFIG.CLK_OUT1_PORT {clk_200m} CONFIG.CLK_OUT2_PORT {clk_500m} CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {200} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {500.000} CONFIG.USE_RESET {false} CONFIG.CLKIN1_JITTER_PS {200.0} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {20.000} CONFIG.MMCM_CLKIN1_PERIOD {20.000} CONFIG.MMCM_CLKIN2_PERIOD {10.0} CONFIG.MMCM_CLKOUT0_DIVIDE_F {5.000} CONFIG.MMCM_CLKOUT1_DIVIDE {2} CONFIG.NUM_OUT_CLKS {2} CONFIG.CLKOUT1_JITTER {142.107} CONFIG.CLKOUT1_PHASE_ERROR {164.985} CONFIG.CLKOUT2_JITTER {122.430} CONFIG.CLKOUT2_PHASE_ERROR {164.985}] [get_ips clk_wiz_0]
+generate_target {instantiation_template} [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property package_pin "" [get_ports [list  sys_clk_i]]
+generate_target all [get_files  /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci]
+launch_runs -jobs 16 clk_wiz_0_synth_1
+export_simulation -of_objects [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -directory /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts -ip_user_files_dir /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files -ipstatic_source_dir /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/feilong/Storages/fpga/000_vivado_sim} {questa=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/questa} {ies=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/ies} {xcelium=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/xcelium} {vcs=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/vcs} {riviera=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_run mig_7series_0_synth_1
+save_constraints -force
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+reset_run mig_7series_0_synth_1
+launch_runs mig_7series_0_synth_1
+wait_on_run mig_7series_0_synth_1
+refresh_design
+reset_run mig_7series_0_synth_1
+launch_runs mig_7series_0_synth_1
+wait_on_run mig_7series_0_synth_1
+refresh_design
+reset_run synth_1
+reset_run mig_7series_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+place_ports sysclk_50m L19
+set_property IOSTANDARD LVCMOS33 [get_ports [list sysclk_50m]]
+save_constraints -force
+reset_run impl_1
+reset_run mig_7series_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0
+set_property -dict [list CONFIG.C_PROBE2_WIDTH {28} CONFIG.C_PROBE1_WIDTH {128} CONFIG.C_PROBE0_WIDTH {128} CONFIG.C_NUM_OF_PROBES {5}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0.xci]
+update_compile_order -fileset sources_1
+generate_target all [get_files  /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0.xci]
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0.xci]
+launch_runs -jobs 16 ila_0_synth_1
+export_simulation -of_objects [get_files /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/ila_0/ila_0.xci] -directory /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts -ip_user_files_dir /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files -ipstatic_source_dir /home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/feilong/Storages/fpga/000_vivado_sim} {questa=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/questa} {ies=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/ies} {xcelium=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/xcelium} {vcs=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/vcs} {riviera=/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_run ila_0_synth_1
+set_property -dict [list CONFIG.C_NUM_OF_PROBES {6}] [get_ips ila_0]
+reset_run synth_1
+reset_run mig_7series_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+set_property PROBES.FILE {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"your_instance_name"}]]
+save_wave_config {/home/feilong/Storages/fpga/28_sobel/exp/mig_7series_0_ex/mig_7series_0_ex.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}

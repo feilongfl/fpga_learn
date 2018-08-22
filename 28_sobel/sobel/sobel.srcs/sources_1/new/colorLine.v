@@ -29,7 +29,6 @@ wire pixClk;
 /////////////////////////////////////////////
 hdmi hdmi_inst (
          .clk_50m(clk_50m),
-         .rst_n(1'b1),
          .inR(R),
          .inG(G),
          .inB(B),

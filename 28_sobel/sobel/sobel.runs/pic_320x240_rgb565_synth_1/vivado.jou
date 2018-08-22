@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Aug 21 10:05:25 2018
+# Process ID: 23244
+# Current directory: D:/fpga/28_sobel/sobel/sobel.runs/pic_320x240_rgb565_synth_1
+# Command line: vivado.exe -log pic_320x240_rgb565.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pic_320x240_rgb565.tcl
+# Log file: D:/fpga/28_sobel/sobel/sobel.runs/pic_320x240_rgb565_synth_1/pic_320x240_rgb565.vds
+# Journal file: D:/fpga/28_sobel/sobel/sobel.runs/pic_320x240_rgb565_synth_1\vivado.jou
+#-----------------------------------------------------------
+source pic_320x240_rgb565.tcl -notrace

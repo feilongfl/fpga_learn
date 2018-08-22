@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="38" Path="D:/fpga/27_sobel/sobel/sobel.xpr">
+<Project Version="7" Minor="38" Path="D:/fpga/28_sobel/sobel/sobel.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="6df28e47327e4b5087b22d8b51c56bff"/>
@@ -32,20 +32,20 @@
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTXSimLaunchSim" Val="24"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="8"/>
-    <Option Name="WTModelSimExportSim" Val="8"/>
-    <Option Name="WTQuestaExportSim" Val="8"/>
-    <Option Name="WTIesExportSim" Val="8"/>
-    <Option Name="WTVcsExportSim" Val="8"/>
-    <Option Name="WTRivieraExportSim" Val="8"/>
-    <Option Name="WTActivehdlExportSim" Val="8"/>
+    <Option Name="WTXSimExportSim" Val="19"/>
+    <Option Name="WTModelSimExportSim" Val="19"/>
+    <Option Name="WTQuestaExportSim" Val="19"/>
+    <Option Name="WTIesExportSim" Val="19"/>
+    <Option Name="WTVcsExportSim" Val="19"/>
+    <Option Name="WTRivieraExportSim" Val="19"/>
+    <Option Name="WTActivehdlExportSim" Val="19"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -60,15 +60,62 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/new/hdmi.v">
+      <File Path="$PSRCDIR/sources_1/ip/fifo_vgaline/fifo_vgaline.xci">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/vga.v">
+      <File Path="$PSRCDIR/sources_1/new/martix3x3.v">
         <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/sobel.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/romvga.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/ram_8_256/ram_8_256.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/HDMI_FPGA_ML_A7_0/HDMI_FPGA_ML_A7_0.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/mig_7series_0/mig_7series_0.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -76,6 +123,71 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/colorLine.v">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/ddrapp.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/ddrvga.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/hdmi.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/ramuartvgasobel.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/romvga0.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/uart_rx_path.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/uart_tx_path.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/vga.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -89,10 +201,15 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/ip/mig_7series_0/mig_a.prj">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="ScopedToCell" Val="mig_7series_0"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="colorLine"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TopModule" Val="sobel"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -109,39 +226,40 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/new/tb_sobel.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSIMDIR/tb_sobel_behav.wcfg">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="colorLine"/>
+        <Option Name="TopModule" Val="tb_sobel"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="XSimWcfgFile" Val="$PSIMDIR/tb_sobel_behav.wcfg"/>
       </Config>
     </FileSet>
-    <FileSet Name="clk_wiz_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/clk_wiz_0">
-      <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+    <FileSet Name="pic_320x240_rgb565" Type="BlockSrcs" RelSrcDir="$PSRCDIR/pic_320x240_rgb565">
+      <File Path="$PSRCDIR/sources_1/ip/pic_320x240_rgb565/pic_320x240_rgb565.xci">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <Config>
-        <Option Name="TopModule" Val="clk_wiz_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="HDMI_FPGA_ML_A7_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/HDMI_FPGA_ML_A7_0">
-      <File Path="$PSRCDIR/sources_1/ip/HDMI_FPGA_ML_A7_0/HDMI_FPGA_ML_A7_0.xci">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <Config>
-        <Option Name="TopModule" Val="HDMI_FPGA_ML_A7_0"/>
+        <Option Name="TopModule" Val="pic_320x240_rgb565"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -167,31 +285,7 @@
   <Runs Version="1" Minor="10">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tfgg484-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="tg" Flow="Vivado Synthesis 2018">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="clk_wiz_0_synth_1" Type="Ft3:Synth" SrcSet="clk_wiz_0" Part="xc7a100tfgg484-2" ConstrsSet="clk_wiz_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/clk_wiz_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="tg" Flow="Vivado Synthesis 2018">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="HDMI_FPGA_ML_A7_0_synth_1" Type="Ft3:Synth" SrcSet="HDMI_FPGA_ML_A7_0" Part="xc7a100tfgg484-2" ConstrsSet="HDMI_FPGA_ML_A7_0" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/HDMI_FPGA_ML_A7_0_synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="tg" Flow="Vivado Synthesis 2018">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="tg" Flow="Vivado Synthesis 2018"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -200,10 +294,17 @@
     </Run>
     <Run Id="synth_2" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tfgg484-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_2" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="tg" Flow="Vivado Synthesis 2018">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="tg" Flow="Vivado Synthesis 2018"/>
         <Step Id="synth_design" PreStepTclHook="$PPRDIR/../../usefulTCL/SynthesisStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/SynthesisFinish.tcl"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
+    <Run Id="pic_320x240_rgb565_synth_1" Type="Ft3:Synth" SrcSet="pic_320x240_rgb565" Part="xc7a100tfgg484-2" ConstrsSet="pic_320x240_rgb565" Description="Vivado Synthesis Defaults" WriteIncrSynthDcp="false" Dir="$PRUNDIR/pic_320x240_rgb565_synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="tg" Flow="Vivado Synthesis 2018"/>
+        <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
@@ -211,9 +312,7 @@
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tfgg484-2" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="tg" Flow="Vivado Implementation 2018">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="tg" Flow="Vivado Implementation 2018"/>
         <Step Id="init_design" PreStepTclHook="$PPRDIR/../../usefulTCL/ImplementationStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/ImplementationFinish.tcl"/>
         <Step Id="opt_design" PreStepTclHook="$PPRDIR/../../usefulTCL/OptStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/OptFinish.tcl"/>
         <Step Id="power_opt_design"/>
@@ -225,50 +324,12 @@
         <Step Id="write_bitstream" PreStepTclHook="$PPRDIR/../../usefulTCL/BitStreamStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/BitStreamFinish.tcl"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="clk_wiz_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tfgg484-2" ConstrsSet="clk_wiz_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="clk_wiz_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="tg" Flow="Vivado Implementation 2018">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design" PreStepTclHook="$PPRDIR/../../usefulTCL/ImplementationStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/ImplementationFinish.tcl"/>
-        <Step Id="opt_design" PreStepTclHook="$PPRDIR/../../usefulTCL/OptStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/OptFinish.tcl"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design" PreStepTclHook="$PPRDIR/../../usefulTCL/PlaceStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/PlaceFinish.tcl"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design" PreStepTclHook="$PPRDIR/../../usefulTCL/RouteStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/RouteFinish.tcl"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream" PreStepTclHook="$PPRDIR/../../usefulTCL/BitStreamStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/BitStreamFinish.tcl"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-    </Run>
-    <Run Id="HDMI_FPGA_ML_A7_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tfgg484-2" ConstrsSet="HDMI_FPGA_ML_A7_0" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="HDMI_FPGA_ML_A7_0_synth_1" IncludeInArchive="false" GenFullBitstream="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="tg" Flow="Vivado Implementation 2018">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design" PreStepTclHook="$PPRDIR/../../usefulTCL/ImplementationStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/ImplementationFinish.tcl"/>
-        <Step Id="opt_design" PreStepTclHook="$PPRDIR/../../usefulTCL/OptStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/OptFinish.tcl"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design" PreStepTclHook="$PPRDIR/../../usefulTCL/PlaceStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/PlaceFinish.tcl"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design" PreStepTclHook="$PPRDIR/../../usefulTCL/RouteStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/RouteFinish.tcl"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream" PreStepTclHook="$PPRDIR/../../usefulTCL/BitStreamStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/BitStreamFinish.tcl"/>
-      </Strategy>
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
     <Run Id="impl_2" Type="Ft2:EntireDesign" Part="xc7a100tfgg484-2" ConstrsSet="constrs_1" Description="Default settings for Implementation." WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_2" SynthRun="synth_2" IncludeInArchive="true" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="tg" Flow="Vivado Implementation 2018">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="tg" Flow="Vivado Implementation 2018"/>
         <Step Id="init_design" PreStepTclHook="$PPRDIR/../../usefulTCL/ImplementationStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/ImplementationFinish.tcl"/>
         <Step Id="opt_design" PreStepTclHook="$PPRDIR/../../usefulTCL/OptStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/OptFinish.tcl"/>
         <Step Id="power_opt_design"/>
@@ -283,6 +344,37 @@
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
+    <Run Id="pic_320x240_rgb565_impl_1" Type="Ft2:EntireDesign" Part="xc7a100tfgg484-2" ConstrsSet="pic_320x240_rgb565" Description="Default settings for Implementation." WriteIncrSynthDcp="false" SynthRun="pic_320x240_rgb565_synth_1" IncludeInArchive="false" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="tg" Flow="Vivado Implementation 2018"/>
+        <Step Id="init_design" PreStepTclHook="$PPRDIR/../../usefulTCL/ImplementationStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/ImplementationFinish.tcl"/>
+        <Step Id="opt_design" PreStepTclHook="$PPRDIR/../../usefulTCL/OptStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/OptFinish.tcl"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design" PreStepTclHook="$PPRDIR/../../usefulTCL/PlaceStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/PlaceFinish.tcl"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design" PreStepTclHook="$PPRDIR/../../usefulTCL/RouteStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/RouteFinish.tcl"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream" PreStepTclHook="$PPRDIR/../../usefulTCL/BitStreamStart.tcl" PostStepTclHook="$PPRDIR/../../usefulTCL/BitStreamFinish.tcl"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+    </Run>
   </Runs>
+  <MsgRule>
+    <MsgAttr Name="RuleType" Val="0"/>
+    <MsgAttr Name="Limit" Val="-1"/>
+    <MsgAttr Name="NewSeverity" Val="ANY"/>
+    <MsgAttr Name="Id" Val="IP_Flow 19-1663"/>
+    <MsgAttr Name="Severity" Val="ANY"/>
+    <MsgAttr Name="ShowRule" Val="1"/>
+    <MsgAttr Name="RuleSource" Val="8"/>
+    <MsgAttr Name="StringIsRegExp" Val="0"/>
+    <MsgAttr Name="RuleId" Val="1"/>
+    <MsgAttr Name="Note" Val=""/>
+    <MsgAttr Name="Author" Val=""/>
+    <MsgAttr Name="CreatedTimestamp" Val=""/>
+    <MsgAttr Name="StringsToMatch" Val="CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for &apos;xilinx.com:user:HDMI_FPGA_ML_A7:1.0&apos;. The one found in IP location &apos;/home/feilong/Storages/fpga/milian/mia_ip_lib/HDMI_FPGA_ML_A7&apos; will take precedence over the same IP in location /home/feilong/Storages/fpga/milian/mia_ip_lib/HDMI_FPGA_ML_A7/HDMI_FPGA_ML"/>
+  </MsgRule>
   <Board/>
 </Project>

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/fpga/27_sobel/sobel/sobel.runs/impl_2'
+HD_PWD='D:/fpga/28_sobel/sobel/sobel.runs/impl_2'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log colorLine.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source colorLine.tcl -notrace
+EAStep vivado -log ddrvga.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source ddrvga.tcl -notrace
 
 
