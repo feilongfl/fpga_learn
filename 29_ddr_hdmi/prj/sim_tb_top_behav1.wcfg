@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1348623854fs"></ZoomEndTime>
+      <Cursor1Time time="5080441000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddr_read_fifo/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddr_read_fifo/wr_rst" type="logic">
+      <obj_property name="ElementShortName">wr_rst</obj_property>
+      <obj_property name="ObjectShortName">wr_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddr_read_fifo/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddr_read_fifo/rd_rst" type="logic">
+      <obj_property name="ElementShortName">rd_rst</obj_property>
+      <obj_property name="ObjectShortName">rd_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddr_read_fifo/din" type="array">
+      <obj_property name="ElementShortName">din[255:0]</obj_property>
+      <obj_property name="ObjectShortName">din[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddr_read_fifo/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddr_read_fifo/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddr_read_fifo/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddr_read_fifo/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddr_read_fifo/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/app_rdy" type="logic">
+      <obj_property name="ElementShortName">app_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_rdy</obj_property>
+   </wvobject>
+</wave_config>

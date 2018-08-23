@@ -1,0 +1,163 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Aug 23 08:50:11 2018
+# Process ID: 49704
+# Current directory: d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex
+# Command line: vivado.exe -notrace -source d:/fpga/29_ddr_hdmi/prj/prj.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl
+# Log file: d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/vivado.log
+# Journal file: d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source d:/fpga/29_ddr_hdmi/prj/prj.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl -notrace
+INFO: [open_example_project] Creating new example project...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/vivado/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 829.352 ; gain = 73.871
+INFO: [open_example_project] Loading IP Catalog...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/fpga/milian/mia_ip_lib'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:HDMI_FPGA_ML_A7:1.0'. The one found in IP location 'd:/fpga/milian/mia_ip_lib/HDMI_FPGA_ML_A7' will take precedence over the same IP in location d:/fpga/milian/mia_ip_lib/HDMI_FPGA_ML_A7/HDMI_FPGA_ML
+INFO: [open_example_project] Importing original IP ...
+import_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 858.984 ; gain = 29.633
+INFO: [open_example_project] Generating the example project IP ...
+INFO: [open_example_project] Adding example synthesis HDL files ...
+INFO: [open_example_project] Adding example XDC files ...
+INFO: [open_example_project] Adding simulation HDL files ...
+INFO: [open_example_project] Adding simulation miscellaneous files ...
+INFO: [open_example_project] Sourcing example extension scripts ...
+Post Processing the example_design
+INFO: [open_example_project] Rebuilding all the top level IPs ...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XSIM" (Xilinx Vivado Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xsim/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xsim/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "MODELSIM" (Mentor Graphics ModelSim Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/modelsim/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/modelsim/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "QUESTA" (Mentor Graphics Questa Advanced Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/questa/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/questa/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "IES" (Cadence Incisive Enterprise Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/ies/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/ies/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "VCS" (Synopsys Verilog Compiler Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/vcs/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/vcs/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "RIVIERA" (Aldec Riviera-PRO Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/riviera/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/riviera/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "ACTIVEHDL" (Aldec Active-HDL Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/activehdl/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/activehdl/mig_b.prj'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XCELIUM" (Cadence Xcelium Parallel Simulator)...
+WARNING: [Vivado 12-3672] The is_managed property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+WARNING: [Vivado 12-3670] The generate_synth_checkpoint property should only be queried on the file object representing this IP. Use the get_files command to access file objects.
+INFO: [exportsim-Tcl-29] Script generated: 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xcelium/mig_7series_0.sh'
+INFO: [SIM-utils-43] Exported 'D:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.ip_user_files/sim_scripts/mig_7series_0/xcelium/mig_b.prj'
+export_ip_user_files: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 862.672 ; gain = 3.688
+INFO: [open_example_project] Open Example Project completed
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs impl_1 -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'd:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci' is already up-to-date
+[Thu Aug 23 08:51:07 2018] Launched synth_1...
+Run output will be captured here: d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.runs/synth_1/runme.log
+[Thu Aug 23 08:51:07 2018] Launched impl_1...
+Run output will be captured here: d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tfgg484-2
+INFO: [Project 1-454] Reading design checkpoint 'd:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.dcp' for cell 'u_mig_7series_0'
+INFO: [Netlist 29-17] Analyzing 554 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/imports/example_top.xdc]
+Finished Parsing XDC File [d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/imports/example_top.xdc]
+Parsing XDC File [d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+Finished Parsing XDC File [d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/constraints/mig_7series_0.xdc] for cell 'u_mig_7series_0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 277 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 240 instances
+
+open_run: Time (s): cpu = 00:00:35 ; elapsed = 00:00:23 . Memory (MB): peak = 1488.227 ; gain = 514.281
+place_ports init_calib_complete J19
+place_ports clk_ref_i L19
+set_property target_constrs_file d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/imports/example_top.xdc [current_fileset -constrset]
+save_constraints -force
+set_property IOSTANDARD LVCMOS25 [get_ports [list clk_ref_i]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk_ref_i]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list init_calib_complete]]
+save_constraints
+set_property package_pin "" [get_ports [list  tg_compare_error]]
+place_ports tg_compare_error sys_clk_i sys_rst
+
+Starting IO/Clock Placer Task
+
+Phase 1 Add Constraints new method
+
+Phase 1.1 Build CellView Core
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1923.176 ; gain = 0.000
+
+Phase 1.2 Add User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1923.176 ; gain = 0.000
+
+Phase 1.3 Apply User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1923.176 ; gain = 0.000
+
+Phase 1.4 Add terminal Constraints
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1923.176 ; gain = 0.000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1923.176 ; gain = 0.000
+
+Phase 2 IO and Clk Clean Up
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1923.176 ; gain = 0.000
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1923.176 ; gain = 0.000
+save_constraints
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_clk_i]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_rst]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list tg_compare_error]]
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -jobs 16
+INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'd:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0.xci' is already up-to-date
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1923.176 ; gain = 0.000
+[Thu Aug 23 09:51:23 2018] Launched impl_1...
+Run output will be captured here: d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 1929.105 ; gain = 5.930
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 23 09:53:42 2018...

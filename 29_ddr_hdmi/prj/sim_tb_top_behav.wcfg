@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1359607666fs"></ZoomStartTime>
+      <ZoomEndTime time="2216467980fs"></ZoomEndTime>
+      <Cursor1Time time="5080441000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/sim_tb_top/sys_clk_i" type="logic">
+      <obj_property name="ElementShortName">sys_clk_i</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/ddr3_reset_n" type="logic">
+      <obj_property name="ElementShortName">ddr3_reset_n</obj_property>
+      <obj_property name="ObjectShortName">ddr3_reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/clk_200m" type="logic">
+      <obj_property name="ElementShortName">clk_200m</obj_property>
+      <obj_property name="ObjectShortName">clk_200m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/clk_500m" type="logic">
+      <obj_property name="ElementShortName">clk_500m</obj_property>
+      <obj_property name="ObjectShortName">clk_500m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/clk_hdmi" type="logic">
+      <obj_property name="ElementShortName">clk_hdmi</obj_property>
+      <obj_property name="ObjectShortName">clk_hdmi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/clk_hdmi_5x" type="logic">
+      <obj_property name="ElementShortName">clk_hdmi_5x</obj_property>
+      <obj_property name="ObjectShortName">clk_hdmi_5x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/inPix" type="logic">
+      <obj_property name="ElementShortName">inPix</obj_property>
+      <obj_property name="ObjectShortName">inPix</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ack_write" type="logic">
+      <obj_property name="ElementShortName">ack_write</obj_property>
+      <obj_property name="ObjectShortName">ack_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/pixelClk" type="logic">
+      <obj_property name="ElementShortName">pixelClk</obj_property>
+      <obj_property name="ObjectShortName">pixelClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/Vsync" type="logic">
+      <obj_property name="ElementShortName">Vsync</obj_property>
+      <obj_property name="ObjectShortName">Vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/HPixel" type="logic">
+      <obj_property name="ElementShortName">HPixel</obj_property>
+      <obj_property name="ObjectShortName">HPixel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/VPixel" type="logic">
+      <obj_property name="ElementShortName">VPixel</obj_property>
+      <obj_property name="ObjectShortName">VPixel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/fifo_full" type="logic">
+      <obj_property name="ElementShortName">fifo_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/fifo_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/ddrDataOut" type="array">
+      <obj_property name="ElementShortName">ddrDataOut[255:0]</obj_property>
+      <obj_property name="ObjectShortName">ddrDataOut[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/app_addr_write" type="array">
+      <obj_property name="ElementShortName">app_addr_write[27:0]</obj_property>
+      <obj_property name="ObjectShortName">app_addr_write[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/ddrapp_inst/app_addr_read" type="array">
+      <obj_property name="ElementShortName">app_addr_read[27:0]</obj_property>
+      <obj_property name="ObjectShortName">app_addr_read[27:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_tb_top/u_ip_top/ddr_inst/app_rdy" type="logic">
+      <obj_property name="ElementShortName">app_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_rdy</obj_property>
+   </wvobject>
+</wave_config>

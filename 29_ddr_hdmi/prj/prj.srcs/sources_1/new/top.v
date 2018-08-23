@@ -52,7 +52,7 @@ reg req_write = 0;
 // main code
 /////////////////////////////////////////////
 
-clk_wiz_0 instance_name
+clk_wiz_0 clock_wiz
           (
               // Clock out ports
               .clk_200m(clk_200m),     // output clk_200m

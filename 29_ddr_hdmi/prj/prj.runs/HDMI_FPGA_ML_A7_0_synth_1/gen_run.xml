@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="HDMI_FPGA_ML_A7_0_synth_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1534907639">
+<GenRun Id="HDMI_FPGA_ML_A7_0_synth_1" LaunchPart="xc7a100tfgg484-2" LaunchTime="1534996371">
   <File Type="PA-TCL" Name="HDMI_FPGA_ML_A7_0.tcl"/>
   <File Type="REPORTS-TCL" Name="HDMI_FPGA_ML_A7_0_reports.tcl"/>
   <File Type="RDS-RDS" Name="HDMI_FPGA_ML_A7_0.vds"/>

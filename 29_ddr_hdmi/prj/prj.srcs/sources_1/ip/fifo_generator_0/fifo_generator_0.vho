@@ -63,7 +63,8 @@ COMPONENT fifo_generator_0
     rd_en : IN STD_LOGIC;
     dout : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
     full : OUT STD_LOGIC;
-    empty : OUT STD_LOGIC
+    empty : OUT STD_LOGIC;
+    prog_full : OUT STD_LOGIC
   );
 END COMPONENT;
 -- COMP_TAG_END ------ End COMPONENT Declaration ------------
@@ -83,7 +84,8 @@ your_instance_name : fifo_generator_0
     rd_en => rd_en,
     dout => dout,
     full => full,
-    empty => empty
+    empty => empty,
+    prog_full => prog_full
   );
 -- INST_TAG_END ------ End INSTANTIATION Template ---------
 

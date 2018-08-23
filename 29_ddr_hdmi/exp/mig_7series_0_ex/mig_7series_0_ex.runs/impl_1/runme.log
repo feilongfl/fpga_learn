@@ -1,0 +1,335 @@
+
+*** Running vivado
+    with args -log example_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source example_top.tcl -notrace
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source example_top.tcl -notrace
+source d:/fpga/usefulTCL/ImplementationStart.tcl
+Command: open_checkpoint d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 225.203 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 554 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a100tfgg484-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 23 Aug 2018 01:51:57 GMT
+Content-Type: application/json
+Content-Length: 277
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+{"ok":true,"result":{"message_id":1099,"from":{"id":631376709,"is_bot":true,"first_name":"programBot","username":"feilong_pro_bot"},"chat":{"id":369768837,"first_name":"Cirno","username":"CirnoFeilong","type":"private"},"date":1534989117,"text":"Vivado Implementation Start!"}}HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 23 Aug 2018 01:51:57 GMT
+Content-Type: application/json
+Content-Length: 106
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+{"ok":true,"result":{"id":631376709,"is_bot":true,"first_name":"programBot","username":"feilong_pro_bot"}}INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.197 . Memory (MB): peak = 1117.215 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.197 . Memory (MB): peak = 1117.215 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 277 instances were transformed.
+  IOBUFDS_DIFF_OUT_INTERMDISABLE => IOBUFDS_DIFF_OUT_INTERMDISABLE (IBUFDS_INTERMDISABLE_INT, IBUFDS_INTERMDISABLE_INT, INV, OBUFTDS, OBUFTDS): 4 instances
+  IOBUF_INTERMDISABLE => IOBUF_INTERMDISABLE (IBUF_INTERMDISABLE, OBUFT): 32 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 240 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2018.2 (64-bit) build 2258646
+open_checkpoint: Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1117.215 ; gain = 900.781
+source d:/fpga/usefulTCL/ImplementationFinish.tcl
+source d:/fpga/usefulTCL/OptStart.tcl
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 23 Aug 2018 01:52:14 GMT
+Content-Type: application/json
+Content-Length: 106
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+{"ok":true,"result":{"id":631376709,"is_bot":true,"first_name":"programBot","username":"feilong_pro_bot"}}INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1117.215 ; gain = 0.000
+
+Starting Cache Timing Information Task
+HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 23 Aug 2018 01:52:14 GMT
+Content-Type: application/json
+Content-Length: 106
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+{"ok":true,"result":{"id":631376709,"is_bot":true,"first_name":"programBot","username":"feilong_pro_bot"}}HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 23 Aug 2018 01:52:14 GMT
+Content-Type: application/json
+Content-Length: 278
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+{"ok":true,"result":{"message_id":1101,"from":{"id":631376709,"is_bot":true,"first_name":"programBot","username":"feilong_pro_bot"},"chat":{"id":369768837,"first_name":"Cirno","username":"CirnoFeilong","type":"private"},"date":1534989134,"text":"Vivado Implementation Finish!"}}HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 23 Aug 2018 01:52:14 GMT
+Content-Type: application/json
+Content-Length: 266
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+{"ok":true,"result":{"message_id":1102,"from":{"id":631376709,"is_bot":true,"first_name":"programBot","username":"feilong_pro_bot"},"chat":{"id":369768837,"first_name":"Cirno","username":"CirnoFeilong","type":"private"},"date":1534989134,"text":"Vivado Opt Start!"}}INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 12034a191
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.834 . Memory (MB): peak = 1193.000 ; gain = 75.785
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1359546b0
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1193.000 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: b23df7cb
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1193.000 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 36 cells and removed 174 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 16d011caa
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1193.000 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 224 cells
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG clk_ref_i_IBUF_BUFG_inst to drive 62 load(s) on clock net clk_ref_i_IBUF_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 159b35665
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1193.000 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 100012431
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1193.000 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1c2c934d9
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1193.000 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 1 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1193.000 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 124044b16
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1193.000 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 124044b16
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1193.000 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 124044b16
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1193.000 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+29 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1193.000 ; gain = 75.785
+source d:/fpga/usefulTCL/OptFinish.tcl
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.151 . Memory (MB): peak = 1193.000 ; gain = 0.000
+HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 23 Aug 2018 01:52:22 GMT
+Content-Type: application/json
+Content-Length: 267
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+{"ok":true,"result":{"message_id":1103,"from":{"id":631376709,"is_bot":true,"first_name":"programBot","username":"feilong_pro_bot"},"chat":{"id":369768837,"first_name":"Cirno","username":"CirnoFeilong","type":"private"},"date":1534989142,"text":"Vivado Opt Finish!"}}HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 23 Aug 2018 01:52:23 GMT
+Content-Type: application/json
+Content-Length: 106
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+{"ok":true,"result":{"id":631376709,"is_bot":true,"first_name":"programBot","username":"feilong_pro_bot"}}INFO: [Common 17-1381] The checkpoint 'd:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 1193.000 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file example_top_drc_opted.rpt -pb example_top_drc_opted.pb -rpx example_top_drc_opted.rpx
+Command: report_drc -file example_top_drc_opted.rpt -pb example_top_drc_opted.pb -rpx example_top_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/fpga/milian/mia_ip_lib'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/vivado/Vivado/2018.2/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:HDMI_FPGA_ML_A7:1.0'. The one found in IP location 'd:/fpga/milian/mia_ip_lib/HDMI_FPGA_ML_A7' will take precedence over the same IP in location d:/fpga/milian/mia_ip_lib/HDMI_FPGA_ML_A7/HDMI_FPGA_ML
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/mig_7series_0_ex.runs/impl_1/example_top_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1193.000 ; gain = 0.000
+source d:/fpga/usefulTCL/PlaceStart.tcl
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 23 Aug 2018 01:52:35 GMT
+Content-Type: application/json
+Content-Length: 106
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+{"ok":true,"result":{"id":631376709,"is_bot":true,"first_name":"programBot","username":"feilong_pro_bot"}}HTTP/1.1 200 OK
+Server: nginx/1.12.2
+Date: Thu, 23 Aug 2018 01:52:36 GMT
+Content-Type: application/json
+Content-Length: 268
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+
+{"ok":true,"result":{"message_id":1106,"from":{"id":631376709,"is_bot":true,"first_name":"programBot","username":"feilong_pro_bot"},"chat":{"id":369768837,"first_name":"Cirno","username":"CirnoFeilong","type":"private"},"date":1534989156,"text":"Vivado Place Start!"}}INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1193.000 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: a93cad56
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1193.000 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1193.000 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+ERROR: [Place 30-172] Sub-optimal placement for a clock-capable IO pin and PLL pair. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.
+	< set_property CLOCK_DEDICATED_ROUTE BACKBONE [get_nets sys_clk_i_IBUF] >
+
+	sys_clk_i_IBUF_inst (IBUF.O) is provisionally placed by clockplacer on IOB_X0Y78
+	u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/plle2_i (PLLE2_ADV.CLKIN1) is locked to PLLE2_ADV_X1Y1
+
+	The above error could possibly be related to other connected instances. Following is a list of 
+	all the related clock rules and their respective instances.
+
+	Clock Rule: rule_pll_bufhce
+	Status: PASS 
+	Rule Description: A PLL driving a BUFH must both be in the same horizontal row (clockregion-wise)
+	u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/plle2_i (PLLE2_ADV.CLKOUT3) is locked to PLLE2_ADV_X1Y1
+	u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/u_bufh_pll_clk3 (BUFH.I) cannot be placed
+
+	Clock Rule: rule_bufh_bufr_ramb
+	Status: PASS 
+	Rule Description: Reginal buffers in the same clock region must drive a total number of brams less
+	than the capacity of the region
+	u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/u_bufh_pll_clk3 (BUFH.O) cannot be placed
+
+	Clock Rule: rule_bufhce_mmcm
+	Status: PASS 
+	Rule Description: A BUFH driving an MMCM must both be in the same clock region
+	u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/u_bufh_pll_clk3 (BUFH.O) cannot be placed
+	u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/gen_mmcm.mmcm_i (MMCME2_ADV.CLKIN1) is locked to MMCME2_ADV_X1Y1
+
+	Clock Rule: rule_mmcm_bufg
+	Status: PASS 
+	Rule Description: An MMCM driving a BUFG must be placed on the same half side (top/bottom) of the device
+	u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/gen_mmcm.mmcm_i (MMCME2_ADV.CLKFBOUT) is locked to MMCME2_ADV_X1Y1
+	u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/u_bufg_clkdiv0 (BUFG.I) cannot be placed
+
+Resolution: A dedicated routing path between the two can be used if: (a) The clock-capable IO (CCIO) is placed on a CCIO capable site (b) The PLL is placed in the same clock region as the CCIO pin. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+ERROR: [Place 30-68] Instance clk_ref_i_IBUF_BUFG_inst (BUFG) is not placed
+ERROR: [Place 30-68] Instance u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/u_bufg_clkdiv0 (BUFG) is not placed
+ERROR: [Place 30-68] Instance u_mig_7series_0/u_mig_7series_0_mig/u_ddr3_infrastructure/u_bufh_pll_clk3 (BUFH) is not placed
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: e0c1eda9
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1193.000 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: e0c1eda9
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1193.000 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 14658dfd6
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1193.000 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+49 Infos, 0 Warnings, 1 Critical Warnings and 6 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 23 09:52:49 2018...

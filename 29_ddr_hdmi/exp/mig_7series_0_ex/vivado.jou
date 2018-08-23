@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Aug 23 08:50:11 2018
+# Process ID: 49704
+# Current directory: d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex
+# Command line: vivado.exe -notrace -source d:/fpga/29_ddr_hdmi/prj/prj.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl
+# Log file: d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/vivado.log
+# Journal file: d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source d:/fpga/29_ddr_hdmi/prj/prj.srcs/sources_1/ip/mig_7series_0/mig_7series_0_ex.tcl -notrace
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+place_ports init_calib_complete J19
+place_ports clk_ref_i L19
+set_property target_constrs_file d:/fpga/29_ddr_hdmi/exp/mig_7series_0_ex/imports/example_top.xdc [current_fileset -constrset]
+save_constraints -force
+set_property IOSTANDARD LVCMOS25 [get_ports [list clk_ref_i]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk_ref_i]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list init_calib_complete]]
+save_constraints
+set_property package_pin "" [get_ports [list  tg_compare_error]]
+place_ports tg_compare_error sys_clk_i sys_rst
+save_constraints
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_clk_i]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list sys_rst]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list tg_compare_error]]
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1

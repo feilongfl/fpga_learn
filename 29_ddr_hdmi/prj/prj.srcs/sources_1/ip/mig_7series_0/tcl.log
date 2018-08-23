@@ -484,3 +484,16 @@ MIG: 18:32:43 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <Inpu
 MIG: 18:32:43 : Running implementation.xit
 MIG: 18:32:43 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
 MIG: 18:32:43 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 08:50:06 : Running example_syn.xit
+MIG: 08:50:06 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 08:50:06 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 08:50:07 : Running example_sim.xit
+MIG: 08:50:07 : IGN:     <ModuleName>mig_7series_0</ModuleName> <==>     <ModuleName>mig_7series_0</ModuleName> 
+MIG: 08:50:07 : IGN:         <InputClkFreq>200</InputClkFreq> <==>         <InputClkFreq>200</InputClkFreq> 
+MIG: 08:50:08 : MEM_TECH: DDR3_SDRAM
+MIG: 08:50:08 : axi -- NATIVE
+MIG: 08:50:08 : data_depth -- 1024
+MIG: 17:24:05 : xml_input_file: mig_b.prj
+MIG: 17:24:05 : Absolute path of xml_input_file: d:/fpga/29_ddr_hdmi/prj/prj.srcs/sources_1/ip/mig_7series_0/mig_b.prj
+MIG: 17:24:06 : xml_input_file: mig_b.prj
+MIG: 17:24:06 : Absolute path of xml_input_file: d:/fpga/29_ddr_hdmi/prj/prj.srcs/sources_1/ip/mig_7series_0/mig_b.prj
